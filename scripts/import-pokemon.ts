@@ -115,18 +115,38 @@ async function loadExistingCoreData(): Promise<{
   moves: unknown[];
   machines: unknown[];
   moveCompatibility: unknown[];
+  learnsets: unknown[];
   encounters: unknown[];
   itemLocations: unknown[];
+  trainers: unknown[];
+  levelCaps: unknown[];
+  pickupEntries: unknown[];
 }> {
-  const [locations, items, moves, machines, moveCompatibility, encounters, itemLocations] =
+  const [
+    locations,
+    items,
+    moves,
+    machines,
+    moveCompatibility,
+    learnsets,
+    encounters,
+    itemLocations,
+    trainers,
+    levelCaps,
+    pickupEntries,
+  ] =
     await Promise.all([
     readJsonFile(path.join(projectRoot, "public", "data", "locations.json")),
     readJsonFile(path.join(projectRoot, "public", "data", "items.json")),
     readJsonFile(path.join(projectRoot, "public", "data", "moves.json")),
     readJsonFile(path.join(projectRoot, "public", "data", "machines.json")),
     readJsonFile(path.join(projectRoot, "public", "data", "move-compatibility.json")),
+    readJsonFile(path.join(projectRoot, "public", "data", "learnsets.json")),
     readJsonFile(path.join(projectRoot, "public", "data", "encounters.json")),
     readJsonFile(path.join(projectRoot, "public", "data", "item-locations.json")),
+    readJsonFile(path.join(projectRoot, "public", "data", "trainers.json")),
+    readJsonFile(path.join(projectRoot, "public", "data", "level-caps.json")),
+    readJsonFile(path.join(projectRoot, "public", "data", "pickup-entries.json")),
     ]);
 
   return {
@@ -135,8 +155,12 @@ async function loadExistingCoreData(): Promise<{
     moves: Array.isArray(moves) ? moves : [],
     machines: Array.isArray(machines) ? machines : [],
     moveCompatibility: Array.isArray(moveCompatibility) ? moveCompatibility : [],
+    learnsets: Array.isArray(learnsets) ? learnsets : [],
     encounters: Array.isArray(encounters) ? encounters : [],
     itemLocations: Array.isArray(itemLocations) ? itemLocations : [],
+    trainers: Array.isArray(trainers) ? trainers : [],
+    levelCaps: Array.isArray(levelCaps) ? levelCaps : [],
+    pickupEntries: Array.isArray(pickupEntries) ? pickupEntries : [],
   };
 }
 
@@ -154,8 +178,12 @@ async function main(): Promise<void> {
     moves: existingCore.moves as never[],
     machines: existingCore.machines as never[],
     moveCompatibility: existingCore.moveCompatibility as never[],
+    learnsets: existingCore.learnsets as never[],
     encounters: existingCore.encounters as never[],
     itemLocations: existingCore.itemLocations as never[],
+    trainers: existingCore.trainers as never[],
+    levelCaps: existingCore.levelCaps as never[],
+    pickupEntries: existingCore.pickupEntries as never[],
   });
 
   await mkdir(path.dirname(outputFile), { recursive: true });

@@ -22,9 +22,19 @@ const quickLinks = [
     description: "Browse imported usable, reduced, and removed move records.",
   },
   {
+    label: "Trainers",
+    href: "/trainers",
+    description: "Browse imported trainer rosters from the singles and doubles workbooks.",
+  },
+  {
+    label: "Systems",
+    href: "/systems",
+    description: "View imported blind level caps and pickup system reference tables.",
+  },
+  {
     label: "Search",
     href: "/search",
-    description: "Search across Pokémon, locations, items, and moves by name.",
+    description: "Search across Pokémon, locations, items, moves, trainers, and systems by name.",
   },
 ];
 
@@ -62,7 +72,7 @@ export default function HomePage() {
           }}
         >
           A lightweight Next.js reference for browsing Pokémon, encounter data,
-          locations, items, and disruption-related rules from Pokémon X and Y.
+          locations, items, moves, trainers, and disruption-related rules from Pokémon X and Y.
         </p>
       </section>
 
@@ -88,7 +98,7 @@ export default function HomePage() {
             id="search"
             name="q"
             type="search"
-            placeholder="Search Pokemon, locations, items, moves..."
+            placeholder="Search Pokemon, locations, items, moves, trainers, systems..."
             style={{
               flex: "1 1 320px",
               padding: "14px 16px",

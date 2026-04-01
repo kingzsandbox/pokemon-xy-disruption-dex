@@ -1,0 +1,245 @@
+[
+  {
+    "id": "level-cap-001",
+    "slug": "gym-leader-viola-1-santalune-gym-16",
+    "name": "Gym Leader Viola #1",
+    "trainer": "Gym Leader Viola #1",
+    "location": "Santalune Gym",
+    "level": 16,
+    "pokemonCount": "4"
+  },
+  {
+    "id": "level-cap-002",
+    "slug": "professor-sycamore-1-lumiose-city-20",
+    "name": "Professor Sycamore #1",
+    "trainer": "Professor Sycamore #1",
+    "location": "Lumiose City",
+    "level": 20,
+    "pokemonCount": "4"
+  },
+  {
+    "id": "level-cap-003",
+    "slug": "pokemon-trainer-tierno-1-route-5-22",
+    "name": "Pokémon Trainer Tierno #1",
+    "trainer": "Pokémon Trainer Tierno #1",
+    "location": "Route 5",
+    "level": 22,
+    "pokemonCount": "4"
+  },
+  {
+    "id": "level-cap-004",
+    "slug": "pokemon-trainer-tierno-trevor-2-route-7-28",
+    "name": "Pokémon Trainer Tierno + Trevor #2",
+    "trainer": "Pokémon Trainer Tierno + Trevor #2",
+    "location": "Route 7",
+    "level": 28,
+    "pokemonCount": "4 (Each)"
+  },
+  {
+    "id": "level-cap-005",
+    "slug": "gym-leader-grant-2-cyllage-gym-39",
+    "name": "Gym Leader Grant #2",
+    "trainer": "Gym Leader Grant #2",
+    "location": "Cyllage Gym",
+    "level": 39,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-006",
+    "slug": "leader-korrina-1-geosenge-town-42",
+    "name": "Leader Korrina #1",
+    "trainer": "Leader Korrina #1",
+    "location": "Geosenge Town",
+    "level": 42,
+    "pokemonCount": "2"
+  },
+  {
+    "id": "level-cap-007",
+    "slug": "rival-calem-serena-1-tower-of-mastery-47",
+    "name": "Rival Calem / Serena #1",
+    "trainer": "Rival Calem / Serena #1",
+    "location": "Tower of Mastery",
+    "level": 47,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-008",
+    "slug": "gym-leader-korrina-3-shalour-gym-50",
+    "name": "Gym Leader Korrina #3",
+    "trainer": "Gym Leader Korrina #3",
+    "location": "Shalour Gym",
+    "level": 50,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-009",
+    "slug": "rival-calem-serena-2-coumarine-city-53",
+    "name": "Rival Calem / Serena #2",
+    "trainer": "Rival Calem / Serena #2",
+    "location": "Coumarine City",
+    "level": 53,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-010",
+    "slug": "gym-leader-ramos-4-coumarine-gym-56",
+    "name": "Gym Leader Ramos #4",
+    "trainer": "Gym Leader Ramos #4",
+    "location": "Coumarine Gym",
+    "level": 56,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-011",
+    "slug": "team-flare-aliana-1-kalos-power-plant-59",
+    "name": "Team Flare Aliana #1",
+    "trainer": "Team Flare Aliana #1",
+    "location": "Kalos Power Plant",
+    "level": 59,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-012",
+    "slug": "gym-leader-clemont-5-lumiose-gym-61",
+    "name": "Gym Leader Clemont #5",
+    "trainer": "Gym Leader Clemont #5",
+    "location": "Lumiose Gym",
+    "level": 61,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-013",
+    "slug": "rival-calem-serena-3-route-14-62",
+    "name": "Rival Calem / Serena #3",
+    "trainer": "Rival Calem / Serena #3",
+    "location": "Route 14",
+    "level": 62,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-014",
+    "slug": "gym-leader-valerie-6-laverre-gym-65",
+    "name": "Gym Leader Valerie #6",
+    "trainer": "Gym Leader Valerie #6",
+    "location": "Laverre Gym",
+    "level": 65,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-015",
+    "slug": "team-flare-celosia-bryony-1-poke-ball-factory-67",
+    "name": "Team Flare Celosia + Bryony #1",
+    "trainer": "Team Flare Celosia + Bryony #1",
+    "location": "Poké Ball Factory",
+    "level": 67,
+    "pokemonCount": "6 (Each)"
+  },
+  {
+    "id": "level-cap-016",
+    "slug": "team-flare-mable-1-frost-cavern-76",
+    "name": "Team Flare Mable #1",
+    "trainer": "Team Flare Mable #1",
+    "location": "Frost Cavern",
+    "level": 76,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-017",
+    "slug": "rival-calem-serena-4-anistar-city-77",
+    "name": "Rival Calem / Serena #4",
+    "trainer": "Rival Calem / Serena #4",
+    "location": "Anistar City",
+    "level": 77,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-018",
+    "slug": "gym-leader-olympia-7-anistar-gym-80",
+    "name": "Gym Leader Olympia #7",
+    "trainer": "Gym Leader Olympia #7",
+    "location": "Anistar Gym",
+    "level": 80,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-019",
+    "slug": "team-flare-lysandre-1-lysandre-cafe-b1f-83",
+    "name": "Team Flare Lysandre #1",
+    "trainer": "Team Flare Lysandre #1",
+    "location": "Lysandre Café - B1F",
+    "level": 83,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-020",
+    "slug": "team-flare-aliana-2-lysandre-cafe-b1f-84",
+    "name": "Team Flare Aliana #2",
+    "trainer": "Team Flare Aliana #2",
+    "location": "Lysandre Café - B1F",
+    "level": 84,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-021",
+    "slug": "team-flare-lysandre-2-team-flare-secret-hq-1f-88",
+    "name": "Team Flare Lysandre #2",
+    "trainer": "Team Flare Lysandre #2",
+    "location": "Team Flare Secret HQ - 1F",
+    "level": 88,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-022",
+    "slug": "team-flare-boss-lysandre-3-team-flare-secret-hq-basement-90",
+    "name": "Team Flare Boss Lysandre #3",
+    "trainer": "Team Flare Boss Lysandre #3",
+    "location": "Team Flare Secret HQ - Basement",
+    "level": 90,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-023",
+    "slug": "professor-sycamore-2-couriway-town-94",
+    "name": "Professor Sycamore #2",
+    "trainer": "Professor Sycamore #2",
+    "location": "Couriway Town",
+    "level": 94,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-024",
+    "slug": "pokemon-trainer-shauna-2-route-19-96",
+    "name": "Pokémon Trainer Shauna #2",
+    "trainer": "Pokémon Trainer Shauna #2",
+    "location": "Route 19",
+    "level": 96,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-025",
+    "slug": "gym-leader-wulfric-8-snowbelle-gym-99",
+    "name": "Gym Leader Wulfric #8",
+    "trainer": "Gym Leader Wulfric #8",
+    "location": "Snowbelle Gym",
+    "level": 99,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-026",
+    "slug": "rival-calem-serena-5-victory-road-100",
+    "name": "Rival Calem / Serena #5",
+    "trainer": "Rival Calem / Serena #5",
+    "location": "Victory Road",
+    "level": 100,
+    "pokemonCount": "6"
+  },
+  {
+    "id": "level-cap-027",
+    "slug": "elite-4-champion-diantha-1-pokemon-league-100",
+    "name": "Elite 4 + Champion Diantha #1",
+    "trainer": "Elite 4 + Champion Diantha #1",
+    "location": "Pokémon League",
+    "level": 100,
+    "pokemonCount": "6"
+  }
+]

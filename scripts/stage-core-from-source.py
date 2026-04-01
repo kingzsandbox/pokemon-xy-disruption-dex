@@ -614,6 +614,31 @@ def parse_machine_label(value: str) -> tuple[str, str, str] | None:
     return f"{prefix}{number}", prefix.lower(), move_name
 
 
+def col_to_index(column: str) -> int:
+    index = 0
+    for char in column:
+        index = index * 26 + (ord(char) - 64)
+    return index
+
+
+def index_to_col(index: int) -> str:
+    name = ""
+    while index > 0:
+        index, rem = divmod(index - 1, 26)
+        name = chr(65 + rem) + name
+    return name
+
+
+def normalize_learnset_pokemon_name(value: str) -> str:
+    text = normalize_space(re.sub(r"^#\d+\s*", "", value).replace("\n", " "))
+    text = text.replace("♂", " Male").replace("♀", " Female")
+    text = re.sub(r"\s+", " ", text).strip()
+    match = re.match(r"^(.*?)\s*\((.*?)\)\s*$", text)
+    if match:
+        return f"{normalize_space(match.group(1))} ({normalize_space(match.group(2))})"
+    return text
+
+
 def build_machines_and_compatibility(
     pokemon: list[dict], moves: list[dict]
 ) -> tuple[list[dict], list[dict]]:
@@ -702,6 +727,193 @@ def build_machines_and_compatibility(
     return list(machines.values()), compatibility
 
 
+def build_learnsets(pokemon: list[dict], moves: list[dict]) -> list[dict]:
+    rows = read_xlsx_rows(SOURCE_DIR / "Learnsets & TM_HM_MT Compatibility (XY).xlsx", "sheet1.xml")
+    if not rows:
+        return []
+
+    pokemon_exact_lookup = {slugify(entry["name"]): entry["id"] for entry in pokemon}
+    pokemon_fallback_lookup = build_pokemon_lookup(pokemon)
+    move_lookup = {slugify(entry["name"]): entry["id"] for entry in moves}
+    header_row = rows[0]
+
+    pokemon_columns: list[tuple[str, str, str]] = []
+    for column, value in header_row.items():
+        header_value = normalize_space(value)
+        if not header_value or header_value == "Unused Moves":
+            continue
+
+        pokemon_name = normalize_learnset_pokemon_name(header_value)
+        pokemon_id = pokemon_exact_lookup.get(slugify(pokemon_name)) or pokemon_fallback_lookup.get(
+            slugify(pokemon_name)
+        )
+        if not pokemon_id:
+            continue
+
+        level_column = column
+        move_column = index_to_col(col_to_index(column) + 1)
+        pokemon_columns.append((pokemon_id, level_column, move_column))
+
+    learnsets: list[dict] = []
+    for row in rows[1:]:
+        for pokemon_id, level_column, move_column in pokemon_columns:
+            level_value = normalize_space(row.get(level_column, ""))
+            move_name = normalize_space(row.get(move_column, ""))
+            if not move_name:
+                continue
+
+            level = int(level_value) if re.fullmatch(r"\d+", level_value) else None
+            learnsets.append(
+                {
+                    "id": f"learnset-{len(learnsets) + 1:05d}",
+                    "pokemonId": pokemon_id,
+                    "moveId": move_lookup.get(slugify(move_name)),
+                    "moveName": move_name,
+                    "method": "level-up",
+                    "level": level,
+                }
+            )
+
+    return learnsets
+
+
+def parse_trainer_name(raw_name: str) -> tuple[str, int | None]:
+    normalized = normalize_space(raw_name)
+    match = re.match(r"^(.*?)\s*\((\d+)\)\s*$", normalized)
+    if not match:
+        return normalized, None
+    return normalize_space(match.group(1)), int(match.group(2))
+
+
+def parse_trainer_pokemon(value: str) -> tuple[str, int | None, str | None]:
+    normalized = normalize_space(value)
+    match = re.match(r"^(.*?)\s*\(Lv\.\s*(\d+)\)(?:\s*([MF]))?$", normalized)
+    if not match:
+        return normalized, None, None
+    return normalize_space(match.group(1)), int(match.group(2)), normalize_space(match.group(3) or "") or None
+
+
+def detect_trainer_class(name: str) -> str | None:
+    return None
+
+
+def build_trainers(pokemon: list[dict]) -> list[dict]:
+    pokemon_lookup = build_pokemon_lookup(pokemon)
+    trainers: list[dict] = []
+    seen_ids: dict[str, int] = {}
+    seen_slugs: dict[str, int] = {}
+    sheet_sources = {
+        "sheet2.xml": "xy-trainers",
+        "sheet3.xml": "restaurants",
+        "sheet4.xml": "battle-chateau",
+    }
+
+    for ruleset, filename in [
+        ("singles", "(Singles) Trainers, Restaurants & Battle Chateau (XY).xlsx"),
+        ("doubles", "(Doubles) Trainers, Restaurants & Battle Chateau (XY).xlsx"),
+    ]:
+        path = SOURCE_DIR / filename
+        for sheet_file, source in sheet_sources.items():
+            rows = read_xlsx_rows(path, sheet_file)
+            current_header = ""
+            row_index = 0
+
+            while row_index < len(rows):
+                row = rows[row_index]
+                header_value = normalize_space(row.get("B", ""))
+                if header_value and header_value != "Trainer Photo":
+                    current_header = header_value
+
+                if header_value != "Trainer Photo":
+                    row_index += 1
+                    continue
+
+                species_row = rows[row_index + 1] if row_index + 1 < len(rows) else {}
+                name_row = rows[row_index + 2] if row_index + 2 < len(rows) else {}
+                party_row = rows[row_index + 3] if row_index + 3 < len(rows) else {}
+                battle_row = rows[row_index + 4] if row_index + 4 < len(rows) else {}
+                move_rows = rows[row_index + 4 : row_index + 8]
+
+                trainer_name, trainer_index = parse_trainer_name(name_row.get("C", "Unknown Trainer"))
+                battle_type_value = normalize_space(battle_row.get("C", ""))
+                battle_format = battle_type_value.lower() if battle_type_value in {"Single", "Double"} else None
+
+                team_columns = sorted(
+                    [
+                        column
+                        for column, value in species_row.items()
+                        if re.fullmatch(r"[A-Z]+", column) and column >= "E" and normalize_space(value)
+                    ],
+                    key=lambda col: (len(col), col),
+                )
+
+                team: list[dict] = []
+                for slot, column in enumerate(team_columns, start=1):
+                    species_name, level, gender = parse_trainer_pokemon(species_row.get(column, ""))
+                    pokemon_id = map_species_to_id(species_name, pokemon_lookup)
+                    held_item = normalize_space(party_row.get(column, ""))
+                    moves = [
+                        normalize_space(move_row.get(column, ""))
+                        for move_row in move_rows
+                        if normalize_space(move_row.get(column, "")) and normalize_space(move_row.get(column, "")) != "---"
+                    ]
+                    ability = normalize_space(name_row.get(column, ""))
+
+                    team.append(
+                        {
+                            "slot": slot,
+                            "pokemonId": pokemon_id,
+                            "pokemonName": species_name,
+                            "level": level,
+                            "gender": gender,
+                            "ability": ability or None,
+                            "heldItem": held_item if held_item and held_item != "---" else None,
+                            "moves": moves,
+                        }
+                    )
+
+                if team:
+                    if source == "battle-chateau":
+                        location = "Battle Chateau"
+                        section = current_header or None
+                    else:
+                        location = current_header or "Unknown Location"
+                        section = None
+
+                    slug_parts = [trainer_name]
+                    if trainer_index is not None:
+                        slug_parts.append(str(trainer_index))
+                    slug_parts.extend([ruleset, source])
+
+                    trainer_id_suffix = f"{trainer_index:04d}" if trainer_index is not None else f"{len(trainers) + 1:04d}"
+                    base_id = f"trainer-{ruleset}-{source}-{trainer_id_suffix}"
+                    base_slug = slugify("-".join(slug_parts))
+                    id_count = seen_ids.get(base_id, 0) + 1
+                    slug_count = seen_slugs.get(base_slug, 0) + 1
+                    seen_ids[base_id] = id_count
+                    seen_slugs[base_slug] = slug_count
+
+                    trainers.append(
+                        {
+                            "id": base_id if id_count == 1 else f"{base_id}-{id_count}",
+                            "slug": base_slug if slug_count == 1 else f"{base_slug}-{slug_count}",
+                            "name": trainer_name,
+                            "indexNumber": trainer_index,
+                            "location": location,
+                            "section": section,
+                            "source": source,
+                            "ruleset": ruleset,
+                            "format": battle_format,
+                            "trainerClass": detect_trainer_class(trainer_name),
+                            "team": team,
+                        }
+                    )
+
+                row_index += 8
+
+    return trainers
+
+
 def build_item_locations(locations: list[dict], items: list[dict]) -> list[dict]:
     location_lookup = {entry["name"]: entry["id"] for entry in locations}
     item_lookup = {entry["slug"]: entry["id"] for entry in items}
@@ -786,6 +998,70 @@ def build_item_locations(locations: list[dict], items: list[dict]) -> list[dict]
     return item_locations
 
 
+def build_level_caps() -> list[dict]:
+    rows = read_xlsx_rows(SOURCE_DIR / "Blind Level Caps (XY).xlsx", "sheet1.xml")
+    level_caps: list[dict] = []
+
+    for row in rows[1:]:
+        trainer = normalize_space(row.get("A", ""))
+        location = normalize_space(row.get("B", ""))
+        level_value = normalize_space(row.get("C", ""))
+        pokemon_count = normalize_space(row.get("D", ""))
+        if not trainer or not location or not level_value:
+            continue
+
+        level = numeric(level_value)
+        if re.fullmatch(r"\d+(?:\.0+)?", pokemon_count):
+            pokemon_count = str(int(float(pokemon_count)))
+        slug_base = f"{trainer} {location} {level}"
+        level_caps.append(
+            {
+                "id": f"level-cap-{len(level_caps) + 1:03d}",
+                "slug": slugify(slug_base),
+                "name": trainer,
+                "trainer": trainer,
+                "location": location,
+                "level": level,
+                "pokemonCount": pokemon_count or "Not listed",
+            }
+        )
+
+    return level_caps
+
+
+def build_pickup_entries(items: list[dict]) -> list[dict]:
+    item_lookup = {entry["name"]: entry["id"] for entry in items}
+    pickup_entries: list[dict] = []
+    current_table: str | None = None
+    current_rate = ""
+
+    for paragraph in read_docx_paragraphs(SOURCE_DIR / "Pickup Items Table (XY).docx"):
+        if paragraph.startswith("Common Table"):
+            current_table = "common"
+            current_rate = paragraph
+            continue
+        if paragraph.startswith("Rare Table"):
+            current_table = "rare"
+            current_rate = paragraph
+            continue
+        if not current_table:
+            continue
+
+        pickup_entries.append(
+            {
+                "id": f"pickup-entry-{len(pickup_entries) + 1:03d}",
+                "slug": slugify(f"{current_table} {paragraph}"),
+                "name": paragraph,
+                "table": current_table,
+                "rateLabel": current_rate,
+                "itemId": item_lookup.get(paragraph),
+                "itemName": paragraph,
+            }
+        )
+
+    return pickup_entries
+
+
 def write_json(path: Path, payload: list[dict]) -> None:
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
@@ -797,8 +1073,12 @@ def main() -> None:
     items = build_items()
     moves = build_moves()
     machines, move_compatibility = build_machines_and_compatibility(pokemon, moves)
+    learnsets = build_learnsets(pokemon, moves)
     encounters = build_encounters(pokemon, locations)
     item_locations = build_item_locations(locations, items)
+    trainers = build_trainers(pokemon)
+    level_caps = build_level_caps()
+    pickup_entries = build_pickup_entries(items)
 
     write_json(CORE_DIR / "pokemon.json", pokemon)
     write_json(CORE_DIR / "locations.json", locations)
@@ -806,8 +1086,12 @@ def main() -> None:
     write_json(CORE_DIR / "moves.json", moves)
     write_json(CORE_DIR / "machines.json", machines)
     write_json(CORE_DIR / "move-compatibility.json", move_compatibility)
+    write_json(CORE_DIR / "learnsets.json", learnsets)
     write_json(CORE_DIR / "encounters.json", encounters)
     write_json(CORE_DIR / "item-locations.json", item_locations)
+    write_json(CORE_DIR / "trainers.json", trainers)
+    write_json(CORE_DIR / "level-caps.json", level_caps)
+    write_json(CORE_DIR / "pickup-entries.json", pickup_entries)
 
     print(f"Staged {len(pokemon)} pokemon")
     print(f"Staged {len(locations)} locations")
@@ -815,8 +1099,12 @@ def main() -> None:
     print(f"Staged {len(moves)} moves")
     print(f"Staged {len(machines)} machines")
     print(f"Staged {len(move_compatibility)} move compatibility records")
+    print(f"Staged {len(learnsets)} learnset records")
     print(f"Staged {len(encounters)} encounters")
     print(f"Staged {len(item_locations)} item locations")
+    print(f"Staged {len(trainers)} trainers")
+    print(f"Staged {len(level_caps)} level caps")
+    print(f"Staged {len(pickup_entries)} pickup entries")
 
 
 if __name__ == "__main__":

@@ -1081,14 +1081,14 @@
     "id": "item-tm20-safeguard",
     "slug": "tm20-safeguard",
     "name": "TM20 [Safeguard]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm05-roar",
     "slug": "tm05-roar",
     "name": "TM05 [Roar]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1102,21 +1102,21 @@
     "id": "item-tm37-power-gem",
     "slug": "tm37-power-gem",
     "name": "TM37 [Power Gem]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm28-earth-power",
     "slug": "tm28-earth-power",
     "name": "TM28 [Earth Power]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm16-light-screen",
     "slug": "tm16-light-screen",
     "name": "TM16 [Light Screen]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1137,14 +1137,14 @@
     "id": "item-tm11-flare-blitz",
     "slug": "tm11-flare-blitz",
     "name": "TM11 [Flare Blitz]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm14-blizzard",
     "slug": "tm14-blizzard",
     "name": "TM14 [Blizzard]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1200,14 +1200,14 @@
     "id": "item-tm64-encore",
     "slug": "tm64-encore",
     "name": "TM64 [Encore]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm07-icy-wind",
     "slug": "tm07-icy-wind",
     "name": "TM07 [Icy Wind]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1221,21 +1221,21 @@
     "id": "item-tm72-volt-switch",
     "slug": "tm72-volt-switch",
     "name": "TM72 [Volt Switch]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm75-swords-dance",
     "slug": "tm75-swords-dance",
     "name": "TM75 [Swords Dance]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm18-aqua-tail",
     "slug": "tm18-aqua-tail",
     "name": "TM18 [Aqua Tail]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1256,14 +1256,14 @@
     "id": "item-tm34-sludge-wave",
     "slug": "tm34-sludge-wave",
     "name": "TM34 [Sludge Wave]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm15-hyper-beam",
     "slug": "tm15-hyper-beam",
     "name": "TM15 [Hyper Beam]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1319,14 +1319,14 @@
     "id": "item-tm67-metronome",
     "slug": "tm67-metronome",
     "name": "TM67 [Metronome]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm23-stealth-rock",
     "slug": "tm23-stealth-rock",
     "name": "TM23 [Stealth Rock]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1340,21 +1340,21 @@
     "id": "item-tm78-bulldoze",
     "slug": "tm78-bulldoze",
     "name": "TM78 [Bulldoze]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm76-bug-buzz",
     "slug": "tm76-bug-buzz",
     "name": "TM76 [Bug Buzz]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm33-reflect",
     "slug": "tm33-reflect",
     "name": "TM33 [Reflect]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1375,14 +1375,14 @@
     "id": "item-tm93-wild-charge",
     "slug": "tm93-wild-charge",
     "name": "TM93 [Wild Charge]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm25-thunder",
     "slug": "tm25-thunder",
     "name": "TM25 [Thunder]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1424,14 +1424,14 @@
     "id": "item-tm87-swagger",
     "slug": "tm87-swagger",
     "name": "TM87 [Swagger]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm59-incinerate",
     "slug": "tm59-incinerate",
     "name": "TM59 [Incinerate]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1445,14 +1445,14 @@
     "id": "item-tm84-poison-jab",
     "slug": "tm84-poison-jab",
     "name": "TM84 [Poison Jab]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm48-body-slam",
     "slug": "tm48-body-slam",
     "name": "TM48 [Body Slam]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1480,7 +1480,7 @@
     "id": "item-tm38-fire-blast",
     "slug": "tm38-fire-blast",
     "name": "TM38 [Fire Blast]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1522,7 +1522,7 @@
     "id": "item-tm60-knock-off",
     "slug": "tm60-knock-off",
     "name": "TM60 [Knock Off]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1536,14 +1536,14 @@
     "id": "item-tm91-flash-cannon",
     "slug": "tm91-flash-cannon",
     "name": "TM91 [Flash Cannon]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
     "id": "item-tm50-overheat",
     "slug": "tm50-overheat",
     "name": "TM50 [Overheat]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1557,7 +1557,7 @@
     "id": "item-tm68-giga-impact",
     "slug": "tm68-giga-impact",
     "name": "TM68 [Giga Impact]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1620,7 +1620,7 @@
     "id": "item-tm51-heavy-slam",
     "slug": "tm51-heavy-slam",
     "name": "TM51 [Heavy Slam]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1662,7 +1662,7 @@
     "id": "item-tm52-focus-blast",
     "slug": "tm52-focus-blast",
     "name": "TM52 [Focus Blast]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1690,7 +1690,7 @@
     "id": "item-tm58-tailwind",
     "slug": "tm58-tailwind",
     "name": "TM58 [Tailwind]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
@@ -1711,7 +1711,7 @@
     "id": "item-tm85-zen-headbutt",
     "slug": "tm85-zen-headbutt",
     "name": "TM85 [Zen Headbutt]",
-    "category": "TM",
+    "category": "Tm",
     "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {

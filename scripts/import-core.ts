@@ -4,21 +4,29 @@ import {
   normalizeEncounterEntry,
   normalizeItemEntry,
   normalizeItemLocationEntry,
+  normalizeLearnsetEntry,
+  normalizeLevelCapEntry,
   normalizeLocationEntry,
   normalizeMachineEntry,
   normalizeMoveEntry,
   normalizeMoveCompatibilityEntry,
   normalizePokemonEntry,
+  normalizePickupEntry,
+  normalizeTrainerEntry,
 } from "../src/lib/normalize";
 import type {
   EncounterEntry,
   ItemEntry,
   ItemLocationEntry,
+  LearnsetEntry,
+  LevelCapEntry,
   LocationEntry,
   MachineEntry,
   MoveEntry,
   MoveCompatibilityEntry,
   PokemonEntry,
+  PickupEntry,
+  TrainerEntry,
 } from "../src/lib/types";
 import { validateCoreData } from "../src/lib/validate";
 
@@ -31,8 +39,12 @@ type ImportBundle = {
   moves: MoveEntry[];
   machines: MachineEntry[];
   moveCompatibility: MoveCompatibilityEntry[];
+  learnsets: LearnsetEntry[];
   encounters: EncounterEntry[];
   itemLocations: ItemLocationEntry[];
+  trainers: TrainerEntry[];
+  levelCaps: LevelCapEntry[];
+  pickupEntries: PickupEntry[];
 };
 
 const projectRoot = path.resolve(__dirname, "..", "..");
@@ -242,6 +254,94 @@ function mapMoveCompatibilityRecord(record: RawRecord, index: number): MoveCompa
   });
 }
 
+function mapLearnsetRecord(record: RawRecord, index: number): LearnsetEntry {
+  const valueOrNull = (value: unknown): string | null =>
+    typeof value === "string" && value.trim() ? value : null;
+  const numberOrNull = (value: unknown): number | null =>
+    typeof value === "number" && !Number.isNaN(value) ? value : null;
+
+  return normalizeLearnsetEntry({
+    id: requireString(record.id, `learnsets[${index}].id`),
+    pokemonId: requireString(record.pokemonId ?? record.pokemon_id, `learnsets[${index}].pokemonId`),
+    moveId: valueOrNull(record.moveId ?? record.move_id),
+    moveName: requireString(record.moveName ?? record.move_name, `learnsets[${index}].moveName`),
+    method: requireString(record.method, `learnsets[${index}].method`) as LearnsetEntry["method"],
+    level: numberOrNull(record.level),
+  });
+}
+
+function mapTrainerRecord(record: RawRecord, index: number): TrainerEntry {
+  const valueOrNull = (value: unknown): string | null =>
+    typeof value === "string" && value.trim() ? value : null;
+  const numberOrNull = (value: unknown): number | null =>
+    typeof value === "number" && !Number.isNaN(value) ? value : null;
+  const team = readArray(record.team, `trainers[${index}].team`).map((entry, teamIndex) => ({
+    slot: requireNumber(entry.slot ?? teamIndex + 1, `trainers[${index}].team[${teamIndex}].slot`),
+    pokemonId: valueOrNull(entry.pokemonId ?? entry.pokemon_id),
+    pokemonName: requireString(
+      entry.pokemonName ?? entry.pokemon_name,
+      `trainers[${index}].team[${teamIndex}].pokemonName`,
+    ),
+    level: numberOrNull(entry.level),
+    gender: valueOrNull(entry.gender),
+    ability: valueOrNull(entry.ability),
+    heldItem: valueOrNull(entry.heldItem ?? entry.held_item),
+    moves: Array.isArray(entry.moves)
+      ? entry.moves.filter((move): move is string => typeof move === "string" && Boolean(move.trim()))
+      : [],
+  }));
+
+  return normalizeTrainerEntry({
+    id: requireString(record.id, `trainers[${index}].id`),
+    slug: String(record.slug ?? record.name ?? ""),
+    name: requireString(record.name, `trainers[${index}].name`),
+    indexNumber: numberOrNull(record.indexNumber ?? record.index_number),
+    location: requireString(record.location, `trainers[${index}].location`),
+    section: valueOrNull(record.section),
+    source: requireString(record.source, `trainers[${index}].source`) as TrainerEntry["source"],
+    ruleset: requireString(record.ruleset, `trainers[${index}].ruleset`) as TrainerEntry["ruleset"],
+    format: (valueOrNull(record.format) as TrainerEntry["format"]) ?? null,
+    trainerClass: valueOrNull(record.trainerClass ?? record.trainer_class),
+    team,
+  });
+}
+
+function mapLevelCapRecord(record: RawRecord, index: number): LevelCapEntry {
+  return normalizeLevelCapEntry({
+    id: requireString(record.id, `levelCaps[${index}].id`),
+    slug: String(record.slug ?? record.name ?? ""),
+    name: requireString(record.name, `levelCaps[${index}].name`),
+    trainer: requireString(record.trainer, `levelCaps[${index}].trainer`),
+    location: requireString(record.location, `levelCaps[${index}].location`),
+    level: requireNumber(record.level, `levelCaps[${index}].level`),
+    pokemonCount: requireString(
+      record.pokemonCount ?? record.pokemon_count,
+      `levelCaps[${index}].pokemonCount`,
+    ),
+  });
+}
+
+function mapPickupEntryRecord(record: RawRecord, index: number): PickupEntry {
+  const valueOrNull = (value: unknown): string | null =>
+    typeof value === "string" && value.trim() ? value : null;
+
+  return normalizePickupEntry({
+    id: requireString(record.id, `pickupEntries[${index}].id`),
+    slug: String(record.slug ?? record.name ?? record.itemName ?? ""),
+    name: requireString(record.name, `pickupEntries[${index}].name`),
+    table: requireString(record.table, `pickupEntries[${index}].table`) as PickupEntry["table"],
+    rateLabel: requireString(
+      record.rateLabel ?? record.rate_label,
+      `pickupEntries[${index}].rateLabel`,
+    ),
+    itemId: valueOrNull(record.itemId ?? record.item_id),
+    itemName: requireString(
+      record.itemName ?? record.item_name,
+      `pickupEntries[${index}].itemName`,
+    ),
+  });
+}
+
 async function loadImportBundle(inputDir: string): Promise<ImportBundle> {
   const pokemon = readArray(
     await readJsonFile(resolveInputFile(inputDir, "pokemon.json")),
@@ -267,6 +367,10 @@ async function loadImportBundle(inputDir: string): Promise<ImportBundle> {
     await readJsonFile(resolveInputFile(inputDir, "move-compatibility.json")),
     "moveCompatibility",
   ).map(mapMoveCompatibilityRecord);
+  const learnsets = readArray(
+    await readJsonFile(resolveInputFile(inputDir, "learnsets.json")),
+    "learnsets",
+  ).map(mapLearnsetRecord);
   const encounters = readArray(
     await readJsonFile(resolveInputFile(inputDir, "encounters.json")),
     "encounters",
@@ -275,6 +379,18 @@ async function loadImportBundle(inputDir: string): Promise<ImportBundle> {
     await readJsonFile(resolveInputFile(inputDir, "item-locations.json")),
     "itemLocations",
   ).map(mapItemLocationRecord);
+  const trainers = readArray(
+    await readJsonFile(resolveInputFile(inputDir, "trainers.json")),
+    "trainers",
+  ).map(mapTrainerRecord);
+  const levelCaps = readArray(
+    await readJsonFile(resolveInputFile(inputDir, "level-caps.json")),
+    "levelCaps",
+  ).map(mapLevelCapRecord);
+  const pickupEntries = readArray(
+    await readJsonFile(resolveInputFile(inputDir, "pickup-entries.json")),
+    "pickupEntries",
+  ).map(mapPickupEntryRecord);
 
   validateCoreData({
     pokemon,
@@ -283,8 +399,12 @@ async function loadImportBundle(inputDir: string): Promise<ImportBundle> {
     moves,
     machines,
     moveCompatibility,
+    learnsets,
     encounters,
     itemLocations,
+    trainers,
+    levelCaps,
+    pickupEntries,
   });
 
   return {
@@ -294,8 +414,12 @@ async function loadImportBundle(inputDir: string): Promise<ImportBundle> {
     moves,
     machines,
     moveCompatibility,
+    learnsets,
     encounters,
     itemLocations,
+    trainers,
+    levelCaps,
+    pickupEntries,
   };
 }
 
@@ -315,8 +439,12 @@ async function main(): Promise<void> {
   await writeJson(outputDir, "moves.json", bundle.moves);
   await writeJson(outputDir, "machines.json", bundle.machines);
   await writeJson(outputDir, "move-compatibility.json", bundle.moveCompatibility);
+  await writeJson(outputDir, "learnsets.json", bundle.learnsets);
   await writeJson(outputDir, "encounters.json", bundle.encounters);
   await writeJson(outputDir, "item-locations.json", bundle.itemLocations);
+  await writeJson(outputDir, "trainers.json", bundle.trainers);
+  await writeJson(outputDir, "level-caps.json", bundle.levelCaps);
+  await writeJson(outputDir, "pickup-entries.json", bundle.pickupEntries);
 
   console.log(`Imported core data from ${inputDir}`);
   console.log(`Wrote normalized output to ${outputDir}`);

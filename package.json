@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "typecheck": "tsc --noEmit",
     "import:core": "tsc -p scripts/tsconfig.json && node .import-build/scripts/import-core.js",
     "import:pokemon": "tsc -p scripts/tsconfig.json && node .import-build/scripts/import-pokemon.js"
   },

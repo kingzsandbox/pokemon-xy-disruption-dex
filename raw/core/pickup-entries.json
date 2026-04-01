@@ -1,0 +1,263 @@
+[
+  {
+    "id": "pickup-entry-001",
+    "slug": "common-x-attack",
+    "name": "X Attack",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": null,
+    "itemName": "X Attack"
+  },
+  {
+    "id": "pickup-entry-002",
+    "slug": "common-x-defense",
+    "name": "X Defense",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": null,
+    "itemName": "X Defense"
+  },
+  {
+    "id": "pickup-entry-003",
+    "slug": "common-x-speed",
+    "name": "X Speed",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": null,
+    "itemName": "X Speed"
+  },
+  {
+    "id": "pickup-entry-004",
+    "slug": "common-x-sp-atk",
+    "name": "X Sp. Atk",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": null,
+    "itemName": "X Sp. Atk"
+  },
+  {
+    "id": "pickup-entry-005",
+    "slug": "common-x-sp-def",
+    "name": "X Sp. Def",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": null,
+    "itemName": "X Sp. Def"
+  },
+  {
+    "id": "pickup-entry-006",
+    "slug": "common-x-accuracy",
+    "name": "X Accuracy",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": null,
+    "itemName": "X Accuracy"
+  },
+  {
+    "id": "pickup-entry-007",
+    "slug": "common-guard-spec",
+    "name": "Guard Spec.",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": "item-guard-spec",
+    "itemName": "Guard Spec."
+  },
+  {
+    "id": "pickup-entry-008",
+    "slug": "common-dire-hit",
+    "name": "Dire Hit",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": "item-dire-hit",
+    "itemName": "Dire Hit"
+  },
+  {
+    "id": "pickup-entry-009",
+    "slug": "common-hp-up",
+    "name": "HP Up",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": "item-hp-up",
+    "itemName": "HP Up"
+  },
+  {
+    "id": "pickup-entry-010",
+    "slug": "common-protein",
+    "name": "Protein",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": "item-protein",
+    "itemName": "Protein"
+  },
+  {
+    "id": "pickup-entry-011",
+    "slug": "common-iron",
+    "name": "Iron",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": "item-iron",
+    "itemName": "Iron"
+  },
+  {
+    "id": "pickup-entry-012",
+    "slug": "common-carbos",
+    "name": "Carbos",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": "item-carbos",
+    "itemName": "Carbos"
+  },
+  {
+    "id": "pickup-entry-013",
+    "slug": "common-calcium",
+    "name": "Calcium",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": "item-calcium",
+    "itemName": "Calcium"
+  },
+  {
+    "id": "pickup-entry-014",
+    "slug": "common-zinc",
+    "name": "Zinc",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": "item-zinc",
+    "itemName": "Zinc"
+  },
+  {
+    "id": "pickup-entry-015",
+    "slug": "common-full-restore",
+    "name": "Full Restore",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": "item-full-restore",
+    "itemName": "Full Restore"
+  },
+  {
+    "id": "pickup-entry-016",
+    "slug": "common-full-heal",
+    "name": "Full Heal",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": "item-full-heal",
+    "itemName": "Full Heal"
+  },
+  {
+    "id": "pickup-entry-017",
+    "slug": "common-pp-up",
+    "name": "PP Up",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": "item-pp-up",
+    "itemName": "PP Up"
+  },
+  {
+    "id": "pickup-entry-018",
+    "slug": "common-elixir",
+    "name": "Elixir",
+    "table": "common",
+    "rateLabel": "Common Table (30% - 4%)",
+    "itemId": "item-elixir",
+    "itemName": "Elixir"
+  },
+  {
+    "id": "pickup-entry-019",
+    "slug": "rare-max-revive",
+    "name": "Max Revive",
+    "table": "rare",
+    "rateLabel": "Rare Table (1%)",
+    "itemId": "item-max-revive",
+    "itemName": "Max Revive"
+  },
+  {
+    "id": "pickup-entry-020",
+    "slug": "rare-big-nugget",
+    "name": "Big Nugget",
+    "table": "rare",
+    "rateLabel": "Rare Table (1%)",
+    "itemId": null,
+    "itemName": "Big Nugget"
+  },
+  {
+    "id": "pickup-entry-021",
+    "slug": "rare-comet-shard",
+    "name": "Comet Shard",
+    "table": "rare",
+    "rateLabel": "Rare Table (1%)",
+    "itemId": null,
+    "itemName": "Comet Shard"
+  },
+  {
+    "id": "pickup-entry-022",
+    "slug": "rare-balm-mushroom",
+    "name": "Balm Mushroom",
+    "table": "rare",
+    "rateLabel": "Rare Table (1%)",
+    "itemId": "item-balm-mushroom",
+    "itemName": "Balm Mushroom"
+  },
+  {
+    "id": "pickup-entry-023",
+    "slug": "rare-max-ether",
+    "name": "Max Ether",
+    "table": "rare",
+    "rateLabel": "Rare Table (1%)",
+    "itemId": "item-max-ether",
+    "itemName": "Max Ether"
+  },
+  {
+    "id": "pickup-entry-024",
+    "slug": "rare-pp-max",
+    "name": "PP Max",
+    "table": "rare",
+    "rateLabel": "Rare Table (1%)",
+    "itemId": "item-pp-max",
+    "itemName": "PP Max"
+  },
+  {
+    "id": "pickup-entry-025",
+    "slug": "rare-relic-copper",
+    "name": "Relic Copper",
+    "table": "rare",
+    "rateLabel": "Rare Table (1%)",
+    "itemId": null,
+    "itemName": "Relic Copper"
+  },
+  {
+    "id": "pickup-entry-026",
+    "slug": "rare-max-elixir",
+    "name": "Max Elixir",
+    "table": "rare",
+    "rateLabel": "Rare Table (1%)",
+    "itemId": "item-max-elixir",
+    "itemName": "Max Elixir"
+  },
+  {
+    "id": "pickup-entry-027",
+    "slug": "rare-relic-silver",
+    "name": "Relic Silver",
+    "table": "rare",
+    "rateLabel": "Rare Table (1%)",
+    "itemId": null,
+    "itemName": "Relic Silver"
+  },
+  {
+    "id": "pickup-entry-028",
+    "slug": "rare-sacred-ash",
+    "name": "Sacred Ash",
+    "table": "rare",
+    "rateLabel": "Rare Table (1%)",
+    "itemId": "item-sacred-ash",
+    "itemName": "Sacred Ash"
+  },
+  {
+    "id": "pickup-entry-029",
+    "slug": "rare-relic-gold",
+    "name": "Relic Gold",
+    "table": "rare",
+    "rateLabel": "Rare Table (1%)",
+    "itemId": null,
+    "itemName": "Relic Gold"
+  }
+]

@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { getMachineLinksByMoveId } from "@/lib/data/compatibility";
+import { getLearnsetByMoveId } from "@/lib/data/learnsets";
 import { getMoveBySlug, getMoves } from "@/lib/data/moves";
 import { getPokemonById } from "@/lib/data/pokemon";
 
@@ -28,6 +29,7 @@ export default async function MoveDetailPage({ params }: MoveDetailPageProps) {
   }
 
   const machineLinks = getMachineLinksByMoveId(move.id);
+  const learnsetLinks = getLearnsetByMoveId(move.id);
 
   return (
     <main style={{ margin: "0 auto", maxWidth: "900px", padding: "40px 24px 64px" }}>
@@ -96,6 +98,27 @@ export default async function MoveDetailPage({ params }: MoveDetailPageProps) {
             ))}
           </ul>
         )}
+      </section>
+
+      <section style={{ marginTop: "24px" }}>
+        <h2>Level-Up Learners</h2>
+        {learnsetLinks.length === 0 ? (
+          <p>No level-up learnset linkage has been imported for this move.</p>
+        ) : (
+          <ul>
+            {learnsetLinks.slice(0, 40).map((entry) => (
+              <li key={entry.learnsetId}>
+                {getPokemonById(entry.pokemonId)?.name ?? entry.pokemonId}
+                {entry.level !== null ? ` • Lv. ${entry.level}` : ""}
+              </li>
+            ))}
+          </ul>
+        )}
+        {learnsetLinks.length > 40 ? (
+          <p style={{ color: "#586379" }}>
+            Showing 40 of {learnsetLinks.length} imported level-up learners.
+          </p>
+        ) : null}
       </section>
     </main>
   );

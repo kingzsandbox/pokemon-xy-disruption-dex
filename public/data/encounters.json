@@ -2067,7 +2067,7 @@
     "method": "Wild Encounter",
     "minLevel": 50,
     "maxLevel": 50,
-    "rate": 80.0
+    "rate": 80
   },
   {
     "id": "encounter-00231",
@@ -2355,7 +2355,7 @@
     "method": "Wild Encounter",
     "minLevel": 50,
     "maxLevel": 50,
-    "rate": 20.0
+    "rate": 20
   },
   {
     "id": "encounter-00263",
@@ -2589,7 +2589,7 @@
     "method": "Wild Encounter",
     "minLevel": 50,
     "maxLevel": 50,
-    "rate": 75.0
+    "rate": 75
   },
   {
     "id": "encounter-00289",
@@ -2823,7 +2823,7 @@
     "method": "Wild Encounter",
     "minLevel": 50,
     "maxLevel": 50,
-    "rate": 5.0
+    "rate": 5
   },
   {
     "id": "encounter-00315",
@@ -3039,7 +3039,7 @@
     "method": "Wild Encounter",
     "minLevel": 50,
     "maxLevel": 50,
-    "rate": 5.0
+    "rate": 5
   },
   {
     "id": "encounter-00339",
@@ -3228,7 +3228,7 @@
     "method": "Wild Encounter",
     "minLevel": 50,
     "maxLevel": 50,
-    "rate": 5.0
+    "rate": 5
   },
   {
     "id": "encounter-00360",
@@ -3453,7 +3453,7 @@
     "method": "Wild Encounter",
     "minLevel": 50,
     "maxLevel": 50,
-    "rate": 5.0
+    "rate": 5
   },
   {
     "id": "encounter-00385",
@@ -3660,7 +3660,7 @@
     "method": "Wild Encounter",
     "minLevel": 50,
     "maxLevel": 50,
-    "rate": 5.0
+    "rate": 5
   },
   {
     "id": "encounter-00408",
@@ -5424,7 +5424,7 @@
     "method": "Wild Encounter",
     "minLevel": 73,
     "maxLevel": 73,
-    "rate": 100.0
+    "rate": 100
   },
   {
     "id": "encounter-00604",
@@ -5451,7 +5451,7 @@
     "method": "Wild Encounter",
     "minLevel": 73,
     "maxLevel": 73,
-    "rate": 100.0
+    "rate": 100
   },
   {
     "id": "encounter-00607",

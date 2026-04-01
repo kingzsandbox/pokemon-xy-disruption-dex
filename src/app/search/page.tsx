@@ -12,6 +12,18 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   const query = q ?? "";
   const results = searchDex(query);
 
+  function getResultHref(type: string, slug: string): string {
+    if (type === "location") {
+      return `/locations/${slug}`;
+    }
+
+    if (type === "system") {
+      return `/systems#${slug}`;
+    }
+
+    return `/${type}s/${slug}`;
+  }
+
   return (
     <main style={{ margin: "0 auto", maxWidth: "900px", padding: "40px 24px 64px" }}>
       <header style={{ marginBottom: "24px" }}>
@@ -20,7 +32,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
           <input
             name="q"
             defaultValue={query}
-            placeholder="Search Pokémon, locations, items, moves..."
+            placeholder="Search Pokémon, locations, items, moves, trainers, systems..."
             style={{
               flex: "1 1 320px",
               padding: "12px 14px",
@@ -53,7 +65,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
         {results.map((result) => (
           <Link
             key={`${result.type}-${result.id}`}
-            href={`/${result.type === "location" ? "locations" : `${result.type}s`}/${result.slug}`}
+            href={getResultHref(result.type, result.slug)}
             style={{
               display: "block",
               padding: "16px",
