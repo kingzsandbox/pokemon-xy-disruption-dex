@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getMachineLinksByMoveId } from "@/lib/data/compatibility";
 import { getLearnsetByMoveId } from "@/lib/data/learnsets";
@@ -91,7 +92,9 @@ export default async function MoveDetailPage({ params }: MoveDetailPageProps) {
             <ul>
             {machineLinks.map((link) => (
               <li key={link.machine.id}>
-                <strong>{link.machine.code}</strong>
+                <strong>
+                  <Link href={`/machines/${link.machine.slug}`}>{link.machine.code}</Link>
+                </strong>
                 {link.machine.location ? ` • ${link.machine.location}` : ""}
                 {link.compatiblePokemonIds.length > 0
                   ? ` • ${link.compatiblePokemonIds.length} compatible Pokémon`

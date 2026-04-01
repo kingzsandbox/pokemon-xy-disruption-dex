@@ -98,7 +98,14 @@ export interface ItemLocationEntry {
   notes: string;
 }
 
-export type SearchResultType = "pokemon" | "location" | "item" | "move" | "trainer" | "system";
+export type SearchResultType =
+  | "pokemon"
+  | "location"
+  | "item"
+  | "move"
+  | "machine"
+  | "trainer"
+  | "system";
 
 export interface SearchResult {
   id: DexEntryId;

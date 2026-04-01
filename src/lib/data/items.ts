@@ -12,8 +12,16 @@ const itemLocations = coreItemLocations as ItemLocationEntry[];
 const itemsById = new Map(items.map((entry) => [entry.id, entry]));
 const itemsBySlug = new Map(items.map((entry) => [entry.slug, entry]));
 
+export function isMachineItem(item: ItemEntry): boolean {
+  return /^(tm|hm|mt)\d+/i.test(item.name) || /^(TM|HM|MT)$/i.test(item.category);
+}
+
 export function getItems(): ItemEntry[] {
   return items;
+}
+
+export function getBrowseItems(): ItemEntry[] {
+  return items.filter((item) => !isMachineItem(item));
 }
 
 export function getItemById(id: string): ItemEntry | undefined {

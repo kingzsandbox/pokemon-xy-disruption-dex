@@ -14,12 +14,17 @@ const quickLinks = [
   {
     label: "Items",
     href: "/items",
-    description: "Open the starter item index with simple detail pages.",
+    description: "Browse regular items and special records without machine clutter.",
   },
   {
-    label: "Moves",
+    label: "All Moves",
     href: "/moves",
-    description: "Browse imported usable, reduced, and removed move records.",
+    description: "Browse every imported move entry and open move detail pages.",
+  },
+  {
+    label: "TMs & HMs",
+    href: "/machines",
+    description: "Look up machine codes, taught moves, locations, and compatibility counts.",
   },
   {
     label: "Trainers",
@@ -34,7 +39,7 @@ const quickLinks = [
   {
     label: "Search",
     href: "/search",
-    description: "Search across Pokémon, locations, items, moves, trainers, and systems by name.",
+    description: "Search across Pokémon, locations, items, moves, TMs & HMs, trainers, and systems by name.",
   },
 ];
 
@@ -98,7 +103,7 @@ export default function HomePage() {
             id="search"
             name="q"
             type="search"
-            placeholder="Search Pokemon, locations, items, moves, trainers, systems..."
+            placeholder="Search Pokemon, locations, items, moves, TMs/HMs, trainers, systems..."
             style={{
               flex: "1 1 320px",
               padding: "14px 16px",

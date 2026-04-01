@@ -1,4 +1,5 @@
-import { getItems } from "@/lib/data/items";
+import { getMachineBrowseEntries } from "@/lib/data/compatibility";
+import { getBrowseItems } from "@/lib/data/items";
 import { getLocations } from "@/lib/data/locations";
 import { getMoves } from "@/lib/data/moves";
 import { getAllPokemon } from "@/lib/data/pokemon";
@@ -37,7 +38,7 @@ export function searchDex(query: string): SearchResult[] {
       slug: entry.slug,
     }));
 
-  const itemResults: SearchResult[] = getItems()
+  const itemResults: SearchResult[] = getBrowseItems()
     .filter((entry) => entry.name.toLowerCase().includes(normalizedQuery))
     .map((entry) => ({
       id: entry.id,
@@ -55,6 +56,23 @@ export function searchDex(query: string): SearchResult[] {
       title: entry.name,
       subtitle: [entry.status, entry.type].filter(Boolean).join(" • ") || "Move",
       slug: entry.slug,
+    }));
+
+  const machineResults: SearchResult[] = getMachineBrowseEntries()
+    .filter(
+      ({ machine, move }) =>
+        machine.code.toLowerCase().includes(normalizedQuery) ||
+        machine.name.toLowerCase().includes(normalizedQuery) ||
+        (move ? move.name.toLowerCase().includes(normalizedQuery) : false),
+    )
+    .map(({ machine, move, compatibilityCount }) => ({
+      id: machine.id,
+      type: "machine" as const,
+      title: machine.code,
+      subtitle: [move?.name ?? "Unknown move", machine.location, compatibilityCount > 0 ? `${compatibilityCount} compatible Pokemon` : null]
+        .filter(Boolean)
+        .join(" • "),
+      slug: machine.slug,
     }));
 
   const trainerResults: SearchResult[] = getTrainers()
@@ -109,6 +127,7 @@ export function searchDex(query: string): SearchResult[] {
     ...locationResults,
     ...itemResults,
     ...moveResults,
+    ...machineResults,
     ...trainerResults,
     ...levelCapResults,
     ...pickupResults,

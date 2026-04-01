@@ -17,6 +17,10 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
       return `/locations/${slug}`;
     }
 
+    if (type === "machine") {
+      return `/machines/${slug}`;
+    }
+
     if (type === "system") {
       return `/systems#${slug}`;
     }
@@ -32,7 +36,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
           <input
             name="q"
             defaultValue={query}
-            placeholder="Search Pokémon, locations, items, moves, trainers, systems..."
+            placeholder="Search Pokemon, locations, items, moves, TMs/HMs, trainers, systems..."
             style={{
               flex: "1 1 320px",
               padding: "12px 14px",
