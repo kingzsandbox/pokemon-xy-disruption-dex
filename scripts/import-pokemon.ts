@@ -113,21 +113,28 @@ async function loadExistingCoreData(): Promise<{
   locations: unknown[];
   items: unknown[];
   moves: unknown[];
+  machines: unknown[];
+  moveCompatibility: unknown[];
   encounters: unknown[];
   itemLocations: unknown[];
 }> {
-  const [locations, items, moves, encounters, itemLocations] = await Promise.all([
+  const [locations, items, moves, machines, moveCompatibility, encounters, itemLocations] =
+    await Promise.all([
     readJsonFile(path.join(projectRoot, "public", "data", "locations.json")),
     readJsonFile(path.join(projectRoot, "public", "data", "items.json")),
     readJsonFile(path.join(projectRoot, "public", "data", "moves.json")),
+    readJsonFile(path.join(projectRoot, "public", "data", "machines.json")),
+    readJsonFile(path.join(projectRoot, "public", "data", "move-compatibility.json")),
     readJsonFile(path.join(projectRoot, "public", "data", "encounters.json")),
     readJsonFile(path.join(projectRoot, "public", "data", "item-locations.json")),
-  ]);
+    ]);
 
   return {
     locations: Array.isArray(locations) ? locations : [],
     items: Array.isArray(items) ? items : [],
     moves: Array.isArray(moves) ? moves : [],
+    machines: Array.isArray(machines) ? machines : [],
+    moveCompatibility: Array.isArray(moveCompatibility) ? moveCompatibility : [],
     encounters: Array.isArray(encounters) ? encounters : [],
     itemLocations: Array.isArray(itemLocations) ? itemLocations : [],
   };
@@ -145,6 +152,8 @@ async function main(): Promise<void> {
     locations: existingCore.locations as never[],
     items: existingCore.items as never[],
     moves: existingCore.moves as never[],
+    machines: existingCore.machines as never[],
+    moveCompatibility: existingCore.moveCompatibility as never[],
     encounters: existingCore.encounters as never[],
     itemLocations: existingCore.itemLocations as never[],
   });

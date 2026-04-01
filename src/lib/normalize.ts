@@ -3,7 +3,9 @@ import type {
   ItemEntry,
   ItemLocationEntry,
   LocationEntry,
+  MachineEntry,
   MoveEntry,
+  MoveCompatibilityEntry,
   PokemonEntry,
 } from "./types";
 
@@ -101,6 +103,31 @@ export function normalizeMoveEntry(entry: MoveEntry): MoveEntry {
     category: entry.category ? normalizeLabel(entry.category) : null,
     status: normalizeMoveStatus(entry.status),
     notes: entry.notes ? normalizeWhitespace(entry.notes) : null,
+  };
+}
+
+export function normalizeMachineEntry(entry: MachineEntry): MachineEntry {
+  return {
+    ...entry,
+    id: normalizeWhitespace(entry.id),
+    slug: entry.slug ? toSlug(entry.slug) : toSlug(entry.name),
+    name: normalizeWhitespace(entry.name),
+    code: normalizeWhitespace(entry.code).toUpperCase(),
+    kind: normalizeWhitespace(entry.kind).toLowerCase() as MachineEntry["kind"],
+    moveId: entry.moveId ? normalizeWhitespace(entry.moveId) : null,
+    location: entry.location ? normalizeWhitespace(entry.location) : null,
+  };
+}
+
+export function normalizeMoveCompatibilityEntry(
+  entry: MoveCompatibilityEntry,
+): MoveCompatibilityEntry {
+  return {
+    ...entry,
+    id: normalizeWhitespace(entry.id),
+    pokemonId: normalizeWhitespace(entry.pokemonId),
+    machineId: normalizeWhitespace(entry.machineId),
+    moveId: entry.moveId ? normalizeWhitespace(entry.moveId) : null,
   };
 }
 

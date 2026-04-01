@@ -5,7 +5,9 @@ import {
   normalizeItemEntry,
   normalizeItemLocationEntry,
   normalizeLocationEntry,
+  normalizeMachineEntry,
   normalizeMoveEntry,
+  normalizeMoveCompatibilityEntry,
   normalizePokemonEntry,
 } from "../src/lib/normalize";
 import type {
@@ -13,7 +15,9 @@ import type {
   ItemEntry,
   ItemLocationEntry,
   LocationEntry,
+  MachineEntry,
   MoveEntry,
+  MoveCompatibilityEntry,
   PokemonEntry,
 } from "../src/lib/types";
 import { validateCoreData } from "../src/lib/validate";
@@ -25,6 +29,8 @@ type ImportBundle = {
   locations: LocationEntry[];
   items: ItemEntry[];
   moves: MoveEntry[];
+  machines: MachineEntry[];
+  moveCompatibility: MoveCompatibilityEntry[];
   encounters: EncounterEntry[];
   itemLocations: ItemLocationEntry[];
 };
@@ -203,6 +209,39 @@ function mapItemLocationRecord(record: RawRecord, index: number): ItemLocationEn
   });
 }
 
+function mapMachineRecord(record: RawRecord, index: number): MachineEntry {
+  const valueOrNull = (value: unknown): string | null =>
+    typeof value === "string" && value.trim() ? value : null;
+
+  return normalizeMachineEntry({
+    id: requireString(record.id, `machines[${index}].id`),
+    slug: String(record.slug ?? record.name ?? record.code ?? ""),
+    name: requireString(record.name, `machines[${index}].name`),
+    code: requireString(record.code, `machines[${index}].code`),
+    kind: requireString(record.kind, `machines[${index}].kind`) as MachineEntry["kind"],
+    moveId: valueOrNull(record.moveId ?? record.move_id),
+    location: valueOrNull(record.location),
+  });
+}
+
+function mapMoveCompatibilityRecord(record: RawRecord, index: number): MoveCompatibilityEntry {
+  const valueOrNull = (value: unknown): string | null =>
+    typeof value === "string" && value.trim() ? value : null;
+
+  return normalizeMoveCompatibilityEntry({
+    id: requireString(record.id, `moveCompatibility[${index}].id`),
+    pokemonId: requireString(
+      record.pokemonId ?? record.pokemon_id,
+      `moveCompatibility[${index}].pokemonId`,
+    ),
+    machineId: requireString(
+      record.machineId ?? record.machine_id,
+      `moveCompatibility[${index}].machineId`,
+    ),
+    moveId: valueOrNull(record.moveId ?? record.move_id),
+  });
+}
+
 async function loadImportBundle(inputDir: string): Promise<ImportBundle> {
   const pokemon = readArray(
     await readJsonFile(resolveInputFile(inputDir, "pokemon.json")),
@@ -220,6 +259,14 @@ async function loadImportBundle(inputDir: string): Promise<ImportBundle> {
     await readJsonFile(resolveInputFile(inputDir, "moves.json")),
     "moves",
   ).map(mapMoveRecord);
+  const machines = readArray(
+    await readJsonFile(resolveInputFile(inputDir, "machines.json")),
+    "machines",
+  ).map(mapMachineRecord);
+  const moveCompatibility = readArray(
+    await readJsonFile(resolveInputFile(inputDir, "move-compatibility.json")),
+    "moveCompatibility",
+  ).map(mapMoveCompatibilityRecord);
   const encounters = readArray(
     await readJsonFile(resolveInputFile(inputDir, "encounters.json")),
     "encounters",
@@ -234,6 +281,8 @@ async function loadImportBundle(inputDir: string): Promise<ImportBundle> {
     locations,
     items,
     moves,
+    machines,
+    moveCompatibility,
     encounters,
     itemLocations,
   });
@@ -243,6 +292,8 @@ async function loadImportBundle(inputDir: string): Promise<ImportBundle> {
     locations,
     items,
     moves,
+    machines,
+    moveCompatibility,
     encounters,
     itemLocations,
   };
@@ -262,6 +313,8 @@ async function main(): Promise<void> {
   await writeJson(outputDir, "locations.json", bundle.locations);
   await writeJson(outputDir, "items.json", bundle.items);
   await writeJson(outputDir, "moves.json", bundle.moves);
+  await writeJson(outputDir, "machines.json", bundle.machines);
+  await writeJson(outputDir, "move-compatibility.json", bundle.moveCompatibility);
   await writeJson(outputDir, "encounters.json", bundle.encounters);
   await writeJson(outputDir, "item-locations.json", bundle.itemLocations);
 

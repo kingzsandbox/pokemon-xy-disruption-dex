@@ -1,4 +1,7 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
+import { getCompatibilityByPokemonId } from "@/lib/data/compatibility";
+import { getMoveById } from "@/lib/data/moves";
 import { getAllPokemon, getPokemonBySlug } from "@/lib/data/pokemon";
 
 export const dynamicParams = false;
@@ -20,6 +23,8 @@ export default async function PokemonDetailPage({ params }: PokemonDetailPagePro
   if (!pokemon) {
     notFound();
   }
+
+  const compatibility = getCompatibilityByPokemonId(pokemon.id);
 
   return (
     <main style={{ margin: "0 auto", maxWidth: "900px", padding: "40px 24px 64px" }}>
@@ -52,6 +57,28 @@ export default async function PokemonDetailPage({ params }: PokemonDetailPagePro
       <section style={{ marginTop: "24px" }}>
         <h2>Change Summary</h2>
         <p style={{ lineHeight: 1.6 }}>{pokemon.changeSummary}</p>
+      </section>
+
+      <section style={{ marginTop: "24px" }}>
+        <h2>TM / HM / MT Compatibility</h2>
+        {compatibility.length === 0 ? (
+          <p>No machine compatibility has been imported for this entry yet.</p>
+        ) : (
+          <ul>
+            {compatibility.map((entry) => (
+              <li key={entry.compatibilityId}>
+                <strong>{entry.machine.code}</strong> •{" "}
+                {(() => {
+                  const move = entry.machine.moveId ? getMoveById(entry.machine.moveId) : undefined;
+                  const moveLabel = entry.machine.name.split(" - ")[1];
+
+                  return move ? <Link href={`/moves/${move.slug}`}>{move.name}</Link> : moveLabel;
+                })()}
+                {entry.machine.location ? ` • ${entry.machine.location}` : ""}
+              </li>
+            ))}
+          </ul>
+        )}
       </section>
     </main>
   );

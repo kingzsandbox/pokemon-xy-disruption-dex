@@ -1,0 +1,1028 @@
+[
+  {
+    "id": "machine-tm01",
+    "slug": "tm01-crunch",
+    "name": "TM01 - Crunch",
+    "code": "TM01",
+    "kind": "tm",
+    "moveId": "move-crunch",
+    "location": "Route 5"
+  },
+  {
+    "id": "machine-tm51",
+    "slug": "tm51-heavy-slam",
+    "name": "TM51 - Heavy Slam",
+    "code": "TM51",
+    "kind": "tm",
+    "moveId": "move-heavy-slam",
+    "location": "Coumarine City"
+  },
+  {
+    "id": "machine-hm01",
+    "slug": "hm01-cut",
+    "name": "HM01 - Cut",
+    "code": "HM01",
+    "kind": "hm",
+    "moveId": "move-cut",
+    "location": "Parfum Palace"
+  },
+  {
+    "id": "machine-tm02",
+    "slug": "tm02-dragon-claw",
+    "name": "TM02 - Dragon Claw",
+    "code": "TM02",
+    "kind": "tm",
+    "moveId": "move-dragon-claw",
+    "location": "Victory Road"
+  },
+  {
+    "id": "machine-tm52",
+    "slug": "tm52-focus-blast",
+    "name": "TM52 - Focus Blast",
+    "code": "TM52",
+    "kind": "tm",
+    "moveId": "move-focus-blast",
+    "location": "Coumarine City"
+  },
+  {
+    "id": "machine-hm02",
+    "slug": "hm02-fly",
+    "name": "HM02 - Fly",
+    "code": "HM02",
+    "kind": "hm",
+    "moveId": "move-fly",
+    "location": "Coumarine City"
+  },
+  {
+    "id": "machine-tm03",
+    "slug": "tm03-psyshock",
+    "name": "TM03 - Psyshock",
+    "code": "TM03",
+    "kind": "tm",
+    "moveId": "move-psyshock",
+    "location": "Victory Road"
+  },
+  {
+    "id": "machine-tm53",
+    "slug": "tm53-energy-ball",
+    "name": "TM53 - Energy Ball",
+    "code": "TM53",
+    "kind": "tm",
+    "moveId": "move-energy-ball",
+    "location": "Route 20"
+  },
+  {
+    "id": "machine-hm03",
+    "slug": "hm03-surf",
+    "name": "HM03 - Surf",
+    "code": "HM03",
+    "kind": "hm",
+    "moveId": "move-surf",
+    "location": "Shalour City"
+  },
+  {
+    "id": "machine-tm04",
+    "slug": "tm04-calm-mind",
+    "name": "TM04 - Calm Mind",
+    "code": "TM04",
+    "kind": "tm",
+    "moveId": "move-calm-mind",
+    "location": "Anistar Gym"
+  },
+  {
+    "id": "machine-tm54",
+    "slug": "tm54-false-swipe",
+    "name": "TM54 - False Swipe",
+    "code": "TM54",
+    "kind": "tm",
+    "moveId": "move-false-swipe",
+    "location": "Lumiose City - Sycamore's Lab"
+  },
+  {
+    "id": "machine-hm04",
+    "slug": "hm04-strength",
+    "name": "HM04 - Strength",
+    "code": "HM04",
+    "kind": "hm",
+    "moveId": "move-strength",
+    "location": "Cyllage City"
+  },
+  {
+    "id": "machine-tm05",
+    "slug": "tm05-roar",
+    "name": "TM05 - Roar",
+    "code": "TM05",
+    "kind": "tm",
+    "moveId": "move-roar",
+    "location": "Lumiose City - South Boulevard"
+  },
+  {
+    "id": "machine-tm55",
+    "slug": "tm55-scald",
+    "name": "TM55 - Scald",
+    "code": "TM55",
+    "kind": "tm",
+    "moveId": "move-scald",
+    "location": "Couriway Town"
+  },
+  {
+    "id": "machine-hm05",
+    "slug": "hm05-waterfall",
+    "name": "HM05 - Waterfall",
+    "code": "HM05",
+    "kind": "hm",
+    "moveId": "move-waterfall",
+    "location": "Route 19"
+  },
+  {
+    "id": "machine-tm06",
+    "slug": "tm06-toxic",
+    "name": "TM06 - Toxic",
+    "code": "TM06",
+    "kind": "tm",
+    "moveId": "move-toxic",
+    "location": "Route 14"
+  },
+  {
+    "id": "machine-tm56",
+    "slug": "tm56-assurance",
+    "name": "TM56 - Assurance",
+    "code": "TM56",
+    "kind": "tm",
+    "moveId": "move-assurance",
+    "location": "Lost Hotel"
+  },
+  {
+    "id": "machine-tm07",
+    "slug": "tm07-icy-wind",
+    "name": "TM07 - Icy Wind",
+    "code": "TM07",
+    "kind": "tm",
+    "moveId": "move-icy-wind",
+    "location": "Lumiose City - South Boulevard"
+  },
+  {
+    "id": "machine-tm57",
+    "slug": "tm57-thunder-punch",
+    "name": "TM57 - Thunder Punch",
+    "code": "TM57",
+    "kind": "tm",
+    "moveId": "move-thunder-punch",
+    "location": "Route 13"
+  },
+  {
+    "id": "machine-mt01",
+    "slug": "mt01-grass-pledge",
+    "name": "MT01 - Grass Pledge",
+    "code": "MT01",
+    "kind": "mt",
+    "moveId": "move-grass-pledge",
+    "location": "Laverre City"
+  },
+  {
+    "id": "machine-tm08",
+    "slug": "tm08-bulk-up",
+    "name": "TM08 - Bulk Up",
+    "code": "TM08",
+    "kind": "tm",
+    "moveId": "move-bulk-up",
+    "location": "Snowbelle City"
+  },
+  {
+    "id": "machine-tm58",
+    "slug": "tm58-tailwind",
+    "name": "TM58 - Tailwind",
+    "code": "TM58",
+    "kind": "tm",
+    "moveId": "move-tailwind",
+    "location": "Coumarine City"
+  },
+  {
+    "id": "machine-mt02",
+    "slug": "mt02-fire-pledge",
+    "name": "MT02 - Fire Pledge",
+    "code": "MT02",
+    "kind": "mt",
+    "moveId": "move-fire-pledge",
+    "location": "Laverre City"
+  },
+  {
+    "id": "machine-tm09",
+    "slug": "tm09-cross-poison",
+    "name": "TM09 - Cross Poison",
+    "code": "TM09",
+    "kind": "tm",
+    "moveId": "move-cross-poison",
+    "location": "Route 6"
+  },
+  {
+    "id": "machine-tm59",
+    "slug": "tm59-incinerate",
+    "name": "TM59 - Incinerate",
+    "code": "TM59",
+    "kind": "tm",
+    "moveId": "move-incinerate",
+    "location": "Lumiose City - South Boulevard"
+  },
+  {
+    "id": "machine-mt03",
+    "slug": "mt03-water-pledge",
+    "name": "MT03 - Water Pledge",
+    "code": "MT03",
+    "kind": "mt",
+    "moveId": "move-water-pledge",
+    "location": "Laverre City"
+  },
+  {
+    "id": "machine-tm10",
+    "slug": "tm10-helping-hand",
+    "name": "TM10 - Helping Hand",
+    "code": "TM10",
+    "kind": "tm",
+    "moveId": "move-helping-hand",
+    "location": "Anistar City"
+  },
+  {
+    "id": "machine-tm60",
+    "slug": "tm60-knock-off",
+    "name": "TM60 - Knock Off",
+    "code": "TM60",
+    "kind": "tm",
+    "moveId": "move-knock-off",
+    "location": "Lumiose City - South Boulevard"
+  },
+  {
+    "id": "machine-mt04",
+    "slug": "mt04-frenzy-plant",
+    "name": "MT04 - Frenzy Plant",
+    "code": "MT04",
+    "kind": "mt",
+    "moveId": "move-frenzy-plant",
+    "location": "Snowbelle City"
+  },
+  {
+    "id": "machine-tm11",
+    "slug": "tm11-flare-blitz",
+    "name": "TM11 - Flare Blitz",
+    "code": "TM11",
+    "kind": "tm",
+    "moveId": "move-flare-blitz",
+    "location": "Lumiose City - North Boulevard"
+  },
+  {
+    "id": "machine-tm61",
+    "slug": "tm61-will-o-wisp",
+    "name": "TM61 - Will-O-Wisp",
+    "code": "TM61",
+    "kind": "tm",
+    "moveId": "move-will-o-wisp",
+    "location": "Route 14"
+  },
+  {
+    "id": "machine-mt05",
+    "slug": "mt05-blast-burn",
+    "name": "MT05 - Blast Burn",
+    "code": "MT05",
+    "kind": "mt",
+    "moveId": "move-blast-burn",
+    "location": "Snowbelle City"
+  },
+  {
+    "id": "machine-tm12",
+    "slug": "tm12-taunt",
+    "name": "TM12 - Taunt",
+    "code": "TM12",
+    "kind": "tm",
+    "moveId": "move-taunt",
+    "location": "Lysandre Labs"
+  },
+  {
+    "id": "machine-tm62",
+    "slug": "tm62-acrobatics",
+    "name": "TM62 - Acrobatics",
+    "code": "TM62",
+    "kind": "tm",
+    "moveId": "move-acrobatics",
+    "location": "Coumarine City"
+  },
+  {
+    "id": "machine-mt06",
+    "slug": "mt06-hydro-cannon",
+    "name": "MT06 - Hydro Cannon",
+    "code": "MT06",
+    "kind": "mt",
+    "moveId": "move-hydro-cannon",
+    "location": "Snowbelle City"
+  },
+  {
+    "id": "machine-tm13",
+    "slug": "tm13-ice-beam",
+    "name": "TM13 - Ice Beam",
+    "code": "TM13",
+    "kind": "tm",
+    "moveId": "move-ice-beam",
+    "location": "Snowbelle Gym"
+  },
+  {
+    "id": "machine-tm63",
+    "slug": "tm63-nasty-plot",
+    "name": "TM63 - Nasty Plot",
+    "code": "TM63",
+    "kind": "tm",
+    "moveId": "move-nasty-plot",
+    "location": "Coumarine City"
+  },
+  {
+    "id": "machine-mt07",
+    "slug": "mt07-secret-sword",
+    "name": "MT07 - Secret Sword",
+    "code": "MT07",
+    "kind": "mt",
+    "moveId": "move-secret-sword",
+    "location": "Snowbelle City"
+  },
+  {
+    "id": "machine-tm14",
+    "slug": "tm14-blizzard",
+    "name": "TM14 - Blizzard",
+    "code": "TM14",
+    "kind": "tm",
+    "moveId": "move-blizzard",
+    "location": "Anistar City"
+  },
+  {
+    "id": "machine-tm64",
+    "slug": "tm64-encore",
+    "name": "TM64 - Encore",
+    "code": "TM64",
+    "kind": "tm",
+    "moveId": "move-encore",
+    "location": "Lumiose City"
+  },
+  {
+    "id": "machine-mt08",
+    "slug": "mt08-relic-song",
+    "name": "MT08 - Relic Song",
+    "code": "MT08",
+    "kind": "mt",
+    "moveId": "move-relic-song",
+    "location": "Snowbelle City"
+  },
+  {
+    "id": "machine-tm15",
+    "slug": "tm15-hyper-beam",
+    "name": "TM15 - Hyper Beam",
+    "code": "TM15",
+    "kind": "tm",
+    "moveId": "move-hyper-beam",
+    "location": "Anistar City"
+  },
+  {
+    "id": "machine-tm65",
+    "slug": "tm65-shadow-claw",
+    "name": "TM65 - Shadow Claw",
+    "code": "TM65",
+    "kind": "tm",
+    "moveId": "move-shadow-claw",
+    "location": "Glittering Cave"
+  },
+  {
+    "id": "machine-mt09",
+    "slug": "mt09-draco-meteor",
+    "name": "MT09 - Draco Meteor",
+    "code": "MT09",
+    "kind": "mt",
+    "moveId": "move-draco-meteor",
+    "location": "Route 21"
+  },
+  {
+    "id": "machine-tm16",
+    "slug": "tm16-light-screen",
+    "name": "TM16 - Light Screen",
+    "code": "TM16",
+    "kind": "tm",
+    "moveId": "move-light-screen",
+    "location": "Coumarine City"
+  },
+  {
+    "id": "machine-tm66",
+    "slug": "tm66-foul-play",
+    "name": "TM66 - Foul Play",
+    "code": "TM66",
+    "kind": "tm",
+    "moveId": "move-foul-play",
+    "location": "Geosenge Town"
+  },
+  {
+    "id": "machine-tm17",
+    "slug": "tm17-protect",
+    "name": "TM17 - Protect",
+    "code": "TM17",
+    "kind": "tm",
+    "moveId": "move-protect",
+    "location": "Parfum Palace"
+  },
+  {
+    "id": "machine-tm67",
+    "slug": "tm67-metronome",
+    "name": "TM67 - Metronome",
+    "code": "TM67",
+    "kind": "tm",
+    "moveId": "move-metronome",
+    "location": "Lumiose City"
+  },
+  {
+    "id": "machine-tm18",
+    "slug": "tm18-aqua-tail",
+    "name": "TM18 - Aqua Tail",
+    "code": "TM18",
+    "kind": "tm",
+    "moveId": "move-aqua-tail",
+    "location": "Coumarine City"
+  },
+  {
+    "id": "machine-tm68",
+    "slug": "tm68-giga-impact",
+    "name": "TM68 - Giga Impact",
+    "code": "TM68",
+    "kind": "tm",
+    "moveId": "move-giga-impact",
+    "location": "Anistar City"
+  },
+  {
+    "id": "machine-tm19",
+    "slug": "tm19-roost",
+    "name": "TM19 - Roost",
+    "code": "TM19",
+    "kind": "tm",
+    "moveId": "move-roost",
+    "location": "Route 8"
+  },
+  {
+    "id": "machine-tm69",
+    "slug": "tm69-rock-polish",
+    "name": "TM69 - Rock Polish",
+    "code": "TM69",
+    "kind": "tm",
+    "moveId": "move-rock-polish",
+    "location": "Route 11"
+  },
+  {
+    "id": "machine-tm20",
+    "slug": "tm20-safeguard",
+    "name": "TM20 - Safeguard",
+    "code": "TM20",
+    "kind": "tm",
+    "moveId": "move-safeguard",
+    "location": "Lumiose City"
+  },
+  {
+    "id": "machine-tm70",
+    "slug": "tm70-heal-bell",
+    "name": "TM70 - Heal Bell",
+    "code": "TM70",
+    "kind": "tm",
+    "moveId": "move-heal-bell",
+    "location": "Reflection Cave"
+  },
+  {
+    "id": "machine-tm21",
+    "slug": "tm21-tri-attack",
+    "name": "TM21 - Tri Attack",
+    "code": "TM21",
+    "kind": "tm",
+    "moveId": "move-tri-attack",
+    "location": "Connecting Cave"
+  },
+  {
+    "id": "machine-tm71",
+    "slug": "tm71-stone-edge",
+    "name": "TM71 - Stone Edge",
+    "code": "TM71",
+    "kind": "tm",
+    "moveId": "move-stone-edge",
+    "location": "Frost Cavern"
+  },
+  {
+    "id": "machine-tm22",
+    "slug": "tm22-seed-bomb",
+    "name": "TM22 - Seed Bomb",
+    "code": "TM22",
+    "kind": "tm",
+    "moveId": "move-seed-bomb",
+    "location": "Route 21"
+  },
+  {
+    "id": "machine-tm72",
+    "slug": "tm72-volt-switch",
+    "name": "TM72 - Volt Switch",
+    "code": "TM72",
+    "kind": "tm",
+    "moveId": "move-volt-switch",
+    "location": "Cyllage City"
+  },
+  {
+    "id": "machine-tm23",
+    "slug": "tm23-stealth-rock",
+    "name": "TM23 - Stealth Rock",
+    "code": "TM23",
+    "kind": "tm",
+    "moveId": "move-stealth-rock",
+    "location": "Lumiose City - South Boulevard"
+  },
+  {
+    "id": "machine-tm73",
+    "slug": "tm73-thunder-wave",
+    "name": "TM73 - Thunder Wave",
+    "code": "TM73",
+    "kind": "tm",
+    "moveId": "move-thunder-wave",
+    "location": "Route 10"
+  },
+  {
+    "id": "machine-tm24",
+    "slug": "tm24-thunderbolt",
+    "name": "TM24 - Thunderbolt",
+    "code": "TM24",
+    "kind": "tm",
+    "moveId": "move-thunderbolt",
+    "location": "Lumiose Gym"
+  },
+  {
+    "id": "machine-tm74",
+    "slug": "tm74-iron-head",
+    "name": "TM74 - Iron Head",
+    "code": "TM74",
+    "kind": "tm",
+    "moveId": "move-iron-head",
+    "location": "Reflection Cave"
+  },
+  {
+    "id": "machine-tm25",
+    "slug": "tm25-thunder",
+    "name": "TM25 - Thunder",
+    "code": "TM25",
+    "kind": "tm",
+    "moveId": "move-thunder",
+    "location": "Anistar City"
+  },
+  {
+    "id": "machine-tm75",
+    "slug": "tm75-swords-dance",
+    "name": "TM75 - Swords Dance",
+    "code": "TM75",
+    "kind": "tm",
+    "moveId": "move-swords-dance",
+    "location": "Shalour City"
+  },
+  {
+    "id": "machine-tm26",
+    "slug": "tm26-earthquake",
+    "name": "TM26 - Earthquake",
+    "code": "TM26",
+    "kind": "tm",
+    "moveId": "move-earthquake",
+    "location": "Route 22"
+  },
+  {
+    "id": "machine-tm76",
+    "slug": "tm76-bug-buzz",
+    "name": "TM76 - Bug Buzz",
+    "code": "TM76",
+    "kind": "tm",
+    "moveId": "move-bug-buzz",
+    "location": "Shalour City"
+  },
+  {
+    "id": "machine-tm27",
+    "slug": "tm27-recycle",
+    "name": "TM27 - Recycle",
+    "code": "TM27",
+    "kind": "tm",
+    "moveId": "move-recycle",
+    "location": "Route 4"
+  },
+  {
+    "id": "machine-tm77",
+    "slug": "tm77-super-fang",
+    "name": "TM77 - Super Fang",
+    "code": "TM77",
+    "kind": "tm",
+    "moveId": "move-super-fang",
+    "location": "Anistar City - Pokémon Center (7PM)"
+  },
+  {
+    "id": "machine-tm28",
+    "slug": "tm28-earth-power",
+    "name": "TM28 - Earth Power",
+    "code": "TM28",
+    "kind": "tm",
+    "moveId": "move-earth-power",
+    "location": "Shalour City"
+  },
+  {
+    "id": "machine-tm78",
+    "slug": "tm78-bulldoze",
+    "name": "TM78 - Bulldoze",
+    "code": "TM78",
+    "kind": "tm",
+    "moveId": "move-bulldoze",
+    "location": "Cyllage City"
+  },
+  {
+    "id": "machine-tm29",
+    "slug": "tm29-psychic",
+    "name": "TM29 - Psychic",
+    "code": "TM29",
+    "kind": "tm",
+    "moveId": "move-psychic",
+    "location": "Pokémon Village"
+  },
+  {
+    "id": "machine-tm79",
+    "slug": "tm79-ice-punch",
+    "name": "TM79 - Ice Punch",
+    "code": "TM79",
+    "kind": "tm",
+    "moveId": "move-ice-punch",
+    "location": "Frost Cavern"
+  },
+  {
+    "id": "machine-tm30",
+    "slug": "tm30-shadow-ball",
+    "name": "TM30 - Shadow Ball",
+    "code": "TM30",
+    "kind": "tm",
+    "moveId": "move-shadow-ball",
+    "location": "Terminus Cave"
+  },
+  {
+    "id": "machine-tm80",
+    "slug": "tm80-rock-slide",
+    "name": "TM80 - Rock Slide",
+    "code": "TM80",
+    "kind": "tm",
+    "moveId": "move-rock-slide",
+    "location": "Couriway Town"
+  },
+  {
+    "id": "machine-tm31",
+    "slug": "tm31-superpower",
+    "name": "TM31 - Superpower",
+    "code": "TM31",
+    "kind": "tm",
+    "moveId": "move-superpower",
+    "location": "Terminus Cave"
+  },
+  {
+    "id": "machine-tm81",
+    "slug": "tm81-x-scissor",
+    "name": "TM81 - X-Scissor",
+    "code": "TM81",
+    "kind": "tm",
+    "moveId": "move-x-scissor",
+    "location": "Azure Bay"
+  },
+  {
+    "id": "machine-tm32",
+    "slug": "tm32-pain-split",
+    "name": "TM32 - Pain Split",
+    "code": "TM32",
+    "kind": "tm",
+    "moveId": "move-pain-split",
+    "location": "Anistar City - Pokémon Center (9 AM)"
+  },
+  {
+    "id": "machine-tm82",
+    "slug": "tm82-dragon-pulse",
+    "name": "TM82 - Dragon Pulse",
+    "code": "TM82",
+    "kind": "tm",
+    "moveId": "move-dragon-pulse",
+    "location": "Lumiose City Museum"
+  },
+  {
+    "id": "machine-tm33",
+    "slug": "tm33-reflect",
+    "name": "TM33 - Reflect",
+    "code": "TM33",
+    "kind": "tm",
+    "moveId": "move-reflect",
+    "location": "Coumarine City"
+  },
+  {
+    "id": "machine-tm83",
+    "slug": "tm83-leech-life",
+    "name": "TM83 - Leech Life",
+    "code": "TM83",
+    "kind": "tm",
+    "moveId": "move-leech-life",
+    "location": "Santalune Gym"
+  },
+  {
+    "id": "machine-tm34",
+    "slug": "tm34-sludge-wave",
+    "name": "TM34 - Sludge Wave",
+    "code": "TM34",
+    "kind": "tm",
+    "moveId": "move-sludge-wave",
+    "location": "Lumiose City - North Boulevard"
+  },
+  {
+    "id": "machine-tm84",
+    "slug": "tm84-poison-jab",
+    "name": "TM84 - Poison Jab",
+    "code": "TM84",
+    "kind": "tm",
+    "moveId": "move-poison-jab",
+    "location": "Shalour City"
+  },
+  {
+    "id": "machine-tm35",
+    "slug": "tm35-flamethrower",
+    "name": "TM35 - Flamethrower",
+    "code": "TM35",
+    "kind": "tm",
+    "moveId": "move-flamethrower",
+    "location": "Anistar City - Pokémon Center"
+  },
+  {
+    "id": "machine-tm85",
+    "slug": "tm85-zen-headbutt",
+    "name": "TM85 - Zen Headbutt",
+    "code": "TM85",
+    "kind": "tm",
+    "moveId": "move-zen-headbutt",
+    "location": "Coumarine City"
+  },
+  {
+    "id": "machine-tm36",
+    "slug": "tm36-sludge-bomb",
+    "name": "TM36 - Sludge Bomb",
+    "code": "TM36",
+    "kind": "tm",
+    "moveId": "move-sludge-bomb",
+    "location": "Route 19"
+  },
+  {
+    "id": "machine-tm86",
+    "slug": "tm86-grass-knot",
+    "name": "TM86 - Grass Knot",
+    "code": "TM86",
+    "kind": "tm",
+    "moveId": "move-grass-knot",
+    "location": "Coumarine Gym"
+  },
+  {
+    "id": "machine-tm37",
+    "slug": "tm37-power-gem",
+    "name": "TM37 - Power Gem",
+    "code": "TM37",
+    "kind": "tm",
+    "moveId": "move-power-gem",
+    "location": "Cyllage City"
+  },
+  {
+    "id": "machine-tm87",
+    "slug": "tm87-swagger",
+    "name": "TM87 - Swagger",
+    "code": "TM87",
+    "kind": "tm",
+    "moveId": "move-swagger",
+    "location": "Lumiose City"
+  },
+  {
+    "id": "machine-tm38",
+    "slug": "tm38-fire-blast",
+    "name": "TM38 - Fire Blast",
+    "code": "TM38",
+    "kind": "tm",
+    "moveId": "move-fire-blast",
+    "location": "Anistar City"
+  },
+  {
+    "id": "machine-tm88",
+    "slug": "tm88-sleep-talk",
+    "name": "TM88 - Sleep Talk",
+    "code": "TM88",
+    "kind": "tm",
+    "moveId": "move-sleep-talk",
+    "location": "Cyllage City"
+  },
+  {
+    "id": "machine-tm39",
+    "slug": "tm39-rock-tomb",
+    "name": "TM39 - Rock Tomb",
+    "code": "TM39",
+    "kind": "tm",
+    "moveId": "move-rock-tomb",
+    "location": "Cyllage Gym"
+  },
+  {
+    "id": "machine-tm89",
+    "slug": "tm89-u-turn",
+    "name": "TM89 - U-turn",
+    "code": "TM89",
+    "kind": "tm",
+    "moveId": "move-u-turn",
+    "location": "Couriway Town"
+  },
+  {
+    "id": "machine-tm40",
+    "slug": "tm40-brave-bird",
+    "name": "TM40 - Brave Bird",
+    "code": "TM40",
+    "kind": "tm",
+    "moveId": "move-brave-bird",
+    "location": "Connecting Cave"
+  },
+  {
+    "id": "machine-tm90",
+    "slug": "tm90-substitute",
+    "name": "TM90 - Substitute",
+    "code": "TM90",
+    "kind": "tm",
+    "moveId": "move-substitute",
+    "location": "Anistar City - Pokémon Center"
+  },
+  {
+    "id": "machine-tm41",
+    "slug": "tm41-sucker-punch",
+    "name": "TM41 - Sucker Punch",
+    "code": "TM41",
+    "kind": "tm",
+    "moveId": "move-sucker-punch",
+    "location": "Laverre City"
+  },
+  {
+    "id": "machine-tm91",
+    "slug": "tm91-flash-cannon",
+    "name": "TM91 - Flash Cannon",
+    "code": "TM91",
+    "kind": "tm",
+    "moveId": "move-flash-cannon",
+    "location": "Shalour City"
+  },
+  {
+    "id": "machine-tm42",
+    "slug": "tm42-facade",
+    "name": "TM42 - Facade",
+    "code": "TM42",
+    "kind": "tm",
+    "moveId": "move-facade",
+    "location": "Dendemille Town"
+  },
+  {
+    "id": "machine-tm92",
+    "slug": "tm92-trick-room",
+    "name": "TM92 - Trick Room",
+    "code": "TM92",
+    "kind": "tm",
+    "moveId": "move-trick-room",
+    "location": "Coumarine City"
+  },
+  {
+    "id": "machine-tm43",
+    "slug": "tm43-fire-punch",
+    "name": "TM43 - Fire Punch",
+    "code": "TM43",
+    "kind": "tm",
+    "moveId": "move-fire-punch",
+    "location": "Kalos Power Plant"
+  },
+  {
+    "id": "machine-tm93",
+    "slug": "tm93-wild-charge",
+    "name": "TM93 - Wild Charge",
+    "code": "TM93",
+    "kind": "tm",
+    "moveId": "move-wild-charge",
+    "location": "Lumiose City - North Boulevard"
+  },
+  {
+    "id": "machine-tm44",
+    "slug": "tm44-rest",
+    "name": "TM44 - Rest",
+    "code": "TM44",
+    "kind": "tm",
+    "moveId": "move-rest",
+    "location": "Cyllage City"
+  },
+  {
+    "id": "machine-tm94",
+    "slug": "tm94-drain-punch",
+    "name": "TM94 - Drain Punch",
+    "code": "TM94",
+    "kind": "tm",
+    "moveId": "move-drain-punch",
+    "location": "Ambrette Town"
+  },
+  {
+    "id": "machine-tm45",
+    "slug": "tm45-endure",
+    "name": "TM45 - Endure",
+    "code": "TM45",
+    "kind": "tm",
+    "moveId": "move-endure",
+    "location": "Route 12"
+  },
+  {
+    "id": "machine-tm95",
+    "slug": "tm95-snarl",
+    "name": "TM95 - Snarl",
+    "code": "TM95",
+    "kind": "tm",
+    "moveId": "move-snarl",
+    "location": "Lost Hotel"
+  },
+  {
+    "id": "machine-tm46",
+    "slug": "tm46-thief",
+    "name": "TM46 - Thief",
+    "code": "TM46",
+    "kind": "tm",
+    "moveId": "move-thief",
+    "location": "Camphrier Town"
+  },
+  {
+    "id": "machine-tm96",
+    "slug": "tm96-baton-pass",
+    "name": "TM96 - Baton Pass",
+    "code": "TM96",
+    "kind": "tm",
+    "moveId": "move-baton-pass",
+    "location": "Ambrette Town"
+  },
+  {
+    "id": "machine-tm47",
+    "slug": "tm47-close-combat",
+    "name": "TM47 - Close Combat",
+    "code": "TM47",
+    "kind": "tm",
+    "moveId": "move-close-combat",
+    "location": "Tower of Mastery"
+  },
+  {
+    "id": "machine-tm97",
+    "slug": "tm97-dark-pulse",
+    "name": "TM97 - Dark Pulse",
+    "code": "TM97",
+    "kind": "tm",
+    "moveId": "move-dark-pulse",
+    "location": "Route 16"
+  },
+  {
+    "id": "machine-tm48",
+    "slug": "tm48-body-slam",
+    "name": "TM48 - Body Slam",
+    "code": "TM48",
+    "kind": "tm",
+    "moveId": "move-body-slam",
+    "location": "Coumarine City"
+  },
+  {
+    "id": "machine-tm98",
+    "slug": "tm98-power-up-punch",
+    "name": "TM98 - Power-Up Punch",
+    "code": "TM98",
+    "kind": "tm",
+    "moveId": "move-power-up-punch",
+    "location": "Shalour Gym"
+  },
+  {
+    "id": "machine-tm49",
+    "slug": "tm49-hyper-voice",
+    "name": "TM49 - Hyper Voice",
+    "code": "TM49",
+    "kind": "tm",
+    "moveId": "move-hyper-voice",
+    "location": "Lumiose City - Hotel Richissime"
+  },
+  {
+    "id": "machine-tm99",
+    "slug": "tm99-dazzling-gleam",
+    "name": "TM99 - Dazzling Gleam",
+    "code": "TM99",
+    "kind": "tm",
+    "moveId": "move-dazzling-gleam",
+    "location": "Laverre Gym"
+  },
+  {
+    "id": "machine-tm50",
+    "slug": "tm50-overheat",
+    "name": "TM50 - Overheat",
+    "code": "TM50",
+    "kind": "tm",
+    "moveId": "move-overheat",
+    "location": "Coumarine City"
+  },
+  {
+    "id": "machine-tm100",
+    "slug": "tm100-confide",
+    "name": "TM100 - Confide",
+    "code": "TM100",
+    "kind": "tm",
+    "moveId": "move-confide",
+    "location": "Coumarine City"
+  }
+]

@@ -3,6 +3,7 @@ export type PokemonId = DexEntryId;
 export type LocationId = DexEntryId;
 export type ItemId = DexEntryId;
 export type MoveId = DexEntryId;
+export type MachineId = DexEntryId;
 
 export interface NamedEntry {
   id: DexEntryId;
@@ -49,6 +50,22 @@ export interface MoveEntry extends NamedEntry {
   notes: string | null;
 }
 
+export type MachineKind = "tm" | "hm" | "mt";
+
+export interface MachineEntry extends NamedEntry {
+  code: string;
+  kind: MachineKind;
+  moveId: MoveId | null;
+  location: string | null;
+}
+
+export interface MoveCompatibilityEntry {
+  id: DexEntryId;
+  pokemonId: PokemonId;
+  machineId: MachineId;
+  moveId: MoveId | null;
+}
+
 export interface EncounterEntry {
   id: DexEntryId;
   locationId: LocationId;
@@ -81,4 +98,14 @@ export interface LocatedItem {
   locationId: LocationId;
   notes: string;
   item: ItemEntry;
+}
+
+export interface PokemonMachineCompatibility {
+  compatibilityId: DexEntryId;
+  machine: MachineEntry;
+}
+
+export interface MoveMachineLink {
+  machine: MachineEntry;
+  compatiblePokemonIds: PokemonId[];
 }

@@ -598,6 +598,110 @@ def build_moves() -> list[dict]:
     return list(moves_by_slug.values())
 
 
+def normalize_compatibility_pokemon_name(value: str) -> str:
+    name = normalize_space(re.sub(r"^#\d+\s*", "", value).replace("\n", " "))
+    name = name.replace("♂", " Male").replace("♀", " Female")
+    return re.sub(r"\s+", " ", name).strip()
+
+
+def parse_machine_label(value: str) -> tuple[str, str, str] | None:
+    match = re.match(r"^(TM|HM|MT)\s*(\d+)\s*-\s*(.+)$", normalize_space(value))
+    if not match:
+        return None
+    prefix = match.group(1)
+    number = match.group(2).zfill(2)
+    move_name = normalize_space(match.group(3))
+    return f"{prefix}{number}", prefix.lower(), move_name
+
+
+def build_machines_and_compatibility(
+    pokemon: list[dict], moves: list[dict]
+) -> tuple[list[dict], list[dict]]:
+    move_lookup = {slugify(entry["name"]): entry["id"] for entry in moves}
+    pokemon_exact_lookup = {slugify(entry["name"]): entry["id"] for entry in pokemon}
+    pokemon_fallback_lookup = build_pokemon_lookup(pokemon)
+
+    machines: dict[str, dict] = {}
+
+    location_rows = read_xlsx_rows(SOURCE_DIR / "Learnsets & TM_HM_MT Compatibility (XY).xlsx", "sheet3.xml")
+    if location_rows:
+        for row in location_rows[1:]:
+            for code_column, location_column in [("A", "B"), ("C", "D"), ("F", "G")]:
+                machine_label = normalize_space(row.get(code_column, ""))
+                if not machine_label:
+                    continue
+                parsed = parse_machine_label(machine_label)
+                if not parsed:
+                    continue
+                code, kind, move_name = parsed
+                move_id = move_lookup.get(slugify(move_name))
+                location = normalize_space(row.get(location_column, "")) or None
+                machine_id = f"machine-{code.lower()}"
+                machines.setdefault(
+                    code,
+                    {
+                        "id": machine_id,
+                        "slug": slugify(f"{code} {move_name}"),
+                        "name": f"{code} - {move_name}",
+                        "code": code,
+                        "kind": kind,
+                        "moveId": move_id,
+                        "location": location,
+                    },
+                )
+
+    compatibility_rows = read_xlsx_rows(
+        SOURCE_DIR / "Learnsets & TM_HM_MT Compatibility (XY).xlsx", "sheet2.xml"
+    )
+    compatibility: list[dict] = []
+    if compatibility_rows:
+        header_row = compatibility_rows[0]
+        pokemon_columns = [
+            column
+            for column, value in header_row.items()
+            if re.fullmatch(r"[A-Z]+", column) and normalize_space(value)
+        ]
+
+        for column in pokemon_columns:
+            raw_header = normalize_compatibility_pokemon_name(header_row[column])
+            pokemon_id = pokemon_exact_lookup.get(slugify(raw_header)) or pokemon_fallback_lookup.get(
+                slugify(raw_header)
+            )
+            if not pokemon_id:
+                continue
+
+            for row in compatibility_rows[1:]:
+                machine_label = normalize_space(row.get(column, ""))
+                parsed = parse_machine_label(machine_label)
+                if not parsed:
+                    continue
+                code, kind, move_name = parsed
+                machine = machines.get(code)
+                if not machine:
+                    move_id = move_lookup.get(slugify(move_name))
+                    machine = {
+                        "id": f"machine-{code.lower()}",
+                        "slug": slugify(f"{code} {move_name}"),
+                        "name": f"{code} - {move_name}",
+                        "code": code,
+                        "kind": kind,
+                        "moveId": move_id,
+                        "location": None,
+                    }
+                    machines[code] = machine
+
+                compatibility.append(
+                    {
+                        "id": f"move-compatibility-{len(compatibility) + 1:05d}",
+                        "pokemonId": pokemon_id,
+                        "machineId": machine["id"],
+                        "moveId": machine["moveId"],
+                    }
+                )
+
+    return list(machines.values()), compatibility
+
+
 def build_item_locations(locations: list[dict], items: list[dict]) -> list[dict]:
     location_lookup = {entry["name"]: entry["id"] for entry in locations}
     item_lookup = {entry["slug"]: entry["id"] for entry in items}
@@ -692,6 +796,7 @@ def main() -> None:
     locations = build_locations()
     items = build_items()
     moves = build_moves()
+    machines, move_compatibility = build_machines_and_compatibility(pokemon, moves)
     encounters = build_encounters(pokemon, locations)
     item_locations = build_item_locations(locations, items)
 
@@ -699,6 +804,8 @@ def main() -> None:
     write_json(CORE_DIR / "locations.json", locations)
     write_json(CORE_DIR / "items.json", items)
     write_json(CORE_DIR / "moves.json", moves)
+    write_json(CORE_DIR / "machines.json", machines)
+    write_json(CORE_DIR / "move-compatibility.json", move_compatibility)
     write_json(CORE_DIR / "encounters.json", encounters)
     write_json(CORE_DIR / "item-locations.json", item_locations)
 
@@ -706,6 +813,8 @@ def main() -> None:
     print(f"Staged {len(locations)} locations")
     print(f"Staged {len(items)} items")
     print(f"Staged {len(moves)} moves")
+    print(f"Staged {len(machines)} machines")
+    print(f"Staged {len(move_compatibility)} move compatibility records")
     print(f"Staged {len(encounters)} encounters")
     print(f"Staged {len(item_locations)} item locations")
 

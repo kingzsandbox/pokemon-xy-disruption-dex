@@ -3,7 +3,9 @@ import type {
   ItemEntry,
   ItemLocationEntry,
   LocationEntry,
+  MachineEntry,
   MoveEntry,
+  MoveCompatibilityEntry,
   NamedEntry,
   PokemonEntry,
 } from "./types";
@@ -52,6 +54,8 @@ export function validateCoreData(input: {
   locations: LocationEntry[];
   items: ItemEntry[];
   moves: MoveEntry[];
+  machines: MachineEntry[];
+  moveCompatibility: MoveCompatibilityEntry[];
   encounters: EncounterEntry[];
   itemLocations: ItemLocationEntry[];
 }): void {
@@ -60,13 +64,17 @@ export function validateCoreData(input: {
     ...validateNamedEntries(input.locations, "locations"),
     ...validateNamedEntries(input.items, "items"),
     ...validateNamedEntries(input.moves, "moves"),
+    ...validateNamedEntries(input.machines, "machines"),
   ];
 
   const pokemonIds = new Set(input.pokemon.map((entry) => entry.id));
   const locationIds = new Set(input.locations.map((entry) => entry.id));
   const itemIds = new Set(input.items.map((entry) => entry.id));
+  const moveIds = new Set(input.moves.map((entry) => entry.id));
+  const machineIds = new Set(input.machines.map((entry) => entry.id));
   const seenEncounterIds = new Set<string>();
   const seenItemLocationIds = new Set<string>();
+  const seenMoveCompatibilityIds = new Set<string>();
 
   input.pokemon.forEach((entry, index) => {
     if (entry.types.length === 0) {
@@ -93,6 +101,18 @@ export function validateCoreData(input: {
   input.moves.forEach((entry, index) => {
     if (!["usable", "reduced", "removed"].includes(entry.status)) {
       errors.push(`moves[${index}].status must be usable, reduced, or removed.`);
+    }
+  });
+
+  input.machines.forEach((entry, index) => {
+    assertNonEmpty(entry.code, `machines[${index}].code`, errors);
+
+    if (!["tm", "hm", "mt"].includes(entry.kind)) {
+      errors.push(`machines[${index}].kind must be tm, hm, or mt.`);
+    }
+
+    if (entry.moveId && !moveIds.has(entry.moveId)) {
+      errors.push(`machines[${index}] references missing moveId ${quote(entry.moveId)}.`);
     }
   });
 
@@ -146,6 +166,34 @@ export function validateCoreData(input: {
       errors.push(
         `itemLocations[${index}] references missing locationId ${quote(entry.locationId)}.`,
       );
+    }
+  });
+
+  input.moveCompatibility.forEach((entry, index) => {
+    assertNonEmpty(entry.id, `moveCompatibility[${index}].id`, errors);
+    assertNonEmpty(entry.pokemonId, `moveCompatibility[${index}].pokemonId`, errors);
+    assertNonEmpty(entry.machineId, `moveCompatibility[${index}].machineId`, errors);
+
+    if (seenMoveCompatibilityIds.has(entry.id)) {
+      errors.push(`moveCompatibility contains duplicate id ${quote(entry.id)}.`);
+    }
+
+    seenMoveCompatibilityIds.add(entry.id);
+
+    if (!pokemonIds.has(entry.pokemonId)) {
+      errors.push(
+        `moveCompatibility[${index}] references missing pokemonId ${quote(entry.pokemonId)}.`,
+      );
+    }
+
+    if (!machineIds.has(entry.machineId)) {
+      errors.push(
+        `moveCompatibility[${index}] references missing machineId ${quote(entry.machineId)}.`,
+      );
+    }
+
+    if (entry.moveId && !moveIds.has(entry.moveId)) {
+      errors.push(`moveCompatibility[${index}] references missing moveId ${quote(entry.moveId)}.`);
     }
   });
 

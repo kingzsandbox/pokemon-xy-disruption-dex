@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
+import { getMachineLinksByMoveId } from "@/lib/data/compatibility";
 import { getMoveBySlug, getMoves } from "@/lib/data/moves";
+import { getPokemonById } from "@/lib/data/pokemon";
 
 export const dynamicParams = false;
 
@@ -24,6 +26,8 @@ export default async function MoveDetailPage({ params }: MoveDetailPageProps) {
   if (!move) {
     notFound();
   }
+
+  const machineLinks = getMachineLinksByMoveId(move.id);
 
   return (
     <main style={{ margin: "0 auto", maxWidth: "900px", padding: "40px 24px 64px" }}>
@@ -65,6 +69,33 @@ export default async function MoveDetailPage({ params }: MoveDetailPageProps) {
         <p style={{ lineHeight: 1.6 }}>
           {move.notes ?? "No move notes have been imported from the current source workbook."}
         </p>
+      </section>
+
+      <section style={{ marginTop: "24px" }}>
+        <h2>TM / HM / MT Linkage</h2>
+        {machineLinks.length === 0 ? (
+          <p>No TM/HM/MT linkage has been imported for this move.</p>
+        ) : (
+          <ul>
+            {machineLinks.map((link) => (
+              <li key={link.machine.id}>
+                <strong>{link.machine.code}</strong>
+                {link.machine.location ? ` • ${link.machine.location}` : ""}
+                {link.compatiblePokemonIds.length > 0
+                  ? ` • ${link.compatiblePokemonIds.length} compatible Pokémon`
+                  : ""}
+                {link.compatiblePokemonIds.length > 0 ? (
+                  <div style={{ color: "#586379", marginTop: "4px" }}>
+                    {link.compatiblePokemonIds
+                      .slice(0, 6)
+                      .map((pokemonId) => getPokemonById(pokemonId)?.name ?? pokemonId)
+                      .join(", ")}
+                  </div>
+                ) : null}
+              </li>
+            ))}
+          </ul>
+        )}
       </section>
     </main>
   );
