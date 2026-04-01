@@ -1,10 +1,26 @@
+import Link from "next/link";
+
 const quickLinks = [
-  "Pokémon",
-  "Locations",
-  "Items",
-  "Moves",
-  "Trainers",
-  "Rules",
+  {
+    label: "Pokémon",
+    href: "/pokemon",
+    description: "Browse the current sample Pokédex entries and open detail pages.",
+  },
+  {
+    label: "Locations",
+    href: "/locations",
+    description: "See sample routes, encounter tables, and pickup locations.",
+  },
+  {
+    label: "Items",
+    href: "/items",
+    description: "Open the starter item index with simple detail pages.",
+  },
+  {
+    label: "Search",
+    href: "/search",
+    description: "Search across Pokémon, locations, and items by name.",
+  },
 ];
 
 export default function HomePage() {
@@ -62,9 +78,10 @@ export default function HomePage() {
         >
           Search the dex
         </label>
-        <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+        <form action="/search" style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
           <input
             id="search"
+            name="q"
             type="search"
             placeholder="Search Pokemon, locations, items..."
             style={{
@@ -76,7 +93,7 @@ export default function HomePage() {
             }}
           />
           <button
-            type="button"
+            type="submit"
             style={{
               padding: "14px 20px",
               border: 0,
@@ -89,7 +106,7 @@ export default function HomePage() {
           >
             Search
           </button>
-        </div>
+        </form>
       </section>
 
       <section>
@@ -101,10 +118,12 @@ export default function HomePage() {
             gap: "16px",
           }}
         >
-          {quickLinks.map((label) => (
-            <article
-              key={label}
+          {quickLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
               style={{
+                display: "block",
                 padding: "18px",
                 border: "1px solid #d7dcea",
                 borderRadius: "16px",
@@ -112,11 +131,11 @@ export default function HomePage() {
                 boxShadow: "0 8px 24px rgba(23, 32, 51, 0.05)",
               }}
             >
-              <h3 style={{ margin: "0 0 8px", fontSize: "1.05rem" }}>{label}</h3>
+              <h3 style={{ margin: "0 0 8px", fontSize: "1.05rem" }}>{link.label}</h3>
               <p style={{ margin: 0, color: "#586379", lineHeight: 1.5 }}>
-                Placeholder entry point for the {label.toLowerCase()} section.
+                {link.description}
               </p>
-            </article>
+            </Link>
           ))}
         </div>
       </section>

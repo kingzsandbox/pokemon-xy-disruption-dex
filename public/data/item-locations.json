@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "item-loc-001",
+    "itemId": "item-001",
+    "locationId": "loc-001",
+    "notes": "Visible pickup near the forest entrance."
+  },
+  {
+    "id": "item-loc-002",
+    "itemId": "item-002",
+    "locationId": "loc-002",
+    "notes": "Found beside the central flower field."
+  }
+]

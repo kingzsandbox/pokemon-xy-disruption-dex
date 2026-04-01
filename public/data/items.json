@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "item-001",
+    "slug": "potion",
+    "name": "Potion",
+    "category": "Medicine",
+    "description": "Restores a small amount of HP and serves as a simple sample pickup."
+  },
+  {
+    "id": "item-002",
+    "slug": "paralyze-heal",
+    "name": "Paralyze Heal",
+    "category": "Status Recovery",
+    "description": "Cures paralysis and gives the item pages a second linked example."
+  }
+]

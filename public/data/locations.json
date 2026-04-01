@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "loc-001",
+    "slug": "santalune-forest",
+    "name": "Santalune Forest",
+    "region": "Kalos",
+    "description": "Early forest route with basic bug and electric encounter samples."
+  },
+  {
+    "id": "loc-002",
+    "slug": "route-7",
+    "name": "Route 7",
+    "region": "Kalos",
+    "description": "Central Kalos route used here for a second location page sample."
+  }
+]

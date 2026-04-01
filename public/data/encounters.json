@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "enc-001",
+    "locationId": "loc-001",
+    "pokemonId": "pkm-010",
+    "method": "Walking",
+    "level": 5,
+    "rate": 20
+  },
+  {
+    "id": "enc-002",
+    "locationId": "loc-002",
+    "pokemonId": "pkm-004",
+    "method": "Surfing",
+    "level": 15,
+    "rate": 10
+  },
+  {
+    "id": "enc-003",
+    "locationId": "loc-002",
+    "pokemonId": "pkm-001",
+    "method": "Walking",
+    "level": 14,
+    "rate": 15
+  }
+]

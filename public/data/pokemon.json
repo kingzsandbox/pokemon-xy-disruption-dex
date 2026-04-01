@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "id": "pkm-001",
+    "slug": "chespin",
+    "name": "Chespin",
+    "dexNumber": 650,
+    "types": ["Grass"],
+    "stats": {
+      "hp": 56,
+      "attack": 61,
+      "defense": 65,
+      "specialAttack": 48,
+      "specialDefense": 45,
+      "speed": 38
+    },
+    "abilities": ["Overgrow"],
+    "changeSummary": "Bulky early-game Grass starter with steady physical pressure."
+  },
+  {
+    "id": "pkm-004",
+    "slug": "froakie",
+    "name": "Froakie",
+    "dexNumber": 656,
+    "types": ["Water"],
+    "stats": {
+      "hp": 41,
+      "attack": 56,
+      "defense": 40,
+      "specialAttack": 62,
+      "specialDefense": 44,
+      "speed": 71
+    },
+    "abilities": ["Torrent"],
+    "changeSummary": "Fast starter option with flexible mixed offense and clean utility."
+  },
+  {
+    "id": "pkm-010",
+    "slug": "pikachu",
+    "name": "Pikachu",
+    "dexNumber": 25,
+    "types": ["Electric"],
+    "stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 90
+    },
+    "abilities": ["Static"],
+    "changeSummary": "Classic speedy attacker used here as a simple encounter sample."
+  }
+]
