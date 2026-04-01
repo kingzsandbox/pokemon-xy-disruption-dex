@@ -226,5 +226,839 @@
     "itemId": "item-relic-band",
     "locationId": "location-pokemon-village",
     "notes": "Trash Can - Thurdays; Sometimes chance"
+  },
+  {
+    "id": "item-location-039",
+    "itemId": "item-repeat-ball",
+    "locationId": "location-anistar-city",
+    "notes": "Gift as you enter city"
+  },
+  {
+    "id": "item-location-040",
+    "itemId": "item-sun-stone",
+    "locationId": "location-anistar-city",
+    "notes": "East of Sundial; hidden item"
+  },
+  {
+    "id": "item-location-041",
+    "itemId": "item-dive-ball",
+    "locationId": "location-azure-bay",
+    "notes": "Small Island in the west"
+  },
+  {
+    "id": "item-location-042",
+    "itemId": "item-heart-scale",
+    "locationId": "location-azure-bay",
+    "notes": "Small Island in the west; hidden item"
+  },
+  {
+    "id": "item-location-043",
+    "itemId": "item-deep-sea-scale",
+    "locationId": "location-azure-bay",
+    "notes": "In grass in southern island"
+  },
+  {
+    "id": "item-location-044",
+    "itemId": "item-poke-ball",
+    "locationId": "location-couriway-town",
+    "notes": "Between benches in train station; hidden item"
+  },
+  {
+    "id": "item-location-045",
+    "itemId": "item-max-potion",
+    "locationId": "location-couriway-town",
+    "notes": "Near waterfall"
+  },
+  {
+    "id": "item-location-046",
+    "itemId": "item-gyaradosite",
+    "locationId": "location-couriway-town",
+    "notes": "Up the stairs in the south-east of town"
+  },
+  {
+    "id": "item-location-047",
+    "itemId": "item-prism-scale",
+    "locationId": "location-couriway-town",
+    "notes": "Near waterfall in south east of town; hidden item"
+  },
+  {
+    "id": "item-location-048",
+    "itemId": "item-heart-scale",
+    "locationId": "location-frost-cavern-outside",
+    "notes": "Below Waterfall - Requires Surf & Waterfall"
+  },
+  {
+    "id": "item-location-049",
+    "itemId": "item-hyper-potion",
+    "locationId": "location-frost-cavern-1f",
+    "notes": "South of Ace Trainer who heals you"
+  },
+  {
+    "id": "item-location-050",
+    "itemId": "item-dusk-ball",
+    "locationId": "location-frost-cavern-1f",
+    "notes": "West of Ace Trainer; hidden item"
+  },
+  {
+    "id": "item-location-051",
+    "itemId": "item-dire-hit",
+    "locationId": "location-frost-cavern-2f",
+    "notes": "In a rock in left entrance"
+  },
+  {
+    "id": "item-location-052",
+    "itemId": "item-super-potion",
+    "locationId": "location-frost-cavern-2f",
+    "notes": "In rock between stairs; hidden item"
+  },
+  {
+    "id": "item-location-053",
+    "itemId": "item-zinc",
+    "locationId": "location-frost-cavern-3f",
+    "notes": "Right side beyond Battle Girl Gabrielle"
+  },
+  {
+    "id": "item-location-054",
+    "itemId": "item-scizorite",
+    "locationId": "location-frost-cavern-3f",
+    "notes": "Behind Abomasnow"
+  },
+  {
+    "id": "item-location-055",
+    "itemId": "item-pp-up",
+    "locationId": "location-frost-cavern-3f",
+    "notes": "South east of Abomasnow; hidden item"
+  },
+  {
+    "id": "item-location-056",
+    "itemId": "item-elixir",
+    "locationId": "location-frost-cavern-3f",
+    "notes": "In rock next to Battle Girl; hidden item"
+  },
+  {
+    "id": "item-location-057",
+    "itemId": "item-smoke-ball",
+    "locationId": "location-lost-hotel",
+    "notes": "South of Punk Girl Jeanne"
+  },
+  {
+    "id": "item-location-058",
+    "itemId": "item-full-restore",
+    "locationId": "location-pokemon-village",
+    "notes": "Next to top left bin"
+  },
+  {
+    "id": "item-location-059",
+    "itemId": "item-max-ether",
+    "locationId": "location-pokemon-village",
+    "notes": "Bottom right"
+  },
+  {
+    "id": "item-location-060",
+    "itemId": "item-honey",
+    "locationId": "location-pokemon-village",
+    "notes": "In the empty hut; hidden item"
+  },
+  {
+    "id": "item-location-061",
+    "itemId": "item-shiny-stone",
+    "locationId": "location-route-12",
+    "notes": "To east of ranch - Requires riding Skiddo"
+  },
+  {
+    "id": "item-location-062",
+    "itemId": "item-water-stone",
+    "locationId": "location-route-12",
+    "notes": "After a large portion of water north of Fisherman Murray - Requires Surf"
+  },
+  {
+    "id": "item-location-063",
+    "itemId": "item-honey",
+    "locationId": "location-route-12",
+    "notes": "In grass north of western exit; hidden item"
+  },
+  {
+    "id": "item-location-064",
+    "itemId": "item-net-ball",
+    "locationId": "location-route-12",
+    "notes": "South of the river in a rock; hidden item"
+  },
+  {
+    "id": "item-location-065",
+    "itemId": "item-pp-up",
+    "locationId": "location-route-13",
+    "notes": "To the west of the gate after some Roller Skate rails"
+  },
+  {
+    "id": "item-location-066",
+    "itemId": "item-hyper-potion",
+    "locationId": "location-route-13",
+    "notes": "West of the route - Requires Rock Smash"
+  },
+  {
+    "id": "item-location-067",
+    "itemId": "item-sun-stone",
+    "locationId": "location-route-13",
+    "notes": "In the desert in front of the power plant"
+  },
+  {
+    "id": "item-location-068",
+    "itemId": "item-nest-ball",
+    "locationId": "location-route-13",
+    "notes": "In desert near entrance; hidden item"
+  },
+  {
+    "id": "item-location-069",
+    "itemId": "item-guard-spec",
+    "locationId": "location-route-13",
+    "notes": "In desert near eastern Power Plants; hidden item"
+  },
+  {
+    "id": "item-location-070",
+    "itemId": "item-thunder-stone",
+    "locationId": "location-route-13",
+    "notes": "In desert to north west - Requires Roller Skates & Rock Smash"
+  },
+  {
+    "id": "item-location-071",
+    "itemId": "item-fire-stone",
+    "locationId": "location-route-13",
+    "notes": "hidden item"
+  },
+  {
+    "id": "item-location-072",
+    "itemId": "item-cleanse-tag",
+    "locationId": "location-route-14",
+    "notes": "To the east of the swamp"
+  },
+  {
+    "id": "item-location-073",
+    "itemId": "item-big-mushroom",
+    "locationId": "location-route-14",
+    "notes": "To the west of the swamp"
+  },
+  {
+    "id": "item-location-074",
+    "itemId": "item-hyper-potion",
+    "locationId": "location-route-14",
+    "notes": "Inside the northern swamp"
+  },
+  {
+    "id": "item-location-075",
+    "itemId": "item-roseli-berry",
+    "locationId": "location-route-14",
+    "notes": "Roseli Berry tree"
+  },
+  {
+    "id": "item-location-076",
+    "itemId": "item-super-potion",
+    "locationId": "location-route-14",
+    "notes": "In middle of sandpit west of Lumiose exit; hidden item"
+  },
+  {
+    "id": "item-location-077",
+    "itemId": "item-tiny-mushroom",
+    "locationId": "location-route-14",
+    "notes": "In the south to the east of the exit - Requires Rock Smash"
+  },
+  {
+    "id": "item-location-078",
+    "itemId": "item-revive",
+    "locationId": "location-route-14",
+    "notes": "In grave south of spooky house; hidden item"
+  },
+  {
+    "id": "item-location-079",
+    "itemId": "item-spell-tag",
+    "locationId": "location-route-14",
+    "notes": "South of spooky house"
+  },
+  {
+    "id": "item-location-080",
+    "itemId": "item-revive",
+    "locationId": "location-route-15",
+    "notes": "In leafpile south of western exit"
+  },
+  {
+    "id": "item-location-081",
+    "itemId": "item-net-ball",
+    "locationId": "location-route-15",
+    "notes": "In leaf pile north of Hex Maniac Luna"
+  },
+  {
+    "id": "item-location-082",
+    "itemId": "item-full-heal",
+    "locationId": "location-route-15",
+    "notes": "Follow the river south of Mysterious Sisters Rune & Rime - Requires Surf"
+  },
+  {
+    "id": "item-location-083",
+    "itemId": "item-protein",
+    "locationId": "location-route-15",
+    "notes": "Behind wall behind Mysterious Sisters - Requires Rock Smash"
+  },
+  {
+    "id": "item-location-084",
+    "itemId": "item-pp-up",
+    "locationId": "location-route-15",
+    "notes": "In a pile of leaves at the end of the river - Requires Surf"
+  },
+  {
+    "id": "item-location-085",
+    "itemId": "item-dire-hit",
+    "locationId": "location-route-15",
+    "notes": "West of bridge in pile of leaves"
+  },
+  {
+    "id": "item-location-086",
+    "itemId": "item-tiny-mushroom",
+    "locationId": "location-route-15",
+    "notes": "Underneath leaves south east of berry tree - Requires Surf; hidden item"
+  },
+  {
+    "id": "item-location-087",
+    "itemId": "item-hp-up",
+    "locationId": "location-route-15",
+    "notes": "On rock up waterfall; hidden item - Requires Rock Smash, Surf & Waterfall"
+  },
+  {
+    "id": "item-location-088",
+    "itemId": "item-lum-berry",
+    "locationId": "location-route-16",
+    "notes": "Lum Berry tree"
+  },
+  {
+    "id": "item-location-089",
+    "itemId": "item-max-potion",
+    "locationId": "location-route-16",
+    "notes": "South east of Hex Maniac Osanna."
+  },
+  {
+    "id": "item-location-090",
+    "itemId": "item-dive-ball",
+    "locationId": "location-route-16",
+    "notes": "Beat fishing maniac's record"
+  },
+  {
+    "id": "item-location-091",
+    "itemId": "item-manectite",
+    "locationId": "location-route-16",
+    "notes": "Where the skaters are to the southeast - X"
+  },
+  {
+    "id": "item-location-092",
+    "itemId": "item-houndoominite",
+    "locationId": "location-route-16",
+    "notes": "Where the skaters are to the southeast - Y"
+  },
+  {
+    "id": "item-location-093",
+    "itemId": "item-max-revive",
+    "locationId": "location-route-16",
+    "notes": "Above Lost Hotel entrance; hidden item"
+  },
+  {
+    "id": "item-location-094",
+    "itemId": "item-big-mushroom",
+    "locationId": "location-route-16",
+    "notes": "In leaf pile east of stairs; hidden item"
+  },
+  {
+    "id": "item-location-095",
+    "itemId": "item-timer-ball",
+    "locationId": "location-route-17",
+    "notes": "North east of route. - Requires Mamoswine to destroy blocks"
+  },
+  {
+    "id": "item-location-096",
+    "itemId": "item-calcium",
+    "locationId": "location-route-17",
+    "notes": "South west of route in maze"
+  },
+  {
+    "id": "item-location-097",
+    "itemId": "item-hyper-potion",
+    "locationId": "location-route-18",
+    "notes": "South of Youngster Jayden"
+  },
+  {
+    "id": "item-location-098",
+    "itemId": "item-wacan-berry",
+    "locationId": "location-route-18",
+    "notes": "Wacan Berry Tree - Requires Cut"
+  },
+  {
+    "id": "item-location-099",
+    "itemId": "item-pp-up",
+    "locationId": "location-route-18",
+    "notes": "East of Wacan Berry Tree - Requires Cut"
+  },
+  {
+    "id": "item-location-100",
+    "itemId": "item-max-ether",
+    "locationId": "location-route-18",
+    "notes": "Outside Terminus Cave second floor entrance"
+  },
+  {
+    "id": "item-location-101",
+    "itemId": "item-poke-ball",
+    "locationId": "location-route-18",
+    "notes": "In bush by route sign; hidden item"
+  },
+  {
+    "id": "item-location-102",
+    "itemId": "item-honey",
+    "locationId": "location-route-18",
+    "notes": "In corner of red flower bed"
+  },
+  {
+    "id": "item-location-103",
+    "itemId": "item-sun-stone",
+    "locationId": "location-route-18",
+    "notes": "Defeat Psychic Inver"
+  },
+  {
+    "id": "item-location-104",
+    "itemId": "item-moon-stone",
+    "locationId": "location-route-18",
+    "notes": "Defeat Psychic Inver"
+  },
+  {
+    "id": "item-location-105",
+    "itemId": "item-fire-stone",
+    "locationId": "location-route-18",
+    "notes": "Defeat Psychic Inver"
+  },
+  {
+    "id": "item-location-106",
+    "itemId": "item-thunder-stone",
+    "locationId": "location-route-18",
+    "notes": "Defeat Psychic Inver"
+  },
+  {
+    "id": "item-location-107",
+    "itemId": "item-water-stone",
+    "locationId": "location-route-18",
+    "notes": "Defeat Psychic Inver"
+  },
+  {
+    "id": "item-location-108",
+    "itemId": "item-leaf-stone",
+    "locationId": "location-route-18",
+    "notes": "Defeat Psychic Inver"
+  },
+  {
+    "id": "item-location-109",
+    "itemId": "item-shiny-stone",
+    "locationId": "location-route-18",
+    "notes": "Defeat Psychic Inver"
+  },
+  {
+    "id": "item-location-110",
+    "itemId": "item-dusk-stone",
+    "locationId": "location-route-18",
+    "notes": "Defeat Psychic Inver"
+  },
+  {
+    "id": "item-location-111",
+    "itemId": "item-dawn-stone",
+    "locationId": "location-route-18",
+    "notes": "Defeat Psychic Inver"
+  },
+  {
+    "id": "item-location-112",
+    "itemId": "item-max-revive",
+    "locationId": "location-route-19",
+    "notes": "South of Hex Maniac Josette"
+  },
+  {
+    "id": "item-location-113",
+    "itemId": "item-pp-up",
+    "locationId": "location-route-19",
+    "notes": "South of the yellow flower bed"
+  },
+  {
+    "id": "item-location-114",
+    "itemId": "item-yache-berry",
+    "locationId": "location-route-19",
+    "notes": "Yache Berry tree"
+  },
+  {
+    "id": "item-location-115",
+    "itemId": "item-hp-up",
+    "locationId": "location-route-19",
+    "notes": "In Purple Flower patch"
+  },
+  {
+    "id": "item-location-116",
+    "itemId": "item-net-ball",
+    "locationId": "location-route-19",
+    "notes": "In rock next to Hex Maniac south of gate; hidden item"
+  },
+  {
+    "id": "item-location-117",
+    "itemId": "item-timer-ball",
+    "locationId": "location-route-19",
+    "notes": "In corner of purple flower bed directly west of bridge; hidden item"
+  },
+  {
+    "id": "item-location-118",
+    "itemId": "item-protein",
+    "locationId": "location-route-20",
+    "notes": "In the red flowers by PokéFan Corey"
+  },
+  {
+    "id": "item-location-119",
+    "itemId": "item-kasib-berry",
+    "locationId": "location-route-20",
+    "notes": "Berry tree"
+  },
+  {
+    "id": "item-location-120",
+    "itemId": "item-repeat-ball",
+    "locationId": "location-route-20",
+    "notes": "In treestump southwest of red flower field - Requires Cut"
+  },
+  {
+    "id": "item-location-121",
+    "itemId": "item-mental-herb",
+    "locationId": "location-route-20",
+    "notes": "Inside a tree"
+  },
+  {
+    "id": "item-location-122",
+    "itemId": "item-balm-mushroom",
+    "locationId": "location-route-20",
+    "notes": "Above stone staircase"
+  },
+  {
+    "id": "item-location-123",
+    "itemId": "item-tiny-mushroom",
+    "locationId": "location-route-20",
+    "notes": "Near exit"
+  },
+  {
+    "id": "item-location-124",
+    "itemId": "item-guard-spec",
+    "locationId": "location-route-21",
+    "notes": "In red flower patch north west of easten exit; hidden item"
+  },
+  {
+    "id": "item-location-125",
+    "itemId": "item-elixir",
+    "locationId": "location-route-21",
+    "notes": "Behind Ace Trainer south of western exit - Requires Strength & Cut"
+  },
+  {
+    "id": "item-location-126",
+    "itemId": "item-pp-up",
+    "locationId": "location-route-21",
+    "notes": "In rock near Ace Trainer sout of western exit - Requires Strength & Cut"
+  },
+  {
+    "id": "item-location-127",
+    "itemId": "item-repeat-ball",
+    "locationId": "location-route-21",
+    "notes": "Across the pond west of Move Tutor's House - Requires Strength & Surf"
+  },
+  {
+    "id": "item-location-128",
+    "itemId": "item-tanga-berry",
+    "locationId": "location-route-22",
+    "notes": "Tanga Berry tree"
+  },
+  {
+    "id": "item-location-129",
+    "itemId": "item-elixir",
+    "locationId": "location-route-22",
+    "notes": "North of western exit - Requires Cut"
+  },
+  {
+    "id": "item-location-130",
+    "itemId": "item-full-restore",
+    "locationId": "location-route-22",
+    "notes": "In rock south of waterfall - Requires Surf & Waterfall; hidden item"
+  },
+  {
+    "id": "item-location-131",
+    "itemId": "item-max-elixir",
+    "locationId": "location-route-22",
+    "notes": "In rock southeast of waterfall - Requires Surf, Waterfall & Strength; hidden item"
+  },
+  {
+    "id": "item-location-132",
+    "itemId": "item-super-potion",
+    "locationId": "location-route-3",
+    "notes": "Beneath ledge south of Santalune City"
+  },
+  {
+    "id": "item-location-133",
+    "itemId": "item-dawn-stone",
+    "locationId": "location-route-3",
+    "notes": "Across the pond - Requires Surf"
+  },
+  {
+    "id": "item-location-134",
+    "itemId": "item-revive",
+    "locationId": "location-route-3",
+    "notes": "By north exit - Requires Cut"
+  },
+  {
+    "id": "item-location-135",
+    "itemId": "item-leaf-stone",
+    "locationId": "location-route-8",
+    "notes": "To the south east, beyond hopping pillars"
+  },
+  {
+    "id": "item-location-136",
+    "itemId": "item-hp-up",
+    "locationId": "location-route-8",
+    "notes": "Around Connecting Cave entrance amongst ledges"
+  },
+  {
+    "id": "item-location-137",
+    "itemId": "item-water-stone",
+    "locationId": "location-route-8",
+    "notes": "On cliff south of Connecting Cave. - Requires Strength"
+  },
+  {
+    "id": "item-location-138",
+    "itemId": "item-super-potion",
+    "locationId": "location-route-8",
+    "notes": "In rock next to Connecting Cave entrance; hidden item"
+  },
+  {
+    "id": "item-location-139",
+    "itemId": "item-heart-scale",
+    "locationId": "location-route-8",
+    "notes": "On cliffside, follow path behind Ambrette Pokémon Centre"
+  },
+  {
+    "id": "item-location-140",
+    "itemId": "item-ultra-ball",
+    "locationId": "location-route-8",
+    "notes": "In rock on beach; hidden item"
+  },
+  {
+    "id": "item-location-141",
+    "itemId": "item-moon-stone",
+    "locationId": "location-terminus-cave-1f",
+    "notes": "Absolute top, north west of stairs to basement. - Requires Rock Smash"
+  },
+  {
+    "id": "item-location-142",
+    "itemId": "item-dusk-ball",
+    "locationId": "location-terminus-cave-1f",
+    "notes": "In the south east by the ramp to the bridge; hidden item"
+  },
+  {
+    "id": "item-location-143",
+    "itemId": "item-hyper-potion",
+    "locationId": "location-terminus-cave-1f",
+    "notes": "West of bridge; hidden item"
+  },
+  {
+    "id": "item-location-144",
+    "itemId": "item-revive",
+    "locationId": "location-terminus-cave-1f",
+    "notes": "Rock Smash"
+  },
+  {
+    "id": "item-location-145",
+    "itemId": "item-iron",
+    "locationId": "location-terminus-cave-b1f",
+    "notes": "West of Battle Girl - Requires Rock Smash"
+  },
+  {
+    "id": "item-location-146",
+    "itemId": "item-dire-hit",
+    "locationId": "location-terminus-cave-b1f",
+    "notes": "Behind Ranger couple; hidden item"
+  },
+  {
+    "id": "item-location-147",
+    "itemId": "item-max-potion",
+    "locationId": "location-terminus-cave-b1f",
+    "notes": "South east of mine cart; hidden item"
+  },
+  {
+    "id": "item-location-148",
+    "itemId": "item-full-heal",
+    "locationId": "location-terminus-cave-b2f",
+    "notes": "Around the top right corner"
+  },
+  {
+    "id": "item-location-149",
+    "itemId": "item-elixir",
+    "locationId": "location-terminus-cave-b2f",
+    "notes": "North of Battle Girl"
+  },
+  {
+    "id": "item-location-150",
+    "itemId": "item-dusk-stone",
+    "locationId": "location-terminus-cave-b2f",
+    "notes": "South west of cave"
+  },
+  {
+    "id": "item-location-151",
+    "itemId": "item-lustrous-orb",
+    "locationId": "location-terminus-cave-b3f",
+    "notes": "Bottom right on floor"
+  },
+  {
+    "id": "item-location-152",
+    "itemId": "item-griseous-orb",
+    "locationId": "location-terminus-cave-b3f",
+    "notes": "Top left on floor"
+  },
+  {
+    "id": "item-location-153",
+    "itemId": "item-adamant-orb",
+    "locationId": "location-terminus-cave-b3f",
+    "notes": "Bottom left on floor"
+  },
+  {
+    "id": "item-location-154",
+    "itemId": "item-potion",
+    "locationId": "location-santalune-forest",
+    "notes": "On floor"
+  },
+  {
+    "id": "item-location-155",
+    "itemId": "item-pinsirite",
+    "locationId": "location-santalune-forest",
+    "notes": "Near entrance"
+  },
+  {
+    "id": "item-location-156",
+    "itemId": "item-heracronite",
+    "locationId": "location-santalune-forest",
+    "notes": "Near Entrance - Y Only"
+  },
+  {
+    "id": "item-location-157",
+    "itemId": "item-poke-ball",
+    "locationId": "location-santalune-forest",
+    "notes": "Right of Lass"
+  },
+  {
+    "id": "item-location-158",
+    "itemId": "item-sun-stone",
+    "locationId": "location-shalour-city",
+    "notes": "Give Hiker the Intriguing Stone"
+  },
+  {
+    "id": "item-location-159",
+    "itemId": "item-max-ether",
+    "locationId": "location-shalour-city",
+    "notes": "Right of entrance to Tower of Mastery"
+  },
+  {
+    "id": "item-location-160",
+    "itemId": "item-silver-powder",
+    "locationId": "location-route-7",
+    "notes": "Near entrance to Connecting Cave - Requires Cut"
+  },
+  {
+    "id": "item-location-161",
+    "itemId": "item-heal-ball",
+    "locationId": "location-route-7",
+    "notes": "North of bridge"
+  },
+  {
+    "id": "item-location-162",
+    "itemId": "item-pp-up",
+    "locationId": "location-route-7",
+    "notes": "In yellow flowerbed near Connecting Cave"
+  },
+  {
+    "id": "item-location-163",
+    "itemId": "item-tiny-mushroom",
+    "locationId": "location-route-7",
+    "notes": "South of southern Connecting Cave entrance"
+  },
+  {
+    "id": "item-location-164",
+    "itemId": "item-persim-berry",
+    "locationId": "location-route-7",
+    "notes": "Persim Berry tree"
+  },
+  {
+    "id": "item-location-165",
+    "itemId": "item-hard-stone",
+    "locationId": "location-glittering-cave-3d-area",
+    "notes": "In a dead end"
+  },
+  {
+    "id": "item-location-166",
+    "itemId": "item-kangaskhanite",
+    "locationId": "location-glittering-cave-3d-area",
+    "notes": "First turning after entering cave"
+  },
+  {
+    "id": "item-location-167",
+    "itemId": "item-mewtwonite-x",
+    "locationId": "location-pokemon-village-unknown-dungeon",
+    "notes": "In Unknown Dungeon after Mewtwo captured"
+  },
+  {
+    "id": "item-location-168",
+    "itemId": "item-mewtwonite-y",
+    "locationId": "location-pokemon-village-unknown-dungeon",
+    "notes": "In Unknown Dungeon after Mewtwo captured"
+  },
+  {
+    "id": "item-location-169",
+    "itemId": "item-oval-stone",
+    "locationId": "location-pokemon-village-unknown-dungeon",
+    "notes": "In a rock to the left"
+  },
+  {
+    "id": "item-location-170",
+    "itemId": "item-dragon-scale",
+    "locationId": "location-terminus-cave-2f-right",
+    "notes": "By entrance on ground in Route 18"
+  },
+  {
+    "id": "item-location-171",
+    "itemId": "item-normal-gem",
+    "locationId": "location-terminus-cave-2f-right",
+    "notes": "North of Dragon Scale in Entrance on floor in Route 18; hidden item"
+  },
+  {
+    "id": "item-location-172",
+    "itemId": "item-moon-stone",
+    "locationId": "location-reflection-cave-1f",
+    "notes": "Bottom right"
+  },
+  {
+    "id": "item-location-173",
+    "itemId": "item-nest-ball",
+    "locationId": "location-reflection-cave-1f",
+    "notes": "Top"
+  },
+  {
+    "id": "item-location-174",
+    "itemId": "item-revive",
+    "locationId": "location-reflection-cave-1f",
+    "notes": "Next to mirror"
+  },
+  {
+    "id": "item-location-175",
+    "itemId": "item-hyper-potion",
+    "locationId": "location-reflection-cave-1bf",
+    "notes": "Near Honemooners Yuu & Ami"
+  },
+  {
+    "id": "item-location-176",
+    "itemId": "item-iron",
+    "locationId": "location-reflection-cave-1bf",
+    "notes": "By stairs"
+  },
+  {
+    "id": "item-location-177",
+    "itemId": "item-alakazite",
+    "locationId": "location-reflection-cave-b2f",
+    "notes": "In pool of light"
   }
 ]

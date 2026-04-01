@@ -63,6 +63,13 @@
     "description": "Imported location record from source materials for Glittering Cave."
   },
   {
+    "id": "location-glittering-cave-3d-area",
+    "slug": "glittering-cave-3d-area",
+    "name": "Glittering Cave 3D Area",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Glittering Cave 3D Area."
+  },
+  {
     "id": "location-laverre-city",
     "slug": "laverre-city",
     "name": "Laverre City",
@@ -84,18 +91,39 @@
     "description": "Imported location record from source materials for Pokémon Village."
   },
   {
+    "id": "location-pokemon-village-unknown-dungeon",
+    "slug": "pokemon-village-unknown-dungeon",
+    "name": "Pokémon Village - Unknown Dungeon",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for the Unknown Dungeon in Pokémon Village."
+  },
+  {
+    "id": "location-reflection-cave-1f",
+    "slug": "reflection-cave-1f",
+    "name": "Reflection Cave 1F",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Reflection Cave 1F."
+  },
+  {
     "id": "location-reflection-cave-1bf",
     "slug": "reflection-cave-1bf",
-    "name": "Reflection Cave 1BF",
+    "name": "Reflection Cave B1F",
     "region": "Kalos",
-    "description": "Imported location record from source materials for Reflection Cave 1BF."
+    "description": "Imported location record from source materials for Reflection Cave B1F."
+  },
+  {
+    "id": "location-reflection-cave-b2f",
+    "slug": "reflection-cave-b2f",
+    "name": "Reflection Cave B2F",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Reflection Cave B2F."
   },
   {
     "id": "location-reflection-cave-3bf",
     "slug": "reflection-cave-3bf",
-    "name": "Reflection Cave 3BF",
+    "name": "Reflection Cave B3F",
     "region": "Kalos",
-    "description": "Imported location record from source materials for Reflection Cave 3BF."
+    "description": "Imported location record from source materials for Reflection Cave B3F."
   },
   {
     "id": "location-route-12",
@@ -189,6 +217,13 @@
     "description": "Imported location record from source materials for Route 3."
   },
   {
+    "id": "location-route-7",
+    "slug": "route-7",
+    "name": "Route 7",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 7."
+  },
+  {
     "id": "location-route-8",
     "slug": "route-8",
     "name": "Route 8",
@@ -229,6 +264,13 @@
     "name": "Terminus Cave 2F",
     "region": "Kalos",
     "description": "Imported location record from source materials for Terminus Cave 2F."
+  },
+  {
+    "id": "location-terminus-cave-2f-right",
+    "slug": "terminus-cave-2f-right",
+    "name": "Terminus Cave 2F Right",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Terminus Cave 2F Right."
   },
   {
     "id": "location-terminus-cave-b1f",
