@@ -62,7 +62,7 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
         ) : (
           <ul>
             {items.map((item) => (
-              <li key={`${item.item.id}-${item.locationId}`}>
+              <li key={item.itemLocationId}>
                 {item.item.name}
                 {item.notes ? ` • ${item.notes}` : ""}
               </li>

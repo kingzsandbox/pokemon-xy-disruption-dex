@@ -216,6 +216,26 @@ def canonical_location_name(value: str) -> str:
     return replacements.get(value, value)
 
 
+def parse_location_header(value: str) -> tuple[str, str]:
+    normalized = normalize_space(value)
+    match = re.match(r"^(.*?)\s*\[([^\]]+)\]\s*$", normalized)
+    if not match:
+        return canonical_location_name(normalized), "Location"
+
+    location_name = canonical_location_name(match.group(1))
+    label = normalize_space(match.group(2))
+
+    if "Trash Cans" in label:
+        prefix = label.replace("Trash Cans", "").strip()
+        notes = f"Trash Can - {prefix}" if prefix else "Trash Can"
+    elif "Attendant" in label:
+        notes = f"Vendor - {label}"
+    else:
+        notes = f"Shop - {label}"
+
+    return location_name, notes
+
+
 def build_locations() -> list[dict]:
     encounter_rows = read_xlsx_rows(SOURCE_DIR / "Wild Encounters + Held Items (XY).xlsx", "sheet1.xml")
     header_row = encounter_rows[0]
@@ -445,7 +465,7 @@ def build_items() -> list[dict]:
             return
         if slugify(item_name) in pokemon_slugs:
             return
-        if not any(token in item_name for token in item_tokens) and item_name not in {
+        if not re.match(r"TM\d+", item_name) and not any(token in item_name for token in item_tokens) and item_name not in {
             "Potion",
             "Super Potion",
             "Hyper Potion",
@@ -520,26 +540,87 @@ def build_items() -> list[dict]:
     return list(items.values())
 
 
-def build_item_locations(locations: list[dict]) -> list[dict]:
+def build_item_locations(locations: list[dict], items: list[dict]) -> list[dict]:
     location_lookup = {entry["name"]: entry["id"] for entry in locations}
-    box_link_id = f"item-{slugify('Box Link')}"
+    item_lookup = {entry["slug"]: entry["id"] for entry in items}
+    box_link_id = item_lookup.get(slugify("Box Link"), f"item-{slugify('Box Link')}")
     item_locations: list[dict] = []
+    seen: set[tuple[str, str, str]] = set()
+
+    def append_item_location(item_id: str | None, location_id: str | None, notes: str) -> None:
+        if not item_id or not location_id:
+            return
+        key = (item_id, location_id, normalize_space(notes))
+        if key in seen:
+            return
+        seen.add(key)
+        item_locations.append(
+            {
+                "id": f"item-location-{len(item_locations) + 1:03d}",
+                "itemId": item_id,
+                "locationId": location_id,
+                "notes": key[2],
+            }
+        )
+
     paragraphs = read_docx_paragraphs(SOURCE_DIR / "Box Link Locations.docx")
     combined = " ".join(paragraphs)
-    for index, match in enumerate(re.finditer(r"(\d+)\.\s+([^(]+)\(([^)]+)\)", combined), start=1):
+    for match in re.finditer(r"(\d+)\.\s+([^(]+)\(([^)]+)\)", combined):
         raw_location = normalize_space(match.group(2))
         location_name = canonical_location_name(raw_location)
         location_id = location_lookup.get(location_name)
-        if not location_id:
-            continue
-        item_locations.append(
-            {
-                "id": f"item-location-{index:03d}",
-                "itemId": box_link_id,
-                "locationId": location_id,
-                "notes": normalize_space(match.group(3)),
-            }
-        )
+        append_item_location(box_link_id, location_id, normalize_space(match.group(3)))
+
+    shop_rows = read_xlsx_rows(SOURCE_DIR / "Shops, Stores & Trash Cans (XY).xlsx", "sheet1.xml")
+    if len(shop_rows) >= 3:
+        header_row = shop_rows[1]
+        type_row = shop_rows[2]
+        location_columns = [
+            column
+            for column, value in header_row.items()
+            if re.fullmatch(r"[A-Z]+", column) and "[" in value and "]" in value
+        ]
+
+        def column_to_index(column: str) -> int:
+            index = 0
+            for char in column:
+                index = index * 26 + (ord(char) - 64)
+            return index
+
+        def index_to_column(index: int) -> str:
+            name = ""
+            while index > 0:
+                index, rem = divmod(index - 1, 26)
+                name = chr(65 + rem) + name
+            return name
+
+        for start_column in sorted(location_columns, key=column_to_index):
+            location_name, location_note = parse_location_header(header_row[start_column])
+            location_id = location_lookup.get(location_name)
+            if not location_id:
+                continue
+
+            start_index = column_to_index(start_column)
+            value_column = index_to_column(start_index + 1)
+            value_label = normalize_space(type_row.get(value_column, ""))
+
+            for row in shop_rows[3:]:
+                item_name = normalize_space(row.get(start_column, ""))
+                if not item_name:
+                    continue
+                item_id = item_lookup.get(slugify(item_name))
+                if not item_id:
+                    continue
+
+                detail_value = normalize_space(row.get(value_column, ""))
+                notes = location_note
+                if "Chance" in value_label and detail_value:
+                    notes = f"{location_note}; {detail_value} chance"
+                elif "Price" in value_label and detail_value:
+                    notes = f"{location_note}; price {detail_value}"
+
+                append_item_location(item_id, location_id, notes)
+
     return item_locations
 
 
@@ -553,7 +634,7 @@ def main() -> None:
     locations = build_locations()
     items = build_items()
     encounters = build_encounters(pokemon, locations)
-    item_locations = build_item_locations(locations)
+    item_locations = build_item_locations(locations, items)
 
     write_json(CORE_DIR / "pokemon.json", pokemon)
     write_json(CORE_DIR / "locations.json", locations)
