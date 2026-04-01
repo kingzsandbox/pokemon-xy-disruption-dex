@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getMoves } from "@/lib/data/moves";
+import { getMoveSourceCoverageNote, getMoves } from "@/lib/data/moves";
 
 export default function MovesPage() {
   const moves = getMoves();
@@ -10,6 +10,7 @@ export default function MovesPage() {
       <p style={{ color: "#586379" }}>
         Browse imported move availability from the current disruption source workbook.
       </p>
+      <p style={{ color: "#586379", lineHeight: 1.6 }}>{getMoveSourceCoverageNote()}</p>
 
       <div style={{ display: "grid", gap: "12px", marginTop: "24px" }}>
         {moves.map((move) => (

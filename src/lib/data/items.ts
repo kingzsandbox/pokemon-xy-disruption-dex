@@ -1,5 +1,11 @@
 import { coreItemLocations, coreItems } from "@/lib/data/core";
-import type { ItemEntry, ItemLocationEntry, LocatedItem } from "@/lib/types";
+import { getLocationById } from "@/lib/data/locations";
+import type {
+  ItemEntry,
+  ItemLocationEntry,
+  ItemLocationReference,
+  LocatedItem,
+} from "@/lib/types";
 
 const items = coreItems as ItemEntry[];
 const itemLocations = coreItemLocations as ItemLocationEntry[];
@@ -30,6 +36,26 @@ export function getItemLocations(): ItemLocationEntry[] {
   return itemLocations;
 }
 
+export function getItemCoverageNote(): string {
+  return "Imported item-location coverage currently includes shop inventory, trash can finds, and special placements such as Box Link. Comprehensive route and field pickup coverage is not present in the current source set.";
+}
+
+export function getItemLocationStatusMessage(hasLocations: boolean): string {
+  if (hasLocations) {
+    return "Imported location data is available below. Coverage currently includes shop inventory, trash can finds, and special placements only.";
+  }
+
+  return "No imported location references are available for this item. Current item-location imports only cover shop inventory, trash can finds, and special placements.";
+}
+
+export function getLocationItemStatusMessage(hasItems: boolean): string {
+  if (hasItems) {
+    return "Imported item-location data is available below. Coverage currently includes shop inventory, trash can finds, and special placements only.";
+  }
+
+  return "No imported item-location data is available for this area. Current item-location imports only cover shop inventory, trash can finds, and special placements.";
+}
+
 export function getItemsByLocation(locationId: string): LocatedItem[] {
   return itemLocations
     .filter((entry) => entry.locationId === locationId)
@@ -48,6 +74,25 @@ export function getItemsByLocation(locationId: string): LocatedItem[] {
       };
     })
     .filter((entry): entry is LocatedItem => entry !== undefined);
+}
+
+export function getLocationsByItem(itemId: string): ItemLocationReference[] {
+  return itemLocations
+    .filter((entry) => entry.itemId === itemId)
+    .map((entry) => {
+      const location = getLocationById(entry.locationId);
+
+      if (!location) {
+        return undefined;
+      }
+
+      return {
+        itemLocationId: entry.id,
+        notes: entry.notes,
+        location,
+      };
+    })
+    .filter((entry): entry is ItemLocationReference => entry !== undefined);
 }
 
 export type LocationItemSectionKey = "tm" | "shop" | "pickup" | "special";

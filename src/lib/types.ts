@@ -115,6 +115,12 @@ export interface LocatedItem {
   item: ItemEntry;
 }
 
+export interface ItemLocationReference {
+  itemLocationId: DexEntryId;
+  notes: string;
+  location: LocationEntry;
+}
+
 export interface PokemonMachineCompatibility {
   compatibilityId: DexEntryId;
   machine: MachineEntry;

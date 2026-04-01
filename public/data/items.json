@@ -4,1176 +4,1176 @@
     "slug": "quick-powder",
     "name": "Quick Powder",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Speed stat."
   },
   {
     "id": "item-metal-powder",
     "slug": "metal-powder",
     "name": "Metal Powder",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Defense stat."
   },
   {
     "id": "item-lucky-punch",
     "slug": "lucky-punch",
     "name": "Lucky Punch",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by Chansey. This pair of lucky boxing gloves will boost Chansey’s critical-hit ratio."
   },
   {
     "id": "item-oval-stone",
     "slug": "oval-stone",
     "name": "Oval Stone",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A peculiar stone that can make certain species of Pokémon evolve. It’s as round as a Pokémon Egg."
   },
   {
     "id": "item-deep-sea-scale",
     "slug": "deep-sea-scale",
     "name": "Deep Sea Scale",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by Clamperl. This scale shines with a faint pink and raises the holder’s Sp. Def stat."
   },
   {
     "id": "item-charizardite-x",
     "slug": "charizardite-x",
     "name": "Charizardite X",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-charizardite-y",
     "slug": "charizardite-y",
     "name": "Charizardite Y",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-mewtwonite-x",
     "slug": "mewtwonite-x",
     "name": "Mewtwonite X",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-mewtwonite-y",
     "slug": "mewtwonite-y",
     "name": "Mewtwonite Y",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-lucky-egg",
     "slug": "lucky-egg",
     "name": "Lucky Egg",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It’s an egg filled with happiness that earns extra Exp. Points in battle."
   },
   {
     "id": "item-ground-gem",
     "slug": "ground-gem",
     "name": "Ground Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an essence of land. When held, it strengthens the power of a Ground-type move one time."
   },
   {
     "id": "item-occa-berry",
     "slug": "occa-berry",
     "name": "Occa Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fire-type attack."
   },
   {
     "id": "item-fire-gem",
     "slug": "fire-gem",
     "name": "Fire Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an essence of fire. When held, it strengthens the power of a Fire-type move one time."
   },
   {
     "id": "item-shiny-stone",
     "slug": "shiny-stone",
     "name": "Shiny Stone",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A peculiar stone that can make certain species of Pokémon evolve. It shines with a dazzling light."
   },
   {
     "id": "item-chople-berry",
     "slug": "chople-berry",
     "name": "Chople Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fighting-type attack."
   },
   {
     "id": "item-payapa-berry",
     "slug": "payapa-berry",
     "name": "Payapa Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Psychic-type attack."
   },
   {
     "id": "item-air-balloon",
     "slug": "air-balloon",
     "name": "Air Balloon",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. The holder will float in the air until hit. Once hit, this item will burst."
   },
   {
     "id": "item-chesto-berry",
     "slug": "chesto-berry",
     "name": "Chesto Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from sleep on its own in battle."
   },
   {
     "id": "item-liechi-berry",
     "slug": "liechi-berry",
     "name": "Liechi Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its Attack stat will increase when it’s in a pinch."
   },
   {
     "id": "item-hard-stone",
     "slug": "hard-stone",
     "name": "Hard Stone",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It is a durable stone that boosts the power of Rock-type moves."
   },
   {
     "id": "item-focus-band",
     "slug": "focus-band",
     "name": "Focus Band",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP."
   },
   {
     "id": "item-rock-gem",
     "slug": "rock-gem",
     "name": "Rock Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an essence of rock. When held, it strengthens the power of a Rock-type move one time."
   },
   {
     "id": "item-big-mushroom",
     "slug": "big-mushroom",
     "name": "Big Mushroom",
     "category": "Valuable",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A very large and rare mushroom. It’s popular with a certain class of collectors and sought out by them."
   },
   {
     "id": "item-thunder-stone",
     "slug": "thunder-stone",
     "name": "Thunder Stone",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A peculiar stone that can make certain species of Pokémon evolve. It has a distinct thunderbolt pattern."
   },
   {
     "id": "item-tanga-berry",
     "slug": "tanga-berry",
     "name": "Tanga Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Bug-type attack."
   },
   {
     "id": "item-quick-claw",
     "slug": "quick-claw",
     "name": "Quick Claw",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. This light, sharp claw lets the bearer move first occasionally."
   },
   {
     "id": "item-salac-berry",
     "slug": "salac-berry",
     "name": "Salac Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its Speed stat will increase when it’s in a pinch."
   },
   {
     "id": "item-toxic-orb",
     "slug": "toxic-orb",
     "name": "Toxic Orb",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It is a bizarre orb that will badly poison the holder during battle."
   },
   {
     "id": "item-passho-berry",
     "slug": "passho-berry",
     "name": "Passho Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Water-type attack."
   },
   {
     "id": "item-gengarite",
     "slug": "gengarite",
     "name": "Gengarite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Gengar hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-dark-gem",
     "slug": "dark-gem",
     "name": "Dark Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an essence of darkness. When held, it strengthens the power of a Dark-type move one time."
   },
   {
     "id": "item-fire-stone",
     "slug": "fire-stone",
     "name": "Fire Stone",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A peculiar stone that can make certain species of Pokémon evolve. The stone has a fiery orange heart."
   },
   {
     "id": "item-wacan-berry",
     "slug": "wacan-berry",
     "name": "Wacan Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Electric-type attack."
   },
   {
     "id": "item-ice-gem",
     "slug": "ice-gem",
     "name": "Ice Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an essence of ice. When held, it strengthens the power of an Ice-type move one time."
   },
   {
     "id": "item-assault-vest",
     "slug": "assault-vest",
     "name": "Assault Vest",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. This offensive vest raises Sp. Def but prevents the use of status moves."
   },
   {
     "id": "item-aspear-berry",
     "slug": "aspear-berry",
     "name": "Aspear Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from being frozen on its own in battle."
   },
   {
     "id": "item-lax-incense",
     "slug": "lax-incense",
     "name": "Lax Incense",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. The beguiling aroma of this incense may cause attacks to miss its holder."
   },
   {
     "id": "item-thick-club",
     "slug": "thick-club",
     "name": "Thick Club",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by Cubone or Marowak. It is a hard bone of some sort that boosts the Attack stat."
   },
   {
     "id": "item-cleanse-tag",
     "slug": "cleanse-tag",
     "name": "Cleanse Tag",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the head of the party."
   },
   {
     "id": "item-moon-stone",
     "slug": "moon-stone",
     "name": "Moon Stone",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A peculiar stone that can make certain species of Pokémon evolve. It is as black as the night sky."
   },
   {
     "id": "item-enigma-berry",
     "slug": "enigma-berry",
     "name": "Enigma Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, being hit by a supereffective attack will restore its HP."
   },
   {
     "id": "item-aggronite",
     "slug": "aggronite",
     "name": "Aggronite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Aggron hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-kebia-berry",
     "slug": "kebia-berry",
     "name": "Kebia Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Poison-type attack."
   },
   {
     "id": "item-grass-gem",
     "slug": "grass-gem",
     "name": "Grass Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an essence of nature. When held, it strengthens the power of a Grass-type move one time."
   },
   {
     "id": "item-colbur-berry",
     "slug": "colbur-berry",
     "name": "Colbur Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Dark-type attack."
   },
   {
     "id": "item-white-herb",
     "slug": "white-herb",
     "name": "White Herb",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It will restore any lowered stat in battle. It can be used only once."
   },
   {
     "id": "item-flying-gem",
     "slug": "flying-gem",
     "name": "Flying Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an essence of air. When held, it strengthens the power of a Flying-type move one time."
   },
   {
     "id": "item-bug-gem",
     "slug": "bug-gem",
     "name": "Bug Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an insect-like essence. When held, it strengthens the power of a Bug-type move one time."
   },
   {
     "id": "item-persim-berry",
     "slug": "persim-berry",
     "name": "Persim Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from confusion on its own in battle."
   },
   {
     "id": "item-leaf-stone",
     "slug": "leaf-stone",
     "name": "Leaf Stone",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A peculiar stone that can make certain species of Pokémon evolve. It has an unmistakable leaf pattern."
   },
   {
     "id": "item-sea-incense",
     "slug": "sea-incense",
     "name": "Sea Incense",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. This incense has a curious aroma that boosts the power of Water-type moves."
   },
   {
     "id": "item-bright-powder",
     "slug": "bright-powder",
     "name": "Bright Powder",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It casts a tricky glare that lowers the opposing Pokémon’s accuracy."
   },
   {
     "id": "item-starf-berry",
     "slug": "starf-berry",
     "name": "Starf Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, one of its stats will sharply increase when it’s in a pinch."
   },
   {
     "id": "item-scope-lens",
     "slug": "scope-lens",
     "name": "Scope Lens",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It’s a lens for scoping out weak points. It boosts the holder’s critical-hit ratio."
   },
   {
     "id": "item-shuca-berry",
     "slug": "shuca-berry",
     "name": "Shuca Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Ground-type attack."
   },
   {
     "id": "item-iron-ball",
     "slug": "iron-ball",
     "name": "Iron Ball",
     "category": "Poke Ball",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It lowers Speed and allows Ground-type moves to hit Flying-type and levitating holders."
   },
   {
     "id": "item-flame-orb",
     "slug": "flame-orb",
     "name": "Flame Orb",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It is a bizarre orb that will afflict the holder with a burn during battle."
   },
   {
     "id": "item-babiri-berry",
     "slug": "babiri-berry",
     "name": "Babiri Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Steel-type attack."
   },
   {
     "id": "item-silk-scarf",
     "slug": "silk-scarf",
     "name": "Silk Scarf",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It’s a sumptuous scarf that boosts the power of Normal-type moves."
   },
   {
     "id": "item-pure-incense",
     "slug": "pure-incense",
     "name": "Pure Incense",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the head of the party."
   },
   {
     "id": "item-abomasite",
     "slug": "abomasite",
     "name": "Abomasite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Abomasnow hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-smoke-ball",
     "slug": "smoke-ball",
     "name": "Smoke Ball",
     "category": "Poke Ball",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon encounter without fail."
   },
   {
     "id": "item-metal-coat",
     "slug": "metal-coat",
     "name": "Metal Coat",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It is a special metallic film that can boost the power of Steel-type moves."
   },
   {
     "id": "item-banettite",
     "slug": "banettite",
     "name": "Banettite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Banette hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-wide-lens",
     "slug": "wide-lens",
     "name": "Wide Lens",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It’s a magnifying lens that slightly boosts the accuracy of moves."
   },
   {
     "id": "item-chilan-berry",
     "slug": "chilan-berry",
     "name": "Chilan Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one Normal-type attack."
   },
   {
     "id": "item-spell-tag",
     "slug": "spell-tag",
     "name": "Spell Tag",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It’s a sinister, eerie tag that boosts the power of Ghost-type moves."
   },
   {
     "id": "item-odd-incense",
     "slug": "odd-incense",
     "name": "Odd Incense",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Psychic-type moves."
   },
   {
     "id": "item-sun-stone",
     "slug": "sun-stone",
     "name": "Sun Stone",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A peculiar stone that can make certain species of Pokémon evolve. It burns as red as the evening sun."
   },
   {
     "id": "item-kangaskhanite",
     "slug": "kangaskhanite",
     "name": "Kangaskhanite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Kangaskhan hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-coba-berry",
     "slug": "coba-berry",
     "name": "Coba Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Flying-type attack."
   },
   {
     "id": "item-kee-berry",
     "slug": "kee-berry",
     "name": "Kee Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will increase the holder’s Defense if it’s hit with a physical move."
   },
   {
     "id": "item-power-herb",
     "slug": "power-herb",
     "name": "Power Herb",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A single-use item to be held by a Pokémon. It allows the holder to immediately use a move that normally requires a turn to charge."
   },
   {
     "id": "item-dragon-gem",
     "slug": "dragon-gem",
     "name": "Dragon Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with a draconic essence. When held, it strengthens the power of a Dragon-type move one time."
   },
   {
     "id": "item-griseous-orb",
     "slug": "griseous-orb",
     "name": "Griseous Orb",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A glowing orb to be held by Giratina. It boosts the power of Dragon- and Ghost-type moves when it is held."
   },
   {
     "id": "item-rawst-berry",
     "slug": "rawst-berry",
     "name": "Rawst Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from a burn on its own in battle."
   },
   {
     "id": "item-silver-powder",
     "slug": "silver-powder",
     "name": "Silver Powder",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It is a shiny, silver powder that will boost the power of Bug-type moves."
   },
   {
     "id": "item-cheri-berry",
     "slug": "cheri-berry",
     "name": "Cheri Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from paralysis on its own in battle."
   },
   {
     "id": "item-water-stone",
     "slug": "water-stone",
     "name": "Water Stone",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A peculiar stone that can make certain species of Pokémon evolve. It is the blue of a pool of clear water."
   },
   {
     "id": "item-gardevoirite",
     "slug": "gardevoirite",
     "name": "Gardevoirite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Gardevoir hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-zoom-lens",
     "slug": "zoom-lens",
     "name": "Zoom Lens",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. If the holder moves after its target moves, its accuracy will be boosted."
   },
   {
     "id": "item-water-gem",
     "slug": "water-gem",
     "name": "Water Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an essence of water. When held, it strengthens the power of a Water-type move one time."
   },
   {
     "id": "item-alakazite",
     "slug": "alakazite",
     "name": "Alakazite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Alakazam hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-rowap-berry",
     "slug": "rowap-berry",
     "name": "Rowap Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a special attack hits the Pokémon holding it, the attacker will also be hurt."
   },
   {
     "id": "item-dusk-stone",
     "slug": "dusk-stone",
     "name": "Dusk Stone",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A peculiar stone that can make certain species of Pokémon evolve. It holds shadows as dark as can be."
   },
   {
     "id": "item-apicot-berry",
     "slug": "apicot-berry",
     "name": "Apicot Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its Sp. Def stat will increase when it’s in a pinch."
   },
   {
     "id": "item-lansat-berry",
     "slug": "lansat-berry",
     "name": "Lansat Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its critical-hit ratio will increase when it’s in a pinch."
   },
   {
     "id": "item-prism-scale",
     "slug": "prism-scale",
     "name": "Prism Scale",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A mysterious scale that causes a certain Pokémon to evolve. It shines in rainbow colors."
   },
   {
     "id": "item-dragon-scale",
     "slug": "dragon-scale",
     "name": "Dragon Scale",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A very tough and inflexible scale. Dragon-type Pokémon may be holding this item when caught."
   },
   {
     "id": "item-dawn-stone",
     "slug": "dawn-stone",
     "name": "Dawn Stone",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A peculiar stone that can make certain species of Pokémon evolve. It sparkles like a glittering eye."
   },
   {
     "id": "item-haban-berry",
     "slug": "haban-berry",
     "name": "Haban Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Dragon-type attack."
   },
   {
     "id": "item-absolite",
     "slug": "absolite",
     "name": "Absolite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Absol hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-yache-berry",
     "slug": "yache-berry",
     "name": "Yache Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Ice-type attack."
   },
   {
     "id": "item-roseli-berry",
     "slug": "roseli-berry",
     "name": "Roseli Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fairy-type attack."
   },
   {
     "id": "item-lustrous-orb",
     "slug": "lustrous-orb",
     "name": "Lustrous Orb",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A beautifully glowing orb to be held by Palkia. It boosts the power of Dragon-​ and Water-type moves when it is held."
   },
   {
     "id": "item-adamant-orb",
     "slug": "adamant-orb",
     "name": "Adamant Orb",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A brightly gleaming orb to be held by Dialga. It boosts the power of Dragon-​ and Steel-type moves when it is held."
   },
   {
     "id": "item-rose-incense",
     "slug": "rose-incense",
     "name": "Rose Incense",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Grass-type moves."
   },
   {
     "id": "item-custap-berry",
     "slug": "custap-berry",
     "name": "Custap Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it will be able to move first just once when it’s in a pinch."
   },
   {
     "id": "item-ganlon-berry",
     "slug": "ganlon-berry",
     "name": "Ganlon Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its Defense stat will increase when it’s in a pinch."
   },
   {
     "id": "item-electric-gem",
     "slug": "electric-gem",
     "name": "Electric Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an essence of electricity. When held, it strengthens the power of an Electric-type move one time."
   },
   {
     "id": "item-muscle-band",
     "slug": "muscle-band",
     "name": "Muscle Band",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. This headband exudes strength, slightly boosting the power of physical moves."
   },
   {
     "id": "item-tiny-mushroom",
     "slug": "tiny-mushroom",
     "name": "Tiny Mushroom",
     "category": "Valuable",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A very small and rare mushroom. It’s popular with a certain class of collectors and sought out by them."
   },
   {
     "id": "item-pecha-berry",
     "slug": "pecha-berry",
     "name": "Pecha Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from poisoning on its own in battle."
   },
   {
     "id": "item-kasib-berry",
     "slug": "kasib-berry",
     "name": "Kasib Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Ghost-type attack."
   },
   {
     "id": "item-medichamite",
     "slug": "medichamite",
     "name": "Medichamite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Medicham hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-petaya-berry",
     "slug": "petaya-berry",
     "name": "Petaya Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its Sp. Atk stat will increase when it’s in a pinch."
   },
   {
     "id": "item-sacred-ash",
     "slug": "sacred-ash",
     "name": "Sacred Ash",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "This rare ash can revive all fainted Pokémon in a party. In doing so, it also fully restores their maximum HP."
   },
   {
     "id": "item-fairy-gem",
     "slug": "fairy-gem",
     "name": "Fairy Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an essence of the fey. When held, it strengthens the power of a Fairy-type move one time."
   },
   {
     "id": "item-blazikenite",
     "slug": "blazikenite",
     "name": "Blazikenite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Blaziken hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-heart-scale",
     "slug": "heart-scale",
     "name": "Heart Scale",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A pretty, heart-shaped scale that is extremely rare. It glows faintly with all of the colors of the rainbow."
   },
   {
     "id": "item-fighting-gem",
     "slug": "fighting-gem",
     "name": "Fighting Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an essence of combat. When held, it strengthens the power of a Fighting-type move one time."
   },
   {
     "id": "item-wave-incense",
     "slug": "wave-incense",
     "name": "Wave Incense",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Water-type moves."
   },
   {
     "id": "item-blastoisinite",
     "slug": "blastoisinite",
     "name": "Blastoisinite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Blastoise hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-float-stone",
     "slug": "float-stone",
     "name": "Float Stone",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. This very light stone reduces the weight of a Pokémon when held."
   },
   {
     "id": "item-rindo-berry",
     "slug": "rindo-berry",
     "name": "Rindo Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Grass-type attack."
   },
   {
     "id": "item-charti-berry",
     "slug": "charti-berry",
     "name": "Charti Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Rock-type attack."
   },
   {
     "id": "item-binding-band",
     "slug": "binding-band",
     "name": "Binding Band",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. A band that increases the power of binding moves used by the holder."
   },
   {
     "id": "item-razor-claw",
     "slug": "razor-claw",
     "name": "Razor Claw",
     "category": "Evolution Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. This sharply hooked claw increases the holder’s critical-hit ratio."
   },
   {
     "id": "item-houndoominite",
     "slug": "houndoominite",
     "name": "Houndoominite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Houndoom hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-psychic-gem",
     "slug": "psychic-gem",
     "name": "Psychic Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an essence of the mind. When held, it strengthens the power of a Psychic-type move one time."
   },
   {
     "id": "item-aerodactylite",
     "slug": "aerodactylite",
     "name": "Aerodactylite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Aerodactyl hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-manectite",
     "slug": "manectite",
     "name": "Manectite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Manectric hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-lucarionite",
     "slug": "lucarionite",
     "name": "Lucarionite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Lucario hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-tyranitarite",
     "slug": "tyranitarite",
     "name": "Tyranitarite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Tyranitar hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-normal-gem",
     "slug": "normal-gem",
     "name": "Normal Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an ordinary essence. When held, it strengthens the power of a Normal-type move one time."
   },
   {
     "id": "item-steel-gem",
     "slug": "steel-gem",
     "name": "Steel Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an essence of steel. When held, it strengthens the power of a Steel-type move one time."
   },
   {
     "id": "item-light-ball",
     "slug": "light-ball",
     "name": "Light Ball",
     "category": "Poke Ball",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by Pikachu. It’s a puzzling orb that boosts its Attack and Sp. Atk stats."
   },
   {
     "id": "item-mawilite",
     "slug": "mawilite",
     "name": "Mawilite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Mawile hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-garchompite",
     "slug": "garchompite",
     "name": "Garchompite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Garchomp hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-maranga-berry",
     "slug": "maranga-berry",
     "name": "Maranga Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "If held by a Pokémon, this Berry will increase the holder’s Sp. Def if it’s hit with a special move."
   },
   {
     "id": "item-life-orb",
     "slug": "life-orb",
     "name": "Life Orb",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It boosts the power of moves, but at the cost of some HP on each hit."
   },
   {
     "id": "item-heracronite",
     "slug": "heracronite",
     "name": "Heracronite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Heracross hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-pinsirite",
     "slug": "pinsirite",
     "name": "Pinsirite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Pinsir hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-jaboca-berry",
     "slug": "jaboca-berry",
     "name": "Jaboca Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a physical attack hits the Pokémon holding it, the attacker will also be hurt."
   },
   {
     "id": "item-ghost-gem",
     "slug": "ghost-gem",
     "name": "Ghost Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with a spectral essence. When held, it strengthens the power of a Ghost-type move one time."
   },
   {
     "id": "item-gyaradosite",
     "slug": "gyaradosite",
     "name": "Gyaradosite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Gyarados hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-berry-juice",
     "slug": "berry-juice",
     "name": "Berry Juice",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A 100 percent pure juice made of Berries. When consumed, it restores 20 HP to an injured Pokémon."
   },
   {
     "id": "item-micle-berry",
     "slug": "micle-berry",
     "name": "Micle Berry",
     "category": "Berry",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its accuracy will increase just once when it’s in a pinch."
   },
   {
     "id": "item-grip-claw",
     "slug": "grip-claw",
     "name": "Grip Claw",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It extends the duration of multi-turn attacks like Bind and Wrap."
   },
   {
     "id": "item-mental-herb",
     "slug": "mental-herb",
     "name": "Mental Herb",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once."
   },
   {
     "id": "item-big-root",
     "slug": "big-root",
     "name": "Big Root",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It boosts the power of HP-stealing moves so the holder recovers more HP."
   },
   {
     "id": "item-ampharosite",
     "slug": "ampharosite",
     "name": "Ampharosite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Ampharos hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-full-incense",
     "slug": "full-incense",
     "name": "Full Incense",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. This exotic-smelling incense makes the holder bloated and slow moving."
   },
   {
     "id": "item-scizorite",
     "slug": "scizorite",
     "name": "Scizorite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Scizor hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-venusaurite",
     "slug": "venusaurite",
     "name": "Venusaurite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One variety of the mysterious Mega Stones. Have Venusaur hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-luck-incense",
     "slug": "luck-incense",
     "name": "Luck Incense",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It doubles any prize money received if the holding Pokémon joins a battle."
   },
   {
     "id": "item-rock-incense",
     "slug": "rock-incense",
     "name": "Rock Incense",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Rock-type moves."
   },
   {
     "id": "item-poison-gem",
     "slug": "poison-gem",
     "name": "Poison Gem",
     "category": "Gem",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "A gem with an essence of poison. When held, it strengthens the power of a Poison-type move one time."
   },
   {
     "id": "item-wide-lenss",
     "slug": "wide-lenss",
     "name": "Wide Lenss",
     "category": "Held Item",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. It’s a magnifying lens that slightly boosts the accuracy of moves."
   },
   {
     "id": "item-latiosite",
     "slug": "latiosite",
     "name": "Latiosite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One of a variety of mysterious Mega Stones. Have Latios hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-latiasite",
     "slug": "latiasite",
     "name": "Latiasite",
     "category": "Mega Stone",
-    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+    "description": "One of a variety of mysterious Mega Stones. Have Latias hold it, and this stone will enable it to Mega Evolve during battle."
   },
   {
     "id": "item-poke-ball",
     "slug": "poke-ball",
     "name": "Poké Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A device for catching wild Pokémon. It’s thrown like a ball at a Pokémon, comfortably encapsulating its target."
   },
   {
     "id": "item-potion",
     "slug": "potion",
     "name": "Potion",
     "category": "Medicine",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A spray-type medicine for treating wounds. It can be used to restore 20 HP to an injured Pokémon."
   },
   {
     "id": "item-pomeg-berry",
     "slug": "pomeg-berry",
     "name": "Pomeg Berry",
     "category": "Berry",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its base HP."
   },
   {
     "id": "item-tm20-safeguard",
     "slug": "tm20-safeguard",
     "name": "TM20 [Safeguard]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Safeguard."
   },
   {
     "id": "item-tm05-roar",
     "slug": "tm05-roar",
     "name": "TM05 [Roar]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Roar."
   },
   {
     "id": "item-health-wing",
     "slug": "health-wing",
     "name": "Health Wing",
     "category": "Vitamin",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "An item for use on a Pokémon. It slightly increases the base HP of a single Pokémon."
   },
   {
     "id": "item-tm37-power-gem",
     "slug": "tm37-power-gem",
     "name": "TM37 [Power Gem]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Power Gem."
   },
   {
     "id": "item-tm28-earth-power",
     "slug": "tm28-earth-power",
     "name": "TM28 [Earth Power]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Earth Power."
   },
   {
     "id": "item-tm16-light-screen",
     "slug": "tm16-light-screen",
     "name": "TM16 [Light Screen]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Light Screen."
   },
   {
     "id": "item-choice-band",
     "slug": "choice-band",
     "name": "Choice Band",
     "category": "Held Item",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. This curious headband boosts Attack but only allows the use of one move."
   },
   {
     "id": "item-moon-ball",
     "slug": "moon-ball",
     "name": "Moon Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A Poké Ball that will make it easier to catch Pokémon that can evolve using a Moon Stone."
   },
   {
     "id": "item-tm11-flare-blitz",
     "slug": "tm11-flare-blitz",
     "name": "TM11 [Flare Blitz]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Flare Blitz."
   },
   {
     "id": "item-tm14-blizzard",
     "slug": "tm14-blizzard",
     "name": "TM14 [Blizzard]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Blizzard."
   },
   {
     "id": "item-hp-up",
     "slug": "hp-up",
     "name": "HP Up",
     "category": "Vitamin",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A nutritious drink for Pokémon. When consumed, it raises the base HP of a single Pokémon."
   },
   {
     "id": "item-heal-powder",
     "slug": "heal-powder",
     "name": "Heal Powder",
     "category": "Held Item",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A very bitter medicine powder. When consumed, it heals all of a Pokémon’s status conditions."
   },
   {
     "id": "item-master-ball",
     "slug": "master-ball",
     "name": "Master Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "The best Poké Ball with the ultimate level of performance. With it, you will catch any wild Pokémon without fail."
   },
   {
     "id": "item-discount-coupon",
     "slug": "discount-coupon",
     "name": "Discount Coupon",
     "category": "Valuable",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "This special coupon allows you to buy items at a discount when you are shopping at a boutique."
   },
   {
     "id": "item-mysterious-candy",
@@ -1187,623 +1187,623 @@
     "slug": "great-ball",
     "name": "Great Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A good, high-performance Poké Ball that provides a higher Pokémon catch rate than a standard Poké Ball can."
   },
   {
     "id": "item-kelpsy-berry",
     "slug": "kelpsy-berry",
     "name": "Kelpsy Berry",
     "category": "Berry",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its base Attack."
   },
   {
     "id": "item-tm64-encore",
     "slug": "tm64-encore",
     "name": "TM64 [Encore]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Encore."
   },
   {
     "id": "item-tm07-icy-wind",
     "slug": "tm07-icy-wind",
     "name": "TM07 [Icy Wind]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Icy Wind."
   },
   {
     "id": "item-muscle-wing",
     "slug": "muscle-wing",
     "name": "Muscle Wing",
     "category": "Vitamin",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "An item for use on a Pokémon. It slightly increases the base Attack stat of a single Pokémon."
   },
   {
     "id": "item-tm72-volt-switch",
     "slug": "tm72-volt-switch",
     "name": "TM72 [Volt Switch]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Volt Switch."
   },
   {
     "id": "item-tm75-swords-dance",
     "slug": "tm75-swords-dance",
     "name": "TM75 [Swords Dance]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Swords Dance."
   },
   {
     "id": "item-tm18-aqua-tail",
     "slug": "tm18-aqua-tail",
     "name": "TM18 [Aqua Tail]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Aqua Tail."
   },
   {
     "id": "item-choice-specs",
     "slug": "choice-specs",
     "name": "Choice Specs",
     "category": "Held Item",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. These curious glasses boost Sp. Atk but only allow the use of one move."
   },
   {
     "id": "item-heavy-ball",
     "slug": "heavy-ball",
     "name": "Heavy Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A Poké Ball that is better than usual at catching very heavy Pokémon."
   },
   {
     "id": "item-tm34-sludge-wave",
     "slug": "tm34-sludge-wave",
     "name": "TM34 [Sludge Wave]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Sludge Wave."
   },
   {
     "id": "item-tm15-hyper-beam",
     "slug": "tm15-hyper-beam",
     "name": "TM15 [Hyper Beam]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Hyper Beam."
   },
   {
     "id": "item-protein",
     "slug": "protein",
     "name": "Protein",
     "category": "Vitamin",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A nutritious drink for Pokémon. When consumed, it raises the base Attack stat of a single Pokémon."
   },
   {
     "id": "item-energy-powder",
     "slug": "energy-powder",
     "name": "Energy Powder",
     "category": "Held Item",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A bitter medicine powder. When consumed, it restores 50 HP to an injured Pokémon."
   },
   {
     "id": "item-energy-root",
     "slug": "energy-root",
     "name": "Energy Root",
     "category": "Medicine",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "An extremely bitter medicinal root. When consumed, it restores 200 HP to an injured Pokémon."
   },
   {
     "id": "item-dream-ball",
     "slug": "dream-ball",
     "name": "Dream Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A special Poké Ball that appears in your Bag out of nowhere in the Entree Forest. It can catch any Pokémon."
   },
   {
     "id": "item-honey",
     "slug": "honey",
     "name": "Honey",
     "category": "Held Item",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A sweet honey with a lush aroma that attracts wild Pokémon when it is used in tall grass, in caves, or on special trees."
   },
   {
     "id": "item-ultra-ball",
     "slug": "ultra-ball",
     "name": "Ultra Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "An ultra-high-performance Poké Ball that provides a higher success rate for catching Pokémon than a Great Ball."
   },
   {
     "id": "item-qualot-berry",
     "slug": "qualot-berry",
     "name": "Qualot Berry",
     "category": "Berry",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its base Defense."
   },
   {
     "id": "item-tm67-metronome",
     "slug": "tm67-metronome",
     "name": "TM67 [Metronome]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Metronome."
   },
   {
     "id": "item-tm23-stealth-rock",
     "slug": "tm23-stealth-rock",
     "name": "TM23 [Stealth Rock]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Stealth Rock."
   },
   {
     "id": "item-resist-wing",
     "slug": "resist-wing",
     "name": "Resist Wing",
     "category": "Vitamin",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "An item for use on a Pokémon. It slightly increases the base Defense stat of a single Pokémon."
   },
   {
     "id": "item-tm78-bulldoze",
     "slug": "tm78-bulldoze",
     "name": "TM78 [Bulldoze]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Bulldoze."
   },
   {
     "id": "item-tm76-bug-buzz",
     "slug": "tm76-bug-buzz",
     "name": "TM76 [Bug Buzz]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Bug Buzz."
   },
   {
     "id": "item-tm33-reflect",
     "slug": "tm33-reflect",
     "name": "TM33 [Reflect]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Reflect."
   },
   {
     "id": "item-choice-scarf",
     "slug": "choice-scarf",
     "name": "Choice Scarf",
     "category": "Held Item",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "An item to be held by a Pokémon. This curious scarf boosts Speed but only allows the use of one move."
   },
   {
     "id": "item-love-ball",
     "slug": "love-ball",
     "name": "Love Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A Poké Ball that works best when catching a Pokémon that is of the opposite gender of your Pokémon."
   },
   {
     "id": "item-tm93-wild-charge",
     "slug": "tm93-wild-charge",
     "name": "TM93 [Wild Charge]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Wild Charge."
   },
   {
     "id": "item-tm25-thunder",
     "slug": "tm25-thunder",
     "name": "TM25 [Thunder]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Thunder."
   },
   {
     "id": "item-iron",
     "slug": "iron",
     "name": "Iron",
     "category": "Vitamin",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A nutritious drink for Pokémon. When consumed, it raises the base Defense stat of a single Pokémon."
   },
   {
     "id": "item-revival-herb",
     "slug": "revival-herb",
     "name": "Revival Herb",
     "category": "Held Item",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A terribly bitter medicinal herb. It revives a fainted Pokémon and fully restores its maximum HP."
   },
   {
     "id": "item-cherish-ball",
     "slug": "cherish-ball",
     "name": "Cherish Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A quite rare Poké Ball that has been crafted in order to commemorate a special occasion of some sort."
   },
   {
     "id": "item-super-potion",
     "slug": "super-potion",
     "name": "Super Potion",
     "category": "Medicine",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A spray-type medicine for treating wounds. It can be used to restore 50 HP to an injured Pokémon."
   },
   {
     "id": "item-hondew-berry",
     "slug": "hondew-berry",
     "name": "Hondew Berry",
     "category": "Berry",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its base Sp. Atk."
   },
   {
     "id": "item-tm87-swagger",
     "slug": "tm87-swagger",
     "name": "TM87 [Swagger]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Swagger."
   },
   {
     "id": "item-tm59-incinerate",
     "slug": "tm59-incinerate",
     "name": "TM59 [Incinerate]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Incinerate."
   },
   {
     "id": "item-genius-wing",
     "slug": "genius-wing",
     "name": "Genius Wing",
     "category": "Vitamin",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "An item for use on a Pokémon. It slightly increases the base Sp. Atk stat of a single Pokémon."
   },
   {
     "id": "item-tm84-poison-jab",
     "slug": "tm84-poison-jab",
     "name": "TM84 [Poison Jab]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Poison Jab."
   },
   {
     "id": "item-tm48-body-slam",
     "slug": "tm48-body-slam",
     "name": "TM48 [Body Slam]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Body Slam."
   },
   {
     "id": "item-dive-ball",
     "slug": "dive-ball",
     "name": "Dive Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A somewhat different Poké Ball that works especially well when catching Pokémon that live underwater."
   },
   {
     "id": "item-dire-hit",
     "slug": "dire-hit",
     "name": "Dire Hit",
     "category": "Battle Item",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "An item that raises the critical-hit ratio greatly. It can be used only once and wears off if the Pokémon is withdrawn."
   },
   {
     "id": "item-guard-spec",
     "slug": "guard-spec",
     "name": "Guard Spec.",
     "category": "Battle Item",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "An item that prevents stat reduction among the Trainer’s party Pokémon for five turns after it is used in battle."
   },
   {
     "id": "item-tm38-fire-blast",
     "slug": "tm38-fire-blast",
     "name": "TM38 [Fire Blast]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Fire Blast."
   },
   {
     "id": "item-calcium",
     "slug": "calcium",
     "name": "Calcium",
     "category": "Vitamin",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A nutritious drink for Pokémon. When consumed, it raises the base Sp. Atk stat of a single Pokémon."
   },
   {
     "id": "item-safari-ball",
     "slug": "safari-ball",
     "name": "Safari Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A special Poké Ball that is used only in the Great Marsh. It is recognizable by the camouflage pattern decorating it."
   },
   {
     "id": "item-hyper-potion",
     "slug": "hyper-potion",
     "name": "Hyper Potion",
     "category": "Medicine",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A spray-type medicine for treating wounds. It can be used to restore 200 HP to an injured Pokémon."
   },
   {
     "id": "item-max-potion",
     "slug": "max-potion",
     "name": "Max Potion",
     "category": "Medicine",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A spray-type medicine for treating wounds. It will completely restore the max HP of a single Pokémon."
   },
   {
     "id": "item-grepa-berry",
     "slug": "grepa-berry",
     "name": "Grepa Berry",
     "category": "Berry",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its base Sp. Def."
   },
   {
     "id": "item-tm60-knock-off",
     "slug": "tm60-knock-off",
     "name": "TM60 [Knock Off]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Knock Off."
   },
   {
     "id": "item-clever-wing",
     "slug": "clever-wing",
     "name": "Clever Wing",
     "category": "Vitamin",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "An item for use on a Pokémon. It slightly increases the base Sp. Def stat of a single Pokémon."
   },
   {
     "id": "item-tm91-flash-cannon",
     "slug": "tm91-flash-cannon",
     "name": "TM91 [Flash Cannon]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Flash Cannon."
   },
   {
     "id": "item-tm50-overheat",
     "slug": "tm50-overheat",
     "name": "TM50 [Overheat]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Overheat."
   },
   {
     "id": "item-friend-ball",
     "slug": "friend-ball",
     "name": "Friend Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A strange Poké Ball that will make the wild Pokémon caught with it more friendly toward you immediately."
   },
   {
     "id": "item-tm68-giga-impact",
     "slug": "tm68-giga-impact",
     "name": "TM68 [Giga Impact]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Giga Impact."
   },
   {
     "id": "item-zinc",
     "slug": "zinc",
     "name": "Zinc",
     "category": "Vitamin",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A nutritious drink for Pokémon. When consumed, it raises the base Sp. Def stat of a single Pokémon."
   },
   {
     "id": "item-relic-band",
     "slug": "relic-band",
     "name": "Relic Band",
     "category": "Held Item",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A heavy bracelet made by an ancient civilization about 3,000 years ago."
   },
   {
     "id": "item-premier-ball",
     "slug": "premier-ball",
     "name": "Premier Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A somewhat rare Poké Ball that was made as a commemorative item used to celebrate an event of some sort."
   },
   {
     "id": "item-full-heal",
     "slug": "full-heal",
     "name": "Full Heal",
     "category": "Medicine",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A spray-type medicine that is broadly effective. It can be used once to heal all the status conditions of a Pokémon."
   },
   {
     "id": "item-revive",
     "slug": "revive",
     "name": "Revive",
     "category": "Medicine",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A medicine that can revive fainted Pokémon. It also restores half of a fainted Pokémon’s maximum HP."
   },
   {
     "id": "item-full-restore",
     "slug": "full-restore",
     "name": "Full Restore",
     "category": "Medicine",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A medicine that can be used to fully restore the HP of a single Pokémon and heal any status conditions it has."
   },
   {
     "id": "item-tamato-berry",
     "slug": "tamato-berry",
     "name": "Tamato Berry",
     "category": "Berry",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its base Speed."
   },
   {
     "id": "item-swift-wing",
     "slug": "swift-wing",
     "name": "Swift Wing",
     "category": "Vitamin",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "An item for use on a Pokémon. It slightly increases the base Speed stat of a single Pokémon."
   },
   {
     "id": "item-tm51-heavy-slam",
     "slug": "tm51-heavy-slam",
     "name": "TM51 [Heavy Slam]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Heavy Slam."
   },
   {
     "id": "item-lure-ball",
     "slug": "lure-ball",
     "name": "Lure Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A Poké Ball that is good for catching Pokémon that you reel in with a Rod while out fishing."
   },
   {
     "id": "item-carbos",
     "slug": "carbos",
     "name": "Carbos",
     "category": "Vitamin",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A nutritious drink for Pokémon. When consumed, it raises the base Speed stat of a single Pokémon."
   },
   {
     "id": "item-max-revive",
     "slug": "max-revive",
     "name": "Max Revive",
     "category": "Medicine",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A medicine that can revive fainted Pokémon. It also fully restores a fainted Pokémon’s maximum HP."
   },
   {
     "id": "item-sitrus-berry",
     "slug": "sitrus-berry",
     "name": "Sitrus Berry",
     "category": "Berry",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can restore its own HP by a small amount during battle."
   },
   {
     "id": "item-moomoo-milk",
     "slug": "moomoo-milk",
     "name": "Moomoo Milk",
     "category": "Medicine",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A bottle of highly nutritious milk. When consumed, it restores 100 HP to an injured Pokémon."
   },
   {
     "id": "item-tm52-focus-blast",
     "slug": "tm52-focus-blast",
     "name": "TM52 [Focus Blast]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Focus Blast."
   },
   {
     "id": "item-level-ball",
     "slug": "level-ball",
     "name": "Level Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A Poké Ball that makes it easier to catch Pokémon that are at a lower level than your own Pokémon."
   },
   {
     "id": "item-pp-max",
     "slug": "pp-max",
     "name": "PP Max",
     "category": "Vitamin",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A medicine that can optimally raise the maximum PP of a single move that has been learned by the target Pokémon."
   },
   {
     "id": "item-lum-berry",
     "slug": "lum-berry",
     "name": "Lum Berry",
     "category": "Berry",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from any status condition during battle."
   },
   {
     "id": "item-tm58-tailwind",
     "slug": "tm58-tailwind",
     "name": "TM58 [Tailwind]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Tailwind."
   },
   {
     "id": "item-dusk-ball",
     "slug": "dusk-ball",
     "name": "Dusk Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places like caves."
   },
   {
     "id": "item-ability-capsule",
     "slug": "ability-capsule",
     "name": "Ability Capsule",
     "category": "Held Item",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A capsule that allows a Pokémon with two Abilities to switch between these Abilities when it is used."
   },
   {
     "id": "item-tm85-zen-headbutt",
     "slug": "tm85-zen-headbutt",
     "name": "TM85 [Zen Headbutt]",
     "category": "Tm",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "Teaches Zen Headbutt."
   },
   {
     "id": "item-fast-ball",
     "slug": "fast-ball",
     "name": "Fast Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A Poké Ball that makes it easier to catch Pokémon that are usually very quick to run away."
   },
   {
     "id": "item-repeat-ball",
     "slug": "repeat-ball",
     "name": "Repeat Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A somewhat different Poké Ball that works especially well on a Pokémon species that has been caught before."
   },
   {
     "id": "item-nest-ball",
     "slug": "nest-ball",
     "name": "Nest Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A somewhat different Poké Ball that becomes more effective the lower the level of the wild Pokémon."
   },
   {
     "id": "item-net-ball",
     "slug": "net-ball",
     "name": "Net Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A somewhat different Poké Ball that is more effective when attempting to catch Water- or Bug-type Pokémon."
   },
   {
     "id": "item-elixir",
     "slug": "elixir",
     "name": "Elixir",
     "category": "Medicine",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "This medicine can restore 10 PP to each of the moves that have been learned by a Pokémon."
   },
   {
     "id": "item-max-elixir",
     "slug": "max-elixir",
     "name": "Max Elixir",
     "category": "Medicine",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "This medicine can fully restore the PP of all of the moves that have been learned by a Pokémon."
   },
   {
     "id": "item-quick-ball",
     "slug": "quick-ball",
     "name": "Quick Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A somewhat different Poké Ball that has a more successful catch rate if used at the start of a wild encounter."
   },
   {
     "id": "item-heal-ball",
     "slug": "heal-ball",
     "name": "Heal Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A remedial Poké Ball that restores the HP of a Pokémon caught with it and eliminates any status conditions."
   },
   {
     "id": "item-timer-ball",
     "slug": "timer-ball",
     "name": "Timer Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A somewhat different Poké Ball that becomes progressively more effective the more turns that are taken in battle."
   },
   {
     "id": "item-luxury-ball",
     "slug": "luxury-ball",
     "name": "Luxury Ball",
     "category": "Poke Ball",
-    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+    "description": "A particularly comfortable Poké Ball that makes a wild Pokémon quickly grow friendlier after being caught."
   },
   {
     "id": "item-pp-up",
     "slug": "pp-up",
     "name": "PP Up",
     "category": "Held Item",
-    "description": "Imported from Pickup Items Table (XY).docx; review final in-game description later."
+    "description": "A medicine that can slightly raise the maximum PP of a single move that has been learned by the target Pokémon."
   },
   {
     "id": "item-balm-mushroom",
     "slug": "balm-mushroom",
     "name": "Balm Mushroom",
     "category": "Valuable",
-    "description": "Imported from Pickup Items Table (XY).docx; review final in-game description later."
+    "description": "A rare mushroom that gives off a nice fragrance. It can be sold at a high price to shops."
   },
   {
     "id": "item-max-ether",
     "slug": "max-ether",
     "name": "Max Ether",
     "category": "Medicine",
-    "description": "Imported from Pickup Items Table (XY).docx; review final in-game description later."
+    "description": "This medicine can fully restore the PP of a single selected move that has been learned by a Pokémon."
   },
   {
     "id": "item-box-link",

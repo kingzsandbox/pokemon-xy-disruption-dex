@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { getEncountersByLocation } from "@/lib/data/encounters";
-import { getItemSectionsByLocation } from "@/lib/data/items";
+import { getItemSectionsByLocation, getLocationItemStatusMessage } from "@/lib/data/items";
 import { getLocationBySlug, getLocations } from "@/lib/data/locations";
 import { getPokemonById } from "@/lib/data/pokemon";
 
@@ -56,14 +57,12 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
       </section>
 
       <section style={{ marginTop: "24px" }}>
-        <h2>Items Found Here</h2>
+        <h2>Imported Item Locations</h2>
         <p style={{ color: "#586379", lineHeight: 1.6 }}>
-          This section currently reflects imported shop inventory, trash can finds, and special
-          item placements only. Comprehensive route and field pickup coverage is not present in the
-          current source set.
+          {getLocationItemStatusMessage(itemSections.length > 0)}
         </p>
         {itemSections.length === 0 ? (
-          <p>No imported location item data is available for this area yet.</p>
+          <p>No imported shop, trash can, or special-placement item data is linked to this area.</p>
         ) : (
           <div style={{ display: "grid", gap: "20px" }}>
             {itemSections.map((section) => (
@@ -72,7 +71,7 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
                 <ul style={{ marginTop: 0 }}>
                   {section.items.map((item) => (
                     <li key={item.itemLocationId}>
-                      {item.item.name}
+                      <Link href={`/items/${item.item.slug}`}>{item.item.name}</Link>
                       {item.notes ? ` • ${item.notes}` : ""}
                     </li>
                   ))}
