@@ -1,0 +1,5591 @@
+[
+  {
+    "id": "encounter-00001",
+    "locationId": "location-route-2",
+    "pokemonId": "pokemon-0659",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 5,
+    "maxLevel": 5,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00002",
+    "locationId": "location-santalune-forest",
+    "pokemonId": "pokemon-0013",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 6,
+    "maxLevel": 6,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00003",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0037",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 7,
+    "maxLevel": 7,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00004",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0667",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 9,
+    "maxLevel": 9,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00005",
+    "locationId": "location-reflection-cave-3bf",
+    "pokemonId": "pokemon-0101",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00006",
+    "locationId": "location-shalour-city",
+    "pokemonId": "pokemon-0550-red-striped-form",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00007",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0128",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00008",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0166",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00009",
+    "locationId": "location-route-13",
+    "pokemonId": "pokemon-0221",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 44,
+    "maxLevel": 44,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00010",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0094",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00011",
+    "locationId": "location-laverre-city",
+    "pokemonId": "pokemon-0086",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 28,
+    "maxLevel": 28,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00012",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0687",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00013",
+    "locationId": "location-lost-hotel",
+    "pokemonId": "pokemon-0059",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00014",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0113",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00015",
+    "locationId": "location-frost-cavern-outside",
+    "pokemonId": "pokemon-0341",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 34,
+    "maxLevel": 34,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00016",
+    "locationId": "location-frost-cavern-1f",
+    "pokemonId": "pokemon-0713",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 54,
+    "maxLevel": 54,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00017",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0539",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 55,
+    "maxLevel": 55,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00018",
+    "locationId": "location-frost-cavern-3f",
+    "pokemonId": "pokemon-0295",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 56,
+    "maxLevel": 56,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00019",
+    "locationId": "location-frost-cavern-1f-r2",
+    "pokemonId": "pokemon-0080",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 57,
+    "maxLevel": 57,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00020",
+    "locationId": "location-route-17",
+    "pokemonId": "pokemon-0614",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 59,
+    "maxLevel": 59,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00021",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0289",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00022",
+    "locationId": "location-terminus-cave-1f",
+    "pokemonId": "pokemon-0105",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 63,
+    "maxLevel": 63,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00023",
+    "locationId": "location-terminus-cave-b1f",
+    "pokemonId": "pokemon-0356",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 64,
+    "maxLevel": 64,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00024",
+    "locationId": "location-terminus-cave-2f",
+    "pokemonId": "pokemon-0358",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 65,
+    "maxLevel": 65,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00025",
+    "locationId": "location-terminus-cave-b2f",
+    "pokemonId": "pokemon-0337",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00026",
+    "locationId": "location-terminus-cave-b3f",
+    "pokemonId": "pokemon-0327",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 67,
+    "maxLevel": 67,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00027",
+    "locationId": "location-couriway-town",
+    "pokemonId": "pokemon-0318",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 47,
+    "maxLevel": 47,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00028",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0306",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00029",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0547",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 71,
+    "maxLevel": 71,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00030",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0709",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00031",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0103",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00032",
+    "locationId": "location-victory-road-outside-any-floor",
+    "pokemonId": "pokemon-0628",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.77
+  },
+  {
+    "id": "encounter-00033",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0289",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 77,
+    "maxLevel": 77,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00034",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0143",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 78,
+    "maxLevel": 78,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00035",
+    "locationId": "location-victory-road-room-3",
+    "pokemonId": "pokemon-0591",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 79,
+    "maxLevel": 79,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00036",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0365",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 59,
+    "maxLevel": 59,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00037",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0202",
+    "method": "Yellow Flowers / Old Rod",
+    "minLevel": 80,
+    "maxLevel": 80,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00038",
+    "locationId": "location-route-2",
+    "pokemonId": "pokemon-0661",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 5,
+    "maxLevel": 5,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00039",
+    "locationId": "location-santalune-forest",
+    "pokemonId": "pokemon-0664",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 6,
+    "maxLevel": 6,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00040",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0032",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 7,
+    "maxLevel": 7,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00041",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0511",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 9,
+    "maxLevel": 9,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00042",
+    "locationId": "location-reflection-cave-3bf",
+    "pokemonId": "pokemon-0354",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00043",
+    "locationId": "location-shalour-city",
+    "pokemonId": "pokemon-0339",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00044",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0241",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00045",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0190",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00046",
+    "locationId": "location-route-13",
+    "pokemonId": "pokemon-0450",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 44,
+    "maxLevel": 44,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00047",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0576",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00048",
+    "locationId": "location-laverre-city",
+    "pokemonId": "pokemon-0592",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 28,
+    "maxLevel": 28,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00049",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0700",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00050",
+    "locationId": "location-lost-hotel",
+    "pokemonId": "pokemon-0426",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00051",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0217",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00052",
+    "locationId": "location-frost-cavern-outside",
+    "pokemonId": "pokemon-0222",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 34,
+    "maxLevel": 34,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00053",
+    "locationId": "location-frost-cavern-1f",
+    "pokemonId": "pokemon-0563",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 54,
+    "maxLevel": 54,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00054",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0538",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 55,
+    "maxLevel": 55,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00055",
+    "locationId": "location-frost-cavern-3f",
+    "pokemonId": "pokemon-0460",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 56,
+    "maxLevel": 56,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00056",
+    "locationId": "location-frost-cavern-1f-r2",
+    "pokemonId": "pokemon-0225",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 57,
+    "maxLevel": 57,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00057",
+    "locationId": "location-route-17",
+    "pokemonId": "pokemon-0713",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 59,
+    "maxLevel": 59,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00058",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0432",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00059",
+    "locationId": "location-terminus-cave-1f",
+    "pokemonId": "pokemon-0528",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 63,
+    "maxLevel": 63,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00060",
+    "locationId": "location-terminus-cave-b1f",
+    "pokemonId": "pokemon-0601",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 64,
+    "maxLevel": 64,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00061",
+    "locationId": "location-terminus-cave-2f",
+    "pokemonId": "pokemon-0139",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 65,
+    "maxLevel": 65,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00062",
+    "locationId": "location-terminus-cave-b2f",
+    "pokemonId": "pokemon-0338",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00063",
+    "locationId": "location-terminus-cave-b3f",
+    "pokemonId": "pokemon-0348",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 67,
+    "maxLevel": 67,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00064",
+    "locationId": "location-couriway-town",
+    "pokemonId": "pokemon-0592",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 47,
+    "maxLevel": 47,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00065",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0115",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00066",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0542",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 71,
+    "maxLevel": 71,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00067",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0531",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00068",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0463",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00069",
+    "locationId": "location-victory-road-outside-any-floor",
+    "pokemonId": "pokemon-0630",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.18
+  },
+  {
+    "id": "encounter-00070",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0717",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00071",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0718-50-forme",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00072",
+    "locationId": "location-victory-road-room-3",
+    "pokemonId": "pokemon-0487-altered-forme",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00073",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0226",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 59,
+    "maxLevel": 59,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00074",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0235",
+    "method": "Red Flowers / Good Rod",
+    "minLevel": 80,
+    "maxLevel": 80,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00075",
+    "locationId": "location-route-2",
+    "pokemonId": "pokemon-0187",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 5,
+    "maxLevel": 5,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00076",
+    "locationId": "location-santalune-forest",
+    "pokemonId": "pokemon-0010",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 6,
+    "maxLevel": 6,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00077",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0029",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 7,
+    "maxLevel": 7,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00078",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0396",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 9,
+    "maxLevel": 9,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00079",
+    "locationId": "location-reflection-cave-3bf",
+    "pokemonId": "pokemon-0198",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00080",
+    "locationId": "location-shalour-city",
+    "pokemonId": "pokemon-0320",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00081",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0196",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00082",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0078",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00083",
+    "locationId": "location-route-13",
+    "pokemonId": "pokemon-0344",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 44,
+    "maxLevel": 44,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00084",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0709",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00085",
+    "locationId": "location-laverre-city",
+    "pokemonId": "pokemon-0349",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 28,
+    "maxLevel": 28,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00086",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0277",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00087",
+    "locationId": "location-lost-hotel",
+    "pokemonId": "pokemon-0624",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00088",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0508",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00089",
+    "locationId": "location-frost-cavern-outside",
+    "pokemonId": "pokemon-0116",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 34,
+    "maxLevel": 34,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00090",
+    "locationId": "location-frost-cavern-1f",
+    "pokemonId": "pokemon-0362",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 54,
+    "maxLevel": 54,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00091",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0614",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 55,
+    "maxLevel": 55,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00092",
+    "locationId": "location-frost-cavern-3f",
+    "pokemonId": "pokemon-0615",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 56,
+    "maxLevel": 56,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00093",
+    "locationId": "location-frost-cavern-1f-r2",
+    "pokemonId": "pokemon-0091",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 57,
+    "maxLevel": 57,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00094",
+    "locationId": "location-route-17",
+    "pokemonId": "pokemon-0460",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 59,
+    "maxLevel": 59,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00095",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0510",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00096",
+    "locationId": "location-terminus-cave-1f",
+    "pokemonId": "pokemon-0168",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 63,
+    "maxLevel": 63,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00097",
+    "locationId": "location-terminus-cave-b1f",
+    "pokemonId": "pokemon-0462",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 64,
+    "maxLevel": 64,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00098",
+    "locationId": "location-terminus-cave-2f",
+    "pokemonId": "pokemon-0317",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 65,
+    "maxLevel": 65,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00099",
+    "locationId": "location-terminus-cave-b2f",
+    "pokemonId": "pokemon-0621",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00100",
+    "locationId": "location-terminus-cave-b3f",
+    "pokemonId": "pokemon-0346",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 67,
+    "maxLevel": 67,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00101",
+    "locationId": "location-couriway-town",
+    "pokemonId": "pokemon-0147",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 47,
+    "maxLevel": 47,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00102",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0359",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00103",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0269",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 71,
+    "maxLevel": 71,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00104",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0334",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00105",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0454",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00106",
+    "locationId": "location-victory-road-outside-any-floor",
+    "pokemonId": "pokemon-0635",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00107",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0484",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00108",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0483",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00109",
+    "locationId": "location-victory-road-room-3",
+    "pokemonId": "pokemon-0644",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00110",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0321",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 59,
+    "maxLevel": 59,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00111",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0646",
+    "method": "Purple Flowers / Super Rod",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00112",
+    "locationId": "location-route-2",
+    "pokemonId": "pokemon-0333",
+    "method": "Horde / Surf",
+    "minLevel": 5,
+    "maxLevel": 5,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00113",
+    "locationId": "location-santalune-forest",
+    "pokemonId": "pokemon-0043",
+    "method": "Horde / Surf",
+    "minLevel": 6,
+    "maxLevel": 6,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00114",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0513",
+    "method": "Horde / Surf",
+    "minLevel": 7,
+    "maxLevel": 7,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00115",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0557",
+    "method": "Horde / Surf",
+    "minLevel": 9,
+    "maxLevel": 9,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00116",
+    "locationId": "location-reflection-cave-3bf",
+    "pokemonId": "pokemon-0110",
+    "method": "Horde / Surf",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00117",
+    "locationId": "location-shalour-city",
+    "pokemonId": "pokemon-0550-blue-striped-form",
+    "method": "Horde / Surf",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00118",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0192",
+    "method": "Horde / Surf",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00119",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0470",
+    "method": "Horde / Surf",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00120",
+    "locationId": "location-route-13",
+    "pokemonId": "pokemon-0112",
+    "method": "Horde / Surf",
+    "minLevel": 44,
+    "maxLevel": 44,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00121",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0205",
+    "method": "Horde / Surf",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00122",
+    "locationId": "location-laverre-city",
+    "pokemonId": "pokemon-0087",
+    "method": "Horde / Surf",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00123",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0549",
+    "method": "Horde / Surf",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00124",
+    "locationId": "location-lost-hotel",
+    "pokemonId": "pokemon-0302",
+    "method": "Horde / Surf",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00125",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0085",
+    "method": "Horde / Surf",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00126",
+    "locationId": "location-frost-cavern-outside",
+    "pokemonId": "pokemon-0342",
+    "method": "Horde / Surf",
+    "minLevel": 44,
+    "maxLevel": 44,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00127",
+    "locationId": "location-frost-cavern-1f",
+    "pokemonId": "pokemon-0308",
+    "method": "Horde / Surf",
+    "minLevel": 54,
+    "maxLevel": 54,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00128",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0463",
+    "method": "Horde / Surf",
+    "minLevel": 55,
+    "maxLevel": 55,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00129",
+    "locationId": "location-frost-cavern-3f",
+    "pokemonId": "pokemon-0365",
+    "method": "Horde / Surf",
+    "minLevel": 56,
+    "maxLevel": 56,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00130",
+    "locationId": "location-frost-cavern-1f-r2",
+    "pokemonId": "pokemon-0615",
+    "method": "Horde / Surf",
+    "minLevel": 57,
+    "maxLevel": 57,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00131",
+    "locationId": "location-route-17",
+    "pokemonId": "pokemon-0124",
+    "method": "Horde / Surf",
+    "minLevel": 59,
+    "maxLevel": 59,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00132",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0301",
+    "method": "Horde / Surf",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00133",
+    "locationId": "location-terminus-cave-1f",
+    "pokemonId": "pokemon-0530",
+    "method": "Horde / Surf",
+    "minLevel": 63,
+    "maxLevel": 63,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00134",
+    "locationId": "location-terminus-cave-b1f",
+    "pokemonId": "pokemon-0606",
+    "method": "Horde / Surf",
+    "minLevel": 64,
+    "maxLevel": 64,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00135",
+    "locationId": "location-terminus-cave-2f",
+    "pokemonId": "pokemon-0141",
+    "method": "Horde / Surf",
+    "minLevel": 65,
+    "maxLevel": 65,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00136",
+    "locationId": "location-terminus-cave-b2f",
+    "pokemonId": "pokemon-0169",
+    "method": "Horde / Surf",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00137",
+    "locationId": "location-terminus-cave-b3f",
+    "pokemonId": "pokemon-0558",
+    "method": "Horde / Surf",
+    "minLevel": 67,
+    "maxLevel": 67,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00138",
+    "locationId": "location-couriway-town",
+    "pokemonId": "pokemon-0318",
+    "method": "Horde / Surf",
+    "minLevel": 57,
+    "maxLevel": 57,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00139",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0460",
+    "method": "Horde / Surf",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00140",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0354",
+    "method": "Horde / Surf",
+    "minLevel": 71,
+    "maxLevel": 71,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00141",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0208",
+    "method": "Horde / Surf",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00142",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0617",
+    "method": "Horde / Surf",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00143",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0643",
+    "method": "Horde / Surf",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00144",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0383",
+    "method": "Horde / Surf",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00145",
+    "locationId": "location-victory-road-room-3",
+    "pokemonId": "pokemon-0250",
+    "method": "Horde / Surf",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00146",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0365",
+    "method": "Horde / Surf",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00147",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0716",
+    "method": "Horde / Surf",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00148",
+    "locationId": "location-route-2",
+    "pokemonId": "pokemon-0155",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 5,
+    "maxLevel": 5,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00149",
+    "locationId": "location-santalune-forest",
+    "pokemonId": "pokemon-0252",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 6,
+    "maxLevel": 6,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00150",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0501",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 7,
+    "maxLevel": 7,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00151",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0498",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 9,
+    "maxLevel": 9,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00152",
+    "locationId": "location-reflection-cave-3bf",
+    "pokemonId": "pokemon-0703",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00153",
+    "locationId": "location-shalour-city",
+    "pokemonId": "pokemon-0339",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00154",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0441",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00155",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0423",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.1
+  },
+  {
+    "id": "encounter-00156",
+    "locationId": "location-route-13",
+    "pokemonId": "pokemon-0329",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 44,
+    "maxLevel": 44,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00157",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0702",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00158",
+    "locationId": "location-laverre-city",
+    "pokemonId": "pokemon-0592",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00159",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0314",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00160",
+    "locationId": "location-lost-hotel",
+    "pokemonId": "pokemon-0531",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00161",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0206",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00162",
+    "locationId": "location-frost-cavern-outside",
+    "pokemonId": "pokemon-0222",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 44,
+    "maxLevel": 44,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00163",
+    "locationId": "location-frost-cavern-1f",
+    "pokemonId": "pokemon-0584",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 54,
+    "maxLevel": 54,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00164",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0478",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 55,
+    "maxLevel": 55,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00165",
+    "locationId": "location-frost-cavern-3f",
+    "pokemonId": "pokemon-0461",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 56,
+    "maxLevel": 56,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00166",
+    "locationId": "location-frost-cavern-1f-r2",
+    "pokemonId": "pokemon-0351",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 57,
+    "maxLevel": 57,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00167",
+    "locationId": "location-route-17",
+    "pokemonId": "pokemon-0362",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 59,
+    "maxLevel": 59,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00168",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0229",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00169",
+    "locationId": "location-terminus-cave-1f",
+    "pokemonId": "pokemon-0678",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 63,
+    "maxLevel": 63,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00170",
+    "locationId": "location-terminus-cave-b1f",
+    "pokemonId": "pokemon-0479",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 64,
+    "maxLevel": 64,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00171",
+    "locationId": "location-terminus-cave-2f",
+    "pokemonId": "pokemon-0208",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 65,
+    "maxLevel": 65,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00172",
+    "locationId": "location-terminus-cave-b2f",
+    "pokemonId": "pokemon-0142",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00173",
+    "locationId": "location-terminus-cave-b3f",
+    "pokemonId": "pokemon-0521",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 67,
+    "maxLevel": 67,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00174",
+    "locationId": "location-couriway-town",
+    "pokemonId": "pokemon-0592",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 57,
+    "maxLevel": 57,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00175",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0310",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00176",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0448",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 71,
+    "maxLevel": 71,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00177",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0248",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00178",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0149",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00179",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0150",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.1
+  },
+  {
+    "id": "encounter-00180",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0486",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.1
+  },
+  {
+    "id": "encounter-00181",
+    "locationId": "location-victory-road-room-3",
+    "pokemonId": "pokemon-0485",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.1
+  },
+  {
+    "id": "encounter-00182",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0226",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00183",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0384",
+    "method": "Rock Smash / Ambush",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.1
+  },
+  {
+    "id": "encounter-00184",
+    "locationId": "location-route-2",
+    "pokemonId": "pokemon-0570",
+    "method": "Wild Encounter",
+    "minLevel": 5,
+    "maxLevel": 5,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00185",
+    "locationId": "location-santalune-forest",
+    "pokemonId": "pokemon-0172",
+    "method": "Wild Encounter",
+    "minLevel": 6,
+    "maxLevel": 6,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00186",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0627",
+    "method": "Wild Encounter",
+    "minLevel": 7,
+    "maxLevel": 7,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00187",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0246",
+    "method": "Wild Encounter",
+    "minLevel": 9,
+    "maxLevel": 9,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00188",
+    "locationId": "location-reflection-cave-3bf",
+    "pokemonId": "pokemon-0359",
+    "method": "Wild Encounter",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00189",
+    "locationId": "location-shalour-city",
+    "pokemonId": "pokemon-0320",
+    "method": "Wild Encounter",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00190",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0587",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00191",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0423",
+    "method": "Wild Encounter",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.1
+  },
+  {
+    "id": "encounter-00192",
+    "locationId": "location-route-13",
+    "pokemonId": "pokemon-0621",
+    "method": "Wild Encounter",
+    "minLevel": 44,
+    "maxLevel": 44,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00193",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0335",
+    "method": "Wild Encounter",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00194",
+    "locationId": "location-laverre-city",
+    "pokemonId": "pokemon-0350",
+    "method": "Wild Encounter",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00195",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0127",
+    "method": "Wild Encounter",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00196",
+    "locationId": "location-lost-hotel",
+    "pokemonId": "pokemon-0351",
+    "method": "Wild Encounter",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00197",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0083",
+    "method": "Wild Encounter",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00198",
+    "locationId": "location-frost-cavern-outside",
+    "pokemonId": "pokemon-0117",
+    "method": "Wild Encounter",
+    "minLevel": 44,
+    "maxLevel": 44,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00199",
+    "locationId": "location-frost-cavern-1f",
+    "pokemonId": "pokemon-0219",
+    "method": "Wild Encounter",
+    "minLevel": 54,
+    "maxLevel": 54,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00200",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0124",
+    "method": "Wild Encounter",
+    "minLevel": 55,
+    "maxLevel": 55,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00201",
+    "locationId": "location-frost-cavern-3f",
+    "pokemonId": "pokemon-0473",
+    "method": "Wild Encounter",
+    "minLevel": 56,
+    "maxLevel": 56,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00202",
+    "locationId": "location-frost-cavern-1f-r2",
+    "pokemonId": "pokemon-0471",
+    "method": "Wild Encounter",
+    "minLevel": 57,
+    "maxLevel": 57,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00203",
+    "locationId": "location-route-17",
+    "pokemonId": "pokemon-0478",
+    "method": "Wild Encounter",
+    "minLevel": 59,
+    "maxLevel": 59,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00204",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0632",
+    "method": "Wild Encounter",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00205",
+    "locationId": "location-terminus-cave-1f",
+    "pokemonId": "pokemon-0631",
+    "method": "Wild Encounter",
+    "minLevel": 63,
+    "maxLevel": 63,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00206",
+    "locationId": "location-terminus-cave-b1f",
+    "pokemonId": "pokemon-0715",
+    "method": "Wild Encounter",
+    "minLevel": 64,
+    "maxLevel": 64,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00207",
+    "locationId": "location-terminus-cave-2f",
+    "pokemonId": "pokemon-0137",
+    "method": "Wild Encounter",
+    "minLevel": 65,
+    "maxLevel": 65,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00208",
+    "locationId": "location-terminus-cave-b2f",
+    "pokemonId": "pokemon-0137",
+    "method": "Wild Encounter",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00209",
+    "locationId": "location-terminus-cave-b3f",
+    "pokemonId": "pokemon-0479",
+    "method": "Wild Encounter",
+    "minLevel": 67,
+    "maxLevel": 67,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00210",
+    "locationId": "location-couriway-town",
+    "pokemonId": "pokemon-0148",
+    "method": "Wild Encounter",
+    "minLevel": 57,
+    "maxLevel": 57,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00211",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0445",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00212",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0414",
+    "method": "Wild Encounter",
+    "minLevel": 71,
+    "maxLevel": 71,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00213",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0302",
+    "method": "Wild Encounter",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00214",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0666",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00215",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0648-aria-forme",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00216",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0720-hoopa-confined",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00217",
+    "locationId": "location-victory-road-room-3",
+    "pokemonId": "pokemon-0494",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00218",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0321",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00219",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0151",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00220",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0129",
+    "method": "Wild Encounter",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00221",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0164",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00222",
+    "locationId": "location-reflection-cave-3bf",
+    "pokemonId": "pokemon-0316",
+    "method": "Wild Encounter",
+    "minLevel": 21,
+    "maxLevel": 21,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00223",
+    "locationId": "location-shalour-city",
+    "pokemonId": "pokemon-0550-red-striped-form",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00224",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0346",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00225",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0357",
+    "method": "Wild Encounter",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00226",
+    "locationId": "location-route-13",
+    "pokemonId": "pokemon-0213",
+    "method": "Wild Encounter",
+    "minLevel": 44,
+    "maxLevel": 44,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00227",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0603",
+    "method": "Wild Encounter",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00228",
+    "locationId": "location-laverre-city",
+    "pokemonId": "pokemon-0087",
+    "method": "Wild Encounter",
+    "minLevel": 43,
+    "maxLevel": 43,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00229",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0555-standard-mode",
+    "method": "Wild Encounter",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00230",
+    "locationId": "location-lost-hotel",
+    "pokemonId": "pokemon-0569",
+    "method": "Wild Encounter",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 80.0
+  },
+  {
+    "id": "encounter-00231",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0125",
+    "method": "Wild Encounter",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00232",
+    "locationId": "location-frost-cavern-outside",
+    "pokemonId": "pokemon-0342",
+    "method": "Wild Encounter",
+    "minLevel": 49,
+    "maxLevel": 49,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00233",
+    "locationId": "location-frost-cavern-1f",
+    "pokemonId": "pokemon-0302",
+    "method": "Wild Encounter",
+    "minLevel": 27,
+    "maxLevel": 27,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00234",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0072",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00235",
+    "locationId": "location-frost-cavern-3f",
+    "pokemonId": "pokemon-0088",
+    "method": "Wild Encounter",
+    "minLevel": 29,
+    "maxLevel": 29,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00236",
+    "locationId": "location-frost-cavern-1f-r2",
+    "pokemonId": "pokemon-0574",
+    "method": "Wild Encounter",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00237",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0476",
+    "method": "Wild Encounter",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00238",
+    "locationId": "location-terminus-cave-1f",
+    "pokemonId": "pokemon-0476",
+    "method": "Wild Encounter",
+    "minLevel": 63,
+    "maxLevel": 63,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00239",
+    "locationId": "location-terminus-cave-b1f",
+    "pokemonId": "pokemon-0476",
+    "method": "Wild Encounter",
+    "minLevel": 64,
+    "maxLevel": 64,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00240",
+    "locationId": "location-terminus-cave-2f",
+    "pokemonId": "pokemon-0476",
+    "method": "Wild Encounter",
+    "minLevel": 65,
+    "maxLevel": 65,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00241",
+    "locationId": "location-terminus-cave-b2f",
+    "pokemonId": "pokemon-0201",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00242",
+    "locationId": "location-terminus-cave-b3f",
+    "pokemonId": "pokemon-0201",
+    "method": "Wild Encounter",
+    "minLevel": 36,
+    "maxLevel": 36,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00243",
+    "locationId": "location-couriway-town",
+    "pokemonId": "pokemon-0319",
+    "method": "Wild Encounter",
+    "minLevel": 62,
+    "maxLevel": 62,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00244",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0006",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00245",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0421",
+    "method": "Wild Encounter",
+    "minLevel": 71,
+    "maxLevel": 71,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00246",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0332",
+    "method": "Wild Encounter",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00247",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0466",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00248",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0492-land-forme",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00249",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0385",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00250",
+    "locationId": "location-victory-road-room-3",
+    "pokemonId": "pokemon-0251",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00251",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0365",
+    "method": "Wild Encounter",
+    "minLevel": 74,
+    "maxLevel": 74,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00252",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0493",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00253",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0060",
+    "method": "Wild Encounter",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00254",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0465",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00255",
+    "locationId": "location-shalour-city",
+    "pokemonId": "pokemon-0340",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00256",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0348",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00257",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0337",
+    "method": "Wild Encounter",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00258",
+    "locationId": "location-route-13",
+    "pokemonId": "pokemon-0437",
+    "method": "Wild Encounter",
+    "minLevel": 44,
+    "maxLevel": 44,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00259",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0097",
+    "method": "Wild Encounter",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00260",
+    "locationId": "location-laverre-city",
+    "pokemonId": "pokemon-0593",
+    "method": "Wild Encounter",
+    "minLevel": 43,
+    "maxLevel": 43,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00261",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0619",
+    "method": "Wild Encounter",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00262",
+    "locationId": "location-lost-hotel",
+    "pokemonId": "pokemon-0089",
+    "method": "Wild Encounter",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 20.0
+  },
+  {
+    "id": "encounter-00263",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0545",
+    "method": "Wild Encounter",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00264",
+    "locationId": "location-frost-cavern-outside",
+    "pokemonId": "pokemon-0222",
+    "method": "Wild Encounter",
+    "minLevel": 49,
+    "maxLevel": 49,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00265",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0223",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00266",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0526",
+    "method": "Wild Encounter",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00267",
+    "locationId": "location-terminus-cave-1f",
+    "pokemonId": "pokemon-0526",
+    "method": "Wild Encounter",
+    "minLevel": 63,
+    "maxLevel": 63,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00268",
+    "locationId": "location-terminus-cave-b1f",
+    "pokemonId": "pokemon-0526",
+    "method": "Wild Encounter",
+    "minLevel": 64,
+    "maxLevel": 64,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00269",
+    "locationId": "location-terminus-cave-2f",
+    "pokemonId": "pokemon-0526",
+    "method": "Wild Encounter",
+    "minLevel": 65,
+    "maxLevel": 65,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00270",
+    "locationId": "location-couriway-town",
+    "pokemonId": "pokemon-0593",
+    "method": "Wild Encounter",
+    "minLevel": 62,
+    "maxLevel": 62,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00271",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0065",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00272",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0711-average-size",
+    "method": "Wild Encounter",
+    "minLevel": 71,
+    "maxLevel": 71,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00273",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0663",
+    "method": "Wild Encounter",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00274",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0461",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00275",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0076",
+    "method": "Wild Encounter",
+    "minLevel": 77,
+    "maxLevel": 77,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00276",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0526",
+    "method": "Wild Encounter",
+    "minLevel": 78,
+    "maxLevel": 78,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00277",
+    "locationId": "location-victory-road-room-3",
+    "pokemonId": "pokemon-0242",
+    "method": "Wild Encounter",
+    "minLevel": 79,
+    "maxLevel": 79,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00278",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0226",
+    "method": "Wild Encounter",
+    "minLevel": 74,
+    "maxLevel": 74,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00279",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0073",
+    "method": "Wild Encounter",
+    "minLevel": 60,
+    "maxLevel": 60,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00280",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0090",
+    "method": "Wild Encounter",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00281",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0505",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00282",
+    "locationId": "location-shalour-city",
+    "pokemonId": "pokemon-0321",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00283",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0413-plant-cloak",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00284",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0338",
+    "method": "Wild Encounter",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00285",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0623",
+    "method": "Wild Encounter",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00286",
+    "locationId": "location-laverre-city",
+    "pokemonId": "pokemon-0350",
+    "method": "Wild Encounter",
+    "minLevel": 43,
+    "maxLevel": 43,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00287",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0071",
+    "method": "Wild Encounter",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00288",
+    "locationId": "location-lost-hotel",
+    "pokemonId": "pokemon-0479",
+    "method": "Wild Encounter",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 75.0
+  },
+  {
+    "id": "encounter-00289",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0315",
+    "method": "Wild Encounter",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00290",
+    "locationId": "location-frost-cavern-outside",
+    "pokemonId": "pokemon-0230",
+    "method": "Wild Encounter",
+    "minLevel": 49,
+    "maxLevel": 49,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00291",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0458",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00292",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0428",
+    "method": "Wild Encounter",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00293",
+    "locationId": "location-terminus-cave-1f",
+    "pokemonId": "pokemon-0546",
+    "method": "Wild Encounter",
+    "minLevel": 32,
+    "maxLevel": 32,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00294",
+    "locationId": "location-terminus-cave-b1f",
+    "pokemonId": "pokemon-0201",
+    "method": "Wild Encounter",
+    "minLevel": 33,
+    "maxLevel": 33,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00295",
+    "locationId": "location-terminus-cave-2f",
+    "pokemonId": "pokemon-0201",
+    "method": "Wild Encounter",
+    "minLevel": 34,
+    "maxLevel": 34,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00296",
+    "locationId": "location-couriway-town",
+    "pokemonId": "pokemon-0149",
+    "method": "Wild Encounter",
+    "minLevel": 62,
+    "maxLevel": 62,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00297",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0127",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00298",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0430",
+    "method": "Wild Encounter",
+    "minLevel": 71,
+    "maxLevel": 71,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00299",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0553",
+    "method": "Wild Encounter",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00300",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0059",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00301",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0213",
+    "method": "Wild Encounter",
+    "minLevel": 77,
+    "maxLevel": 77,
+    "rate": 0.45
+  },
+  {
+    "id": "encounter-00302",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0703",
+    "method": "Wild Encounter",
+    "minLevel": 78,
+    "maxLevel": 78,
+    "rate": 0.45
+  },
+  {
+    "id": "encounter-00303",
+    "locationId": "location-victory-road-room-3",
+    "pokemonId": "pokemon-0243",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00304",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0321",
+    "method": "Wild Encounter",
+    "minLevel": 74,
+    "maxLevel": 74,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00305",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0319",
+    "method": "Wild Encounter",
+    "minLevel": 60,
+    "maxLevel": 60,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00306",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0129",
+    "method": "Wild Encounter",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00307",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0080",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00308",
+    "locationId": "location-reflection-cave-3bf",
+    "pokemonId": "pokemon-0046",
+    "method": "Wild Encounter",
+    "minLevel": 21,
+    "maxLevel": 21,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00309",
+    "locationId": "location-shalour-city",
+    "pokemonId": "pokemon-0550-blue-striped-form",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00310",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0195",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00311",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0283",
+    "method": "Wild Encounter",
+    "minLevel": 22,
+    "maxLevel": 22,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00312",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0455",
+    "method": "Wild Encounter",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00313",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0181",
+    "method": "Wild Encounter",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00314",
+    "locationId": "location-lost-hotel",
+    "pokemonId": "pokemon-0479",
+    "method": "Wild Encounter",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 5.0
+  },
+  {
+    "id": "encounter-00315",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0264",
+    "method": "Wild Encounter",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00316",
+    "locationId": "location-frost-cavern-outside",
+    "pokemonId": "pokemon-0117",
+    "method": "Wild Encounter",
+    "minLevel": 54,
+    "maxLevel": 54,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00317",
+    "locationId": "location-frost-cavern-1f",
+    "pokemonId": "pokemon-0086",
+    "method": "Wild Encounter",
+    "minLevel": 27,
+    "maxLevel": 27,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00318",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0073",
+    "method": "Wild Encounter",
+    "minLevel": 45,
+    "maxLevel": 45,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00319",
+    "locationId": "location-frost-cavern-3f",
+    "pokemonId": "pokemon-0175",
+    "method": "Wild Encounter",
+    "minLevel": 29,
+    "maxLevel": 29,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00320",
+    "locationId": "location-frost-cavern-1f-r2",
+    "pokemonId": "pokemon-0056",
+    "method": "Wild Encounter",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00321",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0579",
+    "method": "Wild Encounter",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00322",
+    "locationId": "location-couriway-town",
+    "pokemonId": "pokemon-0592",
+    "method": "Wild Encounter",
+    "minLevel": 67,
+    "maxLevel": 67,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00323",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0212",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00324",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0308",
+    "method": "Wild Encounter",
+    "minLevel": 71,
+    "maxLevel": 71,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00325",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0452",
+    "method": "Wild Encounter",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00326",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0332",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00327",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0386",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00328",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0719",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00329",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0365",
+    "method": "Wild Encounter",
+    "minLevel": 79,
+    "maxLevel": 79,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00330",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0131",
+    "method": "Wild Encounter",
+    "minLevel": 60,
+    "maxLevel": 60,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00331",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0061",
+    "method": "Wild Encounter",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00332",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0267",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00333",
+    "locationId": "location-shalour-city",
+    "pokemonId": "pokemon-0320",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00334",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0055",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00335",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0098",
+    "method": "Wild Encounter",
+    "minLevel": 22,
+    "maxLevel": 22,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00336",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0618",
+    "method": "Wild Encounter",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00337",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0313",
+    "method": "Wild Encounter",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00338",
+    "locationId": "location-lost-hotel",
+    "pokemonId": "pokemon-0479",
+    "method": "Wild Encounter",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 5.0
+  },
+  {
+    "id": "encounter-00339",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0556",
+    "method": "Wild Encounter",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00340",
+    "locationId": "location-frost-cavern-outside",
+    "pokemonId": "pokemon-0342",
+    "method": "Wild Encounter",
+    "minLevel": 54,
+    "maxLevel": 54,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00341",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0224",
+    "method": "Wild Encounter",
+    "minLevel": 45,
+    "maxLevel": 45,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00342",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0523",
+    "method": "Wild Encounter",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00343",
+    "locationId": "location-couriway-town",
+    "pokemonId": "pokemon-0319",
+    "method": "Wild Encounter",
+    "minLevel": 67,
+    "maxLevel": 67,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00344",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0214",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00345",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0257",
+    "method": "Wild Encounter",
+    "minLevel": 71,
+    "maxLevel": 71,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00346",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0373",
+    "method": "Wild Encounter",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00347",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0376",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00348",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0350",
+    "method": "Wild Encounter",
+    "minLevel": 57,
+    "maxLevel": 57,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00349",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0242",
+    "method": "Wild Encounter",
+    "minLevel": 78,
+    "maxLevel": 78,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00350",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0226",
+    "method": "Wild Encounter",
+    "minLevel": 79,
+    "maxLevel": 79,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00351",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0073",
+    "method": "Wild Encounter",
+    "minLevel": 70,
+    "maxLevel": 70,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00352",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0091",
+    "method": "Wild Encounter",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00353",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0336",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00354",
+    "locationId": "location-shalour-city",
+    "pokemonId": "pokemon-0340",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00355",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0210",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00356",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0270",
+    "method": "Wild Encounter",
+    "minLevel": 22,
+    "maxLevel": 22,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00357",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0089",
+    "method": "Wild Encounter",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00358",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0227",
+    "method": "Wild Encounter",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00359",
+    "locationId": "location-lost-hotel",
+    "pokemonId": "pokemon-0479",
+    "method": "Wild Encounter",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 5.0
+  },
+  {
+    "id": "encounter-00360",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0626",
+    "method": "Wild Encounter",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00361",
+    "locationId": "location-frost-cavern-outside",
+    "pokemonId": "pokemon-0222",
+    "method": "Wild Encounter",
+    "minLevel": 54,
+    "maxLevel": 54,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00362",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0226",
+    "method": "Wild Encounter",
+    "minLevel": 45,
+    "maxLevel": 45,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00363",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0435",
+    "method": "Wild Encounter",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00364",
+    "locationId": "location-terminus-cave-1f",
+    "pokemonId": "pokemon-0438",
+    "method": "Wild Encounter",
+    "minLevel": 32,
+    "maxLevel": 32,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00365",
+    "locationId": "location-terminus-cave-b2f",
+    "pokemonId": "pokemon-0201",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00366",
+    "locationId": "location-terminus-cave-b3f",
+    "pokemonId": "pokemon-0201",
+    "method": "Wild Encounter",
+    "minLevel": 36,
+    "maxLevel": 36,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00367",
+    "locationId": "location-couriway-town",
+    "pokemonId": "pokemon-0593",
+    "method": "Wild Encounter",
+    "minLevel": 67,
+    "maxLevel": 67,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00368",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0142",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00369",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0182",
+    "method": "Wild Encounter",
+    "minLevel": 71,
+    "maxLevel": 71,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00370",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0442",
+    "method": "Wild Encounter",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00371",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0666",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00372",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0130",
+    "method": "Wild Encounter",
+    "minLevel": 57,
+    "maxLevel": 57,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00373",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0377",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00374",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0249",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00375",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0319",
+    "method": "Wild Encounter",
+    "minLevel": 70,
+    "maxLevel": 70,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00376",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0130",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00377",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0341",
+    "method": "Wild Encounter",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00378",
+    "locationId": "location-reflection-cave-3bf",
+    "pokemonId": "pokemon-0439",
+    "method": "Wild Encounter",
+    "minLevel": 21,
+    "maxLevel": 21,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00379",
+    "locationId": "location-shalour-city",
+    "pokemonId": "pokemon-0321",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00380",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0234",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00381",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0284",
+    "method": "Wild Encounter",
+    "minLevel": 32,
+    "maxLevel": 32,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00382",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0535",
+    "method": "Wild Encounter",
+    "minLevel": 26,
+    "maxLevel": 26,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00383",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0692",
+    "method": "Wild Encounter",
+    "minLevel": 28,
+    "maxLevel": 28,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00384",
+    "locationId": "location-lost-hotel",
+    "pokemonId": "pokemon-0479",
+    "method": "Wild Encounter",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 5.0
+  },
+  {
+    "id": "encounter-00385",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0129",
+    "method": "Wild Encounter",
+    "minLevel": 32,
+    "maxLevel": 32,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00386",
+    "locationId": "location-frost-cavern-outside",
+    "pokemonId": "pokemon-0230",
+    "method": "Wild Encounter",
+    "minLevel": 54,
+    "maxLevel": 54,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00387",
+    "locationId": "location-frost-cavern-1f",
+    "pokemonId": "pokemon-0582",
+    "method": "Wild Encounter",
+    "minLevel": 27,
+    "maxLevel": 27,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00388",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0073",
+    "method": "Wild Encounter",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00389",
+    "locationId": "location-frost-cavern-3f",
+    "pokemonId": "pokemon-0619",
+    "method": "Wild Encounter",
+    "minLevel": 29,
+    "maxLevel": 29,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00390",
+    "locationId": "location-frost-cavern-1f-r2",
+    "pokemonId": "pokemon-0299",
+    "method": "Wild Encounter",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00391",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0569",
+    "method": "Wild Encounter",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00392",
+    "locationId": "location-couriway-town",
+    "pokemonId": "pokemon-0149",
+    "method": "Wild Encounter",
+    "minLevel": 67,
+    "maxLevel": 67,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00393",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0003",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00394",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0585",
+    "method": "Wild Encounter",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00395",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0118",
+    "method": "Wild Encounter",
+    "minLevel": 53,
+    "maxLevel": 53,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00396",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0120",
+    "method": "Wild Encounter",
+    "minLevel": 55,
+    "maxLevel": 55,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00397",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0369",
+    "method": "Wild Encounter",
+    "minLevel": 57,
+    "maxLevel": 57,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00398",
+    "locationId": "location-victory-road-room-3",
+    "pokemonId": "pokemon-0638",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00399",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0721",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00400",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0131",
+    "method": "Wild Encounter",
+    "minLevel": 70,
+    "maxLevel": 70,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00401",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0062",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00402",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0222",
+    "method": "Wild Encounter",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00403",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0707",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00404",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0099",
+    "method": "Wild Encounter",
+    "minLevel": 32,
+    "maxLevel": 32,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00405",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0688",
+    "method": "Wild Encounter",
+    "minLevel": 26,
+    "maxLevel": 26,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00406",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0116",
+    "method": "Wild Encounter",
+    "minLevel": 28,
+    "maxLevel": 28,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00407",
+    "locationId": "location-lost-hotel",
+    "pokemonId": "pokemon-0479",
+    "method": "Wild Encounter",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 5.0
+  },
+  {
+    "id": "encounter-00408",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0060",
+    "method": "Wild Encounter",
+    "minLevel": 32,
+    "maxLevel": 32,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00409",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0224",
+    "method": "Wild Encounter",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00410",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0631",
+    "method": "Wild Encounter",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00411",
+    "locationId": "location-terminus-cave-b1f",
+    "pokemonId": "pokemon-0074",
+    "method": "Wild Encounter",
+    "minLevel": 33,
+    "maxLevel": 33,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00412",
+    "locationId": "location-terminus-cave-2f",
+    "pokemonId": "pokemon-0201",
+    "method": "Wild Encounter",
+    "minLevel": 34,
+    "maxLevel": 34,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00413",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0094",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00414",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0586",
+    "method": "Wild Encounter",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00415",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0594",
+    "method": "Wild Encounter",
+    "minLevel": 53,
+    "maxLevel": 53,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00416",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0079",
+    "method": "Wild Encounter",
+    "minLevel": 55,
+    "maxLevel": 55,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00417",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0350",
+    "method": "Wild Encounter",
+    "minLevel": 67,
+    "maxLevel": 67,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00418",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0628",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.77
+  },
+  {
+    "id": "encounter-00419",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0073",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00420",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0091",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00421",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0116",
+    "method": "Wild Encounter",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00422",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0170",
+    "method": "Wild Encounter",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00423",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0271",
+    "method": "Wild Encounter",
+    "minLevel": 32,
+    "maxLevel": 32,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00424",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0690",
+    "method": "Wild Encounter",
+    "minLevel": 26,
+    "maxLevel": 26,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00425",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0369",
+    "method": "Wild Encounter",
+    "minLevel": 28,
+    "maxLevel": 28,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00426",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0090",
+    "method": "Wild Encounter",
+    "minLevel": 32,
+    "maxLevel": 32,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00427",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0226",
+    "method": "Wild Encounter",
+    "minLevel": 50,
+    "maxLevel": 50,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00428",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0263",
+    "method": "Wild Encounter",
+    "minLevel": 31,
+    "maxLevel": 31,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00429",
+    "locationId": "location-terminus-cave-1f",
+    "pokemonId": "pokemon-0273",
+    "method": "Wild Encounter",
+    "minLevel": 32,
+    "maxLevel": 32,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00430",
+    "locationId": "location-terminus-cave-b2f",
+    "pokemonId": "pokemon-0610",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00431",
+    "locationId": "location-terminus-cave-b3f",
+    "pokemonId": "pokemon-0714",
+    "method": "Wild Encounter",
+    "minLevel": 36,
+    "maxLevel": 36,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00432",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0181",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00433",
+    "locationId": "location-route-20",
+    "pokemonId": "pokemon-0043",
+    "method": "Wild Encounter",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00434",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0131",
+    "method": "Wild Encounter",
+    "minLevel": 53,
+    "maxLevel": 53,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00435",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0138",
+    "method": "Wild Encounter",
+    "minLevel": 55,
+    "maxLevel": 55,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00436",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0130",
+    "method": "Wild Encounter",
+    "minLevel": 67,
+    "maxLevel": 67,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00437",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0630",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.18
+  },
+  {
+    "id": "encounter-00438",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0319",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00439",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0061",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00440",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0341",
+    "method": "Wild Encounter",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00441",
+    "locationId": "location-reflection-cave-3bf",
+    "pokemonId": "pokemon-0527",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.8
+  },
+  {
+    "id": "encounter-00442",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0120",
+    "method": "Wild Encounter",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00443",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0284",
+    "method": "Wild Encounter",
+    "minLevel": 37,
+    "maxLevel": 37,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00444",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0536",
+    "method": "Wild Encounter",
+    "minLevel": 36,
+    "maxLevel": 36,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00445",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0692",
+    "method": "Wild Encounter",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00446",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0130",
+    "method": "Wild Encounter",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00447",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0223",
+    "method": "Wild Encounter",
+    "minLevel": 55,
+    "maxLevel": 55,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00448",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0229",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00449",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0119",
+    "method": "Wild Encounter",
+    "minLevel": 63,
+    "maxLevel": 63,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00450",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0121",
+    "method": "Wild Encounter",
+    "minLevel": 65,
+    "maxLevel": 65,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00451",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0369",
+    "method": "Wild Encounter",
+    "minLevel": 67,
+    "maxLevel": 67,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00452",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0649",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00453",
+    "locationId": "location-victory-road-outside-far-east",
+    "pokemonId": "pokemon-0635",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00454",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0382",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00455",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0130",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00456",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0222",
+    "method": "Wild Encounter",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00457",
+    "locationId": "location-reflection-cave-3bf",
+    "pokemonId": "pokemon-0220",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00458",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0369",
+    "method": "Wild Encounter",
+    "minLevel": 20,
+    "maxLevel": 20,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00459",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0099",
+    "method": "Wild Encounter",
+    "minLevel": 37,
+    "maxLevel": 37,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00460",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0688",
+    "method": "Wild Encounter",
+    "minLevel": 36,
+    "maxLevel": 36,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00461",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0117",
+    "method": "Wild Encounter",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00462",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0061",
+    "method": "Wild Encounter",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00463",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0073",
+    "method": "Wild Encounter",
+    "minLevel": 55,
+    "maxLevel": 55,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00464",
+    "locationId": "location-terminus-cave-b1f",
+    "pokemonId": "pokemon-0111",
+    "method": "Wild Encounter",
+    "minLevel": 33,
+    "maxLevel": 33,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00465",
+    "locationId": "location-terminus-cave-2f",
+    "pokemonId": "pokemon-0438",
+    "method": "Wild Encounter",
+    "minLevel": 34,
+    "maxLevel": 34,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00466",
+    "locationId": "location-terminus-cave-b3f",
+    "pokemonId": "pokemon-0558",
+    "method": "Wild Encounter",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.8
+  },
+  {
+    "id": "encounter-00467",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0303",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00468",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0594",
+    "method": "Wild Encounter",
+    "minLevel": 63,
+    "maxLevel": 63,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00469",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0080",
+    "method": "Wild Encounter",
+    "minLevel": 65,
+    "maxLevel": 65,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00470",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0350",
+    "method": "Wild Encounter",
+    "minLevel": 72,
+    "maxLevel": 72,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00471",
+    "locationId": "location-victory-road-room-3",
+    "pokemonId": "pokemon-0596",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.45
+  },
+  {
+    "id": "encounter-00472",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0073",
+    "method": "Wild Encounter",
+    "minLevel": 80,
+    "maxLevel": 80,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00473",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0091",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00474",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0117",
+    "method": "Wild Encounter",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00475",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0170",
+    "method": "Wild Encounter",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00476",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0272",
+    "method": "Wild Encounter",
+    "minLevel": 37,
+    "maxLevel": 37,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00477",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0690",
+    "method": "Wild Encounter",
+    "minLevel": 36,
+    "maxLevel": 36,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00478",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0369",
+    "method": "Wild Encounter",
+    "minLevel": 38,
+    "maxLevel": 38,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00479",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0091",
+    "method": "Wild Encounter",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00480",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0224",
+    "method": "Wild Encounter",
+    "minLevel": 55,
+    "maxLevel": 55,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00481",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0535",
+    "method": "Wild Encounter",
+    "minLevel": 31,
+    "maxLevel": 31,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00482",
+    "locationId": "location-terminus-cave-1f",
+    "pokemonId": "pokemon-0558",
+    "method": "Wild Encounter",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.8
+  },
+  {
+    "id": "encounter-00483",
+    "locationId": "location-terminus-cave-b2f",
+    "pokemonId": "pokemon-0558",
+    "method": "Wild Encounter",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.8
+  },
+  {
+    "id": "encounter-00484",
+    "locationId": "location-terminus-cave-b3f",
+    "pokemonId": "pokemon-0571",
+    "method": "Wild Encounter",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00485",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0282",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00486",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0131",
+    "method": "Wild Encounter",
+    "minLevel": 63,
+    "maxLevel": 63,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00487",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0139",
+    "method": "Wild Encounter",
+    "minLevel": 65,
+    "maxLevel": 65,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00488",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0130",
+    "method": "Wild Encounter",
+    "minLevel": 72,
+    "maxLevel": 72,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00489",
+    "locationId": "location-victory-road-room-3",
+    "pokemonId": "pokemon-0232",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.33
+  },
+  {
+    "id": "encounter-00490",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0319",
+    "method": "Wild Encounter",
+    "minLevel": 80,
+    "maxLevel": 80,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00491",
+    "locationId": "location-route-3",
+    "pokemonId": "pokemon-0186",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00492",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0342",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00493",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0120",
+    "method": "Wild Encounter",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00494",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0284",
+    "method": "Wild Encounter",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00495",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0537",
+    "method": "Wild Encounter",
+    "minLevel": 41,
+    "maxLevel": 41,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00496",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0693",
+    "method": "Wild Encounter",
+    "minLevel": 43,
+    "maxLevel": 43,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00497",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0130",
+    "method": "Wild Encounter",
+    "minLevel": 47,
+    "maxLevel": 47,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00498",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0226",
+    "method": "Wild Encounter",
+    "minLevel": 55,
+    "maxLevel": 55,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00499",
+    "locationId": "location-terminus-cave-1f",
+    "pokemonId": "pokemon-0571",
+    "method": "Wild Encounter",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00500",
+    "locationId": "location-terminus-cave-2f",
+    "pokemonId": "pokemon-0558",
+    "method": "Wild Encounter",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.8
+  },
+  {
+    "id": "encounter-00501",
+    "locationId": "location-terminus-cave-b2f",
+    "pokemonId": "pokemon-0571",
+    "method": "Wild Encounter",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00502",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0194",
+    "method": "Wild Encounter",
+    "minLevel": 49,
+    "maxLevel": 49,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00503",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0119",
+    "method": "Wild Encounter",
+    "minLevel": 68,
+    "maxLevel": 68,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00504",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0121",
+    "method": "Wild Encounter",
+    "minLevel": 70,
+    "maxLevel": 70,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00505",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0489",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00506",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0596",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.45
+  },
+  {
+    "id": "encounter-00507",
+    "locationId": "location-victory-road-room-3",
+    "pokemonId": "pokemon-0376",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.22
+  },
+  {
+    "id": "encounter-00508",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0381",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00509",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0222",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00510",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0369",
+    "method": "Wild Encounter",
+    "minLevel": 30,
+    "maxLevel": 30,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00511",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0099",
+    "method": "Wild Encounter",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00512",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0689",
+    "method": "Wild Encounter",
+    "minLevel": 41,
+    "maxLevel": 41,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00513",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0230",
+    "method": "Wild Encounter",
+    "minLevel": 43,
+    "maxLevel": 43,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00514",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0186",
+    "method": "Wild Encounter",
+    "minLevel": 47,
+    "maxLevel": 47,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00515",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0688",
+    "method": "Wild Encounter",
+    "minLevel": 28,
+    "maxLevel": 28,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00516",
+    "locationId": "location-terminus-cave-b1f",
+    "pokemonId": "pokemon-0558",
+    "method": "Wild Encounter",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.8
+  },
+  {
+    "id": "encounter-00517",
+    "locationId": "location-terminus-cave-2f",
+    "pokemonId": "pokemon-0571",
+    "method": "Wild Encounter",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00518",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0535",
+    "method": "Wild Encounter",
+    "minLevel": 49,
+    "maxLevel": 49,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00519",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0594",
+    "method": "Wild Encounter",
+    "minLevel": 68,
+    "maxLevel": 68,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00520",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0080",
+    "method": "Wild Encounter",
+    "minLevel": 70,
+    "maxLevel": 70,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00521",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0350",
+    "method": "Wild Encounter",
+    "minLevel": 77,
+    "maxLevel": 77,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00522",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0232",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.33
+  },
+  {
+    "id": "encounter-00523",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0490",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00524",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0230",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00525",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0171",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00526",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0272",
+    "method": "Wild Encounter",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00527",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0691",
+    "method": "Wild Encounter",
+    "minLevel": 41,
+    "maxLevel": 41,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00528",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0369",
+    "method": "Wild Encounter",
+    "minLevel": 43,
+    "maxLevel": 43,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00529",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0091",
+    "method": "Wild Encounter",
+    "minLevel": 47,
+    "maxLevel": 47,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00530",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0285",
+    "method": "Wild Encounter",
+    "minLevel": 31,
+    "maxLevel": 31,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00531",
+    "locationId": "location-terminus-cave-b1f",
+    "pokemonId": "pokemon-0571",
+    "method": "Wild Encounter",
+    "minLevel": 66,
+    "maxLevel": 66,
+    "rate": 0.2
+  },
+  {
+    "id": "encounter-00532",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0690",
+    "method": "Wild Encounter",
+    "minLevel": 49,
+    "maxLevel": 49,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00533",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0131",
+    "method": "Wild Encounter",
+    "minLevel": 68,
+    "maxLevel": 68,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00534",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0139",
+    "method": "Wild Encounter",
+    "minLevel": 70,
+    "maxLevel": 70,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00535",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0130",
+    "method": "Wild Encounter",
+    "minLevel": 77,
+    "maxLevel": 77,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00536",
+    "locationId": "location-victory-road-room-2",
+    "pokemonId": "pokemon-0376",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.22
+  },
+  {
+    "id": "encounter-00537",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0242",
+    "method": "Wild Encounter",
+    "minLevel": 80,
+    "maxLevel": 80,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00538",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0117",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00539",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0121",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00540",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0131",
+    "method": "Wild Encounter",
+    "minLevel": 42,
+    "maxLevel": 42,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00541",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0536",
+    "method": "Wild Encounter",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00542",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0580",
+    "method": "Wild Encounter",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00543",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0130",
+    "method": "Wild Encounter",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00544",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0195",
+    "method": "Wild Encounter",
+    "minLevel": 59,
+    "maxLevel": 59,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00545",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0119",
+    "method": "Wild Encounter",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00546",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0121",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00547",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0380",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00548",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0144",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00549",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0222",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00550",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0369",
+    "method": "Wild Encounter",
+    "minLevel": 35,
+    "maxLevel": 35,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00551",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0052",
+    "method": "Wild Encounter",
+    "minLevel": 23,
+    "maxLevel": 23,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00552",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0537",
+    "method": "Wild Encounter",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00553",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0117",
+    "method": "Wild Encounter",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00554",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0186",
+    "method": "Wild Encounter",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00555",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0296",
+    "method": "Wild Encounter",
+    "minLevel": 28,
+    "maxLevel": 28,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00556",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0536",
+    "method": "Wild Encounter",
+    "minLevel": 59,
+    "maxLevel": 59,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00557",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0594",
+    "method": "Wild Encounter",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00558",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0199",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00559",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0647-ordinary-form",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00560",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0342",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00561",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0120",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00562",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0689",
+    "method": "Wild Encounter",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00563",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0230",
+    "method": "Wild Encounter",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00564",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0091",
+    "method": "Wild Encounter",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00565",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0049",
+    "method": "Wild Encounter",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.9
+  },
+  {
+    "id": "encounter-00566",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0690",
+    "method": "Wild Encounter",
+    "minLevel": 59,
+    "maxLevel": 59,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00567",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0131",
+    "method": "Wild Encounter",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00568",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0706",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00569",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0242",
+    "method": "Wild Encounter",
+    "minLevel": 77,
+    "maxLevel": 77,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00570",
+    "locationId": "location-route-22",
+    "pokemonId": "pokemon-0230",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00571",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0171",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00572",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0691",
+    "method": "Wild Encounter",
+    "minLevel": 46,
+    "maxLevel": 46,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00573",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0581",
+    "method": "Wild Encounter",
+    "minLevel": 48,
+    "maxLevel": 48,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00574",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0062",
+    "method": "Wild Encounter",
+    "minLevel": 52,
+    "maxLevel": 52,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00575",
+    "locationId": "location-route-18",
+    "pokemonId": "pokemon-0416",
+    "method": "Wild Encounter",
+    "minLevel": 61,
+    "maxLevel": 61,
+    "rate": 0.1
+  },
+  {
+    "id": "encounter-00576",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0195",
+    "method": "Wild Encounter",
+    "minLevel": 64,
+    "maxLevel": 64,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00577",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0423",
+    "method": "Wild Encounter",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00578",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0423",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00579",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0480",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00580",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0121",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00581",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0550-red-striped-form",
+    "method": "Wild Encounter",
+    "minLevel": 23,
+    "maxLevel": 23,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00582",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0425",
+    "method": "Wild Encounter",
+    "minLevel": 24,
+    "maxLevel": 24,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00583",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0190",
+    "method": "Wild Encounter",
+    "minLevel": 25,
+    "maxLevel": 25,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00584",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0187",
+    "method": "Wild Encounter",
+    "minLevel": 26,
+    "maxLevel": 26,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00585",
+    "locationId": "location-frost-cavern-2f",
+    "pokemonId": "pokemon-0708",
+    "method": "Wild Encounter",
+    "minLevel": 28,
+    "maxLevel": 28,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00586",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0537",
+    "method": "Wild Encounter",
+    "minLevel": 64,
+    "maxLevel": 64,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00587",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0710-average-size",
+    "method": "Wild Encounter",
+    "minLevel": 39,
+    "maxLevel": 39,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00588",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0710-average-size",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00589",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0642-incarnate-forme",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00590",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0369",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00591",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0691",
+    "method": "Wild Encounter",
+    "minLevel": 64,
+    "maxLevel": 64,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00592",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0666",
+    "method": "Wild Encounter",
+    "minLevel": 39,
+    "maxLevel": 39,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00593",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0666",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00594",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0116",
+    "method": "Wild Encounter",
+    "minLevel": 22,
+    "maxLevel": 22,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00595",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0130",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.5
+  },
+  {
+    "id": "encounter-00596",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0666",
+    "method": "Wild Encounter",
+    "minLevel": 39,
+    "maxLevel": 39,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00597",
+    "locationId": "location-route-21",
+    "pokemonId": "pokemon-0666",
+    "method": "Wild Encounter",
+    "minLevel": 40,
+    "maxLevel": 40,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00598",
+    "locationId": "location-azure-bay",
+    "pokemonId": "pokemon-0456",
+    "method": "Wild Encounter",
+    "minLevel": 23,
+    "maxLevel": 23,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00599",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0165",
+    "method": "Wild Encounter",
+    "minLevel": 24,
+    "maxLevel": 24,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00600",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0427",
+    "method": "Wild Encounter",
+    "minLevel": 25,
+    "maxLevel": 25,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00601",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0664",
+    "method": "Wild Encounter",
+    "minLevel": 26,
+    "maxLevel": 26,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00602",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0009",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.3
+  },
+  {
+    "id": "encounter-00603",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0020",
+    "method": "Wild Encounter",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 100.0
+  },
+  {
+    "id": "encounter-00604",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0488",
+    "method": "Wild Encounter",
+    "minLevel": 82,
+    "maxLevel": 82,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00605",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0537",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.15
+  },
+  {
+    "id": "encounter-00606",
+    "locationId": "location-pokemon-village",
+    "pokemonId": "pokemon-0132",
+    "method": "Wild Encounter",
+    "minLevel": 73,
+    "maxLevel": 73,
+    "rate": 100.0
+  },
+  {
+    "id": "encounter-00607",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0596",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.45
+  },
+  {
+    "id": "encounter-00608",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0118",
+    "method": "Wild Encounter",
+    "minLevel": 22,
+    "maxLevel": 22,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00609",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0691",
+    "method": "Wild Encounter",
+    "minLevel": 69,
+    "maxLevel": 69,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00610",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0232",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.33
+  },
+  {
+    "id": "encounter-00611",
+    "locationId": "location-route-14",
+    "pokemonId": "pokemon-0138",
+    "method": "Wild Encounter",
+    "minLevel": 24,
+    "maxLevel": 24,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00612",
+    "locationId": "location-route-15",
+    "pokemonId": "pokemon-0278",
+    "method": "Wild Encounter",
+    "minLevel": 25,
+    "maxLevel": 25,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00613",
+    "locationId": "location-route-16",
+    "pokemonId": "pokemon-0198",
+    "method": "Wild Encounter",
+    "minLevel": 26,
+    "maxLevel": 26,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00614",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0669",
+    "method": "Wild Encounter",
+    "minLevel": 37,
+    "maxLevel": 37,
+    "rate": 0.6
+  },
+  {
+    "id": "encounter-00615",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0596",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.45
+  },
+  {
+    "id": "encounter-00616",
+    "locationId": "location-victory-road-room-4",
+    "pokemonId": "pokemon-0376",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.22
+  },
+  {
+    "id": "encounter-00617",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0670",
+    "method": "Wild Encounter",
+    "minLevel": 37,
+    "maxLevel": 37,
+    "rate": 0.35
+  },
+  {
+    "id": "encounter-00618",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0232",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.33
+  },
+  {
+    "id": "encounter-00619",
+    "locationId": "location-route-12",
+    "pokemonId": "pokemon-0280",
+    "method": "Wild Encounter",
+    "minLevel": 22,
+    "maxLevel": 22,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00620",
+    "locationId": "location-route-19",
+    "pokemonId": "pokemon-0671",
+    "method": "Wild Encounter",
+    "minLevel": 37,
+    "maxLevel": 37,
+    "rate": 0.05
+  },
+  {
+    "id": "encounter-00621",
+    "locationId": "location-victory-road-room-1",
+    "pokemonId": "pokemon-0376",
+    "method": "Wild Encounter",
+    "minLevel": 75,
+    "maxLevel": 75,
+    "rate": 0.22
+  }
+]

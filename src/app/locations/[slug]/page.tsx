@@ -43,8 +43,11 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
               const pokemon = getPokemonById(encounter.pokemonId);
               return (
                 <li key={encounter.id}>
-                  {pokemon?.name ?? encounter.pokemonId} • {encounter.method} • Lv. {encounter.level} •{" "}
-                  {encounter.rate}% rate
+                  {pokemon?.name ?? encounter.pokemonId} • {encounter.method} • Lv.{" "}
+                  {encounter.minLevel === encounter.maxLevel
+                    ? encounter.minLevel
+                    : `${encounter.minLevel}-${encounter.maxLevel}`}{" "}
+                  • {encounter.rate}% rate
                 </li>
               );
             })}

@@ -1,16 +1,296 @@
 [
   {
-    "id": "loc-001",
+    "id": "location-anistar-city",
+    "slug": "anistar-city",
+    "name": "Anistar City",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Anistar City."
+  },
+  {
+    "id": "location-azure-bay",
+    "slug": "azure-bay",
+    "name": "Azure Bay",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Azure Bay."
+  },
+  {
+    "id": "location-couriway-town",
+    "slug": "couriway-town",
+    "name": "Couriway Town",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Couriway Town."
+  },
+  {
+    "id": "location-frost-cavern-outside",
+    "slug": "frost-cavern-outside",
+    "name": "Frost Cavern - Outside",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Frost Cavern - Outside."
+  },
+  {
+    "id": "location-frost-cavern-1f",
+    "slug": "frost-cavern-1f",
+    "name": "Frost Cavern 1F",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Frost Cavern 1F."
+  },
+  {
+    "id": "location-frost-cavern-1f-r2",
+    "slug": "frost-cavern-1f-r2",
+    "name": "Frost Cavern 1F R2",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Frost Cavern 1F R2."
+  },
+  {
+    "id": "location-frost-cavern-2f",
+    "slug": "frost-cavern-2f",
+    "name": "Frost Cavern 2F",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Frost Cavern 2F."
+  },
+  {
+    "id": "location-frost-cavern-3f",
+    "slug": "frost-cavern-3f",
+    "name": "Frost Cavern 3F",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Frost Cavern 3F."
+  },
+  {
+    "id": "location-glittering-cave",
+    "slug": "glittering-cave",
+    "name": "Glittering Cave",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Glittering Cave."
+  },
+  {
+    "id": "location-laverre-city",
+    "slug": "laverre-city",
+    "name": "Laverre City",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Laverre City."
+  },
+  {
+    "id": "location-lost-hotel",
+    "slug": "lost-hotel",
+    "name": "Lost Hotel",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Lost Hotel."
+  },
+  {
+    "id": "location-pokemon-village",
+    "slug": "pokemon-village",
+    "name": "Pokémon Village",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Pokémon Village."
+  },
+  {
+    "id": "location-reflection-cave-1bf",
+    "slug": "reflection-cave-1bf",
+    "name": "Reflection Cave 1BF",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Reflection Cave 1BF."
+  },
+  {
+    "id": "location-reflection-cave-3bf",
+    "slug": "reflection-cave-3bf",
+    "name": "Reflection Cave 3BF",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Reflection Cave 3BF."
+  },
+  {
+    "id": "location-route-12",
+    "slug": "route-12",
+    "name": "Route 12",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 12."
+  },
+  {
+    "id": "location-route-13",
+    "slug": "route-13",
+    "name": "Route 13",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 13."
+  },
+  {
+    "id": "location-route-14",
+    "slug": "route-14",
+    "name": "Route 14",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 14."
+  },
+  {
+    "id": "location-route-15",
+    "slug": "route-15",
+    "name": "Route 15",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 15."
+  },
+  {
+    "id": "location-route-16",
+    "slug": "route-16",
+    "name": "Route 16",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 16."
+  },
+  {
+    "id": "location-route-17",
+    "slug": "route-17",
+    "name": "Route 17",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 17."
+  },
+  {
+    "id": "location-route-18",
+    "slug": "route-18",
+    "name": "Route 18",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 18."
+  },
+  {
+    "id": "location-route-19",
+    "slug": "route-19",
+    "name": "Route 19",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 19."
+  },
+  {
+    "id": "location-route-2",
+    "slug": "route-2",
+    "name": "Route 2",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 2."
+  },
+  {
+    "id": "location-route-20",
+    "slug": "route-20",
+    "name": "Route 20",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 20."
+  },
+  {
+    "id": "location-route-21",
+    "slug": "route-21",
+    "name": "Route 21",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 21."
+  },
+  {
+    "id": "location-route-22",
+    "slug": "route-22",
+    "name": "Route 22",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 22."
+  },
+  {
+    "id": "location-route-3",
+    "slug": "route-3",
+    "name": "Route 3",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 3."
+  },
+  {
+    "id": "location-route-8",
+    "slug": "route-8",
+    "name": "Route 8",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 8."
+  },
+  {
+    "id": "location-santalune-forest",
     "slug": "santalune-forest",
     "name": "Santalune Forest",
     "region": "Kalos",
-    "description": "Early forest route with basic bug and electric encounter samples."
+    "description": "Imported location record from source materials for Santalune Forest."
   },
   {
-    "id": "loc-002",
-    "slug": "route-7",
-    "name": "Route 7",
+    "id": "location-shabboneau-castle",
+    "slug": "shabboneau-castle",
+    "name": "Shabboneau Castle",
     "region": "Kalos",
-    "description": "Central Kalos route used here for a second location page sample."
+    "description": "Imported location record from source materials for Shabboneau Castle."
+  },
+  {
+    "id": "location-shalour-city",
+    "slug": "shalour-city",
+    "name": "Shalour City",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Shalour City."
+  },
+  {
+    "id": "location-terminus-cave-1f",
+    "slug": "terminus-cave-1f",
+    "name": "Terminus Cave 1F",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Terminus Cave 1F."
+  },
+  {
+    "id": "location-terminus-cave-2f",
+    "slug": "terminus-cave-2f",
+    "name": "Terminus Cave 2F",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Terminus Cave 2F."
+  },
+  {
+    "id": "location-terminus-cave-b1f",
+    "slug": "terminus-cave-b1f",
+    "name": "Terminus Cave B1F",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Terminus Cave B1F."
+  },
+  {
+    "id": "location-terminus-cave-b2f",
+    "slug": "terminus-cave-b2f",
+    "name": "Terminus Cave B2F",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Terminus Cave B2F."
+  },
+  {
+    "id": "location-terminus-cave-b3f",
+    "slug": "terminus-cave-b3f",
+    "name": "Terminus Cave B3F",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Terminus Cave B3F."
+  },
+  {
+    "id": "location-victory-road-outside-any-floor",
+    "slug": "victory-road-outside-any-floor",
+    "name": "Victory Road Outside (Any Floor)",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Victory Road Outside (Any Floor)."
+  },
+  {
+    "id": "location-victory-road-outside-far-east",
+    "slug": "victory-road-outside-far-east",
+    "name": "Victory Road Outside Far East",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Victory Road Outside Far East."
+  },
+  {
+    "id": "location-victory-road-room-1",
+    "slug": "victory-road-room-1",
+    "name": "Victory Road Room 1",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Victory Road Room 1."
+  },
+  {
+    "id": "location-victory-road-room-2",
+    "slug": "victory-road-room-2",
+    "name": "Victory Road Room 2",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Victory Road Room 2."
+  },
+  {
+    "id": "location-victory-road-room-3",
+    "slug": "victory-road-room-3",
+    "name": "Victory Road Room 3",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Victory Road Room 3."
+  },
+  {
+    "id": "location-victory-road-room-4",
+    "slug": "victory-road-room-4",
+    "name": "Victory Road Room 4",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Victory Road Room 4."
   }
 ]

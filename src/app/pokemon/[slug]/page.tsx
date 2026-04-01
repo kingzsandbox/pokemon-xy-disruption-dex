@@ -31,12 +31,12 @@ export default async function PokemonDetailPage({ params }: PokemonDetailPagePro
       <section style={{ marginTop: "24px" }}>
         <h2>Stats</h2>
         <ul>
-          <li>HP: {pokemon.stats.hp}</li>
-          <li>Attack: {pokemon.stats.attack}</li>
-          <li>Defense: {pokemon.stats.defense}</li>
-          <li>Sp. Atk: {pokemon.stats.specialAttack}</li>
-          <li>Sp. Def: {pokemon.stats.specialDefense}</li>
-          <li>Speed: {pokemon.stats.speed}</li>
+          <li>HP: {pokemon.baseStats.hp}</li>
+          <li>Attack: {pokemon.baseStats.attack}</li>
+          <li>Defense: {pokemon.baseStats.defense}</li>
+          <li>Sp. Atk: {pokemon.baseStats.specialAttack}</li>
+          <li>Sp. Def: {pokemon.baseStats.specialDefense}</li>
+          <li>Speed: {pokemon.baseStats.speed}</li>
         </ul>
       </section>
 

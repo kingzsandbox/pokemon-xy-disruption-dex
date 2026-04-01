@@ -1,16 +1,1584 @@
 [
   {
-    "id": "item-001",
+    "id": "item-quick-powder",
+    "slug": "quick-powder",
+    "name": "Quick Powder",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-metal-powder",
+    "slug": "metal-powder",
+    "name": "Metal Powder",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-lucky-punch",
+    "slug": "lucky-punch",
+    "name": "Lucky Punch",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-oval-stone",
+    "slug": "oval-stone",
+    "name": "Oval Stone",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-deep-sea-scale",
+    "slug": "deep-sea-scale",
+    "name": "Deep Sea Scale",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-charizardite-x",
+    "slug": "charizardite-x",
+    "name": "Charizardite X",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-charizardite-y",
+    "slug": "charizardite-y",
+    "name": "Charizardite Y",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-mewtwonite-x",
+    "slug": "mewtwonite-x",
+    "name": "Mewtwonite X",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-mewtwonite-y",
+    "slug": "mewtwonite-y",
+    "name": "Mewtwonite Y",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-lucky-egg",
+    "slug": "lucky-egg",
+    "name": "Lucky Egg",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-ground-gem",
+    "slug": "ground-gem",
+    "name": "Ground Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-occa-berry",
+    "slug": "occa-berry",
+    "name": "Occa Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-fire-gem",
+    "slug": "fire-gem",
+    "name": "Fire Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-shiny-stone",
+    "slug": "shiny-stone",
+    "name": "Shiny Stone",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-chople-berry",
+    "slug": "chople-berry",
+    "name": "Chople Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-payapa-berry",
+    "slug": "payapa-berry",
+    "name": "Payapa Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-air-balloon",
+    "slug": "air-balloon",
+    "name": "Air Balloon",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-chesto-berry",
+    "slug": "chesto-berry",
+    "name": "Chesto Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-liechi-berry",
+    "slug": "liechi-berry",
+    "name": "Liechi Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-hard-stone",
+    "slug": "hard-stone",
+    "name": "Hard Stone",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-focus-band",
+    "slug": "focus-band",
+    "name": "Focus Band",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-rock-gem",
+    "slug": "rock-gem",
+    "name": "Rock Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-big-mushroom",
+    "slug": "big-mushroom",
+    "name": "Big Mushroom",
+    "category": "Valuable",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-thunder-stone",
+    "slug": "thunder-stone",
+    "name": "Thunder Stone",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-tanga-berry",
+    "slug": "tanga-berry",
+    "name": "Tanga Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-quick-claw",
+    "slug": "quick-claw",
+    "name": "Quick Claw",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-salac-berry",
+    "slug": "salac-berry",
+    "name": "Salac Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-toxic-orb",
+    "slug": "toxic-orb",
+    "name": "Toxic Orb",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-passho-berry",
+    "slug": "passho-berry",
+    "name": "Passho Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-gengarite",
+    "slug": "gengarite",
+    "name": "Gengarite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-dark-gem",
+    "slug": "dark-gem",
+    "name": "Dark Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-fire-stone",
+    "slug": "fire-stone",
+    "name": "Fire Stone",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-wacan-berry",
+    "slug": "wacan-berry",
+    "name": "Wacan Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-ice-gem",
+    "slug": "ice-gem",
+    "name": "Ice Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-assault-vest",
+    "slug": "assault-vest",
+    "name": "Assault Vest",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-aspear-berry",
+    "slug": "aspear-berry",
+    "name": "Aspear Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-lax-incense",
+    "slug": "lax-incense",
+    "name": "Lax Incense",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-thick-club",
+    "slug": "thick-club",
+    "name": "Thick Club",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-cleanse-tag",
+    "slug": "cleanse-tag",
+    "name": "Cleanse Tag",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-moon-stone",
+    "slug": "moon-stone",
+    "name": "Moon Stone",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-enigma-berry",
+    "slug": "enigma-berry",
+    "name": "Enigma Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-aggronite",
+    "slug": "aggronite",
+    "name": "Aggronite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-kebia-berry",
+    "slug": "kebia-berry",
+    "name": "Kebia Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-grass-gem",
+    "slug": "grass-gem",
+    "name": "Grass Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-colbur-berry",
+    "slug": "colbur-berry",
+    "name": "Colbur Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-white-herb",
+    "slug": "white-herb",
+    "name": "White Herb",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-flying-gem",
+    "slug": "flying-gem",
+    "name": "Flying Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-bug-gem",
+    "slug": "bug-gem",
+    "name": "Bug Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-persim-berry",
+    "slug": "persim-berry",
+    "name": "Persim Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-leaf-stone",
+    "slug": "leaf-stone",
+    "name": "Leaf Stone",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-sea-incense",
+    "slug": "sea-incense",
+    "name": "Sea Incense",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-bright-powder",
+    "slug": "bright-powder",
+    "name": "Bright Powder",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-starf-berry",
+    "slug": "starf-berry",
+    "name": "Starf Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-scope-lens",
+    "slug": "scope-lens",
+    "name": "Scope Lens",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-shuca-berry",
+    "slug": "shuca-berry",
+    "name": "Shuca Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-iron-ball",
+    "slug": "iron-ball",
+    "name": "Iron Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-flame-orb",
+    "slug": "flame-orb",
+    "name": "Flame Orb",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-babiri-berry",
+    "slug": "babiri-berry",
+    "name": "Babiri Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-silk-scarf",
+    "slug": "silk-scarf",
+    "name": "Silk Scarf",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-pure-incense",
+    "slug": "pure-incense",
+    "name": "Pure Incense",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-abomasite",
+    "slug": "abomasite",
+    "name": "Abomasite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-smoke-ball",
+    "slug": "smoke-ball",
+    "name": "Smoke Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-metal-coat",
+    "slug": "metal-coat",
+    "name": "Metal Coat",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-banettite",
+    "slug": "banettite",
+    "name": "Banettite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-wide-lens",
+    "slug": "wide-lens",
+    "name": "Wide Lens",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-chilan-berry",
+    "slug": "chilan-berry",
+    "name": "Chilan Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-spell-tag",
+    "slug": "spell-tag",
+    "name": "Spell Tag",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-odd-incense",
+    "slug": "odd-incense",
+    "name": "Odd Incense",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-sun-stone",
+    "slug": "sun-stone",
+    "name": "Sun Stone",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-kangaskhanite",
+    "slug": "kangaskhanite",
+    "name": "Kangaskhanite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-coba-berry",
+    "slug": "coba-berry",
+    "name": "Coba Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-kee-berry",
+    "slug": "kee-berry",
+    "name": "Kee Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-power-herb",
+    "slug": "power-herb",
+    "name": "Power Herb",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-dragon-gem",
+    "slug": "dragon-gem",
+    "name": "Dragon Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-griseous-orb",
+    "slug": "griseous-orb",
+    "name": "Griseous Orb",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-rawst-berry",
+    "slug": "rawst-berry",
+    "name": "Rawst Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-silver-powder",
+    "slug": "silver-powder",
+    "name": "Silver Powder",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-cheri-berry",
+    "slug": "cheri-berry",
+    "name": "Cheri Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-water-stone",
+    "slug": "water-stone",
+    "name": "Water Stone",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-gardevoirite",
+    "slug": "gardevoirite",
+    "name": "Gardevoirite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-zoom-lens",
+    "slug": "zoom-lens",
+    "name": "Zoom Lens",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-water-gem",
+    "slug": "water-gem",
+    "name": "Water Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-alakazite",
+    "slug": "alakazite",
+    "name": "Alakazite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-rowap-berry",
+    "slug": "rowap-berry",
+    "name": "Rowap Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-dusk-stone",
+    "slug": "dusk-stone",
+    "name": "Dusk Stone",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-apicot-berry",
+    "slug": "apicot-berry",
+    "name": "Apicot Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-lansat-berry",
+    "slug": "lansat-berry",
+    "name": "Lansat Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-prism-scale",
+    "slug": "prism-scale",
+    "name": "Prism Scale",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-dragon-scale",
+    "slug": "dragon-scale",
+    "name": "Dragon Scale",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-dawn-stone",
+    "slug": "dawn-stone",
+    "name": "Dawn Stone",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-haban-berry",
+    "slug": "haban-berry",
+    "name": "Haban Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-absolite",
+    "slug": "absolite",
+    "name": "Absolite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-yache-berry",
+    "slug": "yache-berry",
+    "name": "Yache Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-roseli-berry",
+    "slug": "roseli-berry",
+    "name": "Roseli Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-lustrous-orb",
+    "slug": "lustrous-orb",
+    "name": "Lustrous Orb",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-adamant-orb",
+    "slug": "adamant-orb",
+    "name": "Adamant Orb",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-rose-incense",
+    "slug": "rose-incense",
+    "name": "Rose Incense",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-custap-berry",
+    "slug": "custap-berry",
+    "name": "Custap Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-ganlon-berry",
+    "slug": "ganlon-berry",
+    "name": "Ganlon Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-electric-gem",
+    "slug": "electric-gem",
+    "name": "Electric Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-muscle-band",
+    "slug": "muscle-band",
+    "name": "Muscle Band",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-tiny-mushroom",
+    "slug": "tiny-mushroom",
+    "name": "Tiny Mushroom",
+    "category": "Valuable",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-pecha-berry",
+    "slug": "pecha-berry",
+    "name": "Pecha Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-kasib-berry",
+    "slug": "kasib-berry",
+    "name": "Kasib Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-medichamite",
+    "slug": "medichamite",
+    "name": "Medichamite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-petaya-berry",
+    "slug": "petaya-berry",
+    "name": "Petaya Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-sacred-ash",
+    "slug": "sacred-ash",
+    "name": "Sacred Ash",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-fairy-gem",
+    "slug": "fairy-gem",
+    "name": "Fairy Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-blazikenite",
+    "slug": "blazikenite",
+    "name": "Blazikenite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-heart-scale",
+    "slug": "heart-scale",
+    "name": "Heart Scale",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-fighting-gem",
+    "slug": "fighting-gem",
+    "name": "Fighting Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-wave-incense",
+    "slug": "wave-incense",
+    "name": "Wave Incense",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-blastoisinite",
+    "slug": "blastoisinite",
+    "name": "Blastoisinite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-float-stone",
+    "slug": "float-stone",
+    "name": "Float Stone",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-rindo-berry",
+    "slug": "rindo-berry",
+    "name": "Rindo Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-charti-berry",
+    "slug": "charti-berry",
+    "name": "Charti Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-binding-band",
+    "slug": "binding-band",
+    "name": "Binding Band",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-razor-claw",
+    "slug": "razor-claw",
+    "name": "Razor Claw",
+    "category": "Evolution Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-houndoominite",
+    "slug": "houndoominite",
+    "name": "Houndoominite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-psychic-gem",
+    "slug": "psychic-gem",
+    "name": "Psychic Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-aerodactylite",
+    "slug": "aerodactylite",
+    "name": "Aerodactylite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-manectite",
+    "slug": "manectite",
+    "name": "Manectite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-lucarionite",
+    "slug": "lucarionite",
+    "name": "Lucarionite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-tyranitarite",
+    "slug": "tyranitarite",
+    "name": "Tyranitarite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-normal-gem",
+    "slug": "normal-gem",
+    "name": "Normal Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-steel-gem",
+    "slug": "steel-gem",
+    "name": "Steel Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-light-ball",
+    "slug": "light-ball",
+    "name": "Light Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-mawilite",
+    "slug": "mawilite",
+    "name": "Mawilite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-garchompite",
+    "slug": "garchompite",
+    "name": "Garchompite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-maranga-berry",
+    "slug": "maranga-berry",
+    "name": "Maranga Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-life-orb",
+    "slug": "life-orb",
+    "name": "Life Orb",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-heracronite",
+    "slug": "heracronite",
+    "name": "Heracronite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-pinsirite",
+    "slug": "pinsirite",
+    "name": "Pinsirite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-jaboca-berry",
+    "slug": "jaboca-berry",
+    "name": "Jaboca Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-ghost-gem",
+    "slug": "ghost-gem",
+    "name": "Ghost Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-gyaradosite",
+    "slug": "gyaradosite",
+    "name": "Gyaradosite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-berry-juice",
+    "slug": "berry-juice",
+    "name": "Berry Juice",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-micle-berry",
+    "slug": "micle-berry",
+    "name": "Micle Berry",
+    "category": "Berry",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-grip-claw",
+    "slug": "grip-claw",
+    "name": "Grip Claw",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-mental-herb",
+    "slug": "mental-herb",
+    "name": "Mental Herb",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-big-root",
+    "slug": "big-root",
+    "name": "Big Root",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-ampharosite",
+    "slug": "ampharosite",
+    "name": "Ampharosite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-full-incense",
+    "slug": "full-incense",
+    "name": "Full Incense",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-scizorite",
+    "slug": "scizorite",
+    "name": "Scizorite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-venusaurite",
+    "slug": "venusaurite",
+    "name": "Venusaurite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-luck-incense",
+    "slug": "luck-incense",
+    "name": "Luck Incense",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-rock-incense",
+    "slug": "rock-incense",
+    "name": "Rock Incense",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-poison-gem",
+    "slug": "poison-gem",
+    "name": "Poison Gem",
+    "category": "Gem",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-wide-lenss",
+    "slug": "wide-lenss",
+    "name": "Wide Lenss",
+    "category": "Held Item",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-latiosite",
+    "slug": "latiosite",
+    "name": "Latiosite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-latiasite",
+    "slug": "latiasite",
+    "name": "Latiasite",
+    "category": "Mega Stone",
+    "description": "Imported from Wild Encounters + Held Items (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-poke-ball",
+    "slug": "poke-ball",
+    "name": "Poké Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-potion",
     "slug": "potion",
     "name": "Potion",
     "category": "Medicine",
-    "description": "Restores a small amount of HP and serves as a simple sample pickup."
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
   },
   {
-    "id": "item-002",
-    "slug": "paralyze-heal",
-    "name": "Paralyze Heal",
-    "category": "Status Recovery",
-    "description": "Cures paralysis and gives the item pages a second linked example."
+    "id": "item-pomeg-berry",
+    "slug": "pomeg-berry",
+    "name": "Pomeg Berry",
+    "category": "Berry",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-health-wing",
+    "slug": "health-wing",
+    "name": "Health Wing",
+    "category": "Vitamin",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-tm37-power-gem",
+    "slug": "tm37-power-gem",
+    "name": "TM37 [Power Gem]",
+    "category": "TM",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-choice-band",
+    "slug": "choice-band",
+    "name": "Choice Band",
+    "category": "Held Item",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-moon-ball",
+    "slug": "moon-ball",
+    "name": "Moon Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-hp-up",
+    "slug": "hp-up",
+    "name": "HP Up",
+    "category": "Vitamin",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-heal-powder",
+    "slug": "heal-powder",
+    "name": "Heal Powder",
+    "category": "Held Item",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-master-ball",
+    "slug": "master-ball",
+    "name": "Master Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-discount-coupon",
+    "slug": "discount-coupon",
+    "name": "Discount Coupon",
+    "category": "Valuable",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-mysterious-candy",
+    "slug": "mysterious-candy",
+    "name": "Mysterious Candy",
+    "category": "Valuable",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-great-ball",
+    "slug": "great-ball",
+    "name": "Great Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-kelpsy-berry",
+    "slug": "kelpsy-berry",
+    "name": "Kelpsy Berry",
+    "category": "Berry",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-muscle-wing",
+    "slug": "muscle-wing",
+    "name": "Muscle Wing",
+    "category": "Vitamin",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-choice-specs",
+    "slug": "choice-specs",
+    "name": "Choice Specs",
+    "category": "Held Item",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-heavy-ball",
+    "slug": "heavy-ball",
+    "name": "Heavy Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-protein",
+    "slug": "protein",
+    "name": "Protein",
+    "category": "Vitamin",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-energy-powder",
+    "slug": "energy-powder",
+    "name": "Energy Powder",
+    "category": "Held Item",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-energy-root",
+    "slug": "energy-root",
+    "name": "Energy Root",
+    "category": "Medicine",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-dream-ball",
+    "slug": "dream-ball",
+    "name": "Dream Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-honey",
+    "slug": "honey",
+    "name": "Honey",
+    "category": "Held Item",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-ultra-ball",
+    "slug": "ultra-ball",
+    "name": "Ultra Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-qualot-berry",
+    "slug": "qualot-berry",
+    "name": "Qualot Berry",
+    "category": "Berry",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-resist-wing",
+    "slug": "resist-wing",
+    "name": "Resist Wing",
+    "category": "Vitamin",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-choice-scarf",
+    "slug": "choice-scarf",
+    "name": "Choice Scarf",
+    "category": "Held Item",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-love-ball",
+    "slug": "love-ball",
+    "name": "Love Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-iron",
+    "slug": "iron",
+    "name": "Iron",
+    "category": "Vitamin",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-revival-herb",
+    "slug": "revival-herb",
+    "name": "Revival Herb",
+    "category": "Held Item",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-cherish-ball",
+    "slug": "cherish-ball",
+    "name": "Cherish Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-super-potion",
+    "slug": "super-potion",
+    "name": "Super Potion",
+    "category": "Medicine",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-hondew-berry",
+    "slug": "hondew-berry",
+    "name": "Hondew Berry",
+    "category": "Berry",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-genius-wing",
+    "slug": "genius-wing",
+    "name": "Genius Wing",
+    "category": "Vitamin",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-dive-ball",
+    "slug": "dive-ball",
+    "name": "Dive Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-dire-hit",
+    "slug": "dire-hit",
+    "name": "Dire Hit",
+    "category": "Battle Item",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-guard-spec",
+    "slug": "guard-spec",
+    "name": "Guard Spec.",
+    "category": "Battle Item",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-calcium",
+    "slug": "calcium",
+    "name": "Calcium",
+    "category": "Vitamin",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-safari-ball",
+    "slug": "safari-ball",
+    "name": "Safari Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-hyper-potion",
+    "slug": "hyper-potion",
+    "name": "Hyper Potion",
+    "category": "Medicine",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-max-potion",
+    "slug": "max-potion",
+    "name": "Max Potion",
+    "category": "Medicine",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-grepa-berry",
+    "slug": "grepa-berry",
+    "name": "Grepa Berry",
+    "category": "Berry",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-clever-wing",
+    "slug": "clever-wing",
+    "name": "Clever Wing",
+    "category": "Vitamin",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-friend-ball",
+    "slug": "friend-ball",
+    "name": "Friend Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-zinc",
+    "slug": "zinc",
+    "name": "Zinc",
+    "category": "Vitamin",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-relic-band",
+    "slug": "relic-band",
+    "name": "Relic Band",
+    "category": "Held Item",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-premier-ball",
+    "slug": "premier-ball",
+    "name": "Premier Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-full-heal",
+    "slug": "full-heal",
+    "name": "Full Heal",
+    "category": "Medicine",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-revive",
+    "slug": "revive",
+    "name": "Revive",
+    "category": "Medicine",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-full-restore",
+    "slug": "full-restore",
+    "name": "Full Restore",
+    "category": "Medicine",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-tamato-berry",
+    "slug": "tamato-berry",
+    "name": "Tamato Berry",
+    "category": "Berry",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-swift-wing",
+    "slug": "swift-wing",
+    "name": "Swift Wing",
+    "category": "Vitamin",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-lure-ball",
+    "slug": "lure-ball",
+    "name": "Lure Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-carbos",
+    "slug": "carbos",
+    "name": "Carbos",
+    "category": "Vitamin",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-max-revive",
+    "slug": "max-revive",
+    "name": "Max Revive",
+    "category": "Medicine",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-sitrus-berry",
+    "slug": "sitrus-berry",
+    "name": "Sitrus Berry",
+    "category": "Berry",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-moomoo-milk",
+    "slug": "moomoo-milk",
+    "name": "Moomoo Milk",
+    "category": "Medicine",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-level-ball",
+    "slug": "level-ball",
+    "name": "Level Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-pp-max",
+    "slug": "pp-max",
+    "name": "PP Max",
+    "category": "Vitamin",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-lum-berry",
+    "slug": "lum-berry",
+    "name": "Lum Berry",
+    "category": "Berry",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-dusk-ball",
+    "slug": "dusk-ball",
+    "name": "Dusk Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-ability-capsule",
+    "slug": "ability-capsule",
+    "name": "Ability Capsule",
+    "category": "Held Item",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-fast-ball",
+    "slug": "fast-ball",
+    "name": "Fast Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-repeat-ball",
+    "slug": "repeat-ball",
+    "name": "Repeat Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-nest-ball",
+    "slug": "nest-ball",
+    "name": "Nest Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-net-ball",
+    "slug": "net-ball",
+    "name": "Net Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-elixir",
+    "slug": "elixir",
+    "name": "Elixir",
+    "category": "Medicine",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-max-elixir",
+    "slug": "max-elixir",
+    "name": "Max Elixir",
+    "category": "Medicine",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-quick-ball",
+    "slug": "quick-ball",
+    "name": "Quick Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-heal-ball",
+    "slug": "heal-ball",
+    "name": "Heal Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-timer-ball",
+    "slug": "timer-ball",
+    "name": "Timer Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-luxury-ball",
+    "slug": "luxury-ball",
+    "name": "Luxury Ball",
+    "category": "Poke Ball",
+    "description": "Imported from Shops, Stores & Trash Cans (XY).xlsx; review final in-game description later."
+  },
+  {
+    "id": "item-pp-up",
+    "slug": "pp-up",
+    "name": "PP Up",
+    "category": "Held Item",
+    "description": "Imported from Pickup Items Table (XY).docx; review final in-game description later."
+  },
+  {
+    "id": "item-balm-mushroom",
+    "slug": "balm-mushroom",
+    "name": "Balm Mushroom",
+    "category": "Valuable",
+    "description": "Imported from Pickup Items Table (XY).docx; review final in-game description later."
+  },
+  {
+    "id": "item-max-ether",
+    "slug": "max-ether",
+    "name": "Max Ether",
+    "category": "Medicine",
+    "description": "Imported from Pickup Items Table (XY).docx; review final in-game description later."
+  },
+  {
+    "id": "item-box-link",
+    "slug": "box-link",
+    "name": "Box Link",
+    "category": "Held Item",
+    "description": "Imported from Box Link Locations.docx; review final in-game description later."
   }
 ]

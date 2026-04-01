@@ -1,4 +1,7 @@
 export type DexEntryId = string;
+export type PokemonId = DexEntryId;
+export type LocationId = DexEntryId;
+export type ItemId = DexEntryId;
 
 export interface NamedEntry {
   id: DexEntryId;
@@ -6,7 +9,7 @@ export interface NamedEntry {
   name: string;
 }
 
-export interface PokemonStats {
+export interface BaseStats {
   hp: number;
   attack: number;
   defense: number;
@@ -18,7 +21,7 @@ export interface PokemonStats {
 export interface PokemonEntry extends NamedEntry {
   dexNumber: number;
   types: string[];
-  stats: PokemonStats;
+  baseStats: BaseStats;
   abilities: string[];
   changeSummary: string;
 }
@@ -35,17 +38,18 @@ export interface ItemEntry extends NamedEntry {
 
 export interface EncounterEntry {
   id: DexEntryId;
-  locationId: string;
-  pokemonId: string;
+  locationId: LocationId;
+  pokemonId: PokemonId;
   method: string;
-  level: number;
+  minLevel: number;
+  maxLevel: number;
   rate: number;
 }
 
 export interface ItemLocationEntry {
   id: DexEntryId;
-  itemId: string;
-  locationId: string;
+  itemId: ItemId;
+  locationId: LocationId;
   notes: string;
 }
 
@@ -60,7 +64,8 @@ export interface SearchResult {
 }
 
 export interface LocatedItem {
-  locationId: string;
+  itemLocationId: DexEntryId;
+  locationId: LocationId;
   notes: string;
   item: ItemEntry;
 }

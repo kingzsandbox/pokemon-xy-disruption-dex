@@ -1,0 +1,56 @@
+[
+  {
+    "id": "item-location-001",
+    "itemId": "item-box-link",
+    "locationId": "location-shabboneau-castle",
+    "notes": "2F, near the desk by the stairs"
+  },
+  {
+    "id": "item-location-002",
+    "itemId": "item-box-link",
+    "locationId": "location-route-8",
+    "notes": "on the narrow arm of cliff jutting over the beach, in the space one step east and south from the point of the cliff; hidden"
+  },
+  {
+    "id": "item-location-003",
+    "itemId": "item-box-link",
+    "locationId": "location-glittering-cave",
+    "notes": "In the deep part of the cave, south of the Fossil assistant"
+  },
+  {
+    "id": "item-location-004",
+    "itemId": "item-box-link",
+    "locationId": "location-reflection-cave-1bf",
+    "notes": "B1F, on the hill in the south, north of Black Belt Igor"
+  },
+  {
+    "id": "item-location-005",
+    "itemId": "item-box-link",
+    "locationId": "location-anistar-city",
+    "notes": "In the middle of the terrace east of the Gym; hidden"
+  },
+  {
+    "id": "item-location-006",
+    "itemId": "item-box-link",
+    "locationId": "location-terminus-cave-b1f",
+    "notes": "B1F, West of the two ledges south of the bridge that Hiker Aaron is walking on"
+  },
+  {
+    "id": "item-location-007",
+    "itemId": "item-box-link",
+    "locationId": "location-route-19",
+    "notes": "On the rock next to Pokémon Ranger Clementine in the west part of the swamp area, requires Surf; hidden"
+  },
+  {
+    "id": "item-location-008",
+    "itemId": "item-box-link",
+    "locationId": "location-frost-cavern-outside",
+    "notes": "Just west of the cave entrance, facing northwest into the corner; hidden"
+  },
+  {
+    "id": "item-location-009",
+    "itemId": "item-box-link",
+    "locationId": "location-victory-road-room-3",
+    "notes": "Near the end of the ledge maze, between the two ledges west of the staircase, on the ground in the center; hidden"
+  }
+]
