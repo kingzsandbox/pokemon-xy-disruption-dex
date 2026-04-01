@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getEncountersByLocation } from "@/lib/data/encounters";
-import { getItemsByLocation } from "@/lib/data/items";
+import { getItemSectionsByLocation } from "@/lib/data/items";
 import { getLocationBySlug, getLocations } from "@/lib/data/locations";
 import { getPokemonById } from "@/lib/data/pokemon";
 
@@ -25,7 +25,7 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
   }
 
   const encounters = getEncountersByLocation(location.id);
-  const items = getItemsByLocation(location.id);
+  const itemSections = getItemSectionsByLocation(location.id);
 
   return (
     <main style={{ margin: "0 auto", maxWidth: "900px", padding: "40px 24px 64px" }}>
@@ -57,17 +57,29 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
 
       <section style={{ marginTop: "24px" }}>
         <h2>Items Found Here</h2>
-        {items.length === 0 ? (
-          <p>No item pickups listed yet.</p>
+        <p style={{ color: "#586379", lineHeight: 1.6 }}>
+          This section currently reflects imported shop inventory, trash can finds, and special
+          item placements only. Comprehensive route and field pickup coverage is not present in the
+          current source set.
+        </p>
+        {itemSections.length === 0 ? (
+          <p>No imported location item data is available for this area yet.</p>
         ) : (
-          <ul>
-            {items.map((item) => (
-              <li key={item.itemLocationId}>
-                {item.item.name}
-                {item.notes ? ` • ${item.notes}` : ""}
-              </li>
+          <div style={{ display: "grid", gap: "20px" }}>
+            {itemSections.map((section) => (
+              <section key={section.key}>
+                <h3 style={{ marginBottom: "10px" }}>{section.title}</h3>
+                <ul style={{ marginTop: 0 }}>
+                  {section.items.map((item) => (
+                    <li key={item.itemLocationId}>
+                      {item.item.name}
+                      {item.notes ? ` • ${item.notes}` : ""}
+                    </li>
+                  ))}
+                </ul>
+              </section>
             ))}
-          </ul>
+          </div>
         )}
       </section>
     </main>
