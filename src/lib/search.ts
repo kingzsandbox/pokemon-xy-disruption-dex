@@ -1,5 +1,6 @@
 import { getItems } from "@/lib/data/items";
 import { getLocations } from "@/lib/data/locations";
+import { getMoves } from "@/lib/data/moves";
 import { getAllPokemon } from "@/lib/data/pokemon";
 import type { SearchResult } from "@/lib/types";
 
@@ -44,7 +45,17 @@ export function searchDex(query: string): SearchResult[] {
       slug: entry.slug,
     }));
 
-  return [...pokemonResults, ...locationResults, ...itemResults].sort((left, right) =>
+  const moveResults: SearchResult[] = getMoves()
+    .filter((entry) => entry.name.toLowerCase().includes(normalizedQuery))
+    .map((entry) => ({
+      id: entry.id,
+      type: "move",
+      title: entry.name,
+      subtitle: [entry.status, entry.type].filter(Boolean).join(" • ") || "Move",
+      slug: entry.slug,
+    }));
+
+  return [...pokemonResults, ...locationResults, ...itemResults, ...moveResults].sort((left, right) =>
     left.title.localeCompare(right.title),
   );
 }

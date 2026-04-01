@@ -112,12 +112,14 @@ function mapPokemonRecord(record: RawRecord, index: number): PokemonEntry {
 async function loadExistingCoreData(): Promise<{
   locations: unknown[];
   items: unknown[];
+  moves: unknown[];
   encounters: unknown[];
   itemLocations: unknown[];
 }> {
-  const [locations, items, encounters, itemLocations] = await Promise.all([
+  const [locations, items, moves, encounters, itemLocations] = await Promise.all([
     readJsonFile(path.join(projectRoot, "public", "data", "locations.json")),
     readJsonFile(path.join(projectRoot, "public", "data", "items.json")),
+    readJsonFile(path.join(projectRoot, "public", "data", "moves.json")),
     readJsonFile(path.join(projectRoot, "public", "data", "encounters.json")),
     readJsonFile(path.join(projectRoot, "public", "data", "item-locations.json")),
   ]);
@@ -125,6 +127,7 @@ async function loadExistingCoreData(): Promise<{
   return {
     locations: Array.isArray(locations) ? locations : [],
     items: Array.isArray(items) ? items : [],
+    moves: Array.isArray(moves) ? moves : [],
     encounters: Array.isArray(encounters) ? encounters : [],
     itemLocations: Array.isArray(itemLocations) ? itemLocations : [],
   };
@@ -141,6 +144,7 @@ async function main(): Promise<void> {
     pokemon,
     locations: existingCore.locations as never[],
     items: existingCore.items as never[],
+    moves: existingCore.moves as never[],
     encounters: existingCore.encounters as never[],
     itemLocations: existingCore.itemLocations as never[],
   });

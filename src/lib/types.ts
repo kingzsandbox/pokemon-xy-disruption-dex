@@ -2,6 +2,7 @@ export type DexEntryId = string;
 export type PokemonId = DexEntryId;
 export type LocationId = DexEntryId;
 export type ItemId = DexEntryId;
+export type MoveId = DexEntryId;
 
 export interface NamedEntry {
   id: DexEntryId;
@@ -36,6 +37,18 @@ export interface ItemEntry extends NamedEntry {
   description: string;
 }
 
+export type MoveStatus = "usable" | "reduced" | "removed";
+
+export interface MoveEntry extends NamedEntry {
+  type: string | null;
+  category: string | null;
+  power: number | null;
+  accuracy: number | null;
+  pp: number | null;
+  status: MoveStatus;
+  notes: string | null;
+}
+
 export interface EncounterEntry {
   id: DexEntryId;
   locationId: LocationId;
@@ -53,7 +66,7 @@ export interface ItemLocationEntry {
   notes: string;
 }
 
-export type SearchResultType = "pokemon" | "location" | "item";
+export type SearchResultType = "pokemon" | "location" | "item" | "move";
 
 export interface SearchResult {
   id: DexEntryId;

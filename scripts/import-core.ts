@@ -5,6 +5,7 @@ import {
   normalizeItemEntry,
   normalizeItemLocationEntry,
   normalizeLocationEntry,
+  normalizeMoveEntry,
   normalizePokemonEntry,
 } from "../src/lib/normalize";
 import type {
@@ -12,6 +13,7 @@ import type {
   ItemEntry,
   ItemLocationEntry,
   LocationEntry,
+  MoveEntry,
   PokemonEntry,
 } from "../src/lib/types";
 import { validateCoreData } from "../src/lib/validate";
@@ -22,6 +24,7 @@ type ImportBundle = {
   pokemon: PokemonEntry[];
   locations: LocationEntry[];
   items: ItemEntry[];
+  moves: MoveEntry[];
   encounters: EncounterEntry[];
   itemLocations: ItemLocationEntry[];
 };
@@ -168,6 +171,26 @@ function mapEncounterRecord(record: RawRecord, index: number): EncounterEntry {
   });
 }
 
+function mapMoveRecord(record: RawRecord, index: number): MoveEntry {
+  const valueOrNull = (value: unknown): string | null =>
+    typeof value === "string" && value.trim() ? value : null;
+  const numberOrNull = (value: unknown): number | null =>
+    typeof value === "number" && !Number.isNaN(value) ? value : null;
+
+  return normalizeMoveEntry({
+    id: requireString(record.id, `moves[${index}].id`),
+    slug: String(record.slug ?? record.name ?? ""),
+    name: requireString(record.name, `moves[${index}].name`),
+    type: valueOrNull(record.type),
+    category: valueOrNull(record.category),
+    power: numberOrNull(record.power),
+    accuracy: numberOrNull(record.accuracy),
+    pp: numberOrNull(record.pp),
+    status: requireString(record.status, `moves[${index}].status`) as MoveEntry["status"],
+    notes: valueOrNull(record.notes),
+  });
+}
+
 function mapItemLocationRecord(record: RawRecord, index: number): ItemLocationEntry {
   return normalizeItemLocationEntry({
     id: requireString(record.id, `itemLocations[${index}].id`),
@@ -193,6 +216,10 @@ async function loadImportBundle(inputDir: string): Promise<ImportBundle> {
     await readJsonFile(resolveInputFile(inputDir, "items.json")),
     "items",
   ).map(mapItemRecord);
+  const moves = readArray(
+    await readJsonFile(resolveInputFile(inputDir, "moves.json")),
+    "moves",
+  ).map(mapMoveRecord);
   const encounters = readArray(
     await readJsonFile(resolveInputFile(inputDir, "encounters.json")),
     "encounters",
@@ -206,6 +233,7 @@ async function loadImportBundle(inputDir: string): Promise<ImportBundle> {
     pokemon,
     locations,
     items,
+    moves,
     encounters,
     itemLocations,
   });
@@ -214,6 +242,7 @@ async function loadImportBundle(inputDir: string): Promise<ImportBundle> {
     pokemon,
     locations,
     items,
+    moves,
     encounters,
     itemLocations,
   };
@@ -232,6 +261,7 @@ async function main(): Promise<void> {
   await writeJson(outputDir, "pokemon.json", bundle.pokemon);
   await writeJson(outputDir, "locations.json", bundle.locations);
   await writeJson(outputDir, "items.json", bundle.items);
+  await writeJson(outputDir, "moves.json", bundle.moves);
   await writeJson(outputDir, "encounters.json", bundle.encounters);
   await writeJson(outputDir, "item-locations.json", bundle.itemLocations);
 

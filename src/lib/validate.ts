@@ -3,6 +3,7 @@ import type {
   ItemEntry,
   ItemLocationEntry,
   LocationEntry,
+  MoveEntry,
   NamedEntry,
   PokemonEntry,
 } from "./types";
@@ -50,6 +51,7 @@ export function validateCoreData(input: {
   pokemon: PokemonEntry[];
   locations: LocationEntry[];
   items: ItemEntry[];
+  moves: MoveEntry[];
   encounters: EncounterEntry[];
   itemLocations: ItemLocationEntry[];
 }): void {
@@ -57,6 +59,7 @@ export function validateCoreData(input: {
     ...validateNamedEntries(input.pokemon, "pokemon"),
     ...validateNamedEntries(input.locations, "locations"),
     ...validateNamedEntries(input.items, "items"),
+    ...validateNamedEntries(input.moves, "moves"),
   ];
 
   const pokemonIds = new Set(input.pokemon.map((entry) => entry.id));
@@ -85,6 +88,12 @@ export function validateCoreData(input: {
   input.items.forEach((entry, index) => {
     assertNonEmpty(entry.category, `items[${index}].category`, errors);
     assertNonEmpty(entry.description, `items[${index}].description`, errors);
+  });
+
+  input.moves.forEach((entry, index) => {
+    if (!["usable", "reduced", "removed"].includes(entry.status)) {
+      errors.push(`moves[${index}].status must be usable, reduced, or removed.`);
+    }
   });
 
   input.encounters.forEach((entry, index) => {

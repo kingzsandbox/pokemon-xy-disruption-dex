@@ -3,6 +3,7 @@ import type {
   ItemEntry,
   ItemLocationEntry,
   LocationEntry,
+  MoveEntry,
   PokemonEntry,
 } from "./types";
 
@@ -52,6 +53,10 @@ export function normalizeEncounterMethod(value: string): string {
   return normalizeLabel(value);
 }
 
+export function normalizeMoveStatus(value: MoveEntry["status"]): MoveEntry["status"] {
+  return normalizeWhitespace(value).toLowerCase() as MoveEntry["status"];
+}
+
 export function normalizePokemonEntry(entry: PokemonEntry): PokemonEntry {
   return {
     ...entry,
@@ -83,6 +88,19 @@ export function normalizeItemEntry(entry: ItemEntry): ItemEntry {
     name: normalizeWhitespace(entry.name),
     category: normalizeItemCategory(entry.category),
     description: normalizeWhitespace(entry.description),
+  };
+}
+
+export function normalizeMoveEntry(entry: MoveEntry): MoveEntry {
+  return {
+    ...entry,
+    id: normalizeWhitespace(entry.id),
+    slug: entry.slug ? toSlug(entry.slug) : toSlug(entry.name),
+    name: normalizeWhitespace(entry.name),
+    type: entry.type ? normalizePokemonType(entry.type) : null,
+    category: entry.category ? normalizeLabel(entry.category) : null,
+    status: normalizeMoveStatus(entry.status),
+    notes: entry.notes ? normalizeWhitespace(entry.notes) : null,
   };
 }
 

@@ -17,9 +17,14 @@ const quickLinks = [
     description: "Open the starter item index with simple detail pages.",
   },
   {
+    label: "Moves",
+    href: "/moves",
+    description: "Browse imported usable, reduced, and removed move records.",
+  },
+  {
     label: "Search",
     href: "/search",
-    description: "Search across Pokémon, locations, and items by name.",
+    description: "Search across Pokémon, locations, items, and moves by name.",
   },
 ];
 
@@ -83,7 +88,7 @@ export default function HomePage() {
             id="search"
             name="q"
             type="search"
-            placeholder="Search Pokemon, locations, items..."
+            placeholder="Search Pokemon, locations, items, moves..."
             style={{
               flex: "1 1 320px",
               padding: "14px 16px",

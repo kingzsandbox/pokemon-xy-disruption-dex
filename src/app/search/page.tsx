@@ -20,7 +20,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
           <input
             name="q"
             defaultValue={query}
-            placeholder="Search Pokémon, locations, items..."
+            placeholder="Search Pokémon, locations, items, moves..."
             style={{
               flex: "1 1 320px",
               padding: "12px 14px",

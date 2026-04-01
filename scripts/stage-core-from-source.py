@@ -540,6 +540,64 @@ def build_items() -> list[dict]:
     return list(items.values())
 
 
+def build_moves() -> list[dict]:
+    rows = read_xlsx_rows(SOURCE_DIR / "Usable_Reduced_Removed Moves (XY).xlsx", "sheet1.xml")
+    moves_by_slug: dict[str, dict] = {}
+    status_priority = {"removed": 0, "reduced": 1, "usable": 2}
+
+    def append_move(name: str, status: str, notes: str | None = None) -> None:
+        move_name = normalize_space(name)
+        if not move_name:
+            return
+
+        slug = slugify(move_name)
+        incoming = {
+            "id": f"move-{slug}",
+            "slug": slug,
+            "name": move_name,
+            "type": None,
+            "category": None,
+            "power": None,
+            "accuracy": None,
+            "pp": None,
+            "status": status,
+            "notes": normalize_space(notes) if notes else None,
+        }
+        existing = moves_by_slug.get(slug)
+        if not existing or status_priority[status] >= status_priority[existing["status"]]:
+            moves_by_slug[slug] = incoming
+
+    for row in rows[2:]:
+        usable_name = normalize_space(row.get("A", ""))
+        reduced_name = normalize_space(row.get("C", ""))
+        reduced_notes = normalize_space(row.get("D", ""))
+        removed_name = normalize_space(row.get("F", ""))
+        removed_tm = normalize_space(row.get("G", ""))
+        removed_gen = normalize_space(row.get("H", ""))
+
+        if usable_name:
+            append_move(usable_name, "usable")
+
+        if reduced_name:
+            append_move(reduced_name, "reduced", reduced_notes or None)
+
+        if removed_name:
+            removed_notes_parts = []
+            if removed_tm in {"0", "1"}:
+                removed_notes_parts.append(
+                    "Eligible for TM or special move support." if removed_tm == "1" else "Not eligible for TM or special move support."
+                )
+            if removed_gen:
+                removed_notes_parts.append(f"Introduced in {removed_gen}.")
+            append_move(
+                removed_name,
+                "removed",
+                " ".join(removed_notes_parts) or None,
+            )
+
+    return list(moves_by_slug.values())
+
+
 def build_item_locations(locations: list[dict], items: list[dict]) -> list[dict]:
     location_lookup = {entry["name"]: entry["id"] for entry in locations}
     item_lookup = {entry["slug"]: entry["id"] for entry in items}
@@ -633,18 +691,21 @@ def main() -> None:
     pokemon = build_pokemon()
     locations = build_locations()
     items = build_items()
+    moves = build_moves()
     encounters = build_encounters(pokemon, locations)
     item_locations = build_item_locations(locations, items)
 
     write_json(CORE_DIR / "pokemon.json", pokemon)
     write_json(CORE_DIR / "locations.json", locations)
     write_json(CORE_DIR / "items.json", items)
+    write_json(CORE_DIR / "moves.json", moves)
     write_json(CORE_DIR / "encounters.json", encounters)
     write_json(CORE_DIR / "item-locations.json", item_locations)
 
     print(f"Staged {len(pokemon)} pokemon")
     print(f"Staged {len(locations)} locations")
     print(f"Staged {len(items)} items")
+    print(f"Staged {len(moves)} moves")
     print(f"Staged {len(encounters)} encounters")
     print(f"Staged {len(item_locations)} item locations")
 
