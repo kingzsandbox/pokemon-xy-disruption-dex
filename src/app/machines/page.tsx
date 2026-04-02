@@ -8,7 +8,7 @@ export default function MachinesPage() {
     <main style={{ margin: "0 auto", maxWidth: "900px", padding: "40px 24px 64px" }}>
       <h1 style={{ marginTop: 0 }}>TMs &amp; HMs</h1>
       <p style={{ color: "#586379" }}>
-        Browse imported machine records by code, taught move, location, and compatibility.
+        Browse TM and HM records by machine code, taught move, location, and compatibility.
       </p>
 
       <div style={{ display: "grid", gap: "12px", marginTop: "24px" }}>

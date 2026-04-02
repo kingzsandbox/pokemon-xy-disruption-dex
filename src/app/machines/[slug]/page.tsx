@@ -5,6 +5,7 @@ import {
   getMachineBrowseEntries,
   getMachineBySlug,
   getMachineLocationEntry,
+  isBrowsableMachine,
 } from "@/lib/data/compatibility";
 import { getMoveById } from "@/lib/data/moves";
 
@@ -24,7 +25,7 @@ export default async function MachineDetailPage({ params }: MachineDetailPagePro
   const { slug } = await params;
   const machine = getMachineBySlug(slug);
 
-  if (!machine) {
+  if (!machine || !isBrowsableMachine(machine)) {
     notFound();
   }
 
