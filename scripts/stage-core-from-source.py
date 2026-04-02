@@ -41,7 +41,28 @@ def unique_preserve(values: list[str]) -> list[str]:
     return result
 
 
-def read_xlsx_rows(path: Path, sheet_name: str) -> list[dict[str, str]]:
+def column_to_index(column: str) -> int:
+    index = 0
+    for char in column:
+        index = index * 26 + (ord(char) - 64)
+    return index
+
+
+def index_to_column(index: int) -> str:
+    name = ""
+    while index > 0:
+        index, rem = divmod(index - 1, 26)
+        name = chr(65 + rem) + name
+    return name
+
+
+def parse_cell_ref(ref: str) -> tuple[str, int]:
+    column = re.sub(r"\d+", "", ref)
+    row = int(re.sub(r"[A-Z]+", "", ref))
+    return column, row
+
+
+def read_xlsx_rows(path: Path, sheet_name: str, *, apply_merged_cells: bool = False) -> list[dict[str, str]]:
     with zipfile.ZipFile(path) as archive:
         shared_strings: list[str] = []
         if "xl/sharedStrings.xml" in archive.namelist():
@@ -51,8 +72,10 @@ def read_xlsx_rows(path: Path, sheet_name: str) -> list[dict[str, str]]:
 
         sheet_root = ET.fromstring(archive.read(f"xl/worksheets/{sheet_name}"))
         rows: list[dict[str, str]] = []
+        rows_by_number: dict[int, dict[str, str]] = {}
         for row in sheet_root.findall(f".//{XLSX_NS}sheetData/{XLSX_NS}row"):
             row_data: dict[str, str] = {}
+            row_number = int(row.attrib.get("r", str(len(rows) + 1)))
             for cell in row.findall(f"{XLSX_NS}c"):
                 ref = cell.attrib.get("r", "")
                 col = re.sub(r"\d+", "", ref)
@@ -70,6 +93,25 @@ def read_xlsx_rows(path: Path, sheet_name: str) -> list[dict[str, str]]:
                 if value:
                     row_data[col] = value
             rows.append(row_data)
+            rows_by_number[row_number] = row_data
+
+        if apply_merged_cells:
+            merge_root = sheet_root.find(f"{XLSX_NS}mergeCells")
+            if merge_root is not None:
+                for merge_cell in merge_root.findall(f"{XLSX_NS}mergeCell"):
+                    ref = merge_cell.attrib.get("ref", "")
+                    if ":" not in ref:
+                        continue
+                    start_ref, end_ref = ref.split(":", 1)
+                    start_col, start_row = parse_cell_ref(start_ref)
+                    end_col, end_row = parse_cell_ref(end_ref)
+                    top_left_value = rows_by_number.get(start_row, {}).get(start_col, "")
+                    if not top_left_value:
+                        continue
+                    for row_number in range(start_row, end_row + 1):
+                        row_data = rows_by_number.setdefault(row_number, {})
+                        for column_index in range(column_to_index(start_col), column_to_index(end_col) + 1):
+                            row_data[index_to_column(column_index)] = top_left_value
         return rows
 
 
@@ -124,7 +166,11 @@ def derive_item_category(name: str) -> str:
 
 
 def build_pokemon() -> list[dict]:
-    rows = read_xlsx_rows(SOURCE_DIR / "Pokémon Stats & Evolutions (XY).xlsx", "sheet1.xml")
+    rows = read_xlsx_rows(
+        SOURCE_DIR / "Pokémon Stats & Evolutions (XY).xlsx",
+        "sheet1.xml",
+        apply_merged_cells=True,
+    )
     pokemon: list[dict] = []
     for row in rows[1:]:
         name = normalize_space(row.get("C", ""))
@@ -134,11 +180,16 @@ def build_pokemon() -> list[dict]:
         form = normalize_space(row.get("D", ""))
         display_name = f"{canonical_name} ({form})" if form else canonical_name
         type_2 = normalize_space(row.get("F", ""))
+        ability_slots = {
+            "ability1": normalize_space(row.get("O", "")) or None,
+            "ability2": normalize_space(row.get("P", "")) or None,
+            "hiddenAbility": normalize_space(row.get("Q", "")) or None,
+        }
         abilities = unique_preserve(
             [
-                normalize_space(row.get("O", "")),
-                normalize_space(row.get("P", "")),
-                normalize_space(row.get("Q", "")),
+                ability_slots["ability1"] or "",
+                ability_slots["ability2"] or "",
+                ability_slots["hiddenAbility"] or "",
             ]
         )
         pokemon.append(
@@ -157,6 +208,7 @@ def build_pokemon() -> list[dict]:
                     "speed": numeric(row["M"]),
                 },
                 "abilities": abilities,
+                "abilitySlots": ability_slots,
                 "changeSummary": "Imported from Pokémon Stats & Evolutions (XY); disruption-specific review still needed.",
             }
         )

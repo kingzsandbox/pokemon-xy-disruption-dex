@@ -89,6 +89,14 @@ export function getCompatibilityByPokemonId(pokemonId: string): PokemonMachineCo
   return compatibilityByPokemonId.get(pokemonId) ?? [];
 }
 
+export function getTmHmCompatibilityByPokemonId(
+  pokemonId: string,
+): PokemonMachineCompatibility[] {
+  return getCompatibilityByPokemonId(pokemonId)
+    .filter((entry) => isBrowsableMachine(entry.machine))
+    .sort((left, right) => compareBrowsableMachines(left.machine, right.machine));
+}
+
 export function getMachineLinksByMoveId(moveId: string): MoveMachineLink[] {
   return getMachineByMoveId(moveId).map((machine) => ({
     machine,

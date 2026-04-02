@@ -24,11 +24,18 @@ export interface BaseStats {
   speed: number;
 }
 
+export interface PokemonAbilitySlots {
+  ability1: string | null;
+  ability2: string | null;
+  hiddenAbility: string | null;
+}
+
 export interface PokemonEntry extends NamedEntry {
   dexNumber: number;
   types: string[];
   baseStats: BaseStats;
   abilities: string[];
+  abilitySlots?: PokemonAbilitySlots;
   changeSummary: string;
 }
 
@@ -52,6 +59,25 @@ export interface MoveEntry extends NamedEntry {
   pp: number | null;
   status: MoveStatus;
   notes: string | null;
+}
+
+export interface AbilitySlotReference {
+  ability1: string | null;
+  ability2: string | null;
+  hiddenAbility: string | null;
+}
+
+export interface VanillaPokemonReference {
+  pokemonId: PokemonId;
+  sourceName: string;
+  baseStats: BaseStats;
+  abilitySlots: AbilitySlotReference;
+}
+
+export interface VanillaMoveReference {
+  moveId: MoveId;
+  effectSummary: string | null;
+  sourceUrl: string | null;
 }
 
 export type MachineKind = "tm" | "hm" | "mt";
@@ -131,6 +157,17 @@ export interface ItemLocationReference {
 export interface PokemonMachineCompatibility {
   compatibilityId: DexEntryId;
   machine: MachineEntry;
+}
+
+export interface PokemonAbilityDisplayRow {
+  label: "Ability 1" | "Ability 2" | "Hidden Ability";
+  value: string;
+}
+
+export interface PokemonStatDisplayRow {
+  label: string;
+  value: number;
+  delta: number | null;
 }
 
 export interface MoveMachineLink {

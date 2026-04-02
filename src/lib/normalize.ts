@@ -71,6 +71,19 @@ export function normalizePokemonEntry(entry: PokemonEntry): PokemonEntry {
     name: normalizeWhitespace(entry.name),
     types: entry.types.map(normalizePokemonType),
     abilities: entry.abilities.map(normalizeAbilityName),
+    abilitySlots: entry.abilitySlots
+      ? {
+          ability1: entry.abilitySlots.ability1
+            ? normalizeAbilityName(entry.abilitySlots.ability1)
+            : null,
+          ability2: entry.abilitySlots.ability2
+            ? normalizeAbilityName(entry.abilitySlots.ability2)
+            : null,
+          hiddenAbility: entry.abilitySlots.hiddenAbility
+            ? normalizeAbilityName(entry.abilitySlots.hiddenAbility)
+            : null,
+        }
+      : undefined,
     changeSummary: normalizeWhitespace(entry.changeSummary),
   };
 }
