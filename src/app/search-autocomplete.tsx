@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { getSearchResultHref, normalizeQuery } from "../lib/search";
 import type { SearchResult } from "../lib/types";
@@ -44,6 +44,35 @@ function badgeStyle() {
   } as const;
 }
 
+const GROUP_ORDER = ["pokemon", "moves", "items", "locations", "machines", "abilities"] as const;
+
+const GROUP_LABELS: Record<(typeof GROUP_ORDER)[number], string> = {
+  pokemon: "Pokemon",
+  moves: "Moves",
+  items: "Items",
+  locations: "Locations",
+  machines: "TMs & HMs",
+  abilities: "Abilities",
+};
+
+const GROUP_BADGE_LABELS: Record<(typeof GROUP_ORDER)[number], string> = {
+  pokemon: "Pokemon",
+  moves: "Move",
+  items: "Item",
+  locations: "Location",
+  machines: "TM/HM",
+  abilities: "Ability",
+};
+
+const RESULT_TYPE_TO_GROUP: Partial<Record<SearchResult["type"], (typeof GROUP_ORDER)[number]>> = {
+  pokemon: "pokemon",
+  move: "moves",
+  item: "items",
+  location: "locations",
+  machine: "machines",
+  ability: "abilities",
+};
+
 export default function SearchAutocomplete({
   index,
   action = "/search",
@@ -54,7 +83,28 @@ export default function SearchAutocomplete({
   const router = useRouter();
   const [query, setQuery] = useState(initialQuery);
   const [activeIndex, setActiveIndex] = useState(0);
-  const normalizedQuery = normalizeQuery(query);
+  const [debouncedQuery, setDebouncedQuery] = useState(initialQuery);
+  const [isFocused, setIsFocused] = useState(false);
+  const blurTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const normalizedQuery = normalizeQuery(debouncedQuery);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setDebouncedQuery(query);
+    }, 150);
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [query]);
+
+  useEffect(() => {
+    return () => {
+      if (blurTimeoutRef.current) {
+        clearTimeout(blurTimeoutRef.current);
+      }
+    };
+  }, []);
 
   const suggestions = useMemo(() => {
     if (!normalizedQuery) {
@@ -80,15 +130,28 @@ export default function SearchAutocomplete({
       .slice(0, 8);
   }, [index, normalizedQuery]);
 
-  const showSuggestions = suggestions.length > 0;
+  const groupedSuggestions = useMemo(() => {
+    const groups = GROUP_ORDER.map((group) => ({
+      key: group,
+      label: GROUP_LABELS[group],
+      results: suggestions.filter((entry) => RESULT_TYPE_TO_GROUP[entry.type] === group),
+    })).filter((group) => group.results.length > 0);
+
+    return groups;
+  }, [suggestions]);
+
+  const flattenedSuggestions = groupedSuggestions.flatMap((group) => group.results);
+  const showSuggestions = isFocused && flattenedSuggestions.length > 0;
 
   return (
     <form
       action={action}
       onSubmit={(event) => {
-        if (showSuggestions && suggestions[activeIndex]) {
+        if (showSuggestions && flattenedSuggestions[activeIndex]) {
           event.preventDefault();
-          router.push(getSearchResultHref(suggestions[activeIndex]));
+          const href = getSearchResultHref(flattenedSuggestions[activeIndex]);
+          setIsFocused(false);
+          router.push(href);
         }
       }}
       style={{ display: "flex", gap: "10px", marginBottom: "16px" }}
@@ -100,6 +163,17 @@ export default function SearchAutocomplete({
           value={query}
           autoComplete="off"
           placeholder={placeholder}
+          onFocus={() => {
+            if (blurTimeoutRef.current) {
+              clearTimeout(blurTimeoutRef.current);
+            }
+            setIsFocused(true);
+          }}
+          onBlur={() => {
+            blurTimeoutRef.current = setTimeout(() => {
+              setIsFocused(false);
+            }, 120);
+          }}
           onChange={(event) => {
             setQuery(event.target.value);
             setActiveIndex(0);
@@ -111,17 +185,16 @@ export default function SearchAutocomplete({
 
             if (event.key === "ArrowDown") {
               event.preventDefault();
-              setActiveIndex((current) => (current + 1) % suggestions.length);
+              setActiveIndex((current) => (current + 1) % flattenedSuggestions.length);
             }
 
             if (event.key === "ArrowUp") {
               event.preventDefault();
-              setActiveIndex((current) => (current - 1 + suggestions.length) % suggestions.length);
+              setActiveIndex((current) => (current - 1 + flattenedSuggestions.length) % flattenedSuggestions.length);
             }
 
             if (event.key === "Escape") {
-              setQuery("");
-              setActiveIndex(0);
+              setIsFocused(false);
             }
           }}
           style={inputStyle()}
@@ -142,36 +215,64 @@ export default function SearchAutocomplete({
               overflow: "hidden",
             }}
           >
-            {suggestions.map((result, indexValue) => (
-              <Link
-                key={`${result.type}-${result.id}`}
-                href={getSearchResultHref(result)}
-                onMouseEnter={() => setActiveIndex(indexValue)}
-                style={{
-                  display: "grid",
-                  gap: "4px",
-                  padding: "12px 14px",
-                  textDecoration: "none",
-                  background: indexValue === activeIndex ? "#f7f9fd" : "#ffffff",
-                  borderTop: indexValue === 0 ? "none" : "1px solid #eef2f8",
-                }}
-              >
-                <span style={{ display: "flex", justifyContent: "space-between", gap: "10px" }}>
-                  <strong style={{ color: "#273246" }}>{result.title}</strong>
-                  <span style={badgeStyle()}>{result.type}</span>
-                </span>
-                <span
+            {groupedSuggestions.map((group) => (
+              <div key={group.key}>
+                <div
                   style={{
-                    color: "#667389",
-                    fontSize: "0.92rem",
-                    overflow: "hidden",
-                    textOverflow: "ellipsis",
-                    whiteSpace: "nowrap",
+                    padding: "10px 14px 6px",
+                    background: "#f8fafd",
+                    borderTop: group.key === groupedSuggestions[0]?.key ? "none" : "1px solid #eef2f8",
+                    color: "#5d6a7f",
+                    fontSize: "0.78rem",
+                    fontWeight: 700,
+                    letterSpacing: "0.04em",
+                    textTransform: "uppercase",
                   }}
                 >
-                  {result.subtitle}
-                </span>
-              </Link>
+                  {group.label}
+                </div>
+                {group.results.map((result) => {
+                  const indexValue = flattenedSuggestions.findIndex(
+                    (entry) => entry.id === result.id && entry.type === result.type,
+                  );
+                  return (
+                    <Link
+                      key={`${result.type}-${result.id}`}
+                      href={getSearchResultHref(result)}
+                      onMouseDown={(event) => {
+                        event.preventDefault();
+                        setIsFocused(false);
+                        router.push(getSearchResultHref(result));
+                      }}
+                      onMouseEnter={() => setActiveIndex(indexValue)}
+                      style={{
+                        display: "grid",
+                        gap: "4px",
+                        padding: "12px 14px",
+                        textDecoration: "none",
+                        background: indexValue === activeIndex ? "#f7f9fd" : "#ffffff",
+                        borderTop: "1px solid #eef2f8",
+                      }}
+                    >
+                      <span style={{ display: "flex", justifyContent: "space-between", gap: "10px" }}>
+                        <strong style={{ color: "#273246" }}>{result.title}</strong>
+                        <span style={badgeStyle()}>{GROUP_BADGE_LABELS[group.key]}</span>
+                      </span>
+                      <span
+                        style={{
+                          color: "#667389",
+                          fontSize: "0.92rem",
+                          overflow: "hidden",
+                          textOverflow: "ellipsis",
+                          whiteSpace: "nowrap",
+                        }}
+                      >
+                        {result.subtitle}
+                      </span>
+                    </Link>
+                  );
+                })}
+              </div>
             ))}
           </div>
         ) : null}

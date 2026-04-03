@@ -17,13 +17,13 @@ export function TypeBadge({ type }: { type: string }) {
     <img
       src={typeIconSrc(type)}
       alt={type}
-      width={48}
-      height={20}
+      width={40}
+      height={18}
       style={{
         display: "block",
         width: "auto",
-        height: "20px",
-        maxWidth: "48px",
+        height: "18px",
+        maxWidth: "40px",
         objectFit: "contain",
         background: "transparent",
       }}
@@ -35,7 +35,15 @@ export function TypeBadgeList({ types }: { types: string[] }) {
   const uniqueTypes = [...new Set(types.filter(Boolean))];
 
   return (
-    <span style={{ display: "inline-flex", flexWrap: "wrap", gap: "6px" }}>
+    <span
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+        alignItems: "center",
+        justifyContent: "flex-start",
+        gap: "6px",
+      }}
+    >
       {uniqueTypes.map((type) => (
         <TypeBadge key={type} type={type} />
       ))}

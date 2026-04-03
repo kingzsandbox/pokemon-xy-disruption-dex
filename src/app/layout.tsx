@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import GlobalHeader from "../components/global-header";
 import ScrollToTopButton from "../components/scroll-to-top-button";
+import { getSearchIndex } from "../lib/search";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -77,11 +78,13 @@ function HeaderFallback() {
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
+  const searchIndex = getSearchIndex();
+
   return (
     <html lang="en">
       <body>
         <Suspense fallback={<HeaderFallback />}>
-          <GlobalHeader />
+          <GlobalHeader searchIndex={searchIndex} />
         </Suspense>
         {children}
         <ScrollToTopButton />

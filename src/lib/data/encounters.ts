@@ -35,8 +35,12 @@ export type PokemonEncounterItemRow = {
   method: string;
   encounterRate: number;
   levelRange: string;
-  heldItemName: string;
-  heldItemSlug: string | null;
+  heldItemDisplay: string;
+  heldItemEntries: {
+    itemName: string;
+    itemSlug: string | null;
+    chanceLabel: string;
+  }[];
   sourceReference: string | null;
 };
 
@@ -88,10 +92,11 @@ function formatLevelRange(encounter: EncounterEntry): string {
 
 export function getEncounterItemRowsByPokemonId(pokemonId: string): PokemonEncounterItemRow[] {
   return (encountersByPokemon.get(pokemonId) ?? [])
-    .filter((entry) => entry.heldItem)
+    .filter((entry) => getEncounterHeldItemDetails(entry).length > 0)
     .map((entry) => {
       const location = getLocationById(entry.locationId);
-      if (!location || !entry.heldItem) {
+      const heldItems = getEncounterHeldItemDetails(entry);
+      if (!location || heldItems.length === 0) {
         return null;
       }
 
@@ -102,8 +107,14 @@ export function getEncounterItemRowsByPokemonId(pokemonId: string): PokemonEncou
         method: entry.method,
         encounterRate: entry.rate,
         levelRange: formatLevelRange(entry),
-        heldItemName: entry.heldItem,
-        heldItemSlug: getHeldItemSlug(entry.heldItem),
+        heldItemDisplay: heldItems
+          .map((item) => `${item.itemName}${item.chanceLabel ? ` (${item.chanceLabel})` : ""}`)
+          .join(", "),
+        heldItemEntries: heldItems.map((item) => ({
+          itemName: item.itemName,
+          itemSlug: item.itemSlug,
+          chanceLabel: item.chanceLabel,
+        })),
         sourceReference: entry.sourceReference ?? null,
       };
     })

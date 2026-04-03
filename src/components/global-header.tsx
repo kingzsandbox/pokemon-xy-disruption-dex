@@ -2,17 +2,35 @@
 
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
+import SearchAutocomplete from "../app/search-autocomplete";
+import type { SearchResult } from "../lib/types";
 
 const navItems = [
   { href: "/", label: "Pokedex", match: (pathname: string) => pathname === "/" },
-  { href: "/?tab=locations", label: "Locations", match: (pathname: string) => pathname === "/locations" || pathname.startsWith("/locations/") },
+  {
+    href: "/?tab=locations",
+    label: "Locations",
+    match: (pathname: string) => pathname === "/locations" || pathname.startsWith("/locations/"),
+  },
   { href: "/?tab=items", label: "Items", match: (pathname: string) => pathname === "/items" || pathname.startsWith("/items/") },
   { href: "/?tab=moves", label: "Moves", match: (pathname: string) => pathname === "/moves" || pathname.startsWith("/moves/") },
-  { href: "/?tab=machines", label: "TMs & HMs", match: (pathname: string) => pathname === "/machines" || pathname.startsWith("/machines/") },
-  { href: "/?tab=abilities", label: "Abilities", match: (pathname: string) => pathname === "/abilities" || pathname.startsWith("/abilities/") },
+  {
+    href: "/?tab=machines",
+    label: "TMs & HMs",
+    match: (pathname: string) => pathname === "/machines" || pathname.startsWith("/machines/"),
+  },
+  {
+    href: "/?tab=abilities",
+    label: "Abilities",
+    match: (pathname: string) => pathname === "/abilities" || pathname.startsWith("/abilities/"),
+  },
   { href: "/battles", label: "Battles", match: (pathname: string) => pathname === "/battles" },
   { href: "/systems", label: "Level Caps", match: (pathname: string) => pathname === "/systems" },
 ] as const;
+
+type GlobalHeaderProps = {
+  searchIndex: SearchResult[];
+};
 
 function navLinkStyle(active: boolean) {
   return {
@@ -31,7 +49,7 @@ function navLinkStyle(active: boolean) {
   } as const;
 }
 
-export default function GlobalHeader() {
+export default function GlobalHeader({ searchIndex }: GlobalHeaderProps) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const activeRootTab = searchParams.get("tab");
@@ -89,36 +107,11 @@ export default function GlobalHeader() {
           </nav>
         </div>
 
-        <form action="/search" method="get" style={{ display: "flex", gap: "10px", marginBottom: "16px" }}>
-          <input
-            name="q"
-            type="search"
-            placeholder="Search Pokémon, locations, items, moves, TMs & HMs, abilities, trainers, battles, and level caps..."
-            style={{
-              width: "100%",
-              minWidth: 0,
-              padding: "11px 14px",
-              border: "1px solid #d8deea",
-              borderRadius: "12px",
-              background: "#ffffff",
-              flex: 1,
-            }}
-          />
-          <button
-            type="submit"
-            style={{
-              padding: "11px 16px",
-              border: "1px solid #cc4141",
-              borderRadius: "12px",
-              background: "#d64a4a",
-              color: "#ffffff",
-              fontWeight: 700,
-              cursor: "pointer",
-            }}
-          >
-            Search
-          </button>
-        </form>
+        <SearchAutocomplete
+          index={searchIndex}
+          action="/search"
+          placeholder="Search Pokémon, locations, items, moves, TMs & HMs, abilities, trainers, battles, and level caps..."
+        />
       </div>
     </header>
   );

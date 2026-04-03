@@ -91,9 +91,6 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
                   <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "1px solid #e6ebf3" }}>
                     Held Item
                   </th>
-                  <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "1px solid #e6ebf3" }}>
-                    Held Item Chance
-                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -149,22 +146,13 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
                             {heldItems.map((item) => (
                               <span key={`${encounter.id}-${item.itemName}`}>
                                 {item.itemSlug ? (
-                                  <Link href={`/items/${item.itemSlug}`}>{item.itemName}</Link>
+                                  <Link href={`/items/${item.itemSlug}`}>
+                                    {item.itemName} ({item.chanceLabel})
+                                  </Link>
                                 ) : (
-                                  item.itemName
+                                  `${item.itemName} (${item.chanceLabel})`
                                 )}
                               </span>
-                            ))}
-                          </div>
-                        ) : (
-                          <span style={{ color: "#667389" }}>None listed</span>
-                        )}
-                      </td>
-                      <td style={{ padding: "10px 12px", borderBottom: "1px solid #e6ebf3" }}>
-                        {heldItems.length > 0 ? (
-                          <div style={{ display: "grid", gap: "4px", color: "#324158" }}>
-                            {heldItems.map((item) => (
-                              <span key={`${encounter.id}-${item.itemName}-chance`}>{item.chanceLabel}</span>
                             ))}
                           </div>
                         ) : (

@@ -83,42 +83,21 @@ export default async function PokemonDetailPage({
     <main style={{ margin: "0 auto", maxWidth: "1000px", padding: "40px 24px 64px" }}>
       <PageNavigation backHref={backHref} backLabel="Back to Pokedex" />
 
-      <section
-        style={{
-          display: "grid",
-          gridTemplateColumns: "minmax(0, 1fr) auto",
-          gap: "24px",
-          alignItems: "start",
-        }}
-      >
+      <section>
         <div>
           <h1 style={{ marginTop: 0, marginBottom: "10px" }}>{displayName}</h1>
           <p style={{ color: "#586379", marginTop: 0, marginBottom: "14px" }}>#{pokemon.dexNumber}</p>
           <TypeBadgeList types={pokemon.types} />
-        </div>
-
-        <div style={{ display: "grid", gap: "12px", justifyItems: "center" }}>
           <div
             style={{
-              width: "180px",
-              height: "180px",
-              border: "1px solid #dfe5ef",
-              borderRadius: "18px",
-              background: "#ffffff",
-              display: "grid",
-              placeItems: "center",
+              display: "flex",
+              justifyContent: "flex-start",
+              alignItems: "center",
+              gap: "16px",
+              marginTop: "12px",
+              marginBottom: "16px",
             }}
           >
-            <ReferenceImage
-              src={art.src}
-              fallbackSrc={art.fallbackSrc}
-              alt={displayName}
-              width={160}
-              height={160}
-              style={{ imageRendering: "pixelated" }}
-            />
-          </div>
-          {art.shinySrc ? (
             <div style={{ textAlign: "center" }}>
               <div
                 style={{
@@ -129,25 +108,51 @@ export default async function PokemonDetailPage({
                   background: "#ffffff",
                   display: "grid",
                   placeItems: "center",
-                  margin: "0 auto 6px",
+                  marginBottom: "6px",
                 }}
               >
                 <ReferenceImage
-                  src={art.shinySrc}
-                  fallbackSrc={null}
-                  alt={`${displayName} shiny`}
-                  width={72}
-                  height={72}
-                  style={{ imageRendering: "pixelated" }}
+                  src={art.src}
+                  fallbackSrc={art.fallbackSrc}
+                  alt={displayName}
+                  width={96}
+                  height={96}
+                  style={{ width: "96px", height: "96px", objectFit: "contain", imageRendering: "pixelated" }}
                 />
               </div>
-              <span style={{ color: "#667389", fontSize: "0.9rem" }}>Shiny</span>
+              <span style={{ color: "#667389", fontSize: "0.9rem" }}>Normal</span>
             </div>
-          ) : null}
+            {art.shinySrc ? (
+              <div style={{ textAlign: "center" }}>
+                <div
+                  style={{
+                    width: "96px",
+                    height: "96px",
+                    border: "1px solid #dfe5ef",
+                    borderRadius: "14px",
+                    background: "#ffffff",
+                    display: "grid",
+                    placeItems: "center",
+                    marginBottom: "6px",
+                  }}
+                >
+                  <ReferenceImage
+                    src={art.shinySrc}
+                    fallbackSrc={null}
+                    alt={`${displayName} shiny`}
+                    width={96}
+                    height={96}
+                    style={{ width: "96px", height: "96px", objectFit: "contain", imageRendering: "pixelated" }}
+                  />
+                </div>
+                <span style={{ color: "#667389", fontSize: "0.9rem" }}>Shiny</span>
+              </div>
+            ) : null}
+          </div>
         </div>
       </section>
 
-      <section style={{ marginTop: "28px" }}>
+      <section style={{ marginTop: "24px" }}>
         <h2>Stats</h2>
         <div style={{ display: "grid", gap: "10px" }}>
           {statRows.map((row) => (
@@ -219,10 +224,23 @@ export default async function PokemonDetailPage({
                     <td style={cellStyle()}>{entry.method}</td>
                     <td style={cellStyle("right")}>{entry.encounterRate}</td>
                     <td style={cellStyle()}>
-                      {entry.heldItemSlug ? (
-                        <Link href={`/items/${entry.heldItemSlug}`}>{entry.heldItemName}</Link>
+                      {entry.heldItemEntries.length > 0 ? (
+                        <div style={{ display: "grid", gap: "4px" }}>
+                          {entry.heldItemEntries.map((item) => (
+                            <span key={`${entry.encounterId}-${item.itemName}`}>
+                              {item.itemSlug ? (
+                                <Link href={`/items/${item.itemSlug}`}>
+                                  {item.itemName}
+                                  {item.chanceLabel ? ` (${item.chanceLabel})` : ""}
+                                </Link>
+                              ) : (
+                                `${item.itemName}${item.chanceLabel ? ` (${item.chanceLabel})` : ""}`
+                              )}
+                            </span>
+                          ))}
+                        </div>
                       ) : (
-                        entry.heldItemName
+                        "—"
                       )}
                     </td>
                     <td style={cellStyle()}>{entry.levelRange}</td>

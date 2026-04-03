@@ -127,21 +127,6 @@ function bst(stats: HomePokemonRow["baseStats"]): number {
   );
 }
 
-function navButtonStyle(active: boolean) {
-  return {
-    display: "inline-flex",
-    alignItems: "center",
-    padding: "8px 14px",
-    borderRadius: "999px",
-    border: active ? "1px solid #cc4141" : "1px solid #d8deea",
-    background: active ? "#d64a4a" : "#ffffff",
-    color: active ? "#ffffff" : "#273246",
-    fontSize: "0.92rem",
-    fontWeight: 600,
-    textDecoration: "none",
-  } as const;
-}
-
 function tableCellStyle(align: "left" | "center" | "right" = "left") {
   return {
     padding: "10px 12px",
@@ -150,15 +135,6 @@ function tableCellStyle(align: "left" | "center" | "right" = "left") {
     verticalAlign: "middle",
     whiteSpace: "nowrap",
   } as const;
-}
-
-function tabHref(key: HomeTabKey): string {
-  const tab = tabs.find((entry) => entry.key === key);
-  if (tab?.href) {
-    return tab.href;
-  }
-
-  return key === "pokedex" ? "/" : `/?tab=${key}`;
 }
 
 function CompactLinkList({
@@ -435,22 +411,6 @@ export default function HomeShell({
 
   return (
     <main style={{ margin: "0 auto", maxWidth: "1400px", padding: "18px 18px 48px" }}>
-      <nav
-        aria-label="Primary"
-        style={{ display: "flex", flexWrap: "wrap", gap: "10px", marginBottom: "14px" }}
-      >
-        {tabs.map((tab) => (
-          <Link
-            key={tab.key}
-            href={tabHref(tab.key)}
-            aria-current={activeTab === tab.key ? "page" : undefined}
-            style={navButtonStyle(activeTab === tab.key)}
-          >
-            {tab.label}
-          </Link>
-        ))}
-      </nav>
-
       <section
         aria-label={tabs.find((tab) => tab.key === activeTab)?.label ?? "Content"}
         style={{
