@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PageNavigation from "@/components/page-navigation";
 import { getMachineBrowseEntries } from "@/lib/data/compatibility";
 
 export default function MachinesPage() {
@@ -6,6 +7,7 @@ export default function MachinesPage() {
 
   return (
     <main style={{ margin: "0 auto", maxWidth: "900px", padding: "40px 24px 64px" }}>
+      <PageNavigation />
       <h1 style={{ marginTop: 0 }}>TMs &amp; HMs</h1>
       <p style={{ color: "#586379" }}>
         Browse TM and HM records by machine code, taught move, location, and compatibility.

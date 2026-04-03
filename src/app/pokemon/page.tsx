@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PageNavigation from "@/components/page-navigation";
 import { getAllPokemon } from "@/lib/data/pokemon";
 
 export default function PokemonListPage() {
@@ -6,6 +7,7 @@ export default function PokemonListPage() {
 
   return (
     <main style={{ margin: "0 auto", maxWidth: "900px", padding: "40px 24px 64px" }}>
+      <PageNavigation />
       <h1 style={{ marginTop: 0 }}>Pokémon</h1>
       <p style={{ color: "#586379" }}>Starter sample dataset for the disruption dex.</p>
 

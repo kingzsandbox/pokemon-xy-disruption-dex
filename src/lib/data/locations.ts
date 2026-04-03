@@ -12,6 +12,15 @@ function normalizeLocationName(value: string): string {
   return value.trim().toLowerCase().replace(/\s+/g, " ");
 }
 
+export function getLocationDisplayDescription(location: Pick<LocationEntry, "description">): string | null {
+  const description = location.description.trim();
+  if (!description || description.startsWith("Imported location record from source materials for ")) {
+    return null;
+  }
+
+  return description;
+}
+
 export function getLocations(): LocationEntry[] {
   return locations;
 }

@@ -1,0 +1,3932 @@
+[
+  {
+    "pokemonId": "pokemon-0460",
+    "slug": "abomasnow",
+    "src": "/sprites/pokemon-workbook/abomasnow.png"
+  },
+  {
+    "pokemonId": "pokemon-0460-mega-abomasnow",
+    "slug": "abomasnow-mega-abomasnow",
+    "src": "/sprites/pokemon-workbook/abomasnow-mega-abomasnow.png"
+  },
+  {
+    "pokemonId": "pokemon-0063",
+    "slug": "abra",
+    "src": "/sprites/pokemon-workbook/abra.png"
+  },
+  {
+    "pokemonId": "pokemon-0359",
+    "slug": "absol",
+    "src": "/sprites/pokemon-workbook/absol.png"
+  },
+  {
+    "pokemonId": "pokemon-0359-mega-absol",
+    "slug": "absol-mega-absol",
+    "src": "/sprites/pokemon-workbook/absol-mega-absol.png"
+  },
+  {
+    "pokemonId": "pokemon-0617",
+    "slug": "accelgor",
+    "src": "/sprites/pokemon-workbook/accelgor.png"
+  },
+  {
+    "pokemonId": "pokemon-0681-blade-forme",
+    "slug": "aegislash-blade-forme",
+    "src": "/sprites/pokemon-workbook/aegislash-blade-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0681-shield-forme",
+    "slug": "aegislash-shield-forme",
+    "src": "/sprites/pokemon-workbook/aegislash-shield-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0142",
+    "slug": "aerodactyl",
+    "src": "/sprites/pokemon-workbook/aerodactyl.png"
+  },
+  {
+    "pokemonId": "pokemon-0142-mega-aerodactyl",
+    "slug": "aerodactyl-mega-aerodactyl",
+    "src": "/sprites/pokemon-workbook/aerodactyl-mega-aerodactyl.png"
+  },
+  {
+    "pokemonId": "pokemon-0306",
+    "slug": "aggron",
+    "src": "/sprites/pokemon-workbook/aggron.png"
+  },
+  {
+    "pokemonId": "pokemon-0306-mega-aggron",
+    "slug": "aggron-mega-aggron",
+    "src": "/sprites/pokemon-workbook/aggron-mega-aggron.png"
+  },
+  {
+    "pokemonId": "pokemon-0190",
+    "slug": "aipom",
+    "src": "/sprites/pokemon-workbook/aipom.png"
+  },
+  {
+    "pokemonId": "pokemon-0065",
+    "slug": "alakazam",
+    "src": "/sprites/pokemon-workbook/alakazam.png"
+  },
+  {
+    "pokemonId": "pokemon-0065-mega-alakazam",
+    "slug": "alakazam-mega-alakazam",
+    "src": "/sprites/pokemon-workbook/alakazam-mega-alakazam.png"
+  },
+  {
+    "pokemonId": "pokemon-0594",
+    "slug": "alomomola",
+    "src": "/sprites/pokemon-workbook/alomomola.png"
+  },
+  {
+    "pokemonId": "pokemon-0334",
+    "slug": "altaria",
+    "src": "/sprites/pokemon-workbook/altaria.png"
+  },
+  {
+    "pokemonId": "pokemon-0698",
+    "slug": "amaura",
+    "src": "/sprites/pokemon-workbook/amaura.png"
+  },
+  {
+    "pokemonId": "pokemon-0424",
+    "slug": "ambipom",
+    "src": "/sprites/pokemon-workbook/ambipom.png"
+  },
+  {
+    "pokemonId": "pokemon-0591",
+    "slug": "amoonguss",
+    "src": "/sprites/pokemon-workbook/amoonguss.png"
+  },
+  {
+    "pokemonId": "pokemon-0181",
+    "slug": "ampharos",
+    "src": "/sprites/pokemon-workbook/ampharos.png"
+  },
+  {
+    "pokemonId": "pokemon-0181-mega-ampharos",
+    "slug": "ampharos-mega-ampharos",
+    "src": "/sprites/pokemon-workbook/ampharos-mega-ampharos.png"
+  },
+  {
+    "pokemonId": "pokemon-0347",
+    "slug": "anorith",
+    "src": "/sprites/pokemon-workbook/anorith.png"
+  },
+  {
+    "pokemonId": "pokemon-0024",
+    "slug": "arbok",
+    "src": "/sprites/pokemon-workbook/arbok.png"
+  },
+  {
+    "pokemonId": "pokemon-0059",
+    "slug": "arcanine",
+    "src": "/sprites/pokemon-workbook/arcanine.png"
+  },
+  {
+    "pokemonId": "pokemon-0493",
+    "slug": "arceus",
+    "src": "/sprites/pokemon-workbook/arceus.png"
+  },
+  {
+    "pokemonId": "pokemon-0566",
+    "slug": "archen",
+    "src": "/sprites/pokemon-workbook/archen.png"
+  },
+  {
+    "pokemonId": "pokemon-0567",
+    "slug": "archeops",
+    "src": "/sprites/pokemon-workbook/archeops.png"
+  },
+  {
+    "pokemonId": "pokemon-0168",
+    "slug": "ariados",
+    "src": "/sprites/pokemon-workbook/ariados.png"
+  },
+  {
+    "pokemonId": "pokemon-0348",
+    "slug": "armaldo",
+    "src": "/sprites/pokemon-workbook/armaldo.png"
+  },
+  {
+    "pokemonId": "pokemon-0683",
+    "slug": "aromatisse",
+    "src": "/sprites/pokemon-workbook/aromatisse.png"
+  },
+  {
+    "pokemonId": "pokemon-0304",
+    "slug": "aron",
+    "src": "/sprites/pokemon-workbook/aron.png"
+  },
+  {
+    "pokemonId": "pokemon-0144",
+    "slug": "articuno",
+    "src": "/sprites/pokemon-workbook/articuno.png"
+  },
+  {
+    "pokemonId": "pokemon-0531",
+    "slug": "audino",
+    "src": "/sprites/pokemon-workbook/audino.png"
+  },
+  {
+    "pokemonId": "pokemon-0699",
+    "slug": "aurorus",
+    "src": "/sprites/pokemon-workbook/aurorus.png"
+  },
+  {
+    "pokemonId": "pokemon-0713",
+    "slug": "avalugg",
+    "src": "/sprites/pokemon-workbook/avalugg.png"
+  },
+  {
+    "pokemonId": "pokemon-0610",
+    "slug": "axew",
+    "src": "/sprites/pokemon-workbook/axew.png"
+  },
+  {
+    "pokemonId": "pokemon-0482",
+    "slug": "azelf",
+    "src": "/sprites/pokemon-workbook/azelf.png"
+  },
+  {
+    "pokemonId": "pokemon-0184",
+    "slug": "azumarill",
+    "src": "/sprites/pokemon-workbook/azumarill.png"
+  },
+  {
+    "pokemonId": "pokemon-0298",
+    "slug": "azurill",
+    "src": "/sprites/pokemon-workbook/azurill.png"
+  },
+  {
+    "pokemonId": "pokemon-0371",
+    "slug": "bagon",
+    "src": "/sprites/pokemon-workbook/bagon.png"
+  },
+  {
+    "pokemonId": "pokemon-0343",
+    "slug": "baltoy",
+    "src": "/sprites/pokemon-workbook/baltoy.png"
+  },
+  {
+    "pokemonId": "pokemon-0354",
+    "slug": "banette",
+    "src": "/sprites/pokemon-workbook/banette.png"
+  },
+  {
+    "pokemonId": "pokemon-0354-mega-banette",
+    "slug": "banette-mega-banette",
+    "src": "/sprites/pokemon-workbook/banette-mega-banette.png"
+  },
+  {
+    "pokemonId": "pokemon-0689",
+    "slug": "barbaracle",
+    "src": "/sprites/pokemon-workbook/barbaracle.png"
+  },
+  {
+    "pokemonId": "pokemon-0339",
+    "slug": "barboach",
+    "src": "/sprites/pokemon-workbook/barboach.png"
+  },
+  {
+    "pokemonId": "pokemon-0550-blue-striped-form",
+    "slug": "basculin-blue-striped-form",
+    "src": "/sprites/pokemon-workbook/basculin-blue-striped-form.png"
+  },
+  {
+    "pokemonId": "pokemon-0550-red-striped-form",
+    "slug": "basculin-red-striped-form",
+    "src": "/sprites/pokemon-workbook/basculin-red-striped-form.png"
+  },
+  {
+    "pokemonId": "pokemon-0411",
+    "slug": "bastiodon",
+    "src": "/sprites/pokemon-workbook/bastiodon.png"
+  },
+  {
+    "pokemonId": "pokemon-0153",
+    "slug": "bayleef",
+    "src": "/sprites/pokemon-workbook/bayleef.png"
+  },
+  {
+    "pokemonId": "pokemon-0614",
+    "slug": "beartic",
+    "src": "/sprites/pokemon-workbook/beartic.png"
+  },
+  {
+    "pokemonId": "pokemon-0267",
+    "slug": "beautifly",
+    "src": "/sprites/pokemon-workbook/beautifly.png"
+  },
+  {
+    "pokemonId": "pokemon-0015",
+    "slug": "beedrill",
+    "src": "/sprites/pokemon-workbook/beedrill.png"
+  },
+  {
+    "pokemonId": "pokemon-0606",
+    "slug": "beheeyem",
+    "src": "/sprites/pokemon-workbook/beheeyem.png"
+  },
+  {
+    "pokemonId": "pokemon-0374",
+    "slug": "beldum",
+    "src": "/sprites/pokemon-workbook/beldum.png"
+  },
+  {
+    "pokemonId": "pokemon-0182",
+    "slug": "bellossom",
+    "src": "/sprites/pokemon-workbook/bellossom.png"
+  },
+  {
+    "pokemonId": "pokemon-0069",
+    "slug": "bellsprout",
+    "src": "/sprites/pokemon-workbook/bellsprout.png"
+  },
+  {
+    "pokemonId": "pokemon-0712",
+    "slug": "bergmite",
+    "src": "/sprites/pokemon-workbook/bergmite.png"
+  },
+  {
+    "pokemonId": "pokemon-0400",
+    "slug": "bibarel",
+    "src": "/sprites/pokemon-workbook/bibarel.png"
+  },
+  {
+    "pokemonId": "pokemon-0399",
+    "slug": "bidoof",
+    "src": "/sprites/pokemon-workbook/bidoof.png"
+  },
+  {
+    "pokemonId": "pokemon-0688",
+    "slug": "binacle",
+    "src": "/sprites/pokemon-workbook/binacle.png"
+  },
+  {
+    "pokemonId": "pokemon-0625",
+    "slug": "bisharp",
+    "src": "/sprites/pokemon-workbook/bisharp.png"
+  },
+  {
+    "pokemonId": "pokemon-0009",
+    "slug": "blastoise",
+    "src": "/sprites/pokemon-workbook/blastoise.png"
+  },
+  {
+    "pokemonId": "pokemon-0009-mega-blastoise",
+    "slug": "blastoise-mega-blastoise",
+    "src": "/sprites/pokemon-workbook/blastoise-mega-blastoise.png"
+  },
+  {
+    "pokemonId": "pokemon-0257",
+    "slug": "blaziken",
+    "src": "/sprites/pokemon-workbook/blaziken.png"
+  },
+  {
+    "pokemonId": "pokemon-0257-mega-blaziken",
+    "slug": "blaziken-mega-blaziken",
+    "src": "/sprites/pokemon-workbook/blaziken-mega-blaziken.png"
+  },
+  {
+    "pokemonId": "pokemon-0242",
+    "slug": "blissey",
+    "src": "/sprites/pokemon-workbook/blissey.png"
+  },
+  {
+    "pokemonId": "pokemon-0522",
+    "slug": "blitzle",
+    "src": "/sprites/pokemon-workbook/blitzle.png"
+  },
+  {
+    "pokemonId": "pokemon-0525",
+    "slug": "boldore",
+    "src": "/sprites/pokemon-workbook/boldore.png"
+  },
+  {
+    "pokemonId": "pokemon-0438",
+    "slug": "bonsly",
+    "src": "/sprites/pokemon-workbook/bonsly.png"
+  },
+  {
+    "pokemonId": "pokemon-0626",
+    "slug": "bouffalant",
+    "src": "/sprites/pokemon-workbook/bouffalant.png"
+  },
+  {
+    "pokemonId": "pokemon-0654",
+    "slug": "braixen",
+    "src": "/sprites/pokemon-workbook/braixen.png"
+  },
+  {
+    "pokemonId": "pokemon-0628",
+    "slug": "braviary",
+    "src": "/sprites/pokemon-workbook/braviary.png"
+  },
+  {
+    "pokemonId": "pokemon-0286",
+    "slug": "breloom",
+    "src": "/sprites/pokemon-workbook/breloom.png"
+  },
+  {
+    "pokemonId": "pokemon-0437",
+    "slug": "bronzong",
+    "src": "/sprites/pokemon-workbook/bronzong.png"
+  },
+  {
+    "pokemonId": "pokemon-0436",
+    "slug": "bronzor",
+    "src": "/sprites/pokemon-workbook/bronzor.png"
+  },
+  {
+    "pokemonId": "pokemon-0406",
+    "slug": "budew",
+    "src": "/sprites/pokemon-workbook/budew.png"
+  },
+  {
+    "pokemonId": "pokemon-0418",
+    "slug": "buizel",
+    "src": "/sprites/pokemon-workbook/buizel.png"
+  },
+  {
+    "pokemonId": "pokemon-0001",
+    "slug": "bulbasaur",
+    "src": "/sprites/pokemon-workbook/bulbasaur.png"
+  },
+  {
+    "pokemonId": "pokemon-0427",
+    "slug": "buneary",
+    "src": "/sprites/pokemon-workbook/buneary.png"
+  },
+  {
+    "pokemonId": "pokemon-0659",
+    "slug": "bunnelby",
+    "src": "/sprites/pokemon-workbook/bunnelby.png"
+  },
+  {
+    "pokemonId": "pokemon-0412-plant-cloak",
+    "slug": "burmy-plant-cloak",
+    "src": "/sprites/pokemon-workbook/burmy-plant-cloak.png"
+  },
+  {
+    "pokemonId": "pokemon-0412-sandy-cloak",
+    "slug": "burmy-sandy-cloak",
+    "src": "/sprites/pokemon-workbook/burmy-sandy-cloak.png"
+  },
+  {
+    "pokemonId": "pokemon-0412-trash-cloak",
+    "slug": "burmy-trash-cloak",
+    "src": "/sprites/pokemon-workbook/burmy-trash-cloak.png"
+  },
+  {
+    "pokemonId": "pokemon-0012",
+    "slug": "butterfree",
+    "src": "/sprites/pokemon-workbook/butterfree.png"
+  },
+  {
+    "pokemonId": "pokemon-0331",
+    "slug": "cacnea",
+    "src": "/sprites/pokemon-workbook/cacnea.png"
+  },
+  {
+    "pokemonId": "pokemon-0332",
+    "slug": "cacturne",
+    "src": "/sprites/pokemon-workbook/cacturne.png"
+  },
+  {
+    "pokemonId": "pokemon-0323",
+    "slug": "camerupt",
+    "src": "/sprites/pokemon-workbook/camerupt.png"
+  },
+  {
+    "pokemonId": "pokemon-0703",
+    "slug": "carbink",
+    "src": "/sprites/pokemon-workbook/carbink.png"
+  },
+  {
+    "pokemonId": "pokemon-0455",
+    "slug": "carnivine",
+    "src": "/sprites/pokemon-workbook/carnivine.png"
+  },
+  {
+    "pokemonId": "pokemon-0565",
+    "slug": "carracosta",
+    "src": "/sprites/pokemon-workbook/carracosta.png"
+  },
+  {
+    "pokemonId": "pokemon-0318",
+    "slug": "carvanha",
+    "src": "/sprites/pokemon-workbook/carvanha.png"
+  },
+  {
+    "pokemonId": "pokemon-0268",
+    "slug": "cascoon",
+    "src": "/sprites/pokemon-workbook/cascoon.png"
+  },
+  {
+    "pokemonId": "pokemon-0351",
+    "slug": "castform",
+    "src": "/sprites/pokemon-workbook/castform.png"
+  },
+  {
+    "pokemonId": "pokemon-0351-rainy-form",
+    "slug": "castform-rainy-form",
+    "src": "/sprites/pokemon-workbook/castform-rainy-form.png"
+  },
+  {
+    "pokemonId": "pokemon-0351-snowy-form",
+    "slug": "castform-snowy-form",
+    "src": "/sprites/pokemon-workbook/castform-snowy-form.png"
+  },
+  {
+    "pokemonId": "pokemon-0351-sunny-form",
+    "slug": "castform-sunny-form",
+    "src": "/sprites/pokemon-workbook/castform-sunny-form.png"
+  },
+  {
+    "pokemonId": "pokemon-0010",
+    "slug": "caterpie",
+    "src": "/sprites/pokemon-workbook/caterpie.png"
+  },
+  {
+    "pokemonId": "pokemon-0251",
+    "slug": "celebi",
+    "src": "/sprites/pokemon-workbook/celebi.png"
+  },
+  {
+    "pokemonId": "pokemon-0609",
+    "slug": "chandelure",
+    "src": "/sprites/pokemon-workbook/chandelure.png"
+  },
+  {
+    "pokemonId": "pokemon-0113",
+    "slug": "chansey",
+    "src": "/sprites/pokemon-workbook/chansey.png"
+  },
+  {
+    "pokemonId": "pokemon-0006",
+    "slug": "charizard",
+    "src": "/sprites/pokemon-workbook/charizard.png"
+  },
+  {
+    "pokemonId": "pokemon-0006-mega-charizard-x",
+    "slug": "charizard-mega-charizard-x",
+    "src": "/sprites/pokemon-workbook/charizard-mega-charizard-x.png"
+  },
+  {
+    "pokemonId": "pokemon-0006-mega-charizard-y",
+    "slug": "charizard-mega-charizard-y",
+    "src": "/sprites/pokemon-workbook/charizard-mega-charizard-y.png"
+  },
+  {
+    "pokemonId": "pokemon-0004",
+    "slug": "charmander",
+    "src": "/sprites/pokemon-workbook/charmander.png"
+  },
+  {
+    "pokemonId": "pokemon-0005",
+    "slug": "charmeleon",
+    "src": "/sprites/pokemon-workbook/charmeleon.png"
+  },
+  {
+    "pokemonId": "pokemon-0441",
+    "slug": "chatot",
+    "src": "/sprites/pokemon-workbook/chatot.png"
+  },
+  {
+    "pokemonId": "pokemon-0421",
+    "slug": "cherrim",
+    "src": "/sprites/pokemon-workbook/cherrim.png"
+  },
+  {
+    "pokemonId": "pokemon-0420",
+    "slug": "cherubi",
+    "src": "/sprites/pokemon-workbook/cherubi.png"
+  },
+  {
+    "pokemonId": "pokemon-0652",
+    "slug": "chesnaught",
+    "src": "/sprites/pokemon-workbook/chesnaught.png"
+  },
+  {
+    "pokemonId": "pokemon-0650",
+    "slug": "chespin",
+    "src": "/sprites/pokemon-workbook/chespin.png"
+  },
+  {
+    "pokemonId": "pokemon-0152",
+    "slug": "chikorita",
+    "src": "/sprites/pokemon-workbook/chikorita.png"
+  },
+  {
+    "pokemonId": "pokemon-0390",
+    "slug": "chimchar",
+    "src": "/sprites/pokemon-workbook/chimchar.png"
+  },
+  {
+    "pokemonId": "pokemon-0358",
+    "slug": "chimecho",
+    "src": "/sprites/pokemon-workbook/chimecho.png"
+  },
+  {
+    "pokemonId": "pokemon-0170",
+    "slug": "chinchou",
+    "src": "/sprites/pokemon-workbook/chinchou.png"
+  },
+  {
+    "pokemonId": "pokemon-0433",
+    "slug": "chingling",
+    "src": "/sprites/pokemon-workbook/chingling.png"
+  },
+  {
+    "pokemonId": "pokemon-0573",
+    "slug": "cinccino",
+    "src": "/sprites/pokemon-workbook/cinccino.png"
+  },
+  {
+    "pokemonId": "pokemon-0366",
+    "slug": "clamperl",
+    "src": "/sprites/pokemon-workbook/clamperl.png"
+  },
+  {
+    "pokemonId": "pokemon-0692",
+    "slug": "clauncher",
+    "src": "/sprites/pokemon-workbook/clauncher.png"
+  },
+  {
+    "pokemonId": "pokemon-0693",
+    "slug": "clawitzer",
+    "src": "/sprites/pokemon-workbook/clawitzer.png"
+  },
+  {
+    "pokemonId": "pokemon-0344",
+    "slug": "claydol",
+    "src": "/sprites/pokemon-workbook/claydol.png"
+  },
+  {
+    "pokemonId": "pokemon-0036",
+    "slug": "clefable",
+    "src": "/sprites/pokemon-workbook/clefable.png"
+  },
+  {
+    "pokemonId": "pokemon-0035",
+    "slug": "clefairy",
+    "src": "/sprites/pokemon-workbook/clefairy.png"
+  },
+  {
+    "pokemonId": "pokemon-0173",
+    "slug": "cleffa",
+    "src": "/sprites/pokemon-workbook/cleffa.png"
+  },
+  {
+    "pokemonId": "pokemon-0091",
+    "slug": "cloyster",
+    "src": "/sprites/pokemon-workbook/cloyster.png"
+  },
+  {
+    "pokemonId": "pokemon-0638",
+    "slug": "cobalion",
+    "src": "/sprites/pokemon-workbook/cobalion.png"
+  },
+  {
+    "pokemonId": "pokemon-0563",
+    "slug": "cofagrigus",
+    "src": "/sprites/pokemon-workbook/cofagrigus.png"
+  },
+  {
+    "pokemonId": "pokemon-0415",
+    "slug": "combee",
+    "src": "/sprites/pokemon-workbook/combee.png"
+  },
+  {
+    "pokemonId": "pokemon-0256",
+    "slug": "combusken",
+    "src": "/sprites/pokemon-workbook/combusken.png"
+  },
+  {
+    "pokemonId": "pokemon-0534",
+    "slug": "conkeldurr",
+    "src": "/sprites/pokemon-workbook/conkeldurr.png"
+  },
+  {
+    "pokemonId": "pokemon-0341",
+    "slug": "corphish",
+    "src": "/sprites/pokemon-workbook/corphish.png"
+  },
+  {
+    "pokemonId": "pokemon-0222",
+    "slug": "corsola",
+    "src": "/sprites/pokemon-workbook/corsola.png"
+  },
+  {
+    "pokemonId": "pokemon-0546",
+    "slug": "cottonee",
+    "src": "/sprites/pokemon-workbook/cottonee.png"
+  },
+  {
+    "pokemonId": "pokemon-0346",
+    "slug": "cradily",
+    "src": "/sprites/pokemon-workbook/cradily.png"
+  },
+  {
+    "pokemonId": "pokemon-0408",
+    "slug": "cranidos",
+    "src": "/sprites/pokemon-workbook/cranidos.png"
+  },
+  {
+    "pokemonId": "pokemon-0342",
+    "slug": "crawdaunt",
+    "src": "/sprites/pokemon-workbook/crawdaunt.png"
+  },
+  {
+    "pokemonId": "pokemon-0488",
+    "slug": "cresselia",
+    "src": "/sprites/pokemon-workbook/cresselia.png"
+  },
+  {
+    "pokemonId": "pokemon-0453",
+    "slug": "croagunk",
+    "src": "/sprites/pokemon-workbook/croagunk.png"
+  },
+  {
+    "pokemonId": "pokemon-0169",
+    "slug": "crobat",
+    "src": "/sprites/pokemon-workbook/crobat.png"
+  },
+  {
+    "pokemonId": "pokemon-0159",
+    "slug": "croconaw",
+    "src": "/sprites/pokemon-workbook/croconaw.png"
+  },
+  {
+    "pokemonId": "pokemon-0558",
+    "slug": "crustle",
+    "src": "/sprites/pokemon-workbook/crustle.png"
+  },
+  {
+    "pokemonId": "pokemon-0615",
+    "slug": "cryogonal",
+    "src": "/sprites/pokemon-workbook/cryogonal.png"
+  },
+  {
+    "pokemonId": "pokemon-0613",
+    "slug": "cubchoo",
+    "src": "/sprites/pokemon-workbook/cubchoo.png"
+  },
+  {
+    "pokemonId": "pokemon-0104",
+    "slug": "cubone",
+    "src": "/sprites/pokemon-workbook/cubone.png"
+  },
+  {
+    "pokemonId": "pokemon-0155",
+    "slug": "cyndaquil",
+    "src": "/sprites/pokemon-workbook/cyndaquil.png"
+  },
+  {
+    "pokemonId": "pokemon-0491",
+    "slug": "darkrai",
+    "src": "/sprites/pokemon-workbook/darkrai.png"
+  },
+  {
+    "pokemonId": "pokemon-0555-standard-mode",
+    "slug": "darmanitan-standard-mode",
+    "src": "/sprites/pokemon-workbook/darmanitan-standard-mode.png"
+  },
+  {
+    "pokemonId": "pokemon-0555-zen-mode",
+    "slug": "darmanitan-zen-mode",
+    "src": "/sprites/pokemon-workbook/darmanitan-zen-mode.png"
+  },
+  {
+    "pokemonId": "pokemon-0554",
+    "slug": "darumaka",
+    "src": "/sprites/pokemon-workbook/darumaka.png"
+  },
+  {
+    "pokemonId": "pokemon-0702",
+    "slug": "dedenne",
+    "src": "/sprites/pokemon-workbook/dedenne.png"
+  },
+  {
+    "pokemonId": "pokemon-0585",
+    "slug": "deerling",
+    "src": "/sprites/pokemon-workbook/deerling.png"
+  },
+  {
+    "pokemonId": "pokemon-0633",
+    "slug": "deino",
+    "src": "/sprites/pokemon-workbook/deino.png"
+  },
+  {
+    "pokemonId": "pokemon-0301",
+    "slug": "delcatty",
+    "src": "/sprites/pokemon-workbook/delcatty.png"
+  },
+  {
+    "pokemonId": "pokemon-0225",
+    "slug": "delibird",
+    "src": "/sprites/pokemon-workbook/delibird.png"
+  },
+  {
+    "pokemonId": "pokemon-0655",
+    "slug": "delphox",
+    "src": "/sprites/pokemon-workbook/delphox.png"
+  },
+  {
+    "pokemonId": "pokemon-0386-attack-forme",
+    "slug": "deoxys-attack-forme",
+    "src": "/sprites/pokemon-workbook/deoxys-attack-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0386-defense-forme",
+    "slug": "deoxys-defense-forme",
+    "src": "/sprites/pokemon-workbook/deoxys-defense-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0386-normal-forme",
+    "slug": "deoxys-normal-forme",
+    "src": "/sprites/pokemon-workbook/deoxys-normal-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0386-speed-forme",
+    "slug": "deoxys-speed-forme",
+    "src": "/sprites/pokemon-workbook/deoxys-speed-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0087",
+    "slug": "dewgong",
+    "src": "/sprites/pokemon-workbook/dewgong.png"
+  },
+  {
+    "pokemonId": "pokemon-0502",
+    "slug": "dewott",
+    "src": "/sprites/pokemon-workbook/dewott.png"
+  },
+  {
+    "pokemonId": "pokemon-0483",
+    "slug": "dialga",
+    "src": "/sprites/pokemon-workbook/dialga.png"
+  },
+  {
+    "pokemonId": "pokemon-0719",
+    "slug": "diancie",
+    "src": "/sprites/pokemon-workbook/diancie.png"
+  },
+  {
+    "pokemonId": "pokemon-0660",
+    "slug": "diggersby",
+    "src": "/sprites/pokemon-workbook/diggersby.png"
+  },
+  {
+    "pokemonId": "pokemon-0050",
+    "slug": "diglett",
+    "src": "/sprites/pokemon-workbook/diglett.png"
+  },
+  {
+    "pokemonId": "pokemon-0132",
+    "slug": "ditto",
+    "src": "/sprites/pokemon-workbook/ditto.png"
+  },
+  {
+    "pokemonId": "pokemon-0085",
+    "slug": "dodrio",
+    "src": "/sprites/pokemon-workbook/dodrio.png"
+  },
+  {
+    "pokemonId": "pokemon-0084",
+    "slug": "doduo",
+    "src": "/sprites/pokemon-workbook/doduo.png"
+  },
+  {
+    "pokemonId": "pokemon-0232",
+    "slug": "donphan",
+    "src": "/sprites/pokemon-workbook/donphan.png"
+  },
+  {
+    "pokemonId": "pokemon-0680",
+    "slug": "doublade",
+    "src": "/sprites/pokemon-workbook/doublade.png"
+  },
+  {
+    "pokemonId": "pokemon-0691",
+    "slug": "dragalge",
+    "src": "/sprites/pokemon-workbook/dragalge.png"
+  },
+  {
+    "pokemonId": "pokemon-0148",
+    "slug": "dragonair",
+    "src": "/sprites/pokemon-workbook/dragonair.png"
+  },
+  {
+    "pokemonId": "pokemon-0149",
+    "slug": "dragonite",
+    "src": "/sprites/pokemon-workbook/dragonite.png"
+  },
+  {
+    "pokemonId": "pokemon-0452",
+    "slug": "drapion",
+    "src": "/sprites/pokemon-workbook/drapion.png"
+  },
+  {
+    "pokemonId": "pokemon-0147",
+    "slug": "dratini",
+    "src": "/sprites/pokemon-workbook/dratini.png"
+  },
+  {
+    "pokemonId": "pokemon-0426",
+    "slug": "drifblim",
+    "src": "/sprites/pokemon-workbook/drifblim.png"
+  },
+  {
+    "pokemonId": "pokemon-0425",
+    "slug": "drifloon",
+    "src": "/sprites/pokemon-workbook/drifloon.png"
+  },
+  {
+    "pokemonId": "pokemon-0529",
+    "slug": "drilbur",
+    "src": "/sprites/pokemon-workbook/drilbur.png"
+  },
+  {
+    "pokemonId": "pokemon-0096",
+    "slug": "drowzee",
+    "src": "/sprites/pokemon-workbook/drowzee.png"
+  },
+  {
+    "pokemonId": "pokemon-0621",
+    "slug": "druddigon",
+    "src": "/sprites/pokemon-workbook/druddigon.png"
+  },
+  {
+    "pokemonId": "pokemon-0580",
+    "slug": "ducklett",
+    "src": "/sprites/pokemon-workbook/ducklett.png"
+  },
+  {
+    "pokemonId": "pokemon-0051",
+    "slug": "dugtrio",
+    "src": "/sprites/pokemon-workbook/dugtrio.png"
+  },
+  {
+    "pokemonId": "pokemon-0206",
+    "slug": "dunsparce",
+    "src": "/sprites/pokemon-workbook/dunsparce.png"
+  },
+  {
+    "pokemonId": "pokemon-0578",
+    "slug": "duosion",
+    "src": "/sprites/pokemon-workbook/duosion.png"
+  },
+  {
+    "pokemonId": "pokemon-0632",
+    "slug": "durant",
+    "src": "/sprites/pokemon-workbook/durant.png"
+  },
+  {
+    "pokemonId": "pokemon-0356",
+    "slug": "dusclops",
+    "src": "/sprites/pokemon-workbook/dusclops.png"
+  },
+  {
+    "pokemonId": "pokemon-0477",
+    "slug": "dusknoir",
+    "src": "/sprites/pokemon-workbook/dusknoir.png"
+  },
+  {
+    "pokemonId": "pokemon-0355",
+    "slug": "duskull",
+    "src": "/sprites/pokemon-workbook/duskull.png"
+  },
+  {
+    "pokemonId": "pokemon-0269",
+    "slug": "dustox",
+    "src": "/sprites/pokemon-workbook/dustox.png"
+  },
+  {
+    "pokemonId": "pokemon-0557",
+    "slug": "dwebble",
+    "src": "/sprites/pokemon-workbook/dwebble.png"
+  },
+  {
+    "pokemonId": "pokemon-0603",
+    "slug": "eelektrik",
+    "src": "/sprites/pokemon-workbook/eelektrik.png"
+  },
+  {
+    "pokemonId": "pokemon-0604",
+    "slug": "eelektross",
+    "src": "/sprites/pokemon-workbook/eelektross.png"
+  },
+  {
+    "pokemonId": "pokemon-0133",
+    "slug": "eevee",
+    "src": "/sprites/pokemon-workbook/eevee.png"
+  },
+  {
+    "pokemonId": "pokemon-0023",
+    "slug": "ekans",
+    "src": "/sprites/pokemon-workbook/ekans.png"
+  },
+  {
+    "pokemonId": "pokemon-0125",
+    "slug": "electabuzz",
+    "src": "/sprites/pokemon-workbook/electabuzz.png"
+  },
+  {
+    "pokemonId": "pokemon-0466",
+    "slug": "electivire",
+    "src": "/sprites/pokemon-workbook/electivire.png"
+  },
+  {
+    "pokemonId": "pokemon-0309",
+    "slug": "electrike",
+    "src": "/sprites/pokemon-workbook/electrike.png"
+  },
+  {
+    "pokemonId": "pokemon-0101",
+    "slug": "electrode",
+    "src": "/sprites/pokemon-workbook/electrode.png"
+  },
+  {
+    "pokemonId": "pokemon-0239",
+    "slug": "elekid",
+    "src": "/sprites/pokemon-workbook/elekid.png"
+  },
+  {
+    "pokemonId": "pokemon-0605",
+    "slug": "elgyem",
+    "src": "/sprites/pokemon-workbook/elgyem.png"
+  },
+  {
+    "pokemonId": "pokemon-0500",
+    "slug": "emboar",
+    "src": "/sprites/pokemon-workbook/emboar.png"
+  },
+  {
+    "pokemonId": "pokemon-0587",
+    "slug": "emolga",
+    "src": "/sprites/pokemon-workbook/emolga.png"
+  },
+  {
+    "pokemonId": "pokemon-0395",
+    "slug": "empoleon",
+    "src": "/sprites/pokemon-workbook/empoleon.png"
+  },
+  {
+    "pokemonId": "pokemon-0244",
+    "slug": "entei",
+    "src": "/sprites/pokemon-workbook/entei.png"
+  },
+  {
+    "pokemonId": "pokemon-0589",
+    "slug": "escavalier",
+    "src": "/sprites/pokemon-workbook/escavalier.png"
+  },
+  {
+    "pokemonId": "pokemon-0196",
+    "slug": "espeon",
+    "src": "/sprites/pokemon-workbook/espeon.png"
+  },
+  {
+    "pokemonId": "pokemon-0677",
+    "slug": "espurr",
+    "src": "/sprites/pokemon-workbook/espurr.png"
+  },
+  {
+    "pokemonId": "pokemon-0530",
+    "slug": "excadrill",
+    "src": "/sprites/pokemon-workbook/excadrill.png"
+  },
+  {
+    "pokemonId": "pokemon-0102",
+    "slug": "exeggcute",
+    "src": "/sprites/pokemon-workbook/exeggcute.png"
+  },
+  {
+    "pokemonId": "pokemon-0103",
+    "slug": "exeggutor",
+    "src": "/sprites/pokemon-workbook/exeggutor.png"
+  },
+  {
+    "pokemonId": "pokemon-0295",
+    "slug": "exploud",
+    "src": "/sprites/pokemon-workbook/exploud.png"
+  },
+  {
+    "pokemonId": "pokemon-0083",
+    "slug": "farfetch-d",
+    "src": "/sprites/pokemon-workbook/farfetch-d.png"
+  },
+  {
+    "pokemonId": "pokemon-0022",
+    "slug": "fearow",
+    "src": "/sprites/pokemon-workbook/fearow.png"
+  },
+  {
+    "pokemonId": "pokemon-0349",
+    "slug": "feebas",
+    "src": "/sprites/pokemon-workbook/feebas.png"
+  },
+  {
+    "pokemonId": "pokemon-0653",
+    "slug": "fennekin",
+    "src": "/sprites/pokemon-workbook/fennekin.png"
+  },
+  {
+    "pokemonId": "pokemon-0160",
+    "slug": "feraligatr",
+    "src": "/sprites/pokemon-workbook/feraligatr.png"
+  },
+  {
+    "pokemonId": "pokemon-0597",
+    "slug": "ferroseed",
+    "src": "/sprites/pokemon-workbook/ferroseed.png"
+  },
+  {
+    "pokemonId": "pokemon-0598",
+    "slug": "ferrothorn",
+    "src": "/sprites/pokemon-workbook/ferrothorn.png"
+  },
+  {
+    "pokemonId": "pokemon-0456",
+    "slug": "finneon",
+    "src": "/sprites/pokemon-workbook/finneon.png"
+  },
+  {
+    "pokemonId": "pokemon-0180",
+    "slug": "flaaffy",
+    "src": "/sprites/pokemon-workbook/flaaffy.png"
+  },
+  {
+    "pokemonId": "pokemon-0669",
+    "slug": "flabebe",
+    "src": "/sprites/pokemon-workbook/flabebe.png"
+  },
+  {
+    "pokemonId": "pokemon-0136",
+    "slug": "flareon",
+    "src": "/sprites/pokemon-workbook/flareon.png"
+  },
+  {
+    "pokemonId": "pokemon-0662",
+    "slug": "fletchinder",
+    "src": "/sprites/pokemon-workbook/fletchinder.png"
+  },
+  {
+    "pokemonId": "pokemon-0661",
+    "slug": "fletchling",
+    "src": "/sprites/pokemon-workbook/fletchling.png"
+  },
+  {
+    "pokemonId": "pokemon-0419",
+    "slug": "floatzel",
+    "src": "/sprites/pokemon-workbook/floatzel.png"
+  },
+  {
+    "pokemonId": "pokemon-0670",
+    "slug": "floette",
+    "src": "/sprites/pokemon-workbook/floette.png"
+  },
+  {
+    "pokemonId": "pokemon-0670-eternal-floette",
+    "slug": "floette-eternal-floette",
+    "src": "/sprites/pokemon-workbook/floette-eternal-floette.png"
+  },
+  {
+    "pokemonId": "pokemon-0671",
+    "slug": "florges",
+    "src": "/sprites/pokemon-workbook/florges.png"
+  },
+  {
+    "pokemonId": "pokemon-0330",
+    "slug": "flygon",
+    "src": "/sprites/pokemon-workbook/flygon.png"
+  },
+  {
+    "pokemonId": "pokemon-0590",
+    "slug": "foongus",
+    "src": "/sprites/pokemon-workbook/foongus.png"
+  },
+  {
+    "pokemonId": "pokemon-0205",
+    "slug": "forretress",
+    "src": "/sprites/pokemon-workbook/forretress.png"
+  },
+  {
+    "pokemonId": "pokemon-0611",
+    "slug": "fraxure",
+    "src": "/sprites/pokemon-workbook/fraxure.png"
+  },
+  {
+    "pokemonId": "pokemon-0592",
+    "slug": "frillish",
+    "src": "/sprites/pokemon-workbook/frillish.png"
+  },
+  {
+    "pokemonId": "pokemon-0656",
+    "slug": "froakie",
+    "src": "/sprites/pokemon-workbook/froakie.png"
+  },
+  {
+    "pokemonId": "pokemon-0657",
+    "slug": "frogadier",
+    "src": "/sprites/pokemon-workbook/frogadier.png"
+  },
+  {
+    "pokemonId": "pokemon-0478",
+    "slug": "froslass",
+    "src": "/sprites/pokemon-workbook/froslass.png"
+  },
+  {
+    "pokemonId": "pokemon-0676",
+    "slug": "furfrou",
+    "src": "/sprites/pokemon-workbook/furfrou.png"
+  },
+  {
+    "pokemonId": "pokemon-0162",
+    "slug": "furret",
+    "src": "/sprites/pokemon-workbook/furret.png"
+  },
+  {
+    "pokemonId": "pokemon-0444",
+    "slug": "gabite",
+    "src": "/sprites/pokemon-workbook/gabite.png"
+  },
+  {
+    "pokemonId": "pokemon-0475",
+    "slug": "gallade",
+    "src": "/sprites/pokemon-workbook/gallade.png"
+  },
+  {
+    "pokemonId": "pokemon-0596",
+    "slug": "galvantula",
+    "src": "/sprites/pokemon-workbook/galvantula.png"
+  },
+  {
+    "pokemonId": "pokemon-0569",
+    "slug": "garbodor",
+    "src": "/sprites/pokemon-workbook/garbodor.png"
+  },
+  {
+    "pokemonId": "pokemon-0445",
+    "slug": "garchomp",
+    "src": "/sprites/pokemon-workbook/garchomp.png"
+  },
+  {
+    "pokemonId": "pokemon-0445-mega-garchomp",
+    "slug": "garchomp-mega-garchomp",
+    "src": "/sprites/pokemon-workbook/garchomp-mega-garchomp.png"
+  },
+  {
+    "pokemonId": "pokemon-0282",
+    "slug": "gardevoir",
+    "src": "/sprites/pokemon-workbook/gardevoir.png"
+  },
+  {
+    "pokemonId": "pokemon-0282-mega-gardevoir",
+    "slug": "gardevoir-mega-gardevoir",
+    "src": "/sprites/pokemon-workbook/gardevoir-mega-gardevoir.png"
+  },
+  {
+    "pokemonId": "pokemon-0092",
+    "slug": "gastly",
+    "src": "/sprites/pokemon-workbook/gastly.png"
+  },
+  {
+    "pokemonId": "pokemon-0423",
+    "slug": "gastrodon",
+    "src": "/sprites/pokemon-workbook/gastrodon.png"
+  },
+  {
+    "pokemonId": "pokemon-0649",
+    "slug": "genesect",
+    "src": "/sprites/pokemon-workbook/genesect.png"
+  },
+  {
+    "pokemonId": "pokemon-0094",
+    "slug": "gengar",
+    "src": "/sprites/pokemon-workbook/gengar.png"
+  },
+  {
+    "pokemonId": "pokemon-0094-mega-gengar",
+    "slug": "gengar-mega-gengar",
+    "src": "/sprites/pokemon-workbook/gengar-mega-gengar.png"
+  },
+  {
+    "pokemonId": "pokemon-0074",
+    "slug": "geodude",
+    "src": "/sprites/pokemon-workbook/geodude.png"
+  },
+  {
+    "pokemonId": "pokemon-0443",
+    "slug": "gible",
+    "src": "/sprites/pokemon-workbook/gible.png"
+  },
+  {
+    "pokemonId": "pokemon-0526",
+    "slug": "gigalith",
+    "src": "/sprites/pokemon-workbook/gigalith.png"
+  },
+  {
+    "pokemonId": "pokemon-0203",
+    "slug": "girafarig",
+    "src": "/sprites/pokemon-workbook/girafarig.png"
+  },
+  {
+    "pokemonId": "pokemon-0487-altered-forme",
+    "slug": "giratina-altered-forme",
+    "src": "/sprites/pokemon-workbook/giratina-altered-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0487-origin-forme",
+    "slug": "giratina-origin-forme",
+    "src": "/sprites/pokemon-workbook/giratina-origin-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0471",
+    "slug": "glaceon",
+    "src": "/sprites/pokemon-workbook/glaceon.png"
+  },
+  {
+    "pokemonId": "pokemon-0362",
+    "slug": "glalie",
+    "src": "/sprites/pokemon-workbook/glalie.png"
+  },
+  {
+    "pokemonId": "pokemon-0431",
+    "slug": "glameow",
+    "src": "/sprites/pokemon-workbook/glameow.png"
+  },
+  {
+    "pokemonId": "pokemon-0207",
+    "slug": "gligar",
+    "src": "/sprites/pokemon-workbook/gligar.png"
+  },
+  {
+    "pokemonId": "pokemon-0472",
+    "slug": "gliscor",
+    "src": "/sprites/pokemon-workbook/gliscor.png"
+  },
+  {
+    "pokemonId": "pokemon-0044",
+    "slug": "gloom",
+    "src": "/sprites/pokemon-workbook/gloom.png"
+  },
+  {
+    "pokemonId": "pokemon-0673",
+    "slug": "gogoat",
+    "src": "/sprites/pokemon-workbook/gogoat.png"
+  },
+  {
+    "pokemonId": "pokemon-0042",
+    "slug": "golbat",
+    "src": "/sprites/pokemon-workbook/golbat.png"
+  },
+  {
+    "pokemonId": "pokemon-0118",
+    "slug": "goldeen",
+    "src": "/sprites/pokemon-workbook/goldeen.png"
+  },
+  {
+    "pokemonId": "pokemon-0055",
+    "slug": "golduck",
+    "src": "/sprites/pokemon-workbook/golduck.png"
+  },
+  {
+    "pokemonId": "pokemon-0076",
+    "slug": "golem",
+    "src": "/sprites/pokemon-workbook/golem.png"
+  },
+  {
+    "pokemonId": "pokemon-0622",
+    "slug": "golett",
+    "src": "/sprites/pokemon-workbook/golett.png"
+  },
+  {
+    "pokemonId": "pokemon-0623",
+    "slug": "golurk",
+    "src": "/sprites/pokemon-workbook/golurk.png"
+  },
+  {
+    "pokemonId": "pokemon-0706",
+    "slug": "goodra",
+    "src": "/sprites/pokemon-workbook/goodra.png"
+  },
+  {
+    "pokemonId": "pokemon-0704",
+    "slug": "goomy",
+    "src": "/sprites/pokemon-workbook/goomy.png"
+  },
+  {
+    "pokemonId": "pokemon-0368",
+    "slug": "gorebyss",
+    "src": "/sprites/pokemon-workbook/gorebyss.png"
+  },
+  {
+    "pokemonId": "pokemon-0574",
+    "slug": "gothita",
+    "src": "/sprites/pokemon-workbook/gothita.png"
+  },
+  {
+    "pokemonId": "pokemon-0576",
+    "slug": "gothitelle",
+    "src": "/sprites/pokemon-workbook/gothitelle.png"
+  },
+  {
+    "pokemonId": "pokemon-0575",
+    "slug": "gothorita",
+    "src": "/sprites/pokemon-workbook/gothorita.png"
+  },
+  {
+    "pokemonId": "pokemon-0711-average-size",
+    "slug": "gourgeist-average-size",
+    "src": "/sprites/pokemon-workbook/gourgeist-average-size.png"
+  },
+  {
+    "pokemonId": "pokemon-0711-large-size",
+    "slug": "gourgeist-large-size",
+    "src": "/sprites/pokemon-workbook/gourgeist-large-size.png"
+  },
+  {
+    "pokemonId": "pokemon-0711-small-size",
+    "slug": "gourgeist-small-size",
+    "src": "/sprites/pokemon-workbook/gourgeist-small-size.png"
+  },
+  {
+    "pokemonId": "pokemon-0711-super-size",
+    "slug": "gourgeist-super-size",
+    "src": "/sprites/pokemon-workbook/gourgeist-super-size.png"
+  },
+  {
+    "pokemonId": "pokemon-0210",
+    "slug": "granbull",
+    "src": "/sprites/pokemon-workbook/granbull.png"
+  },
+  {
+    "pokemonId": "pokemon-0075",
+    "slug": "graveler",
+    "src": "/sprites/pokemon-workbook/graveler.png"
+  },
+  {
+    "pokemonId": "pokemon-0658",
+    "slug": "greninja",
+    "src": "/sprites/pokemon-workbook/greninja.png"
+  },
+  {
+    "pokemonId": "pokemon-0088",
+    "slug": "grimer",
+    "src": "/sprites/pokemon-workbook/grimer.png"
+  },
+  {
+    "pokemonId": "pokemon-0388",
+    "slug": "grotle",
+    "src": "/sprites/pokemon-workbook/grotle.png"
+  },
+  {
+    "pokemonId": "pokemon-0383",
+    "slug": "groudon",
+    "src": "/sprites/pokemon-workbook/groudon.png"
+  },
+  {
+    "pokemonId": "pokemon-0253",
+    "slug": "grovyle",
+    "src": "/sprites/pokemon-workbook/grovyle.png"
+  },
+  {
+    "pokemonId": "pokemon-0058",
+    "slug": "growlithe",
+    "src": "/sprites/pokemon-workbook/growlithe.png"
+  },
+  {
+    "pokemonId": "pokemon-0326",
+    "slug": "grumpig",
+    "src": "/sprites/pokemon-workbook/grumpig.png"
+  },
+  {
+    "pokemonId": "pokemon-0316",
+    "slug": "gulpin",
+    "src": "/sprites/pokemon-workbook/gulpin.png"
+  },
+  {
+    "pokemonId": "pokemon-0533",
+    "slug": "gurdurr",
+    "src": "/sprites/pokemon-workbook/gurdurr.png"
+  },
+  {
+    "pokemonId": "pokemon-0130",
+    "slug": "gyarados",
+    "src": "/sprites/pokemon-workbook/gyarados.png"
+  },
+  {
+    "pokemonId": "pokemon-0130-mega-gyarados",
+    "slug": "gyarados-mega-gyarados",
+    "src": "/sprites/pokemon-workbook/gyarados-mega-gyarados.png"
+  },
+  {
+    "pokemonId": "pokemon-0440",
+    "slug": "happiny",
+    "src": "/sprites/pokemon-workbook/happiny.png"
+  },
+  {
+    "pokemonId": "pokemon-0297",
+    "slug": "hariyama",
+    "src": "/sprites/pokemon-workbook/hariyama.png"
+  },
+  {
+    "pokemonId": "pokemon-0093",
+    "slug": "haunter",
+    "src": "/sprites/pokemon-workbook/haunter.png"
+  },
+  {
+    "pokemonId": "pokemon-0701",
+    "slug": "hawlucha",
+    "src": "/sprites/pokemon-workbook/hawlucha.png"
+  },
+  {
+    "pokemonId": "pokemon-0612",
+    "slug": "haxorus",
+    "src": "/sprites/pokemon-workbook/haxorus.png"
+  },
+  {
+    "pokemonId": "pokemon-0631",
+    "slug": "heatmor",
+    "src": "/sprites/pokemon-workbook/heatmor.png"
+  },
+  {
+    "pokemonId": "pokemon-0485",
+    "slug": "heatran",
+    "src": "/sprites/pokemon-workbook/heatran.png"
+  },
+  {
+    "pokemonId": "pokemon-0695",
+    "slug": "heliolisk",
+    "src": "/sprites/pokemon-workbook/heliolisk.png"
+  },
+  {
+    "pokemonId": "pokemon-0694",
+    "slug": "helioptile",
+    "src": "/sprites/pokemon-workbook/helioptile.png"
+  },
+  {
+    "pokemonId": "pokemon-0214",
+    "slug": "heracross",
+    "src": "/sprites/pokemon-workbook/heracross.png"
+  },
+  {
+    "pokemonId": "pokemon-0214-mega-heracross",
+    "slug": "heracross-mega-heracross",
+    "src": "/sprites/pokemon-workbook/heracross-mega-heracross.png"
+  },
+  {
+    "pokemonId": "pokemon-0507",
+    "slug": "herdier",
+    "src": "/sprites/pokemon-workbook/herdier.png"
+  },
+  {
+    "pokemonId": "pokemon-0449",
+    "slug": "hippopotas",
+    "src": "/sprites/pokemon-workbook/hippopotas.png"
+  },
+  {
+    "pokemonId": "pokemon-0450",
+    "slug": "hippowdon",
+    "src": "/sprites/pokemon-workbook/hippowdon.png"
+  },
+  {
+    "pokemonId": "pokemon-0107",
+    "slug": "hitmonchan",
+    "src": "/sprites/pokemon-workbook/hitmonchan.png"
+  },
+  {
+    "pokemonId": "pokemon-0106",
+    "slug": "hitmonlee",
+    "src": "/sprites/pokemon-workbook/hitmonlee.png"
+  },
+  {
+    "pokemonId": "pokemon-0237",
+    "slug": "hitmontop",
+    "src": "/sprites/pokemon-workbook/hitmontop.png"
+  },
+  {
+    "pokemonId": "pokemon-0250",
+    "slug": "ho-oh",
+    "src": "/sprites/pokemon-workbook/ho-oh.png"
+  },
+  {
+    "pokemonId": "pokemon-0430",
+    "slug": "honchkrow",
+    "src": "/sprites/pokemon-workbook/honchkrow.png"
+  },
+  {
+    "pokemonId": "pokemon-0679",
+    "slug": "honedge",
+    "src": "/sprites/pokemon-workbook/honedge.png"
+  },
+  {
+    "pokemonId": "pokemon-0720-hoopa-confined",
+    "slug": "hoopa-hoopa-confined",
+    "src": "/sprites/pokemon-workbook/hoopa-hoopa-confined.png"
+  },
+  {
+    "pokemonId": "pokemon-0163",
+    "slug": "hoothoot",
+    "src": "/sprites/pokemon-workbook/hoothoot.png"
+  },
+  {
+    "pokemonId": "pokemon-0187",
+    "slug": "hoppip",
+    "src": "/sprites/pokemon-workbook/hoppip.png"
+  },
+  {
+    "pokemonId": "pokemon-0116",
+    "slug": "horsea",
+    "src": "/sprites/pokemon-workbook/horsea.png"
+  },
+  {
+    "pokemonId": "pokemon-0229",
+    "slug": "houndoom",
+    "src": "/sprites/pokemon-workbook/houndoom.png"
+  },
+  {
+    "pokemonId": "pokemon-0229-mega-houndoom",
+    "slug": "houndoom-mega-houndoom",
+    "src": "/sprites/pokemon-workbook/houndoom-mega-houndoom.png"
+  },
+  {
+    "pokemonId": "pokemon-0228",
+    "slug": "houndour",
+    "src": "/sprites/pokemon-workbook/houndour.png"
+  },
+  {
+    "pokemonId": "pokemon-0367",
+    "slug": "huntail",
+    "src": "/sprites/pokemon-workbook/huntail.png"
+  },
+  {
+    "pokemonId": "pokemon-0635",
+    "slug": "hydreigon",
+    "src": "/sprites/pokemon-workbook/hydreigon.png"
+  },
+  {
+    "pokemonId": "pokemon-0097",
+    "slug": "hypno",
+    "src": "/sprites/pokemon-workbook/hypno.png"
+  },
+  {
+    "pokemonId": "pokemon-0174",
+    "slug": "igglybuff",
+    "src": "/sprites/pokemon-workbook/igglybuff.png"
+  },
+  {
+    "pokemonId": "pokemon-0314",
+    "slug": "illumise",
+    "src": "/sprites/pokemon-workbook/illumise.png"
+  },
+  {
+    "pokemonId": "pokemon-0392",
+    "slug": "infernape",
+    "src": "/sprites/pokemon-workbook/infernape.png"
+  },
+  {
+    "pokemonId": "pokemon-0686",
+    "slug": "inkay",
+    "src": "/sprites/pokemon-workbook/inkay.png"
+  },
+  {
+    "pokemonId": "pokemon-0002",
+    "slug": "ivysaur",
+    "src": "/sprites/pokemon-workbook/ivysaur.png"
+  },
+  {
+    "pokemonId": "pokemon-0593",
+    "slug": "jellicent",
+    "src": "/sprites/pokemon-workbook/jellicent.png"
+  },
+  {
+    "pokemonId": "pokemon-0039",
+    "slug": "jigglypuff",
+    "src": "/sprites/pokemon-workbook/jigglypuff.png"
+  },
+  {
+    "pokemonId": "pokemon-0385",
+    "slug": "jirachi",
+    "src": "/sprites/pokemon-workbook/jirachi.png"
+  },
+  {
+    "pokemonId": "pokemon-0135",
+    "slug": "jolteon",
+    "src": "/sprites/pokemon-workbook/jolteon.png"
+  },
+  {
+    "pokemonId": "pokemon-0595",
+    "slug": "joltik",
+    "src": "/sprites/pokemon-workbook/joltik.png"
+  },
+  {
+    "pokemonId": "pokemon-0189",
+    "slug": "jumpluff",
+    "src": "/sprites/pokemon-workbook/jumpluff.png"
+  },
+  {
+    "pokemonId": "pokemon-0124",
+    "slug": "jynx",
+    "src": "/sprites/pokemon-workbook/jynx.png"
+  },
+  {
+    "pokemonId": "pokemon-0140",
+    "slug": "kabuto",
+    "src": "/sprites/pokemon-workbook/kabuto.png"
+  },
+  {
+    "pokemonId": "pokemon-0141",
+    "slug": "kabutops",
+    "src": "/sprites/pokemon-workbook/kabutops.png"
+  },
+  {
+    "pokemonId": "pokemon-0064",
+    "slug": "kadabra",
+    "src": "/sprites/pokemon-workbook/kadabra.png"
+  },
+  {
+    "pokemonId": "pokemon-0014",
+    "slug": "kakuna",
+    "src": "/sprites/pokemon-workbook/kakuna.png"
+  },
+  {
+    "pokemonId": "pokemon-0115",
+    "slug": "kangaskhan",
+    "src": "/sprites/pokemon-workbook/kangaskhan.png"
+  },
+  {
+    "pokemonId": "pokemon-0115-mega-kangaskhan",
+    "slug": "kangaskhan-mega-kangaskhan",
+    "src": "/sprites/pokemon-workbook/kangaskhan-mega-kangaskhan.png"
+  },
+  {
+    "pokemonId": "pokemon-0588",
+    "slug": "karrablast",
+    "src": "/sprites/pokemon-workbook/karrablast.png"
+  },
+  {
+    "pokemonId": "pokemon-0352",
+    "slug": "kecleon",
+    "src": "/sprites/pokemon-workbook/kecleon.png"
+  },
+  {
+    "pokemonId": "pokemon-0647-ordinary-form",
+    "slug": "keldeo-ordinary-form",
+    "src": "/sprites/pokemon-workbook/keldeo-ordinary-form.png"
+  },
+  {
+    "pokemonId": "pokemon-0647-resolute-form",
+    "slug": "keldeo-resolute-form",
+    "src": "/sprites/pokemon-workbook/keldeo-resolute-form.png"
+  },
+  {
+    "pokemonId": "pokemon-0230",
+    "slug": "kingdra",
+    "src": "/sprites/pokemon-workbook/kingdra.png"
+  },
+  {
+    "pokemonId": "pokemon-0099",
+    "slug": "kingler",
+    "src": "/sprites/pokemon-workbook/kingler.png"
+  },
+  {
+    "pokemonId": "pokemon-0281",
+    "slug": "kirlia",
+    "src": "/sprites/pokemon-workbook/kirlia.png"
+  },
+  {
+    "pokemonId": "pokemon-0600",
+    "slug": "klang",
+    "src": "/sprites/pokemon-workbook/klang.png"
+  },
+  {
+    "pokemonId": "pokemon-0707",
+    "slug": "klefki",
+    "src": "/sprites/pokemon-workbook/klefki.png"
+  },
+  {
+    "pokemonId": "pokemon-0599",
+    "slug": "klink",
+    "src": "/sprites/pokemon-workbook/klink.png"
+  },
+  {
+    "pokemonId": "pokemon-0601",
+    "slug": "klinklang",
+    "src": "/sprites/pokemon-workbook/klinklang.png"
+  },
+  {
+    "pokemonId": "pokemon-0109",
+    "slug": "koffing",
+    "src": "/sprites/pokemon-workbook/koffing.png"
+  },
+  {
+    "pokemonId": "pokemon-0098",
+    "slug": "krabby",
+    "src": "/sprites/pokemon-workbook/krabby.png"
+  },
+  {
+    "pokemonId": "pokemon-0401",
+    "slug": "kricketot",
+    "src": "/sprites/pokemon-workbook/kricketot.png"
+  },
+  {
+    "pokemonId": "pokemon-0402",
+    "slug": "kricketune",
+    "src": "/sprites/pokemon-workbook/kricketune.png"
+  },
+  {
+    "pokemonId": "pokemon-0552",
+    "slug": "krokorok",
+    "src": "/sprites/pokemon-workbook/krokorok.png"
+  },
+  {
+    "pokemonId": "pokemon-0553",
+    "slug": "krookodile",
+    "src": "/sprites/pokemon-workbook/krookodile.png"
+  },
+  {
+    "pokemonId": "pokemon-0382",
+    "slug": "kyogre",
+    "src": "/sprites/pokemon-workbook/kyogre.png"
+  },
+  {
+    "pokemonId": "pokemon-0646",
+    "slug": "kyurem",
+    "src": "/sprites/pokemon-workbook/kyurem.png"
+  },
+  {
+    "pokemonId": "pokemon-0646-black-kyurem",
+    "slug": "kyurem-black-kyurem",
+    "src": "/sprites/pokemon-workbook/kyurem-black-kyurem.png"
+  },
+  {
+    "pokemonId": "pokemon-0646-white-kyurem",
+    "slug": "kyurem-white-kyurem",
+    "src": "/sprites/pokemon-workbook/kyurem-white-kyurem.png"
+  },
+  {
+    "pokemonId": "pokemon-0305",
+    "slug": "lairon",
+    "src": "/sprites/pokemon-workbook/lairon.png"
+  },
+  {
+    "pokemonId": "pokemon-0608",
+    "slug": "lampent",
+    "src": "/sprites/pokemon-workbook/lampent.png"
+  },
+  {
+    "pokemonId": "pokemon-0645-incarnate-forme",
+    "slug": "landorus-incarnate-forme",
+    "src": "/sprites/pokemon-workbook/landorus-incarnate-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0645-therian-forme",
+    "slug": "landorus-therian-forme",
+    "src": "/sprites/pokemon-workbook/landorus-therian-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0171",
+    "slug": "lanturn",
+    "src": "/sprites/pokemon-workbook/lanturn.png"
+  },
+  {
+    "pokemonId": "pokemon-0131",
+    "slug": "lapras",
+    "src": "/sprites/pokemon-workbook/lapras.png"
+  },
+  {
+    "pokemonId": "pokemon-0636",
+    "slug": "larvesta",
+    "src": "/sprites/pokemon-workbook/larvesta.png"
+  },
+  {
+    "pokemonId": "pokemon-0246",
+    "slug": "larvitar",
+    "src": "/sprites/pokemon-workbook/larvitar.png"
+  },
+  {
+    "pokemonId": "pokemon-0380",
+    "slug": "latias",
+    "src": "/sprites/pokemon-workbook/latias.png"
+  },
+  {
+    "pokemonId": "pokemon-0380-mega-latias",
+    "slug": "latias-mega-latias",
+    "src": "/sprites/pokemon-workbook/latias-mega-latias.png"
+  },
+  {
+    "pokemonId": "pokemon-0381",
+    "slug": "latios",
+    "src": "/sprites/pokemon-workbook/latios.png"
+  },
+  {
+    "pokemonId": "pokemon-0381-mega-latios",
+    "slug": "latios-mega-latios",
+    "src": "/sprites/pokemon-workbook/latios-mega-latios.png"
+  },
+  {
+    "pokemonId": "pokemon-0470",
+    "slug": "leafeon",
+    "src": "/sprites/pokemon-workbook/leafeon.png"
+  },
+  {
+    "pokemonId": "pokemon-0542",
+    "slug": "leavanny",
+    "src": "/sprites/pokemon-workbook/leavanny.png"
+  },
+  {
+    "pokemonId": "pokemon-0166",
+    "slug": "ledian",
+    "src": "/sprites/pokemon-workbook/ledian.png"
+  },
+  {
+    "pokemonId": "pokemon-0165",
+    "slug": "ledyba",
+    "src": "/sprites/pokemon-workbook/ledyba.png"
+  },
+  {
+    "pokemonId": "pokemon-0463",
+    "slug": "lickilicky",
+    "src": "/sprites/pokemon-workbook/lickilicky.png"
+  },
+  {
+    "pokemonId": "pokemon-0108",
+    "slug": "lickitung",
+    "src": "/sprites/pokemon-workbook/lickitung.png"
+  },
+  {
+    "pokemonId": "pokemon-0510",
+    "slug": "liepard",
+    "src": "/sprites/pokemon-workbook/liepard.png"
+  },
+  {
+    "pokemonId": "pokemon-0345",
+    "slug": "lileep",
+    "src": "/sprites/pokemon-workbook/lileep.png"
+  },
+  {
+    "pokemonId": "pokemon-0549",
+    "slug": "lilligant",
+    "src": "/sprites/pokemon-workbook/lilligant.png"
+  },
+  {
+    "pokemonId": "pokemon-0506",
+    "slug": "lillipup",
+    "src": "/sprites/pokemon-workbook/lillipup.png"
+  },
+  {
+    "pokemonId": "pokemon-0264",
+    "slug": "linoone",
+    "src": "/sprites/pokemon-workbook/linoone.png"
+  },
+  {
+    "pokemonId": "pokemon-0667",
+    "slug": "litleo",
+    "src": "/sprites/pokemon-workbook/litleo.png"
+  },
+  {
+    "pokemonId": "pokemon-0607",
+    "slug": "litwick",
+    "src": "/sprites/pokemon-workbook/litwick.png"
+  },
+  {
+    "pokemonId": "pokemon-0271",
+    "slug": "lombre",
+    "src": "/sprites/pokemon-workbook/lombre.png"
+  },
+  {
+    "pokemonId": "pokemon-0428",
+    "slug": "lopunny",
+    "src": "/sprites/pokemon-workbook/lopunny.png"
+  },
+  {
+    "pokemonId": "pokemon-0270",
+    "slug": "lotad",
+    "src": "/sprites/pokemon-workbook/lotad.png"
+  },
+  {
+    "pokemonId": "pokemon-0294",
+    "slug": "loudred",
+    "src": "/sprites/pokemon-workbook/loudred.png"
+  },
+  {
+    "pokemonId": "pokemon-0448",
+    "slug": "lucario",
+    "src": "/sprites/pokemon-workbook/lucario.png"
+  },
+  {
+    "pokemonId": "pokemon-0448-mega-lucario",
+    "slug": "lucario-mega-lucario",
+    "src": "/sprites/pokemon-workbook/lucario-mega-lucario.png"
+  },
+  {
+    "pokemonId": "pokemon-0272",
+    "slug": "ludicolo",
+    "src": "/sprites/pokemon-workbook/ludicolo.png"
+  },
+  {
+    "pokemonId": "pokemon-0249",
+    "slug": "lugia",
+    "src": "/sprites/pokemon-workbook/lugia.png"
+  },
+  {
+    "pokemonId": "pokemon-0457",
+    "slug": "lumineon",
+    "src": "/sprites/pokemon-workbook/lumineon.png"
+  },
+  {
+    "pokemonId": "pokemon-0337",
+    "slug": "lunatone",
+    "src": "/sprites/pokemon-workbook/lunatone.png"
+  },
+  {
+    "pokemonId": "pokemon-0370",
+    "slug": "luvdisc",
+    "src": "/sprites/pokemon-workbook/luvdisc.png"
+  },
+  {
+    "pokemonId": "pokemon-0404",
+    "slug": "luxio",
+    "src": "/sprites/pokemon-workbook/luxio.png"
+  },
+  {
+    "pokemonId": "pokemon-0405",
+    "slug": "luxray",
+    "src": "/sprites/pokemon-workbook/luxray.png"
+  },
+  {
+    "pokemonId": "pokemon-0068",
+    "slug": "machamp",
+    "src": "/sprites/pokemon-workbook/machamp.png"
+  },
+  {
+    "pokemonId": "pokemon-0067",
+    "slug": "machoke",
+    "src": "/sprites/pokemon-workbook/machoke.png"
+  },
+  {
+    "pokemonId": "pokemon-0066",
+    "slug": "machop",
+    "src": "/sprites/pokemon-workbook/machop.png"
+  },
+  {
+    "pokemonId": "pokemon-0240",
+    "slug": "magby",
+    "src": "/sprites/pokemon-workbook/magby.png"
+  },
+  {
+    "pokemonId": "pokemon-0219",
+    "slug": "magcargo",
+    "src": "/sprites/pokemon-workbook/magcargo.png"
+  },
+  {
+    "pokemonId": "pokemon-0129",
+    "slug": "magikarp",
+    "src": "/sprites/pokemon-workbook/magikarp.png"
+  },
+  {
+    "pokemonId": "pokemon-0126",
+    "slug": "magmar",
+    "src": "/sprites/pokemon-workbook/magmar.png"
+  },
+  {
+    "pokemonId": "pokemon-0467",
+    "slug": "magmortar",
+    "src": "/sprites/pokemon-workbook/magmortar.png"
+  },
+  {
+    "pokemonId": "pokemon-0081",
+    "slug": "magnemite",
+    "src": "/sprites/pokemon-workbook/magnemite.png"
+  },
+  {
+    "pokemonId": "pokemon-0082",
+    "slug": "magneton",
+    "src": "/sprites/pokemon-workbook/magneton.png"
+  },
+  {
+    "pokemonId": "pokemon-0462",
+    "slug": "magnezone",
+    "src": "/sprites/pokemon-workbook/magnezone.png"
+  },
+  {
+    "pokemonId": "pokemon-0296",
+    "slug": "makuhita",
+    "src": "/sprites/pokemon-workbook/makuhita.png"
+  },
+  {
+    "pokemonId": "pokemon-0687",
+    "slug": "malamar",
+    "src": "/sprites/pokemon-workbook/malamar.png"
+  },
+  {
+    "pokemonId": "pokemon-0473",
+    "slug": "mamoswine",
+    "src": "/sprites/pokemon-workbook/mamoswine.png"
+  },
+  {
+    "pokemonId": "pokemon-0490",
+    "slug": "manaphy",
+    "src": "/sprites/pokemon-workbook/manaphy.png"
+  },
+  {
+    "pokemonId": "pokemon-0630",
+    "slug": "mandibuzz",
+    "src": "/sprites/pokemon-workbook/mandibuzz.png"
+  },
+  {
+    "pokemonId": "pokemon-0310",
+    "slug": "manectric",
+    "src": "/sprites/pokemon-workbook/manectric.png"
+  },
+  {
+    "pokemonId": "pokemon-0310-mega-manectric",
+    "slug": "manectric-mega-manectric",
+    "src": "/sprites/pokemon-workbook/manectric-mega-manectric.png"
+  },
+  {
+    "pokemonId": "pokemon-0056",
+    "slug": "mankey",
+    "src": "/sprites/pokemon-workbook/mankey.png"
+  },
+  {
+    "pokemonId": "pokemon-0226",
+    "slug": "mantine",
+    "src": "/sprites/pokemon-workbook/mantine.png"
+  },
+  {
+    "pokemonId": "pokemon-0458",
+    "slug": "mantyke",
+    "src": "/sprites/pokemon-workbook/mantyke.png"
+  },
+  {
+    "pokemonId": "pokemon-0556",
+    "slug": "maractus",
+    "src": "/sprites/pokemon-workbook/maractus.png"
+  },
+  {
+    "pokemonId": "pokemon-0179",
+    "slug": "mareep",
+    "src": "/sprites/pokemon-workbook/mareep.png"
+  },
+  {
+    "pokemonId": "pokemon-0183",
+    "slug": "marill",
+    "src": "/sprites/pokemon-workbook/marill.png"
+  },
+  {
+    "pokemonId": "pokemon-0105",
+    "slug": "marowak",
+    "src": "/sprites/pokemon-workbook/marowak.png"
+  },
+  {
+    "pokemonId": "pokemon-0259",
+    "slug": "marshtomp",
+    "src": "/sprites/pokemon-workbook/marshtomp.png"
+  },
+  {
+    "pokemonId": "pokemon-0284",
+    "slug": "masquerain",
+    "src": "/sprites/pokemon-workbook/masquerain.png"
+  },
+  {
+    "pokemonId": "pokemon-0303",
+    "slug": "mawile",
+    "src": "/sprites/pokemon-workbook/mawile.png"
+  },
+  {
+    "pokemonId": "pokemon-0303-mega-mawile",
+    "slug": "mawile-mega-mawile",
+    "src": "/sprites/pokemon-workbook/mawile-mega-mawile.png"
+  },
+  {
+    "pokemonId": "pokemon-0308",
+    "slug": "medicham",
+    "src": "/sprites/pokemon-workbook/medicham.png"
+  },
+  {
+    "pokemonId": "pokemon-0308-mega-medicham",
+    "slug": "medicham-mega-medicham",
+    "src": "/sprites/pokemon-workbook/medicham-mega-medicham.png"
+  },
+  {
+    "pokemonId": "pokemon-0307",
+    "slug": "meditite",
+    "src": "/sprites/pokemon-workbook/meditite.png"
+  },
+  {
+    "pokemonId": "pokemon-0154",
+    "slug": "meganium",
+    "src": "/sprites/pokemon-workbook/meganium.png"
+  },
+  {
+    "pokemonId": "pokemon-0648-aria-forme",
+    "slug": "meloetta-aria-forme",
+    "src": "/sprites/pokemon-workbook/meloetta-aria-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0648-pirouette-forme",
+    "slug": "meloetta-pirouette-forme",
+    "src": "/sprites/pokemon-workbook/meloetta-pirouette-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0678-female",
+    "slug": "meowstic-female",
+    "src": "/sprites/pokemon-workbook/meowstic-female.png"
+  },
+  {
+    "pokemonId": "pokemon-0678-male",
+    "slug": "meowstic-male",
+    "src": "/sprites/pokemon-workbook/meowstic-male.png"
+  },
+  {
+    "pokemonId": "pokemon-0052",
+    "slug": "meowth",
+    "src": "/sprites/pokemon-workbook/meowth.png"
+  },
+  {
+    "pokemonId": "pokemon-0481",
+    "slug": "mesprit",
+    "src": "/sprites/pokemon-workbook/mesprit.png"
+  },
+  {
+    "pokemonId": "pokemon-0376",
+    "slug": "metagross",
+    "src": "/sprites/pokemon-workbook/metagross.png"
+  },
+  {
+    "pokemonId": "pokemon-0375",
+    "slug": "metang",
+    "src": "/sprites/pokemon-workbook/metang.png"
+  },
+  {
+    "pokemonId": "pokemon-0011",
+    "slug": "metapod",
+    "src": "/sprites/pokemon-workbook/metapod.png"
+  },
+  {
+    "pokemonId": "pokemon-0151",
+    "slug": "mew",
+    "src": "/sprites/pokemon-workbook/mew.png"
+  },
+  {
+    "pokemonId": "pokemon-0150",
+    "slug": "mewtwo",
+    "src": "/sprites/pokemon-workbook/mewtwo.png"
+  },
+  {
+    "pokemonId": "pokemon-0150-mega-mewtwo-x",
+    "slug": "mewtwo-mega-mewtwo-x",
+    "src": "/sprites/pokemon-workbook/mewtwo-mega-mewtwo-x.png"
+  },
+  {
+    "pokemonId": "pokemon-0150-mega-mewtwo-y",
+    "slug": "mewtwo-mega-mewtwo-y",
+    "src": "/sprites/pokemon-workbook/mewtwo-mega-mewtwo-y.png"
+  },
+  {
+    "pokemonId": "pokemon-0619",
+    "slug": "mienfoo",
+    "src": "/sprites/pokemon-workbook/mienfoo.png"
+  },
+  {
+    "pokemonId": "pokemon-0620",
+    "slug": "mienshao",
+    "src": "/sprites/pokemon-workbook/mienshao.png"
+  },
+  {
+    "pokemonId": "pokemon-0262",
+    "slug": "mightyena",
+    "src": "/sprites/pokemon-workbook/mightyena.png"
+  },
+  {
+    "pokemonId": "pokemon-0350",
+    "slug": "milotic",
+    "src": "/sprites/pokemon-workbook/milotic.png"
+  },
+  {
+    "pokemonId": "pokemon-0241",
+    "slug": "miltank",
+    "src": "/sprites/pokemon-workbook/miltank.png"
+  },
+  {
+    "pokemonId": "pokemon-0439",
+    "slug": "mime-jr",
+    "src": "/sprites/pokemon-workbook/mime-jr.png"
+  },
+  {
+    "pokemonId": "pokemon-0572",
+    "slug": "minccino",
+    "src": "/sprites/pokemon-workbook/minccino.png"
+  },
+  {
+    "pokemonId": "pokemon-0312",
+    "slug": "minun",
+    "src": "/sprites/pokemon-workbook/minun.png"
+  },
+  {
+    "pokemonId": "pokemon-0200",
+    "slug": "misdreavus",
+    "src": "/sprites/pokemon-workbook/misdreavus.png"
+  },
+  {
+    "pokemonId": "pokemon-0429",
+    "slug": "mismagius",
+    "src": "/sprites/pokemon-workbook/mismagius.png"
+  },
+  {
+    "pokemonId": "pokemon-0146",
+    "slug": "moltres",
+    "src": "/sprites/pokemon-workbook/moltres.png"
+  },
+  {
+    "pokemonId": "pokemon-0391",
+    "slug": "monferno",
+    "src": "/sprites/pokemon-workbook/monferno.png"
+  },
+  {
+    "pokemonId": "pokemon-0414",
+    "slug": "mothim",
+    "src": "/sprites/pokemon-workbook/mothim.png"
+  },
+  {
+    "pokemonId": "pokemon-0122",
+    "slug": "mr-mime",
+    "src": "/sprites/pokemon-workbook/mr-mime.png"
+  },
+  {
+    "pokemonId": "pokemon-0258",
+    "slug": "mudkip",
+    "src": "/sprites/pokemon-workbook/mudkip.png"
+  },
+  {
+    "pokemonId": "pokemon-0089",
+    "slug": "muk",
+    "src": "/sprites/pokemon-workbook/muk.png"
+  },
+  {
+    "pokemonId": "pokemon-0446",
+    "slug": "munchlax",
+    "src": "/sprites/pokemon-workbook/munchlax.png"
+  },
+  {
+    "pokemonId": "pokemon-0517",
+    "slug": "munna",
+    "src": "/sprites/pokemon-workbook/munna.png"
+  },
+  {
+    "pokemonId": "pokemon-0198",
+    "slug": "murkrow",
+    "src": "/sprites/pokemon-workbook/murkrow.png"
+  },
+  {
+    "pokemonId": "pokemon-0518",
+    "slug": "musharna",
+    "src": "/sprites/pokemon-workbook/musharna.png"
+  },
+  {
+    "pokemonId": "pokemon-0177",
+    "slug": "natu",
+    "src": "/sprites/pokemon-workbook/natu.png"
+  },
+  {
+    "pokemonId": "pokemon-0034",
+    "slug": "nidoking",
+    "src": "/sprites/pokemon-workbook/nidoking.png"
+  },
+  {
+    "pokemonId": "pokemon-0031",
+    "slug": "nidoqueen",
+    "src": "/sprites/pokemon-workbook/nidoqueen.png"
+  },
+  {
+    "pokemonId": "pokemon-0029",
+    "slug": "nidoran-female",
+    "src": "/sprites/pokemon-workbook/nidoran-female.png"
+  },
+  {
+    "pokemonId": "pokemon-0032",
+    "slug": "nidoran-male",
+    "src": "/sprites/pokemon-workbook/nidoran-male.png"
+  },
+  {
+    "pokemonId": "pokemon-0030",
+    "slug": "nidorina",
+    "src": "/sprites/pokemon-workbook/nidorina.png"
+  },
+  {
+    "pokemonId": "pokemon-0033",
+    "slug": "nidorino",
+    "src": "/sprites/pokemon-workbook/nidorino.png"
+  },
+  {
+    "pokemonId": "pokemon-0290",
+    "slug": "nincada",
+    "src": "/sprites/pokemon-workbook/nincada.png"
+  },
+  {
+    "pokemonId": "pokemon-0038",
+    "slug": "ninetales",
+    "src": "/sprites/pokemon-workbook/ninetales.png"
+  },
+  {
+    "pokemonId": "pokemon-0291",
+    "slug": "ninjask",
+    "src": "/sprites/pokemon-workbook/ninjask.png"
+  },
+  {
+    "pokemonId": "pokemon-0164",
+    "slug": "noctowl",
+    "src": "/sprites/pokemon-workbook/noctowl.png"
+  },
+  {
+    "pokemonId": "pokemon-0714",
+    "slug": "noibat",
+    "src": "/sprites/pokemon-workbook/noibat.png"
+  },
+  {
+    "pokemonId": "pokemon-0715",
+    "slug": "noivern",
+    "src": "/sprites/pokemon-workbook/noivern.png"
+  },
+  {
+    "pokemonId": "pokemon-0299",
+    "slug": "nosepass",
+    "src": "/sprites/pokemon-workbook/nosepass.png"
+  },
+  {
+    "pokemonId": "pokemon-0322",
+    "slug": "numel",
+    "src": "/sprites/pokemon-workbook/numel.png"
+  },
+  {
+    "pokemonId": "pokemon-0274",
+    "slug": "nuzleaf",
+    "src": "/sprites/pokemon-workbook/nuzleaf.png"
+  },
+  {
+    "pokemonId": "pokemon-0224",
+    "slug": "octillery",
+    "src": "/sprites/pokemon-workbook/octillery.png"
+  },
+  {
+    "pokemonId": "pokemon-0043",
+    "slug": "oddish",
+    "src": "/sprites/pokemon-workbook/oddish.png"
+  },
+  {
+    "pokemonId": "pokemon-0138",
+    "slug": "omanyte",
+    "src": "/sprites/pokemon-workbook/omanyte.png"
+  },
+  {
+    "pokemonId": "pokemon-0139",
+    "slug": "omastar",
+    "src": "/sprites/pokemon-workbook/omastar.png"
+  },
+  {
+    "pokemonId": "pokemon-0095",
+    "slug": "onix",
+    "src": "/sprites/pokemon-workbook/onix.png"
+  },
+  {
+    "pokemonId": "pokemon-0501",
+    "slug": "oshawott",
+    "src": "/sprites/pokemon-workbook/oshawott.png"
+  },
+  {
+    "pokemonId": "pokemon-0417",
+    "slug": "pachirisu",
+    "src": "/sprites/pokemon-workbook/pachirisu.png"
+  },
+  {
+    "pokemonId": "pokemon-0484",
+    "slug": "palkia",
+    "src": "/sprites/pokemon-workbook/palkia.png"
+  },
+  {
+    "pokemonId": "pokemon-0536",
+    "slug": "palpitoad",
+    "src": "/sprites/pokemon-workbook/palpitoad.png"
+  },
+  {
+    "pokemonId": "pokemon-0674",
+    "slug": "pancham",
+    "src": "/sprites/pokemon-workbook/pancham.png"
+  },
+  {
+    "pokemonId": "pokemon-0675",
+    "slug": "pangoro",
+    "src": "/sprites/pokemon-workbook/pangoro.png"
+  },
+  {
+    "pokemonId": "pokemon-0515",
+    "slug": "panpour",
+    "src": "/sprites/pokemon-workbook/panpour.png"
+  },
+  {
+    "pokemonId": "pokemon-0511",
+    "slug": "pansage",
+    "src": "/sprites/pokemon-workbook/pansage.png"
+  },
+  {
+    "pokemonId": "pokemon-0513",
+    "slug": "pansear",
+    "src": "/sprites/pokemon-workbook/pansear.png"
+  },
+  {
+    "pokemonId": "pokemon-0046",
+    "slug": "paras",
+    "src": "/sprites/pokemon-workbook/paras.png"
+  },
+  {
+    "pokemonId": "pokemon-0047",
+    "slug": "parasect",
+    "src": "/sprites/pokemon-workbook/parasect.png"
+  },
+  {
+    "pokemonId": "pokemon-0504",
+    "slug": "patrat",
+    "src": "/sprites/pokemon-workbook/patrat.png"
+  },
+  {
+    "pokemonId": "pokemon-0624",
+    "slug": "pawniard",
+    "src": "/sprites/pokemon-workbook/pawniard.png"
+  },
+  {
+    "pokemonId": "pokemon-0279",
+    "slug": "pelipper",
+    "src": "/sprites/pokemon-workbook/pelipper.png"
+  },
+  {
+    "pokemonId": "pokemon-0053",
+    "slug": "persian",
+    "src": "/sprites/pokemon-workbook/persian.png"
+  },
+  {
+    "pokemonId": "pokemon-0548",
+    "slug": "petilil",
+    "src": "/sprites/pokemon-workbook/petilil.png"
+  },
+  {
+    "pokemonId": "pokemon-0231",
+    "slug": "phanpy",
+    "src": "/sprites/pokemon-workbook/phanpy.png"
+  },
+  {
+    "pokemonId": "pokemon-0708",
+    "slug": "phantump",
+    "src": "/sprites/pokemon-workbook/phantump.png"
+  },
+  {
+    "pokemonId": "pokemon-0489",
+    "slug": "phione",
+    "src": "/sprites/pokemon-workbook/phione.png"
+  },
+  {
+    "pokemonId": "pokemon-0172",
+    "slug": "pichu",
+    "src": "/sprites/pokemon-workbook/pichu.png"
+  },
+  {
+    "pokemonId": "pokemon-0018",
+    "slug": "pidgeot",
+    "src": "/sprites/pokemon-workbook/pidgeot.png"
+  },
+  {
+    "pokemonId": "pokemon-0017",
+    "slug": "pidgeotto",
+    "src": "/sprites/pokemon-workbook/pidgeotto.png"
+  },
+  {
+    "pokemonId": "pokemon-0016",
+    "slug": "pidgey",
+    "src": "/sprites/pokemon-workbook/pidgey.png"
+  },
+  {
+    "pokemonId": "pokemon-0519",
+    "slug": "pidove",
+    "src": "/sprites/pokemon-workbook/pidove.png"
+  },
+  {
+    "pokemonId": "pokemon-0499",
+    "slug": "pignite",
+    "src": "/sprites/pokemon-workbook/pignite.png"
+  },
+  {
+    "pokemonId": "pokemon-0025",
+    "slug": "pikachu",
+    "src": "/sprites/pokemon-workbook/pikachu.png"
+  },
+  {
+    "pokemonId": "pokemon-0221",
+    "slug": "piloswine",
+    "src": "/sprites/pokemon-workbook/piloswine.png"
+  },
+  {
+    "pokemonId": "pokemon-0204",
+    "slug": "pineco",
+    "src": "/sprites/pokemon-workbook/pineco.png"
+  },
+  {
+    "pokemonId": "pokemon-0127",
+    "slug": "pinsir",
+    "src": "/sprites/pokemon-workbook/pinsir.png"
+  },
+  {
+    "pokemonId": "pokemon-0127-mega-pinsir",
+    "slug": "pinsir-mega-pinsir",
+    "src": "/sprites/pokemon-workbook/pinsir-mega-pinsir.png"
+  },
+  {
+    "pokemonId": "pokemon-0393",
+    "slug": "piplup",
+    "src": "/sprites/pokemon-workbook/piplup.png"
+  },
+  {
+    "pokemonId": "pokemon-0311",
+    "slug": "plusle",
+    "src": "/sprites/pokemon-workbook/plusle.png"
+  },
+  {
+    "pokemonId": "pokemon-0186",
+    "slug": "politoed",
+    "src": "/sprites/pokemon-workbook/politoed.png"
+  },
+  {
+    "pokemonId": "pokemon-0060",
+    "slug": "poliwag",
+    "src": "/sprites/pokemon-workbook/poliwag.png"
+  },
+  {
+    "pokemonId": "pokemon-0061",
+    "slug": "poliwhirl",
+    "src": "/sprites/pokemon-workbook/poliwhirl.png"
+  },
+  {
+    "pokemonId": "pokemon-0062",
+    "slug": "poliwrath",
+    "src": "/sprites/pokemon-workbook/poliwrath.png"
+  },
+  {
+    "pokemonId": "pokemon-0077",
+    "slug": "ponyta",
+    "src": "/sprites/pokemon-workbook/ponyta.png"
+  },
+  {
+    "pokemonId": "pokemon-0261",
+    "slug": "poochyena",
+    "src": "/sprites/pokemon-workbook/poochyena.png"
+  },
+  {
+    "pokemonId": "pokemon-0137",
+    "slug": "porygon",
+    "src": "/sprites/pokemon-workbook/porygon.png"
+  },
+  {
+    "pokemonId": "pokemon-0474",
+    "slug": "porygon-z",
+    "src": "/sprites/pokemon-workbook/porygon-z.png"
+  },
+  {
+    "pokemonId": "pokemon-0233",
+    "slug": "porygon2",
+    "src": "/sprites/pokemon-workbook/porygon2.png"
+  },
+  {
+    "pokemonId": "pokemon-0057",
+    "slug": "primeape",
+    "src": "/sprites/pokemon-workbook/primeape.png"
+  },
+  {
+    "pokemonId": "pokemon-0394",
+    "slug": "prinplup",
+    "src": "/sprites/pokemon-workbook/prinplup.png"
+  },
+  {
+    "pokemonId": "pokemon-0476",
+    "slug": "probopass",
+    "src": "/sprites/pokemon-workbook/probopass.png"
+  },
+  {
+    "pokemonId": "pokemon-0054",
+    "slug": "psyduck",
+    "src": "/sprites/pokemon-workbook/psyduck.png"
+  },
+  {
+    "pokemonId": "pokemon-0710-average-size",
+    "slug": "pumpkaboo-average-size",
+    "src": "/sprites/pokemon-workbook/pumpkaboo-average-size.png"
+  },
+  {
+    "pokemonId": "pokemon-0710-large-size",
+    "slug": "pumpkaboo-large-size",
+    "src": "/sprites/pokemon-workbook/pumpkaboo-large-size.png"
+  },
+  {
+    "pokemonId": "pokemon-0710-small-size",
+    "slug": "pumpkaboo-small-size",
+    "src": "/sprites/pokemon-workbook/pumpkaboo-small-size.png"
+  },
+  {
+    "pokemonId": "pokemon-0710-super-size",
+    "slug": "pumpkaboo-super-size",
+    "src": "/sprites/pokemon-workbook/pumpkaboo-super-size.png"
+  },
+  {
+    "pokemonId": "pokemon-0247",
+    "slug": "pupitar",
+    "src": "/sprites/pokemon-workbook/pupitar.png"
+  },
+  {
+    "pokemonId": "pokemon-0509",
+    "slug": "purrloin",
+    "src": "/sprites/pokemon-workbook/purrloin.png"
+  },
+  {
+    "pokemonId": "pokemon-0432",
+    "slug": "purugly",
+    "src": "/sprites/pokemon-workbook/purugly.png"
+  },
+  {
+    "pokemonId": "pokemon-0668",
+    "slug": "pyroar",
+    "src": "/sprites/pokemon-workbook/pyroar.png"
+  },
+  {
+    "pokemonId": "pokemon-0195",
+    "slug": "quagsire",
+    "src": "/sprites/pokemon-workbook/quagsire.png"
+  },
+  {
+    "pokemonId": "pokemon-0156",
+    "slug": "quilava",
+    "src": "/sprites/pokemon-workbook/quilava.png"
+  },
+  {
+    "pokemonId": "pokemon-0651",
+    "slug": "quilladin",
+    "src": "/sprites/pokemon-workbook/quilladin.png"
+  },
+  {
+    "pokemonId": "pokemon-0211",
+    "slug": "qwilfish",
+    "src": "/sprites/pokemon-workbook/qwilfish.png"
+  },
+  {
+    "pokemonId": "pokemon-0026",
+    "slug": "raichu",
+    "src": "/sprites/pokemon-workbook/raichu.png"
+  },
+  {
+    "pokemonId": "pokemon-0243",
+    "slug": "raikou",
+    "src": "/sprites/pokemon-workbook/raikou.png"
+  },
+  {
+    "pokemonId": "pokemon-0280",
+    "slug": "ralts",
+    "src": "/sprites/pokemon-workbook/ralts.png"
+  },
+  {
+    "pokemonId": "pokemon-0409",
+    "slug": "rampardos",
+    "src": "/sprites/pokemon-workbook/rampardos.png"
+  },
+  {
+    "pokemonId": "pokemon-0078",
+    "slug": "rapidash",
+    "src": "/sprites/pokemon-workbook/rapidash.png"
+  },
+  {
+    "pokemonId": "pokemon-0020",
+    "slug": "raticate",
+    "src": "/sprites/pokemon-workbook/raticate.png"
+  },
+  {
+    "pokemonId": "pokemon-0019",
+    "slug": "rattata",
+    "src": "/sprites/pokemon-workbook/rattata.png"
+  },
+  {
+    "pokemonId": "pokemon-0384",
+    "slug": "rayquaza",
+    "src": "/sprites/pokemon-workbook/rayquaza.png"
+  },
+  {
+    "pokemonId": "pokemon-0378",
+    "slug": "regice",
+    "src": "/sprites/pokemon-workbook/regice.png"
+  },
+  {
+    "pokemonId": "pokemon-0486",
+    "slug": "regigigas",
+    "src": "/sprites/pokemon-workbook/regigigas.png"
+  },
+  {
+    "pokemonId": "pokemon-0377",
+    "slug": "regirock",
+    "src": "/sprites/pokemon-workbook/regirock.png"
+  },
+  {
+    "pokemonId": "pokemon-0379",
+    "slug": "registeel",
+    "src": "/sprites/pokemon-workbook/registeel.png"
+  },
+  {
+    "pokemonId": "pokemon-0369",
+    "slug": "relicanth",
+    "src": "/sprites/pokemon-workbook/relicanth.png"
+  },
+  {
+    "pokemonId": "pokemon-0223",
+    "slug": "remoraid",
+    "src": "/sprites/pokemon-workbook/remoraid.png"
+  },
+  {
+    "pokemonId": "pokemon-0643",
+    "slug": "reshiram",
+    "src": "/sprites/pokemon-workbook/reshiram.png"
+  },
+  {
+    "pokemonId": "pokemon-0579",
+    "slug": "reuniclus",
+    "src": "/sprites/pokemon-workbook/reuniclus.png"
+  },
+  {
+    "pokemonId": "pokemon-0112",
+    "slug": "rhydon",
+    "src": "/sprites/pokemon-workbook/rhydon.png"
+  },
+  {
+    "pokemonId": "pokemon-0111",
+    "slug": "rhyhorn",
+    "src": "/sprites/pokemon-workbook/rhyhorn.png"
+  },
+  {
+    "pokemonId": "pokemon-0464",
+    "slug": "rhyperior",
+    "src": "/sprites/pokemon-workbook/rhyperior.png"
+  },
+  {
+    "pokemonId": "pokemon-0447",
+    "slug": "riolu",
+    "src": "/sprites/pokemon-workbook/riolu.png"
+  },
+  {
+    "pokemonId": "pokemon-0524",
+    "slug": "roggenrola",
+    "src": "/sprites/pokemon-workbook/roggenrola.png"
+  },
+  {
+    "pokemonId": "pokemon-0315",
+    "slug": "roselia",
+    "src": "/sprites/pokemon-workbook/roselia.png"
+  },
+  {
+    "pokemonId": "pokemon-0407",
+    "slug": "roserade",
+    "src": "/sprites/pokemon-workbook/roserade.png"
+  },
+  {
+    "pokemonId": "pokemon-0479",
+    "slug": "rotom",
+    "src": "/sprites/pokemon-workbook/rotom.png"
+  },
+  {
+    "pokemonId": "pokemon-0479-fan-rotom",
+    "slug": "rotom-fan-rotom",
+    "src": "/sprites/pokemon-workbook/rotom-fan-rotom.png"
+  },
+  {
+    "pokemonId": "pokemon-0479-frost-rotom",
+    "slug": "rotom-frost-rotom",
+    "src": "/sprites/pokemon-workbook/rotom-frost-rotom.png"
+  },
+  {
+    "pokemonId": "pokemon-0479-heat-rotom",
+    "slug": "rotom-heat-rotom",
+    "src": "/sprites/pokemon-workbook/rotom-heat-rotom.png"
+  },
+  {
+    "pokemonId": "pokemon-0479-mow-rotom",
+    "slug": "rotom-mow-rotom",
+    "src": "/sprites/pokemon-workbook/rotom-mow-rotom.png"
+  },
+  {
+    "pokemonId": "pokemon-0479-wash-rotom",
+    "slug": "rotom-wash-rotom",
+    "src": "/sprites/pokemon-workbook/rotom-wash-rotom.png"
+  },
+  {
+    "pokemonId": "pokemon-0627",
+    "slug": "rufflet",
+    "src": "/sprites/pokemon-workbook/rufflet.png"
+  },
+  {
+    "pokemonId": "pokemon-0302",
+    "slug": "sableye",
+    "src": "/sprites/pokemon-workbook/sableye.png"
+  },
+  {
+    "pokemonId": "pokemon-0373",
+    "slug": "salamence",
+    "src": "/sprites/pokemon-workbook/salamence.png"
+  },
+  {
+    "pokemonId": "pokemon-0503",
+    "slug": "samurott",
+    "src": "/sprites/pokemon-workbook/samurott.png"
+  },
+  {
+    "pokemonId": "pokemon-0551",
+    "slug": "sandile",
+    "src": "/sprites/pokemon-workbook/sandile.png"
+  },
+  {
+    "pokemonId": "pokemon-0027",
+    "slug": "sandshrew",
+    "src": "/sprites/pokemon-workbook/sandshrew.png"
+  },
+  {
+    "pokemonId": "pokemon-0028",
+    "slug": "sandslash",
+    "src": "/sprites/pokemon-workbook/sandslash.png"
+  },
+  {
+    "pokemonId": "pokemon-0539",
+    "slug": "sawk",
+    "src": "/sprites/pokemon-workbook/sawk.png"
+  },
+  {
+    "pokemonId": "pokemon-0586",
+    "slug": "sawsbuck",
+    "src": "/sprites/pokemon-workbook/sawsbuck.png"
+  },
+  {
+    "pokemonId": "pokemon-0664",
+    "slug": "scatterbug",
+    "src": "/sprites/pokemon-workbook/scatterbug.png"
+  },
+  {
+    "pokemonId": "pokemon-0254",
+    "slug": "sceptile",
+    "src": "/sprites/pokemon-workbook/sceptile.png"
+  },
+  {
+    "pokemonId": "pokemon-0212",
+    "slug": "scizor",
+    "src": "/sprites/pokemon-workbook/scizor.png"
+  },
+  {
+    "pokemonId": "pokemon-0212-mega-scizor",
+    "slug": "scizor-mega-scizor",
+    "src": "/sprites/pokemon-workbook/scizor-mega-scizor.png"
+  },
+  {
+    "pokemonId": "pokemon-0545",
+    "slug": "scolipede",
+    "src": "/sprites/pokemon-workbook/scolipede.png"
+  },
+  {
+    "pokemonId": "pokemon-0560",
+    "slug": "scrafty",
+    "src": "/sprites/pokemon-workbook/scrafty.png"
+  },
+  {
+    "pokemonId": "pokemon-0559",
+    "slug": "scraggy",
+    "src": "/sprites/pokemon-workbook/scraggy.png"
+  },
+  {
+    "pokemonId": "pokemon-0123",
+    "slug": "scyther",
+    "src": "/sprites/pokemon-workbook/scyther.png"
+  },
+  {
+    "pokemonId": "pokemon-0117",
+    "slug": "seadra",
+    "src": "/sprites/pokemon-workbook/seadra.png"
+  },
+  {
+    "pokemonId": "pokemon-0119",
+    "slug": "seaking",
+    "src": "/sprites/pokemon-workbook/seaking.png"
+  },
+  {
+    "pokemonId": "pokemon-0364",
+    "slug": "sealeo",
+    "src": "/sprites/pokemon-workbook/sealeo.png"
+  },
+  {
+    "pokemonId": "pokemon-0273",
+    "slug": "seedot",
+    "src": "/sprites/pokemon-workbook/seedot.png"
+  },
+  {
+    "pokemonId": "pokemon-0086",
+    "slug": "seel",
+    "src": "/sprites/pokemon-workbook/seel.png"
+  },
+  {
+    "pokemonId": "pokemon-0537",
+    "slug": "seismitoad",
+    "src": "/sprites/pokemon-workbook/seismitoad.png"
+  },
+  {
+    "pokemonId": "pokemon-0161",
+    "slug": "sentret",
+    "src": "/sprites/pokemon-workbook/sentret.png"
+  },
+  {
+    "pokemonId": "pokemon-0497",
+    "slug": "serperior",
+    "src": "/sprites/pokemon-workbook/serperior.png"
+  },
+  {
+    "pokemonId": "pokemon-0496",
+    "slug": "servine",
+    "src": "/sprites/pokemon-workbook/servine.png"
+  },
+  {
+    "pokemonId": "pokemon-0336",
+    "slug": "seviper",
+    "src": "/sprites/pokemon-workbook/seviper.png"
+  },
+  {
+    "pokemonId": "pokemon-0540",
+    "slug": "sewaddle",
+    "src": "/sprites/pokemon-workbook/sewaddle.png"
+  },
+  {
+    "pokemonId": "pokemon-0319",
+    "slug": "sharpedo",
+    "src": "/sprites/pokemon-workbook/sharpedo.png"
+  },
+  {
+    "pokemonId": "pokemon-0492-land-forme",
+    "slug": "shaymin-land-forme",
+    "src": "/sprites/pokemon-workbook/shaymin-land-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0492-sky-forme",
+    "slug": "shaymin-sky-forme",
+    "src": "/sprites/pokemon-workbook/shaymin-sky-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0292",
+    "slug": "shedinja",
+    "src": "/sprites/pokemon-workbook/shedinja.png"
+  },
+  {
+    "pokemonId": "pokemon-0372",
+    "slug": "shelgon",
+    "src": "/sprites/pokemon-workbook/shelgon.png"
+  },
+  {
+    "pokemonId": "pokemon-0090",
+    "slug": "shellder",
+    "src": "/sprites/pokemon-workbook/shellder.png"
+  },
+  {
+    "pokemonId": "pokemon-0422",
+    "slug": "shellos",
+    "src": "/sprites/pokemon-workbook/shellos.png"
+  },
+  {
+    "pokemonId": "pokemon-0616",
+    "slug": "shelmet",
+    "src": "/sprites/pokemon-workbook/shelmet.png"
+  },
+  {
+    "pokemonId": "pokemon-0410",
+    "slug": "shieldon",
+    "src": "/sprites/pokemon-workbook/shieldon.png"
+  },
+  {
+    "pokemonId": "pokemon-0275",
+    "slug": "shiftry",
+    "src": "/sprites/pokemon-workbook/shiftry.png"
+  },
+  {
+    "pokemonId": "pokemon-0403",
+    "slug": "shinx",
+    "src": "/sprites/pokemon-workbook/shinx.png"
+  },
+  {
+    "pokemonId": "pokemon-0285",
+    "slug": "shroomish",
+    "src": "/sprites/pokemon-workbook/shroomish.png"
+  },
+  {
+    "pokemonId": "pokemon-0213",
+    "slug": "shuckle",
+    "src": "/sprites/pokemon-workbook/shuckle.png"
+  },
+  {
+    "pokemonId": "pokemon-0353",
+    "slug": "shuppet",
+    "src": "/sprites/pokemon-workbook/shuppet.png"
+  },
+  {
+    "pokemonId": "pokemon-0561",
+    "slug": "sigilyph",
+    "src": "/sprites/pokemon-workbook/sigilyph.png"
+  },
+  {
+    "pokemonId": "pokemon-0266",
+    "slug": "silcoon",
+    "src": "/sprites/pokemon-workbook/silcoon.png"
+  },
+  {
+    "pokemonId": "pokemon-0516",
+    "slug": "simipour",
+    "src": "/sprites/pokemon-workbook/simipour.png"
+  },
+  {
+    "pokemonId": "pokemon-0512",
+    "slug": "simisage",
+    "src": "/sprites/pokemon-workbook/simisage.png"
+  },
+  {
+    "pokemonId": "pokemon-0514",
+    "slug": "simisear",
+    "src": "/sprites/pokemon-workbook/simisear.png"
+  },
+  {
+    "pokemonId": "pokemon-0227",
+    "slug": "skarmory",
+    "src": "/sprites/pokemon-workbook/skarmory.png"
+  },
+  {
+    "pokemonId": "pokemon-0672",
+    "slug": "skiddo",
+    "src": "/sprites/pokemon-workbook/skiddo.png"
+  },
+  {
+    "pokemonId": "pokemon-0188",
+    "slug": "skiploom",
+    "src": "/sprites/pokemon-workbook/skiploom.png"
+  },
+  {
+    "pokemonId": "pokemon-0300",
+    "slug": "skitty",
+    "src": "/sprites/pokemon-workbook/skitty.png"
+  },
+  {
+    "pokemonId": "pokemon-0451",
+    "slug": "skorupi",
+    "src": "/sprites/pokemon-workbook/skorupi.png"
+  },
+  {
+    "pokemonId": "pokemon-0690",
+    "slug": "skrelp",
+    "src": "/sprites/pokemon-workbook/skrelp.png"
+  },
+  {
+    "pokemonId": "pokemon-0435",
+    "slug": "skuntank",
+    "src": "/sprites/pokemon-workbook/skuntank.png"
+  },
+  {
+    "pokemonId": "pokemon-0289",
+    "slug": "slaking",
+    "src": "/sprites/pokemon-workbook/slaking.png"
+  },
+  {
+    "pokemonId": "pokemon-0287",
+    "slug": "slakoth",
+    "src": "/sprites/pokemon-workbook/slakoth.png"
+  },
+  {
+    "pokemonId": "pokemon-0705",
+    "slug": "sliggoo",
+    "src": "/sprites/pokemon-workbook/sliggoo.png"
+  },
+  {
+    "pokemonId": "pokemon-0080",
+    "slug": "slowbro",
+    "src": "/sprites/pokemon-workbook/slowbro.png"
+  },
+  {
+    "pokemonId": "pokemon-0199",
+    "slug": "slowking",
+    "src": "/sprites/pokemon-workbook/slowking.png"
+  },
+  {
+    "pokemonId": "pokemon-0079",
+    "slug": "slowpoke",
+    "src": "/sprites/pokemon-workbook/slowpoke.png"
+  },
+  {
+    "pokemonId": "pokemon-0218",
+    "slug": "slugma",
+    "src": "/sprites/pokemon-workbook/slugma.png"
+  },
+  {
+    "pokemonId": "pokemon-0685",
+    "slug": "slurpuff",
+    "src": "/sprites/pokemon-workbook/slurpuff.png"
+  },
+  {
+    "pokemonId": "pokemon-0235",
+    "slug": "smeargle",
+    "src": "/sprites/pokemon-workbook/smeargle.png"
+  },
+  {
+    "pokemonId": "pokemon-0238",
+    "slug": "smoochum",
+    "src": "/sprites/pokemon-workbook/smoochum.png"
+  },
+  {
+    "pokemonId": "pokemon-0215",
+    "slug": "sneasel",
+    "src": "/sprites/pokemon-workbook/sneasel.png"
+  },
+  {
+    "pokemonId": "pokemon-0495",
+    "slug": "snivy",
+    "src": "/sprites/pokemon-workbook/snivy.png"
+  },
+  {
+    "pokemonId": "pokemon-0143",
+    "slug": "snorlax",
+    "src": "/sprites/pokemon-workbook/snorlax.png"
+  },
+  {
+    "pokemonId": "pokemon-0361",
+    "slug": "snorunt",
+    "src": "/sprites/pokemon-workbook/snorunt.png"
+  },
+  {
+    "pokemonId": "pokemon-0459",
+    "slug": "snover",
+    "src": "/sprites/pokemon-workbook/snover.png"
+  },
+  {
+    "pokemonId": "pokemon-0209",
+    "slug": "snubbull",
+    "src": "/sprites/pokemon-workbook/snubbull.png"
+  },
+  {
+    "pokemonId": "pokemon-0577",
+    "slug": "solosis",
+    "src": "/sprites/pokemon-workbook/solosis.png"
+  },
+  {
+    "pokemonId": "pokemon-0338",
+    "slug": "solrock",
+    "src": "/sprites/pokemon-workbook/solrock.png"
+  },
+  {
+    "pokemonId": "pokemon-0021",
+    "slug": "spearow",
+    "src": "/sprites/pokemon-workbook/spearow.png"
+  },
+  {
+    "pokemonId": "pokemon-0665",
+    "slug": "spewpa",
+    "src": "/sprites/pokemon-workbook/spewpa.png"
+  },
+  {
+    "pokemonId": "pokemon-0363",
+    "slug": "spheal",
+    "src": "/sprites/pokemon-workbook/spheal.png"
+  },
+  {
+    "pokemonId": "pokemon-0167",
+    "slug": "spinarak",
+    "src": "/sprites/pokemon-workbook/spinarak.png"
+  },
+  {
+    "pokemonId": "pokemon-0327",
+    "slug": "spinda",
+    "src": "/sprites/pokemon-workbook/spinda.png"
+  },
+  {
+    "pokemonId": "pokemon-0442",
+    "slug": "spiritomb",
+    "src": "/sprites/pokemon-workbook/spiritomb.png"
+  },
+  {
+    "pokemonId": "pokemon-0325",
+    "slug": "spoink",
+    "src": "/sprites/pokemon-workbook/spoink.png"
+  },
+  {
+    "pokemonId": "pokemon-0682",
+    "slug": "spritzee",
+    "src": "/sprites/pokemon-workbook/spritzee.png"
+  },
+  {
+    "pokemonId": "pokemon-0007",
+    "slug": "squirtle",
+    "src": "/sprites/pokemon-workbook/squirtle.png"
+  },
+  {
+    "pokemonId": "pokemon-0234",
+    "slug": "stantler",
+    "src": "/sprites/pokemon-workbook/stantler.png"
+  },
+  {
+    "pokemonId": "pokemon-0398",
+    "slug": "staraptor",
+    "src": "/sprites/pokemon-workbook/staraptor.png"
+  },
+  {
+    "pokemonId": "pokemon-0397",
+    "slug": "staravia",
+    "src": "/sprites/pokemon-workbook/staravia.png"
+  },
+  {
+    "pokemonId": "pokemon-0396",
+    "slug": "starly",
+    "src": "/sprites/pokemon-workbook/starly.png"
+  },
+  {
+    "pokemonId": "pokemon-0121",
+    "slug": "starmie",
+    "src": "/sprites/pokemon-workbook/starmie.png"
+  },
+  {
+    "pokemonId": "pokemon-0120",
+    "slug": "staryu",
+    "src": "/sprites/pokemon-workbook/staryu.png"
+  },
+  {
+    "pokemonId": "pokemon-0208",
+    "slug": "steelix",
+    "src": "/sprites/pokemon-workbook/steelix.png"
+  },
+  {
+    "pokemonId": "pokemon-0508",
+    "slug": "stoutland",
+    "src": "/sprites/pokemon-workbook/stoutland.png"
+  },
+  {
+    "pokemonId": "pokemon-0618",
+    "slug": "stunfisk",
+    "src": "/sprites/pokemon-workbook/stunfisk.png"
+  },
+  {
+    "pokemonId": "pokemon-0434",
+    "slug": "stunky",
+    "src": "/sprites/pokemon-workbook/stunky.png"
+  },
+  {
+    "pokemonId": "pokemon-0185",
+    "slug": "sudowoodo",
+    "src": "/sprites/pokemon-workbook/sudowoodo.png"
+  },
+  {
+    "pokemonId": "pokemon-0245",
+    "slug": "suicune",
+    "src": "/sprites/pokemon-workbook/suicune.png"
+  },
+  {
+    "pokemonId": "pokemon-0192",
+    "slug": "sunflora",
+    "src": "/sprites/pokemon-workbook/sunflora.png"
+  },
+  {
+    "pokemonId": "pokemon-0191",
+    "slug": "sunkern",
+    "src": "/sprites/pokemon-workbook/sunkern.png"
+  },
+  {
+    "pokemonId": "pokemon-0283",
+    "slug": "surskit",
+    "src": "/sprites/pokemon-workbook/surskit.png"
+  },
+  {
+    "pokemonId": "pokemon-0333",
+    "slug": "swablu",
+    "src": "/sprites/pokemon-workbook/swablu.png"
+  },
+  {
+    "pokemonId": "pokemon-0541",
+    "slug": "swadloon",
+    "src": "/sprites/pokemon-workbook/swadloon.png"
+  },
+  {
+    "pokemonId": "pokemon-0317",
+    "slug": "swalot",
+    "src": "/sprites/pokemon-workbook/swalot.png"
+  },
+  {
+    "pokemonId": "pokemon-0260",
+    "slug": "swampert",
+    "src": "/sprites/pokemon-workbook/swampert.png"
+  },
+  {
+    "pokemonId": "pokemon-0581",
+    "slug": "swanna",
+    "src": "/sprites/pokemon-workbook/swanna.png"
+  },
+  {
+    "pokemonId": "pokemon-0277",
+    "slug": "swellow",
+    "src": "/sprites/pokemon-workbook/swellow.png"
+  },
+  {
+    "pokemonId": "pokemon-0220",
+    "slug": "swinub",
+    "src": "/sprites/pokemon-workbook/swinub.png"
+  },
+  {
+    "pokemonId": "pokemon-0684",
+    "slug": "swirlix",
+    "src": "/sprites/pokemon-workbook/swirlix.png"
+  },
+  {
+    "pokemonId": "pokemon-0528",
+    "slug": "swoobat",
+    "src": "/sprites/pokemon-workbook/swoobat.png"
+  },
+  {
+    "pokemonId": "pokemon-0700",
+    "slug": "sylveon",
+    "src": "/sprites/pokemon-workbook/sylveon.png"
+  },
+  {
+    "pokemonId": "pokemon-0276",
+    "slug": "taillow",
+    "src": "/sprites/pokemon-workbook/taillow.png"
+  },
+  {
+    "pokemonId": "pokemon-0663",
+    "slug": "talonflame",
+    "src": "/sprites/pokemon-workbook/talonflame.png"
+  },
+  {
+    "pokemonId": "pokemon-0114",
+    "slug": "tangela",
+    "src": "/sprites/pokemon-workbook/tangela.png"
+  },
+  {
+    "pokemonId": "pokemon-0465",
+    "slug": "tangrowth",
+    "src": "/sprites/pokemon-workbook/tangrowth.png"
+  },
+  {
+    "pokemonId": "pokemon-0128",
+    "slug": "tauros",
+    "src": "/sprites/pokemon-workbook/tauros.png"
+  },
+  {
+    "pokemonId": "pokemon-0216",
+    "slug": "teddiursa",
+    "src": "/sprites/pokemon-workbook/teddiursa.png"
+  },
+  {
+    "pokemonId": "pokemon-0072",
+    "slug": "tentacool",
+    "src": "/sprites/pokemon-workbook/tentacool.png"
+  },
+  {
+    "pokemonId": "pokemon-0073",
+    "slug": "tentacruel",
+    "src": "/sprites/pokemon-workbook/tentacruel.png"
+  },
+  {
+    "pokemonId": "pokemon-0498",
+    "slug": "tepig",
+    "src": "/sprites/pokemon-workbook/tepig.png"
+  },
+  {
+    "pokemonId": "pokemon-0639",
+    "slug": "terrakion",
+    "src": "/sprites/pokemon-workbook/terrakion.png"
+  },
+  {
+    "pokemonId": "pokemon-0538",
+    "slug": "throh",
+    "src": "/sprites/pokemon-workbook/throh.png"
+  },
+  {
+    "pokemonId": "pokemon-0642-incarnate-forme",
+    "slug": "thundurus-incarnate-forme",
+    "src": "/sprites/pokemon-workbook/thundurus-incarnate-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0642-therian-forme",
+    "slug": "thundurus-therian-forme",
+    "src": "/sprites/pokemon-workbook/thundurus-therian-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0532",
+    "slug": "timburr",
+    "src": "/sprites/pokemon-workbook/timburr.png"
+  },
+  {
+    "pokemonId": "pokemon-0564",
+    "slug": "tirtouga",
+    "src": "/sprites/pokemon-workbook/tirtouga.png"
+  },
+  {
+    "pokemonId": "pokemon-0468",
+    "slug": "togekiss",
+    "src": "/sprites/pokemon-workbook/togekiss.png"
+  },
+  {
+    "pokemonId": "pokemon-0175",
+    "slug": "togepi",
+    "src": "/sprites/pokemon-workbook/togepi.png"
+  },
+  {
+    "pokemonId": "pokemon-0176",
+    "slug": "togetic",
+    "src": "/sprites/pokemon-workbook/togetic.png"
+  },
+  {
+    "pokemonId": "pokemon-0255",
+    "slug": "torchic",
+    "src": "/sprites/pokemon-workbook/torchic.png"
+  },
+  {
+    "pokemonId": "pokemon-0324",
+    "slug": "torkoal",
+    "src": "/sprites/pokemon-workbook/torkoal.png"
+  },
+  {
+    "pokemonId": "pokemon-0641-incarnate-forme",
+    "slug": "tornadus-incarnate-forme",
+    "src": "/sprites/pokemon-workbook/tornadus-incarnate-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0641-therian-forme",
+    "slug": "tornadus-therian-forme",
+    "src": "/sprites/pokemon-workbook/tornadus-therian-forme.png"
+  },
+  {
+    "pokemonId": "pokemon-0389",
+    "slug": "torterra",
+    "src": "/sprites/pokemon-workbook/torterra.png"
+  },
+  {
+    "pokemonId": "pokemon-0158",
+    "slug": "totodile",
+    "src": "/sprites/pokemon-workbook/totodile.png"
+  },
+  {
+    "pokemonId": "pokemon-0454",
+    "slug": "toxicroak",
+    "src": "/sprites/pokemon-workbook/toxicroak.png"
+  },
+  {
+    "pokemonId": "pokemon-0520",
+    "slug": "tranquill",
+    "src": "/sprites/pokemon-workbook/tranquill.png"
+  },
+  {
+    "pokemonId": "pokemon-0328",
+    "slug": "trapinch",
+    "src": "/sprites/pokemon-workbook/trapinch.png"
+  },
+  {
+    "pokemonId": "pokemon-0252",
+    "slug": "treecko",
+    "src": "/sprites/pokemon-workbook/treecko.png"
+  },
+  {
+    "pokemonId": "pokemon-0709",
+    "slug": "trevenant",
+    "src": "/sprites/pokemon-workbook/trevenant.png"
+  },
+  {
+    "pokemonId": "pokemon-0357",
+    "slug": "tropius",
+    "src": "/sprites/pokemon-workbook/tropius.png"
+  },
+  {
+    "pokemonId": "pokemon-0568",
+    "slug": "trubbish",
+    "src": "/sprites/pokemon-workbook/trubbish.png"
+  },
+  {
+    "pokemonId": "pokemon-0387",
+    "slug": "turtwig",
+    "src": "/sprites/pokemon-workbook/turtwig.png"
+  },
+  {
+    "pokemonId": "pokemon-0535",
+    "slug": "tympole",
+    "src": "/sprites/pokemon-workbook/tympole.png"
+  },
+  {
+    "pokemonId": "pokemon-0602",
+    "slug": "tynamo",
+    "src": "/sprites/pokemon-workbook/tynamo.png"
+  },
+  {
+    "pokemonId": "pokemon-0157",
+    "slug": "typhlosion",
+    "src": "/sprites/pokemon-workbook/typhlosion.png"
+  },
+  {
+    "pokemonId": "pokemon-0248",
+    "slug": "tyranitar",
+    "src": "/sprites/pokemon-workbook/tyranitar.png"
+  },
+  {
+    "pokemonId": "pokemon-0248-mega-tyranitar",
+    "slug": "tyranitar-mega-tyranitar",
+    "src": "/sprites/pokemon-workbook/tyranitar-mega-tyranitar.png"
+  },
+  {
+    "pokemonId": "pokemon-0697",
+    "slug": "tyrantrum",
+    "src": "/sprites/pokemon-workbook/tyrantrum.png"
+  },
+  {
+    "pokemonId": "pokemon-0236",
+    "slug": "tyrogue",
+    "src": "/sprites/pokemon-workbook/tyrogue.png"
+  },
+  {
+    "pokemonId": "pokemon-0696",
+    "slug": "tyrunt",
+    "src": "/sprites/pokemon-workbook/tyrunt.png"
+  },
+  {
+    "pokemonId": "pokemon-0197",
+    "slug": "umbreon",
+    "src": "/sprites/pokemon-workbook/umbreon.png"
+  },
+  {
+    "pokemonId": "pokemon-0521",
+    "slug": "unfezant",
+    "src": "/sprites/pokemon-workbook/unfezant.png"
+  },
+  {
+    "pokemonId": "pokemon-0201",
+    "slug": "unown",
+    "src": "/sprites/pokemon-workbook/unown.png"
+  },
+  {
+    "pokemonId": "pokemon-0217",
+    "slug": "ursaring",
+    "src": "/sprites/pokemon-workbook/ursaring.png"
+  },
+  {
+    "pokemonId": "pokemon-0480",
+    "slug": "uxie",
+    "src": "/sprites/pokemon-workbook/uxie.png"
+  },
+  {
+    "pokemonId": "pokemon-0583",
+    "slug": "vanillish",
+    "src": "/sprites/pokemon-workbook/vanillish.png"
+  },
+  {
+    "pokemonId": "pokemon-0582",
+    "slug": "vanillite",
+    "src": "/sprites/pokemon-workbook/vanillite.png"
+  },
+  {
+    "pokemonId": "pokemon-0584",
+    "slug": "vanilluxe",
+    "src": "/sprites/pokemon-workbook/vanilluxe.png"
+  },
+  {
+    "pokemonId": "pokemon-0134",
+    "slug": "vaporeon",
+    "src": "/sprites/pokemon-workbook/vaporeon.png"
+  },
+  {
+    "pokemonId": "pokemon-0543",
+    "slug": "venipede",
+    "src": "/sprites/pokemon-workbook/venipede.png"
+  },
+  {
+    "pokemonId": "pokemon-0049",
+    "slug": "venomoth",
+    "src": "/sprites/pokemon-workbook/venomoth.png"
+  },
+  {
+    "pokemonId": "pokemon-0048",
+    "slug": "venonat",
+    "src": "/sprites/pokemon-workbook/venonat.png"
+  },
+  {
+    "pokemonId": "pokemon-0003",
+    "slug": "venusaur",
+    "src": "/sprites/pokemon-workbook/venusaur.png"
+  },
+  {
+    "pokemonId": "pokemon-0003-mega-venusaur",
+    "slug": "venusaur-mega-venusaur",
+    "src": "/sprites/pokemon-workbook/venusaur-mega-venusaur.png"
+  },
+  {
+    "pokemonId": "pokemon-0416",
+    "slug": "vespiquen",
+    "src": "/sprites/pokemon-workbook/vespiquen.png"
+  },
+  {
+    "pokemonId": "pokemon-0329",
+    "slug": "vibrava",
+    "src": "/sprites/pokemon-workbook/vibrava.png"
+  },
+  {
+    "pokemonId": "pokemon-0494",
+    "slug": "victini",
+    "src": "/sprites/pokemon-workbook/victini.png"
+  },
+  {
+    "pokemonId": "pokemon-0071",
+    "slug": "victreebel",
+    "src": "/sprites/pokemon-workbook/victreebel.png"
+  },
+  {
+    "pokemonId": "pokemon-0288",
+    "slug": "vigoroth",
+    "src": "/sprites/pokemon-workbook/vigoroth.png"
+  },
+  {
+    "pokemonId": "pokemon-0045",
+    "slug": "vileplume",
+    "src": "/sprites/pokemon-workbook/vileplume.png"
+  },
+  {
+    "pokemonId": "pokemon-0640",
+    "slug": "virizion",
+    "src": "/sprites/pokemon-workbook/virizion.png"
+  },
+  {
+    "pokemonId": "pokemon-0666",
+    "slug": "vivillon",
+    "src": "/sprites/pokemon-workbook/vivillon.png"
+  },
+  {
+    "pokemonId": "pokemon-0313",
+    "slug": "volbeat",
+    "src": "/sprites/pokemon-workbook/volbeat.png"
+  },
+  {
+    "pokemonId": "pokemon-0721",
+    "slug": "volcanion",
+    "src": "/sprites/pokemon-workbook/volcanion.png"
+  },
+  {
+    "pokemonId": "pokemon-0637",
+    "slug": "volcarona",
+    "src": "/sprites/pokemon-workbook/volcarona.png"
+  },
+  {
+    "pokemonId": "pokemon-0100",
+    "slug": "voltorb",
+    "src": "/sprites/pokemon-workbook/voltorb.png"
+  },
+  {
+    "pokemonId": "pokemon-0629",
+    "slug": "vullaby",
+    "src": "/sprites/pokemon-workbook/vullaby.png"
+  },
+  {
+    "pokemonId": "pokemon-0037",
+    "slug": "vulpix",
+    "src": "/sprites/pokemon-workbook/vulpix.png"
+  },
+  {
+    "pokemonId": "pokemon-0320",
+    "slug": "wailmer",
+    "src": "/sprites/pokemon-workbook/wailmer.png"
+  },
+  {
+    "pokemonId": "pokemon-0321",
+    "slug": "wailord",
+    "src": "/sprites/pokemon-workbook/wailord.png"
+  },
+  {
+    "pokemonId": "pokemon-0365",
+    "slug": "walrein",
+    "src": "/sprites/pokemon-workbook/walrein.png"
+  },
+  {
+    "pokemonId": "pokemon-0008",
+    "slug": "wartortle",
+    "src": "/sprites/pokemon-workbook/wartortle.png"
+  },
+  {
+    "pokemonId": "pokemon-0505",
+    "slug": "watchog",
+    "src": "/sprites/pokemon-workbook/watchog.png"
+  },
+  {
+    "pokemonId": "pokemon-0461",
+    "slug": "weavile",
+    "src": "/sprites/pokemon-workbook/weavile.png"
+  },
+  {
+    "pokemonId": "pokemon-0013",
+    "slug": "weedle",
+    "src": "/sprites/pokemon-workbook/weedle.png"
+  },
+  {
+    "pokemonId": "pokemon-0070",
+    "slug": "weepinbell",
+    "src": "/sprites/pokemon-workbook/weepinbell.png"
+  },
+  {
+    "pokemonId": "pokemon-0110",
+    "slug": "weezing",
+    "src": "/sprites/pokemon-workbook/weezing.png"
+  },
+  {
+    "pokemonId": "pokemon-0547",
+    "slug": "whimsicott",
+    "src": "/sprites/pokemon-workbook/whimsicott.png"
+  },
+  {
+    "pokemonId": "pokemon-0544",
+    "slug": "whirlipede",
+    "src": "/sprites/pokemon-workbook/whirlipede.png"
+  },
+  {
+    "pokemonId": "pokemon-0340",
+    "slug": "whiscash",
+    "src": "/sprites/pokemon-workbook/whiscash.png"
+  },
+  {
+    "pokemonId": "pokemon-0293",
+    "slug": "whismur",
+    "src": "/sprites/pokemon-workbook/whismur.png"
+  },
+  {
+    "pokemonId": "pokemon-0040",
+    "slug": "wigglytuff",
+    "src": "/sprites/pokemon-workbook/wigglytuff.png"
+  },
+  {
+    "pokemonId": "pokemon-0278",
+    "slug": "wingull",
+    "src": "/sprites/pokemon-workbook/wingull.png"
+  },
+  {
+    "pokemonId": "pokemon-0202",
+    "slug": "wobbuffet",
+    "src": "/sprites/pokemon-workbook/wobbuffet.png"
+  },
+  {
+    "pokemonId": "pokemon-0527",
+    "slug": "woobat",
+    "src": "/sprites/pokemon-workbook/woobat.png"
+  },
+  {
+    "pokemonId": "pokemon-0194",
+    "slug": "wooper",
+    "src": "/sprites/pokemon-workbook/wooper.png"
+  },
+  {
+    "pokemonId": "pokemon-0413-plant-cloak",
+    "slug": "wormadam-plant-cloak",
+    "src": "/sprites/pokemon-workbook/wormadam-plant-cloak.png"
+  },
+  {
+    "pokemonId": "pokemon-0413-sandy-cloak",
+    "slug": "wormadam-sandy-cloak",
+    "src": "/sprites/pokemon-workbook/wormadam-sandy-cloak.png"
+  },
+  {
+    "pokemonId": "pokemon-0413-trash-cloak",
+    "slug": "wormadam-trash-cloak",
+    "src": "/sprites/pokemon-workbook/wormadam-trash-cloak.png"
+  },
+  {
+    "pokemonId": "pokemon-0265",
+    "slug": "wurmple",
+    "src": "/sprites/pokemon-workbook/wurmple.png"
+  },
+  {
+    "pokemonId": "pokemon-0360",
+    "slug": "wynaut",
+    "src": "/sprites/pokemon-workbook/wynaut.png"
+  },
+  {
+    "pokemonId": "pokemon-0178",
+    "slug": "xatu",
+    "src": "/sprites/pokemon-workbook/xatu.png"
+  },
+  {
+    "pokemonId": "pokemon-0716",
+    "slug": "xerneas",
+    "src": "/sprites/pokemon-workbook/xerneas.png"
+  },
+  {
+    "pokemonId": "pokemon-0562",
+    "slug": "yamask",
+    "src": "/sprites/pokemon-workbook/yamask.png"
+  },
+  {
+    "pokemonId": "pokemon-0193",
+    "slug": "yanma",
+    "src": "/sprites/pokemon-workbook/yanma.png"
+  },
+  {
+    "pokemonId": "pokemon-0469",
+    "slug": "yanmega",
+    "src": "/sprites/pokemon-workbook/yanmega.png"
+  },
+  {
+    "pokemonId": "pokemon-0717",
+    "slug": "yveltal",
+    "src": "/sprites/pokemon-workbook/yveltal.png"
+  },
+  {
+    "pokemonId": "pokemon-0335",
+    "slug": "zangoose",
+    "src": "/sprites/pokemon-workbook/zangoose.png"
+  },
+  {
+    "pokemonId": "pokemon-0145",
+    "slug": "zapdos",
+    "src": "/sprites/pokemon-workbook/zapdos.png"
+  },
+  {
+    "pokemonId": "pokemon-0523",
+    "slug": "zebstrika",
+    "src": "/sprites/pokemon-workbook/zebstrika.png"
+  },
+  {
+    "pokemonId": "pokemon-0644",
+    "slug": "zekrom",
+    "src": "/sprites/pokemon-workbook/zekrom.png"
+  },
+  {
+    "pokemonId": "pokemon-0263",
+    "slug": "zigzagoon",
+    "src": "/sprites/pokemon-workbook/zigzagoon.png"
+  },
+  {
+    "pokemonId": "pokemon-0571",
+    "slug": "zoroark",
+    "src": "/sprites/pokemon-workbook/zoroark.png"
+  },
+  {
+    "pokemonId": "pokemon-0570",
+    "slug": "zorua",
+    "src": "/sprites/pokemon-workbook/zorua.png"
+  },
+  {
+    "pokemonId": "pokemon-0041",
+    "slug": "zubat",
+    "src": "/sprites/pokemon-workbook/zubat.png"
+  },
+  {
+    "pokemonId": "pokemon-0634",
+    "slug": "zweilous",
+    "src": "/sprites/pokemon-workbook/zweilous.png"
+  },
+  {
+    "pokemonId": "pokemon-0718-50-forme",
+    "slug": "zygarde-50-forme",
+    "src": "/sprites/pokemon-workbook/zygarde-50-forme.png"
+  }
+]

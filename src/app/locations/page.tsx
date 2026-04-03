@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PageNavigation from "@/components/page-navigation";
 import { getLocations } from "@/lib/data/locations";
 
 export default function LocationsPage() {
@@ -6,8 +7,8 @@ export default function LocationsPage() {
 
   return (
     <main style={{ margin: "0 auto", maxWidth: "900px", padding: "40px 24px 64px" }}>
+      <PageNavigation />
       <h1 style={{ marginTop: 0 }}>Locations</h1>
-      <p style={{ color: "#586379" }}>Browse imported encounter and item locations.</p>
 
       <div style={{ display: "grid", gap: "12px", marginTop: "24px" }}>
         {locations.map((location) => (

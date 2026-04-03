@@ -1,0 +1,1318 @@
+[
+  {
+    "id": "ability-adaptability",
+    "slug": "adaptability",
+    "name": "Adaptability",
+    "description": "Powers up moves of the same type as the Pok\u00e9mon.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-aerilate",
+    "slug": "aerilate",
+    "name": "Aerilate",
+    "description": "Normal-type moves become Flying-type moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-aftermath",
+    "slug": "aftermath",
+    "name": "Aftermath",
+    "description": "Damages the attacker landing the finishing hit.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-air-lock",
+    "slug": "air-lock",
+    "name": "Air Lock",
+    "description": "Eliminates the effects of weather.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-analytic",
+    "slug": "analytic",
+    "name": "Analytic",
+    "description": "Boosts move power when the Pok\u00e9mon moves after the target.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-anger-point",
+    "slug": "anger-point",
+    "name": "Anger Point",
+    "description": "Maxes the Attack stat after the Pok\u00e9mon takes a critical hit.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-anticipation",
+    "slug": "anticipation",
+    "name": "Anticipation",
+    "description": "Senses an opposing Pok\u00e9mon\u2019s dangerous moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-arena-trap",
+    "slug": "arena-trap",
+    "name": "Arena Trap",
+    "description": "Prevents opposing Pok\u00e9mon from fleeing.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-aroma-veil",
+    "slug": "aroma-veil",
+    "name": "Aroma Veil",
+    "description": "Protects allies from attacks that limit their move choices.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-aura-break",
+    "slug": "aura-break",
+    "name": "Aura Break",
+    "description": "The effects of \u201cAura\u201d Abilities are reversed.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-bad-dreams",
+    "slug": "bad-dreams",
+    "name": "Bad Dreams",
+    "description": "Reduces the HP of sleeping opposing Pok\u00e9mon.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-battle-armor",
+    "slug": "battle-armor",
+    "name": "Battle Armor",
+    "description": "Protects the Pok\u00e9mon from critical hits.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-big-pecks",
+    "slug": "big-pecks",
+    "name": "Big Pecks",
+    "description": "Protects the Pok\u00e9mon from Defense-lowering attacks.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-blaze",
+    "slug": "blaze",
+    "name": "Blaze",
+    "description": "Powers up Fire-type moves when the Pok\u00e9mon is in trouble.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-bulletproof",
+    "slug": "bulletproof",
+    "name": "Bulletproof",
+    "description": "Protects the Pok\u00e9mon from some ball and bomb moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-cheek-pouch",
+    "slug": "cheek-pouch",
+    "name": "Cheek Pouch",
+    "description": "Restores HP as well when the Pok\u00e9mon eats a Berry.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-chlorophyll",
+    "slug": "chlorophyll",
+    "name": "Chlorophyll",
+    "description": "Boosts the Pok\u00e9mon\u2019s Speed stat in sunshine.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-clear-body",
+    "slug": "clear-body",
+    "name": "Clear Body",
+    "description": "Prevents other Pok\u00e9mon from lowering its stats.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-cloud-nine",
+    "slug": "cloud-nine",
+    "name": "Cloud Nine",
+    "description": "Eliminates the effects of weather.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-color-change",
+    "slug": "color-change",
+    "name": "Color Change",
+    "description": "The Pok\u00e9mon\u2019s type becomes the type of the move used on it.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-competitive",
+    "slug": "competitive",
+    "name": "Competitive",
+    "description": "Boosts the Sp. Atk stat when a stat is lowered.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-compound-eyes",
+    "slug": "compound-eyes",
+    "name": "Compound Eyes",
+    "description": "Boosts the Pok\u00e9mon\u2019s accuracy.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-contrary",
+    "slug": "contrary",
+    "name": "Contrary",
+    "description": "Makes stat changes have an opposite effect.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-cursed-body",
+    "slug": "cursed-body",
+    "name": "Cursed Body",
+    "description": "May disable a move used on the Pok\u00e9mon.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-cute-charm",
+    "slug": "cute-charm",
+    "name": "Cute Charm",
+    "description": "Contact with the Pok\u00e9mon may cause infatuation.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-damp",
+    "slug": "damp",
+    "name": "Damp",
+    "description": "Prevents the use of self-destructing moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-dark-aura",
+    "slug": "dark-aura",
+    "name": "Dark Aura",
+    "description": "Powers up each Pok\u00e9mon\u2019s Dark-type moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-defeatist",
+    "slug": "defeatist",
+    "name": "Defeatist",
+    "description": "Lowers stats when HP becomes half or less.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-defiant",
+    "slug": "defiant",
+    "name": "Defiant",
+    "description": "Boosts the Pok\u00e9mon\u2019s Attack stat when its stats are lowered.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-download",
+    "slug": "download",
+    "name": "Download",
+    "description": "Adjusts power based on an opposing Pok\u00e9mon\u2019s stats.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-drizzle",
+    "slug": "drizzle",
+    "name": "Drizzle",
+    "description": "The Pok\u00e9mon makes it rain when it enters a battle.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-drought",
+    "slug": "drought",
+    "name": "Drought",
+    "description": "Turns the sunlight harsh when the Pok\u00e9mon enters a battle.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-dry-skin",
+    "slug": "dry-skin",
+    "name": "Dry Skin",
+    "description": "Reduces HP if it\u2019s hot. Water restores HP.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-early-bird",
+    "slug": "early-bird",
+    "name": "Early Bird",
+    "description": "The Pok\u00e9mon awakens quickly from sleep.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-effect-spore",
+    "slug": "effect-spore",
+    "name": "Effect Spore",
+    "description": "Contact may poison or cause paralysis or sleep.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-fairy-aura",
+    "slug": "fairy-aura",
+    "name": "Fairy Aura",
+    "description": "Powers up each Pok\u00e9mon\u2019s Fairy-type moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-filter",
+    "slug": "filter",
+    "name": "Filter",
+    "description": "Reduces damage from supereffective attacks.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-flame-body",
+    "slug": "flame-body",
+    "name": "Flame Body",
+    "description": "Contact with the Pok\u00e9mon may burn the attacker.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-flare-boost",
+    "slug": "flare-boost",
+    "name": "Flare Boost",
+    "description": "Powers up special attacks when the Pok\u00e9mon is burned.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-flash-fire",
+    "slug": "flash-fire",
+    "name": "Flash Fire",
+    "description": "Powers up the Pok\u00e9mon\u2019s Fire- type moves if it\u2019s hit by one.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-flower-gift",
+    "slug": "flower-gift",
+    "name": "Flower Gift",
+    "description": "Powers up party Pok\u00e9mon when it is sunny.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-flower-veil",
+    "slug": "flower-veil",
+    "name": "Flower Veil",
+    "description": "Prevents lowering of ally Grass-type Pok\u00e9mon\u2019s stats.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-forecast",
+    "slug": "forecast",
+    "name": "Forecast",
+    "description": "Castform transforms with the weather.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-forewarn",
+    "slug": "forewarn",
+    "name": "Forewarn",
+    "description": "Determines what moves an opposing Pok\u00e9mon has.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-friend-guard",
+    "slug": "friend-guard",
+    "name": "Friend Guard",
+    "description": "Reduces damage done to allies.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-frisk",
+    "slug": "frisk",
+    "name": "Frisk",
+    "description": "The Pok\u00e9mon can check an opposing Pok\u00e9mon\u2019s held item.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-fur-coat",
+    "slug": "fur-coat",
+    "name": "Fur Coat",
+    "description": "Halves damage from physical moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-gale-wings",
+    "slug": "gale-wings",
+    "name": "Gale Wings",
+    "description": "Gives priority to Flying-type moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-gluttony",
+    "slug": "gluttony",
+    "name": "Gluttony",
+    "description": "Makes the Pok\u00e9mon use a held Berry earlier than usual.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-gooey",
+    "slug": "gooey",
+    "name": "Gooey",
+    "description": "Contact with the Pok\u00e9mon lowers the attacker\u2019s Speed stat.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-grass-pelt",
+    "slug": "grass-pelt",
+    "name": "Grass Pelt",
+    "description": "Boosts the Defense stat in Grassy Terrain.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-guts",
+    "slug": "guts",
+    "name": "Guts",
+    "description": "Boosts the Attack stat if the Pok\u00e9mon has a status condition.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-harvest",
+    "slug": "harvest",
+    "name": "Harvest",
+    "description": "May create another Berry after one is used.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-healer",
+    "slug": "healer",
+    "name": "Healer",
+    "description": "Sometimes heals an ally\u2019s status condition.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-heatproof",
+    "slug": "heatproof",
+    "name": "Heatproof",
+    "description": "Weakens the power of Fire-type moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-heavy-metal",
+    "slug": "heavy-metal",
+    "name": "Heavy Metal",
+    "description": "Doubles the Pok\u00e9mon\u2019s weight.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-honey-gather",
+    "slug": "honey-gather",
+    "name": "Honey Gather",
+    "description": "The Pok\u00e9mon may gather Honey from somewhere.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-huge-power",
+    "slug": "huge-power",
+    "name": "Huge Power",
+    "description": "Boosts the Pok\u00e9mon\u2019s Attack stat.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-hustle",
+    "slug": "hustle",
+    "name": "Hustle",
+    "description": "Boosts the Attack stat, but lowers accuracy.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-hydration",
+    "slug": "hydration",
+    "name": "Hydration",
+    "description": "Heals status conditions if it\u2019s raining.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-hyper-cutter",
+    "slug": "hyper-cutter",
+    "name": "Hyper Cutter",
+    "description": "Prevents other Pok\u00e9mon from lowering its Attack stat.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-ice-body",
+    "slug": "ice-body",
+    "name": "Ice Body",
+    "description": "The Pok\u00e9mon gradually regains HP in a hailstorm.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-illuminate",
+    "slug": "illuminate",
+    "name": "Illuminate",
+    "description": "Raises the likelihood of meeting wild Pok\u00e9mon.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-illusion",
+    "slug": "illusion",
+    "name": "Illusion",
+    "description": "Comes out disguised as the Pok\u00e9mon in the party\u2019s last spot.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-immunity",
+    "slug": "immunity",
+    "name": "Immunity",
+    "description": "Prevents the Pok\u00e9mon from getting poisoned.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-imposter",
+    "slug": "imposter",
+    "name": "Imposter",
+    "description": "The Pok\u00e9mon transforms itself into the Pok\u00e9mon it\u2019s facing.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-infiltrator",
+    "slug": "infiltrator",
+    "name": "Infiltrator",
+    "description": "Passes through the opposing Pok\u00e9mon\u2019s barrier and strikes.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-inner-focus",
+    "slug": "inner-focus",
+    "name": "Inner Focus",
+    "description": "Protects the Pok\u00e9mon from flinching.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-insomnia",
+    "slug": "insomnia",
+    "name": "Insomnia",
+    "description": "Prevents the Pok\u00e9mon from falling asleep.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-intimidate",
+    "slug": "intimidate",
+    "name": "Intimidate",
+    "description": "Lowers the opposing Pok\u00e9mon\u2019s Attack stat.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-iron-barbs",
+    "slug": "iron-barbs",
+    "name": "Iron Barbs",
+    "description": "Inflicts damage to the attacker on contact.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-iron-fist",
+    "slug": "iron-fist",
+    "name": "Iron Fist",
+    "description": "Powers up punching moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-justified",
+    "slug": "justified",
+    "name": "Justified",
+    "description": "Boosts the Attack stat when it\u2019s hit by a Dark-type move.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-keen-eye",
+    "slug": "keen-eye",
+    "name": "Keen Eye",
+    "description": "Prevents other Pok\u00e9mon from lowering accuracy.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-klutz",
+    "slug": "klutz",
+    "name": "Klutz",
+    "description": "The Pok\u00e9mon can\u2019t use any held items.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-leaf-guard",
+    "slug": "leaf-guard",
+    "name": "Leaf Guard",
+    "description": "Prevents status conditions in sunny weather.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-levitate",
+    "slug": "levitate",
+    "name": "Levitate",
+    "description": "Gives full immunity to all Ground-type moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-light-metal",
+    "slug": "light-metal",
+    "name": "Light Metal",
+    "description": "Halves the Pok\u00e9mon\u2019s weight.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-lightning-rod",
+    "slug": "lightning-rod",
+    "name": "Lightning Rod",
+    "description": "Draws in all Electric-type moves to boost its Sp. Atk stat.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-limber",
+    "slug": "limber",
+    "name": "Limber",
+    "description": "Protects the Pok\u00e9mon from paralysis.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-liquid-ooze",
+    "slug": "liquid-ooze",
+    "name": "Liquid Ooze",
+    "description": "Damages attackers using any draining move.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-magic-bounce",
+    "slug": "magic-bounce",
+    "name": "Magic Bounce",
+    "description": "Reflects status moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-magic-guard",
+    "slug": "magic-guard",
+    "name": "Magic Guard",
+    "description": "The Pok\u00e9mon only takes damage from attacks.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-magician",
+    "slug": "magician",
+    "name": "Magician",
+    "description": "The Pok\u00e9mon steals the held item of a Pok\u00e9mon it hits with a move.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-magma-armor",
+    "slug": "magma-armor",
+    "name": "Magma Armor",
+    "description": "Prevents the Pok\u00e9mon from becoming frozen.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-magnet-pull",
+    "slug": "magnet-pull",
+    "name": "Magnet Pull",
+    "description": "Prevents Steel-type Pok\u00e9mon from escaping.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-marvel-scale",
+    "slug": "marvel-scale",
+    "name": "Marvel Scale",
+    "description": "Boosts the Defense stat if the Pok\u00e9mon has a status condition.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-mega-launcher",
+    "slug": "mega-launcher",
+    "name": "Mega Launcher",
+    "description": "Powers up aura and pulse moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-minus",
+    "slug": "minus",
+    "name": "Minus",
+    "description": "Boosts the Sp. Atk stat if another Pok\u00e9mon has Plus or Minus.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-mold-breaker",
+    "slug": "mold-breaker",
+    "name": "Mold Breaker",
+    "description": "Moves can be used on the target regardless of its Abilities.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-moody",
+    "slug": "moody",
+    "name": "Moody",
+    "description": "Raises one stat and lowers another.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-motor-drive",
+    "slug": "motor-drive",
+    "name": "Motor Drive",
+    "description": "Boosts the Speed stat when it\u2019s hit by an Electric-type move.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-moxie",
+    "slug": "moxie",
+    "name": "Moxie",
+    "description": "Boosts the Attack stat after knocking out any Pok\u00e9mon.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-multiscale",
+    "slug": "multiscale",
+    "name": "Multiscale",
+    "description": "Reduces damage the Pok\u00e9mon takes when its HP is full.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-multitype",
+    "slug": "multitype",
+    "name": "Multitype",
+    "description": "Changes the Pok\u00e9mon\u2019s type to match the Plate it holds.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-mummy",
+    "slug": "mummy",
+    "name": "Mummy",
+    "description": "Contact with the Pok\u00e9mon spreads this Ability.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-natural-cure",
+    "slug": "natural-cure",
+    "name": "Natural Cure",
+    "description": "All status conditions heal when the Pok\u00e9mon switches out.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-no-guard",
+    "slug": "no-guard",
+    "name": "No Guard",
+    "description": "Ensures attacks by or against the Pok\u00e9mon land.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-normalize",
+    "slug": "normalize",
+    "name": "Normalize",
+    "description": "All the Pok\u00e9mon\u2019s moves become Normal type.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-oblivious",
+    "slug": "oblivious",
+    "name": "Oblivious",
+    "description": "Keeps the Pok\u00e9mon from being infatuated or falling for taunts.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-overcoat",
+    "slug": "overcoat",
+    "name": "Overcoat",
+    "description": "Protects the Pok\u00e9mon from things like sand, hail, and powder.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-overgrow",
+    "slug": "overgrow",
+    "name": "Overgrow",
+    "description": "Powers up Grass-type moves when the Pok\u00e9mon is in trouble.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-own-tempo",
+    "slug": "own-tempo",
+    "name": "Own Tempo",
+    "description": "Prevents the Pok\u00e9mon from becoming confused.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-parental-bond",
+    "slug": "parental-bond",
+    "name": "Parental Bond",
+    "description": "Parent and child attack together.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-pickpocket",
+    "slug": "pickpocket",
+    "name": "Pickpocket",
+    "description": "Steals an item from an attacker that made direct contact.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-pickup",
+    "slug": "pickup",
+    "name": "Pickup",
+    "description": "The Pok\u00e9mon may pick up items.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-pixilate",
+    "slug": "pixilate",
+    "name": "Pixilate",
+    "description": "Normal-type moves become Fairy-type moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-plus",
+    "slug": "plus",
+    "name": "Plus",
+    "description": "Boosts the Sp. Atk stat if another Pok\u00e9mon has Plus or Minus.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-poison-heal",
+    "slug": "poison-heal",
+    "name": "Poison Heal",
+    "description": "Restores HP if the Pok\u00e9mon is poisoned.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-poison-point",
+    "slug": "poison-point",
+    "name": "Poison Point",
+    "description": "Contact with the Pok\u00e9mon may poison the attacker.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-poison-touch",
+    "slug": "poison-touch",
+    "name": "Poison Touch",
+    "description": "May poison a target when the Pok\u00e9mon makes contact.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-prankster",
+    "slug": "prankster",
+    "name": "Prankster",
+    "description": "Gives priority to a status move.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-pressure",
+    "slug": "pressure",
+    "name": "Pressure",
+    "description": "The Pok\u00e9mon raises opposing Pok\u00e9mon\u2019s PP usage.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-protean",
+    "slug": "protean",
+    "name": "Protean",
+    "description": "Changes the Pok\u00e9mon\u2019s type to the type of the move it\u2019s using.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-pure-power",
+    "slug": "pure-power",
+    "name": "Pure Power",
+    "description": "Boosts the Pok\u00e9mon\u2019s Attack stat.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-quick-feet",
+    "slug": "quick-feet",
+    "name": "Quick Feet",
+    "description": "Boosts the Speed stat if the Pok\u00e9mon has a status condition.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-rain-dish",
+    "slug": "rain-dish",
+    "name": "Rain Dish",
+    "description": "The Pok\u00e9mon gradually regains HP in rain.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-rattled",
+    "slug": "rattled",
+    "name": "Rattled",
+    "description": "Some move types scare it and boost its Speed stat.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-reckless",
+    "slug": "reckless",
+    "name": "Reckless",
+    "description": "Powers up moves that have recoil damage.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-refrigerate",
+    "slug": "refrigerate",
+    "name": "Refrigerate",
+    "description": "Normal-type moves become Ice-type moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-regenerator",
+    "slug": "regenerator",
+    "name": "Regenerator",
+    "description": "Restores a little HP when withdrawn from battle.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-rivalry",
+    "slug": "rivalry",
+    "name": "Rivalry",
+    "description": "Deals more damage to Pok\u00e9mon of the same gender.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-rock-head",
+    "slug": "rock-head",
+    "name": "Rock Head",
+    "description": "Protects the Pok\u00e9mon from recoil damage.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-rough-skin",
+    "slug": "rough-skin",
+    "name": "Rough Skin",
+    "description": "Inflicts damage to the attacker on contact.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-run-away",
+    "slug": "run-away",
+    "name": "Run Away",
+    "description": "Enables a sure getaway from wild Pok\u00e9mon.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-sand-force",
+    "slug": "sand-force",
+    "name": "Sand Force",
+    "description": "Boosts certain moves\u2019 power in a sandstorm.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-sand-rush",
+    "slug": "sand-rush",
+    "name": "Sand Rush",
+    "description": "Boosts the Pok\u00e9mon\u2019s Speed stat in a sandstorm.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-sand-stream",
+    "slug": "sand-stream",
+    "name": "Sand Stream",
+    "description": "The Pok\u00e9mon summons a sandstorm in battle.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-sand-veil",
+    "slug": "sand-veil",
+    "name": "Sand Veil",
+    "description": "Boosts the Pok\u00e9mon\u2019s evasion in a sandstorm.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-sap-sipper",
+    "slug": "sap-sipper",
+    "name": "Sap Sipper",
+    "description": "Boosts the Attack stat when hit by a Grass-type move.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-scrappy",
+    "slug": "scrappy",
+    "name": "Scrappy",
+    "description": "Makes Normal- and Fighting-type moves hit Ghost-type Pok\u00e9mon.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-serene-grace",
+    "slug": "serene-grace",
+    "name": "Serene Grace",
+    "description": "Boosts the likelihood of additional effects occurring.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-shadow-tag",
+    "slug": "shadow-tag",
+    "name": "Shadow Tag",
+    "description": "Prevents opposing Pok\u00e9mon from escaping.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-shed-skin",
+    "slug": "shed-skin",
+    "name": "Shed Skin",
+    "description": "The Pok\u00e9mon may heal its own status conditions.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-sheer-force",
+    "slug": "sheer-force",
+    "name": "Sheer Force",
+    "description": "Removes additional effects to increase move damage.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-shell-armor",
+    "slug": "shell-armor",
+    "name": "Shell Armor",
+    "description": "Protects the Pok\u00e9mon from critical hits.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-shield-dust",
+    "slug": "shield-dust",
+    "name": "Shield Dust",
+    "description": "Blocks the additional effects of attacks taken.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-simple",
+    "slug": "simple",
+    "name": "Simple",
+    "description": "The Pok\u00e9mon is prone to wild stat changes.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-skill-link",
+    "slug": "skill-link",
+    "name": "Skill Link",
+    "description": "Increases the number of times multi-strike moves hit.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-slow-start",
+    "slug": "slow-start",
+    "name": "Slow Start",
+    "description": "Temporarily halves the Pok\u00e9mon\u2019s Attack and Speed stats.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-sniper",
+    "slug": "sniper",
+    "name": "Sniper",
+    "description": "Powers up moves if they become critical hits.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-snow-cloak",
+    "slug": "snow-cloak",
+    "name": "Snow Cloak",
+    "description": "Boosts evasion in a hailstorm.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-snow-warning",
+    "slug": "snow-warning",
+    "name": "Snow Warning",
+    "description": "The Pok\u00e9mon summons a hailstorm when it enters a battle.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-solar-power",
+    "slug": "solar-power",
+    "name": "Solar Power",
+    "description": "Boosts the Sp. Atk stat in sunny weather, but HP decreases.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-solid-rock",
+    "slug": "solid-rock",
+    "name": "Solid Rock",
+    "description": "Reduces damage from supereffective attacks.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-soundproof",
+    "slug": "soundproof",
+    "name": "Soundproof",
+    "description": "Gives full immunity to all sound-based moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-speed-boost",
+    "slug": "speed-boost",
+    "name": "Speed Boost",
+    "description": "Its Speed stat is gradually boosted.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-stall",
+    "slug": "stall",
+    "name": "Stall",
+    "description": "The Pok\u00e9mon moves after all other Pok\u00e9mon do.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-stance-change",
+    "slug": "stance-change",
+    "name": "Stance Change",
+    "description": "The Pok\u00e9mon changes form depending on how it battles.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-static",
+    "slug": "static",
+    "name": "Static",
+    "description": "Contact with the Pok\u00e9mon may cause paralysis.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-steadfast",
+    "slug": "steadfast",
+    "name": "Steadfast",
+    "description": "Boosts the Speed stat each time the Pok\u00e9mon flinches.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-stench",
+    "slug": "stench",
+    "name": "Stench",
+    "description": "The stench may cause the target to flinch.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-sticky-hold",
+    "slug": "sticky-hold",
+    "name": "Sticky Hold",
+    "description": "Protects the Pok\u00e9mon from item theft.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-storm-drain",
+    "slug": "storm-drain",
+    "name": "Storm Drain",
+    "description": "Draws in all Water-type moves to boost its Sp. Atk stat.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-strong-jaw",
+    "slug": "strong-jaw",
+    "name": "Strong Jaw",
+    "description": "The Pok\u00e9mon\u2019s strong jaw gives it tremendous biting power.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-sturdy",
+    "slug": "sturdy",
+    "name": "Sturdy",
+    "description": "It cannot be knocked out with one hit.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-suction-cups",
+    "slug": "suction-cups",
+    "name": "Suction Cups",
+    "description": "Negates all moves and items that force switching out.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-super-luck",
+    "slug": "super-luck",
+    "name": "Super Luck",
+    "description": "Boosts the critical-hit ratios of moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-swarm",
+    "slug": "swarm",
+    "name": "Swarm",
+    "description": "Powers up Bug-type moves when the Pok\u00e9mon is in trouble.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-sweet-veil",
+    "slug": "sweet-veil",
+    "name": "Sweet Veil",
+    "description": "Prevents itself and ally Pok\u00e9mon from falling asleep.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-swift-swim",
+    "slug": "swift-swim",
+    "name": "Swift Swim",
+    "description": "Boosts the Pok\u00e9mon\u2019s Speed stat in rain.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-symbiosis",
+    "slug": "symbiosis",
+    "name": "Symbiosis",
+    "description": "The Pok\u00e9mon can pass an item to an ally.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-synchronize",
+    "slug": "synchronize",
+    "name": "Synchronize",
+    "description": "Passes poison, paralyze, or burn to the Pok\u00e9mon that inflicted it.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-tangled-feet",
+    "slug": "tangled-feet",
+    "name": "Tangled Feet",
+    "description": "Raises evasion if the Pok\u00e9mon is confused.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-technician",
+    "slug": "technician",
+    "name": "Technician",
+    "description": "Powers up the Pok\u00e9mon\u2019s weaker moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-telepathy",
+    "slug": "telepathy",
+    "name": "Telepathy",
+    "description": "Anticipates an ally\u2019s attack and dodges it.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-teravolt",
+    "slug": "teravolt",
+    "name": "Teravolt",
+    "description": "Moves can be used on the target regardless of its Abilities.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-thick-fat",
+    "slug": "thick-fat",
+    "name": "Thick Fat",
+    "description": "Boosts resistance to Fire-\u200b and Ice-type moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-tinted-lens",
+    "slug": "tinted-lens",
+    "name": "Tinted Lens",
+    "description": "Powers up \u201cnot very effective\u201d moves.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-torrent",
+    "slug": "torrent",
+    "name": "Torrent",
+    "description": "Powers up Water-type moves when the Pok\u00e9mon is in trouble.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-tough-claws",
+    "slug": "tough-claws",
+    "name": "Tough Claws",
+    "description": "Powers up moves that make direct contact.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-toxic-boost",
+    "slug": "toxic-boost",
+    "name": "Toxic Boost",
+    "description": "Powers up physical attacks when the Pok\u00e9mon is poisoned.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-trace",
+    "slug": "trace",
+    "name": "Trace",
+    "description": "The Pok\u00e9mon copies an opposing Pok\u00e9mon\u2019s Ability.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-truant",
+    "slug": "truant",
+    "name": "Truant",
+    "description": "The Pok\u00e9mon can\u2019t attack on consecutive turns.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-turboblaze",
+    "slug": "turboblaze",
+    "name": "Turboblaze",
+    "description": "Moves can be used on the target regardless of its Abilities.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-unaware",
+    "slug": "unaware",
+    "name": "Unaware",
+    "description": "Ignores the opposing Pok\u00e9mon\u2019s stat changes.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-unburden",
+    "slug": "unburden",
+    "name": "Unburden",
+    "description": "Boosts the Speed stat if its held item is used or lost.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-unnerve",
+    "slug": "unnerve",
+    "name": "Unnerve",
+    "description": "Unnerves opposing Pok\u00e9mon and makes them unable to eat Berries.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-victory-star",
+    "slug": "victory-star",
+    "name": "Victory Star",
+    "description": "Boosts the accuracy of its allies and itself.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-vital-spirit",
+    "slug": "vital-spirit",
+    "name": "Vital Spirit",
+    "description": "Prevents the Pok\u00e9mon from falling asleep.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-volt-absorb",
+    "slug": "volt-absorb",
+    "name": "Volt Absorb",
+    "description": "Restores HP if hit by an Electric-type move.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-water-absorb",
+    "slug": "water-absorb",
+    "name": "Water Absorb",
+    "description": "Restores HP if hit by a Water-type move.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-water-veil",
+    "slug": "water-veil",
+    "name": "Water Veil",
+    "description": "Prevents the Pok\u00e9mon from getting a burn.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-weak-armor",
+    "slug": "weak-armor",
+    "name": "Weak Armor",
+    "description": "Physical attacks lower its Defense stat and raise its Speed stat.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-white-smoke",
+    "slug": "white-smoke",
+    "name": "White Smoke",
+    "description": "Prevents other Pok\u00e9mon from lowering its stats.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-wonder-guard",
+    "slug": "wonder-guard",
+    "name": "Wonder Guard",
+    "description": "Only supereffective moves will hit.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-wonder-skin",
+    "slug": "wonder-skin",
+    "name": "Wonder Skin",
+    "description": "Makes status moves more likely to miss.",
+    "source": "vanilla"
+  },
+  {
+    "id": "ability-zen-mode",
+    "slug": "zen-mode",
+    "name": "Zen Mode",
+    "description": "Changes the Pok\u00e9mon\u2019s shape when HP is half or less.",
+    "source": "vanilla"
+  }
+]

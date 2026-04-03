@@ -1,0 +1,2786 @@
+[
+  {
+    "id": "evolution-pokemon-0001-to-pokemon-0002",
+    "fromPokemonId": "pokemon-0001",
+    "toPokemonId": "pokemon-0002",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0002-to-pokemon-0003",
+    "fromPokemonId": "pokemon-0002",
+    "toPokemonId": "pokemon-0003",
+    "method": "Level Up [32]"
+  },
+  {
+    "id": "evolution-pokemon-0003-to-pokemon-0003-mega-venusaur",
+    "fromPokemonId": "pokemon-0003",
+    "toPokemonId": "pokemon-0003-mega-venusaur",
+    "method": "Hold [Venusaurite]"
+  },
+  {
+    "id": "evolution-pokemon-0004-to-pokemon-0005",
+    "fromPokemonId": "pokemon-0004",
+    "toPokemonId": "pokemon-0005",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0005-to-pokemon-0006",
+    "fromPokemonId": "pokemon-0005",
+    "toPokemonId": "pokemon-0006",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0006-mega-charizard-x",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0006-mega-charizard-x",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0006-mega-charizard-y",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0006-mega-charizard-y",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0016",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0016",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0035",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0035",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0056",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0056",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0092",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0092",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0098",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0098",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0113",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0113",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0150-mega-mewtwo-y",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0150-mega-mewtwo-y",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0180",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0180",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0224",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0224",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0227",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0227",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0231",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0231",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0240",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0240",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0242",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0242",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0267",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0267",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0275",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0275",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0300",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0300",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0301",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0301",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0343",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0343",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0346",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0346",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0396",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0396",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0405",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0405",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0427",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0427",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0428",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0428",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0432",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0432",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0434",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0434",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0438",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0438",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0440",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0440",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0463",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0463",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0490",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0490",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0495",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0495",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0542",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0542",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0559",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0559",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0560",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0560",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0628",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0628",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0629",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0629",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0659",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0659",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0660",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0660",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0686",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0686",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0006-to-pokemon-0704",
+    "fromPokemonId": "pokemon-0006",
+    "toPokemonId": "pokemon-0704",
+    "method": "Hold [Charizardite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0007-to-pokemon-0008",
+    "fromPokemonId": "pokemon-0007",
+    "toPokemonId": "pokemon-0008",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0008-to-pokemon-0009",
+    "fromPokemonId": "pokemon-0008",
+    "toPokemonId": "pokemon-0009",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0009-to-pokemon-0009-mega-blastoise",
+    "fromPokemonId": "pokemon-0009",
+    "toPokemonId": "pokemon-0009-mega-blastoise",
+    "method": "Hold [Blastoisinite]"
+  },
+  {
+    "id": "evolution-pokemon-0010-to-pokemon-0011",
+    "fromPokemonId": "pokemon-0010",
+    "toPokemonId": "pokemon-0011",
+    "method": "Level Up [7]"
+  },
+  {
+    "id": "evolution-pokemon-0011-to-pokemon-0012",
+    "fromPokemonId": "pokemon-0011",
+    "toPokemonId": "pokemon-0012",
+    "method": "Level Up [10]"
+  },
+  {
+    "id": "evolution-pokemon-0013-to-pokemon-0014",
+    "fromPokemonId": "pokemon-0013",
+    "toPokemonId": "pokemon-0014",
+    "method": "Level Up [7]"
+  },
+  {
+    "id": "evolution-pokemon-0014-to-pokemon-0015",
+    "fromPokemonId": "pokemon-0014",
+    "toPokemonId": "pokemon-0015",
+    "method": "Level Up [10]"
+  },
+  {
+    "id": "evolution-pokemon-0016-to-pokemon-0017",
+    "fromPokemonId": "pokemon-0016",
+    "toPokemonId": "pokemon-0017",
+    "method": "Level Up [18]"
+  },
+  {
+    "id": "evolution-pokemon-0017-to-pokemon-0018",
+    "fromPokemonId": "pokemon-0017",
+    "toPokemonId": "pokemon-0018",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0019-to-pokemon-0020",
+    "fromPokemonId": "pokemon-0019",
+    "toPokemonId": "pokemon-0020",
+    "method": "Level Up [20]"
+  },
+  {
+    "id": "evolution-pokemon-0021-to-pokemon-0022",
+    "fromPokemonId": "pokemon-0021",
+    "toPokemonId": "pokemon-0022",
+    "method": "Level Up [20]"
+  },
+  {
+    "id": "evolution-pokemon-0023-to-pokemon-0024",
+    "fromPokemonId": "pokemon-0023",
+    "toPokemonId": "pokemon-0024",
+    "method": "Level Up [22]"
+  },
+  {
+    "id": "evolution-pokemon-0025-to-pokemon-0026",
+    "fromPokemonId": "pokemon-0025",
+    "toPokemonId": "pokemon-0026",
+    "method": "Use [Thunder Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0027-to-pokemon-0028",
+    "fromPokemonId": "pokemon-0027",
+    "toPokemonId": "pokemon-0028",
+    "method": "Level Up [22]"
+  },
+  {
+    "id": "evolution-pokemon-0029-to-pokemon-0030",
+    "fromPokemonId": "pokemon-0029",
+    "toPokemonId": "pokemon-0030",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0030-to-pokemon-0031",
+    "fromPokemonId": "pokemon-0030",
+    "toPokemonId": "pokemon-0031",
+    "method": "Use [Moon Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0032-to-pokemon-0033",
+    "fromPokemonId": "pokemon-0032",
+    "toPokemonId": "pokemon-0033",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0033-to-pokemon-0034",
+    "fromPokemonId": "pokemon-0033",
+    "toPokemonId": "pokemon-0034",
+    "method": "Use [Moon Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0035-to-pokemon-0036",
+    "fromPokemonId": "pokemon-0035",
+    "toPokemonId": "pokemon-0036",
+    "method": "Use [Moon Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0037-to-pokemon-0038",
+    "fromPokemonId": "pokemon-0037",
+    "toPokemonId": "pokemon-0038",
+    "method": "Use [Fire Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0039-to-pokemon-0040",
+    "fromPokemonId": "pokemon-0039",
+    "toPokemonId": "pokemon-0040",
+    "method": "Use [Moon Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0041-to-pokemon-0042",
+    "fromPokemonId": "pokemon-0041",
+    "toPokemonId": "pokemon-0042",
+    "method": "Level Up [22]"
+  },
+  {
+    "id": "evolution-pokemon-0042-to-pokemon-0169",
+    "fromPokemonId": "pokemon-0042",
+    "toPokemonId": "pokemon-0169",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0043-to-pokemon-0044",
+    "fromPokemonId": "pokemon-0043",
+    "toPokemonId": "pokemon-0044",
+    "method": "Level Up [21]"
+  },
+  {
+    "id": "evolution-pokemon-0044-to-pokemon-0045",
+    "fromPokemonId": "pokemon-0044",
+    "toPokemonId": "pokemon-0045",
+    "method": "Use [Leaf Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0044-to-pokemon-0182",
+    "fromPokemonId": "pokemon-0044",
+    "toPokemonId": "pokemon-0182",
+    "method": "Use [Sun Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0046-to-pokemon-0047",
+    "fromPokemonId": "pokemon-0046",
+    "toPokemonId": "pokemon-0047",
+    "method": "Level Up [24]"
+  },
+  {
+    "id": "evolution-pokemon-0048-to-pokemon-0049",
+    "fromPokemonId": "pokemon-0048",
+    "toPokemonId": "pokemon-0049",
+    "method": "Level Up [31]"
+  },
+  {
+    "id": "evolution-pokemon-0050-to-pokemon-0050",
+    "fromPokemonId": "pokemon-0050",
+    "toPokemonId": "pokemon-0050",
+    "method": "Level Up [26]"
+  },
+  {
+    "id": "evolution-pokemon-0052-to-pokemon-0053",
+    "fromPokemonId": "pokemon-0052",
+    "toPokemonId": "pokemon-0053",
+    "method": "Level Up [28]"
+  },
+  {
+    "id": "evolution-pokemon-0054-to-pokemon-0055",
+    "fromPokemonId": "pokemon-0054",
+    "toPokemonId": "pokemon-0055",
+    "method": "Level Up [33]"
+  },
+  {
+    "id": "evolution-pokemon-0056-to-pokemon-0057",
+    "fromPokemonId": "pokemon-0056",
+    "toPokemonId": "pokemon-0057",
+    "method": "Level Up [28]"
+  },
+  {
+    "id": "evolution-pokemon-0058-to-pokemon-0059",
+    "fromPokemonId": "pokemon-0058",
+    "toPokemonId": "pokemon-0059",
+    "method": "Use [Fire Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0060-to-pokemon-0061",
+    "fromPokemonId": "pokemon-0060",
+    "toPokemonId": "pokemon-0061",
+    "method": "Level Up [25]"
+  },
+  {
+    "id": "evolution-pokemon-0061-to-pokemon-0062",
+    "fromPokemonId": "pokemon-0061",
+    "toPokemonId": "pokemon-0062",
+    "method": "Use [Water Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0061-to-pokemon-0186",
+    "fromPokemonId": "pokemon-0061",
+    "toPokemonId": "pokemon-0186",
+    "method": "Level Up while holding [King's Rock]"
+  },
+  {
+    "id": "evolution-pokemon-0063-to-pokemon-0064",
+    "fromPokemonId": "pokemon-0063",
+    "toPokemonId": "pokemon-0064",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0064-to-pokemon-0065",
+    "fromPokemonId": "pokemon-0064",
+    "toPokemonId": "pokemon-0065",
+    "method": "Level Up [38]"
+  },
+  {
+    "id": "evolution-pokemon-0065-to-pokemon-0065-mega-alakazam",
+    "fromPokemonId": "pokemon-0065",
+    "toPokemonId": "pokemon-0065-mega-alakazam",
+    "method": "Hold [Alakazite]"
+  },
+  {
+    "id": "evolution-pokemon-0066-to-pokemon-0067",
+    "fromPokemonId": "pokemon-0066",
+    "toPokemonId": "pokemon-0067",
+    "method": "Level Up [28]"
+  },
+  {
+    "id": "evolution-pokemon-0067-to-pokemon-0068",
+    "fromPokemonId": "pokemon-0067",
+    "toPokemonId": "pokemon-0068",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0069-to-pokemon-0070",
+    "fromPokemonId": "pokemon-0069",
+    "toPokemonId": "pokemon-0070",
+    "method": "Level Up [21]"
+  },
+  {
+    "id": "evolution-pokemon-0070-to-pokemon-0071",
+    "fromPokemonId": "pokemon-0070",
+    "toPokemonId": "pokemon-0071",
+    "method": "Use [Leaf Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0072-to-pokemon-0073",
+    "fromPokemonId": "pokemon-0072",
+    "toPokemonId": "pokemon-0073",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0074-to-pokemon-0075",
+    "fromPokemonId": "pokemon-0074",
+    "toPokemonId": "pokemon-0075",
+    "method": "Level Up [25]"
+  },
+  {
+    "id": "evolution-pokemon-0075-to-pokemon-0076",
+    "fromPokemonId": "pokemon-0075",
+    "toPokemonId": "pokemon-0076",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0077-to-pokemon-0078",
+    "fromPokemonId": "pokemon-0077",
+    "toPokemonId": "pokemon-0078",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0079-to-pokemon-0080",
+    "fromPokemonId": "pokemon-0079",
+    "toPokemonId": "pokemon-0080",
+    "method": "Level Up [37]"
+  },
+  {
+    "id": "evolution-pokemon-0079-to-pokemon-0199",
+    "fromPokemonId": "pokemon-0079",
+    "toPokemonId": "pokemon-0199",
+    "method": "Level Up while holding [King's Rock]"
+  },
+  {
+    "id": "evolution-pokemon-0081-to-pokemon-0082",
+    "fromPokemonId": "pokemon-0081",
+    "toPokemonId": "pokemon-0082",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0082-to-pokemon-0462",
+    "fromPokemonId": "pokemon-0082",
+    "toPokemonId": "pokemon-0462",
+    "method": "Use [Thunder Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0084-to-pokemon-0085",
+    "fromPokemonId": "pokemon-0084",
+    "toPokemonId": "pokemon-0085",
+    "method": "Level Up [31]"
+  },
+  {
+    "id": "evolution-pokemon-0086-to-pokemon-0087",
+    "fromPokemonId": "pokemon-0086",
+    "toPokemonId": "pokemon-0087",
+    "method": "Level Up [34]"
+  },
+  {
+    "id": "evolution-pokemon-0088-to-pokemon-0089",
+    "fromPokemonId": "pokemon-0088",
+    "toPokemonId": "pokemon-0089",
+    "method": "Level Up [38]"
+  },
+  {
+    "id": "evolution-pokemon-0090-to-pokemon-0091",
+    "fromPokemonId": "pokemon-0090",
+    "toPokemonId": "pokemon-0091",
+    "method": "Use [Water Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0092-to-pokemon-0093",
+    "fromPokemonId": "pokemon-0092",
+    "toPokemonId": "pokemon-0093",
+    "method": "Level Up [25]"
+  },
+  {
+    "id": "evolution-pokemon-0093-to-pokemon-0094",
+    "fromPokemonId": "pokemon-0093",
+    "toPokemonId": "pokemon-0094",
+    "method": "Level Up [38]"
+  },
+  {
+    "id": "evolution-pokemon-0094-mega-gengar-to-pokemon-0094-mega-gengar",
+    "fromPokemonId": "pokemon-0094-mega-gengar",
+    "toPokemonId": "pokemon-0094-mega-gengar",
+    "method": "Hold [Gengarite]"
+  },
+  {
+    "id": "evolution-pokemon-0095-to-pokemon-0208",
+    "fromPokemonId": "pokemon-0095",
+    "toPokemonId": "pokemon-0208",
+    "method": "Level Up while holding [Metal Coat]"
+  },
+  {
+    "id": "evolution-pokemon-0096-to-pokemon-0097",
+    "fromPokemonId": "pokemon-0096",
+    "toPokemonId": "pokemon-0097",
+    "method": "Level Up [26]"
+  },
+  {
+    "id": "evolution-pokemon-0098-to-pokemon-0099",
+    "fromPokemonId": "pokemon-0098",
+    "toPokemonId": "pokemon-0099",
+    "method": "Level Up [28]"
+  },
+  {
+    "id": "evolution-pokemon-0100-to-pokemon-0101",
+    "fromPokemonId": "pokemon-0100",
+    "toPokemonId": "pokemon-0101",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0102-to-pokemon-0103",
+    "fromPokemonId": "pokemon-0102",
+    "toPokemonId": "pokemon-0103",
+    "method": "Use [Leaf Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0104-to-pokemon-0105",
+    "fromPokemonId": "pokemon-0104",
+    "toPokemonId": "pokemon-0105",
+    "method": "Level Up [28]"
+  },
+  {
+    "id": "evolution-pokemon-0108-to-pokemon-0463",
+    "fromPokemonId": "pokemon-0108",
+    "toPokemonId": "pokemon-0463",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0109-to-pokemon-0110",
+    "fromPokemonId": "pokemon-0109",
+    "toPokemonId": "pokemon-0110",
+    "method": "Level Up [35]"
+  },
+  {
+    "id": "evolution-pokemon-0111-to-pokemon-0112",
+    "fromPokemonId": "pokemon-0111",
+    "toPokemonId": "pokemon-0112",
+    "method": "Level Up [42]"
+  },
+  {
+    "id": "evolution-pokemon-0112-to-pokemon-0464",
+    "fromPokemonId": "pokemon-0112",
+    "toPokemonId": "pokemon-0464",
+    "method": "Level Up while holding [Protector]"
+  },
+  {
+    "id": "evolution-pokemon-0113-to-pokemon-0242",
+    "fromPokemonId": "pokemon-0113",
+    "toPokemonId": "pokemon-0242",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0114-to-pokemon-0465",
+    "fromPokemonId": "pokemon-0114",
+    "toPokemonId": "pokemon-0465",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0115-to-pokemon-0115-mega-kangaskhan",
+    "fromPokemonId": "pokemon-0115",
+    "toPokemonId": "pokemon-0115-mega-kangaskhan",
+    "method": "Hold [Kangaskhanite]"
+  },
+  {
+    "id": "evolution-pokemon-0116-to-pokemon-0117",
+    "fromPokemonId": "pokemon-0116",
+    "toPokemonId": "pokemon-0117",
+    "method": "Level Up [32]"
+  },
+  {
+    "id": "evolution-pokemon-0117-to-pokemon-0230",
+    "fromPokemonId": "pokemon-0117",
+    "toPokemonId": "pokemon-0230",
+    "method": "Level Up while holding [Dragon Scale]"
+  },
+  {
+    "id": "evolution-pokemon-0118-to-pokemon-0119",
+    "fromPokemonId": "pokemon-0118",
+    "toPokemonId": "pokemon-0119",
+    "method": "Level Up [33]"
+  },
+  {
+    "id": "evolution-pokemon-0120-to-pokemon-0230",
+    "fromPokemonId": "pokemon-0120",
+    "toPokemonId": "pokemon-0230",
+    "method": "Use [Water Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0123-to-pokemon-0212",
+    "fromPokemonId": "pokemon-0123",
+    "toPokemonId": "pokemon-0212",
+    "method": "Level Up while holding [Metal Coat]"
+  },
+  {
+    "id": "evolution-pokemon-0125-to-pokemon-0466",
+    "fromPokemonId": "pokemon-0125",
+    "toPokemonId": "pokemon-0466",
+    "method": "Level Up while holding [Electirizer]"
+  },
+  {
+    "id": "evolution-pokemon-0126-to-pokemon-0467",
+    "fromPokemonId": "pokemon-0126",
+    "toPokemonId": "pokemon-0467",
+    "method": "Level Up while holding [Magmarizer]"
+  },
+  {
+    "id": "evolution-pokemon-0127-to-pokemon-0127-mega-pinsir",
+    "fromPokemonId": "pokemon-0127",
+    "toPokemonId": "pokemon-0127-mega-pinsir",
+    "method": "Hold [Pinsirite]"
+  },
+  {
+    "id": "evolution-pokemon-0129-to-pokemon-0130",
+    "fromPokemonId": "pokemon-0129",
+    "toPokemonId": "pokemon-0130",
+    "method": "Level Up [20]"
+  },
+  {
+    "id": "evolution-pokemon-0130-to-pokemon-0130-mega-gyarados",
+    "fromPokemonId": "pokemon-0130",
+    "toPokemonId": "pokemon-0130-mega-gyarados",
+    "method": "Hold [Gyaradosite]"
+  },
+  {
+    "id": "evolution-pokemon-0133-to-pokemon-0134",
+    "fromPokemonId": "pokemon-0133",
+    "toPokemonId": "pokemon-0134",
+    "method": "Use [Water Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0133-to-pokemon-0135",
+    "fromPokemonId": "pokemon-0133",
+    "toPokemonId": "pokemon-0135",
+    "method": "/ Use [Thunder Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0133-to-pokemon-0136",
+    "fromPokemonId": "pokemon-0133",
+    "toPokemonId": "pokemon-0136",
+    "method": "Use [Fire Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0133-to-pokemon-0196",
+    "fromPokemonId": "pokemon-0133",
+    "toPokemonId": "pokemon-0196",
+    "method": "/ Use [Sun Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0133-to-pokemon-0197",
+    "fromPokemonId": "pokemon-0133",
+    "toPokemonId": "pokemon-0197",
+    "method": "Use [Moon Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0133-to-pokemon-0470",
+    "fromPokemonId": "pokemon-0133",
+    "toPokemonId": "pokemon-0470",
+    "method": "/ Use [Leaf Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0133-to-pokemon-0471",
+    "fromPokemonId": "pokemon-0133",
+    "toPokemonId": "pokemon-0471",
+    "method": "Use [Dawn Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0133-to-pokemon-0700",
+    "fromPokemonId": "pokemon-0133",
+    "toPokemonId": "pokemon-0700",
+    "method": "/ Use [Shiny Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0137-to-pokemon-0233",
+    "fromPokemonId": "pokemon-0137",
+    "toPokemonId": "pokemon-0233",
+    "method": "Level Up while holding [Upgrade]"
+  },
+  {
+    "id": "evolution-pokemon-0138-to-pokemon-0139",
+    "fromPokemonId": "pokemon-0138",
+    "toPokemonId": "pokemon-0139",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0140-to-pokemon-0141",
+    "fromPokemonId": "pokemon-0140",
+    "toPokemonId": "pokemon-0141",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0142-to-pokemon-0142-mega-aerodactyl",
+    "fromPokemonId": "pokemon-0142",
+    "toPokemonId": "pokemon-0142-mega-aerodactyl",
+    "method": "Hold [Aerodactylite]"
+  },
+  {
+    "id": "evolution-pokemon-0147-to-pokemon-0148",
+    "fromPokemonId": "pokemon-0147",
+    "toPokemonId": "pokemon-0148",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0148-to-pokemon-0149",
+    "fromPokemonId": "pokemon-0148",
+    "toPokemonId": "pokemon-0149",
+    "method": "Level Up [55]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0150-mega-mewtwo-x",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0150-mega-mewtwo-x",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0006-mega-charizard-y",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0006-mega-charizard-y",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0016",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0016",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0035",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0035",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0056",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0056",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0092",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0092",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0098",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0098",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0113",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0113",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0150-mega-mewtwo-y",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0150-mega-mewtwo-y",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0180",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0180",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0224",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0224",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0227",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0227",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0231",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0231",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0240",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0240",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0242",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0242",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0267",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0267",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0275",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0275",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0300",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0300",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0301",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0301",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0343",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0343",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0346",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0346",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0396",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0396",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0405",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0405",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0427",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0427",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0428",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0428",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0432",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0432",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0434",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0434",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0438",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0438",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0440",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0440",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0463",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0463",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0490",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0490",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0495",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0495",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0542",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0542",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0559",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0559",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0560",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0560",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0628",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0628",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0629",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0629",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0659",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0659",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0660",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0660",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0686",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0686",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0150-to-pokemon-0704",
+    "fromPokemonId": "pokemon-0150",
+    "toPokemonId": "pokemon-0704",
+    "method": "Hold [Mewtwonite X/Y]"
+  },
+  {
+    "id": "evolution-pokemon-0152-to-pokemon-0153",
+    "fromPokemonId": "pokemon-0152",
+    "toPokemonId": "pokemon-0153",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0153-to-pokemon-0154",
+    "fromPokemonId": "pokemon-0153",
+    "toPokemonId": "pokemon-0154",
+    "method": "Level Up [32]"
+  },
+  {
+    "id": "evolution-pokemon-0155-to-pokemon-0156",
+    "fromPokemonId": "pokemon-0155",
+    "toPokemonId": "pokemon-0156",
+    "method": "Level Up [14]"
+  },
+  {
+    "id": "evolution-pokemon-0156-to-pokemon-0157",
+    "fromPokemonId": "pokemon-0156",
+    "toPokemonId": "pokemon-0157",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0158-to-pokemon-0159",
+    "fromPokemonId": "pokemon-0158",
+    "toPokemonId": "pokemon-0159",
+    "method": "Level Up [18]"
+  },
+  {
+    "id": "evolution-pokemon-0159-to-pokemon-0160",
+    "fromPokemonId": "pokemon-0159",
+    "toPokemonId": "pokemon-0160",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0161-to-pokemon-0161",
+    "fromPokemonId": "pokemon-0161",
+    "toPokemonId": "pokemon-0161",
+    "method": "Level Up [15]"
+  },
+  {
+    "id": "evolution-pokemon-0163-to-pokemon-0164",
+    "fromPokemonId": "pokemon-0163",
+    "toPokemonId": "pokemon-0164",
+    "method": "Level Up [20]"
+  },
+  {
+    "id": "evolution-pokemon-0165-to-pokemon-0166",
+    "fromPokemonId": "pokemon-0165",
+    "toPokemonId": "pokemon-0166",
+    "method": "Level Up [18]"
+  },
+  {
+    "id": "evolution-pokemon-0167-to-pokemon-0168",
+    "fromPokemonId": "pokemon-0167",
+    "toPokemonId": "pokemon-0168",
+    "method": "Level Up [22]"
+  },
+  {
+    "id": "evolution-pokemon-0170-to-pokemon-0171",
+    "fromPokemonId": "pokemon-0170",
+    "toPokemonId": "pokemon-0171",
+    "method": "Level Up [27]"
+  },
+  {
+    "id": "evolution-pokemon-0172-to-pokemon-0025",
+    "fromPokemonId": "pokemon-0172",
+    "toPokemonId": "pokemon-0025",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0173-to-pokemon-0173",
+    "fromPokemonId": "pokemon-0173",
+    "toPokemonId": "pokemon-0173",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0174-to-pokemon-0039",
+    "fromPokemonId": "pokemon-0174",
+    "toPokemonId": "pokemon-0039",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0175-to-pokemon-0176",
+    "fromPokemonId": "pokemon-0175",
+    "toPokemonId": "pokemon-0176",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0176-to-pokemon-0468",
+    "fromPokemonId": "pokemon-0176",
+    "toPokemonId": "pokemon-0468",
+    "method": "Use [Shiny Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0177-to-pokemon-0178",
+    "fromPokemonId": "pokemon-0177",
+    "toPokemonId": "pokemon-0178",
+    "method": "Level Up [25]"
+  },
+  {
+    "id": "evolution-pokemon-0179-to-pokemon-0180",
+    "fromPokemonId": "pokemon-0179",
+    "toPokemonId": "pokemon-0180",
+    "method": "Level Up [15]"
+  },
+  {
+    "id": "evolution-pokemon-0180-to-pokemon-0181",
+    "fromPokemonId": "pokemon-0180",
+    "toPokemonId": "pokemon-0181",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0181-to-pokemon-0181-mega-ampharos",
+    "fromPokemonId": "pokemon-0181",
+    "toPokemonId": "pokemon-0181-mega-ampharos",
+    "method": "Hold [Ampharosite]"
+  },
+  {
+    "id": "evolution-pokemon-0183-to-pokemon-0184",
+    "fromPokemonId": "pokemon-0183",
+    "toPokemonId": "pokemon-0184",
+    "method": "Level Up [18]"
+  },
+  {
+    "id": "evolution-pokemon-0187-to-pokemon-0188",
+    "fromPokemonId": "pokemon-0187",
+    "toPokemonId": "pokemon-0188",
+    "method": "Level Up [18]"
+  },
+  {
+    "id": "evolution-pokemon-0188-to-pokemon-0189",
+    "fromPokemonId": "pokemon-0188",
+    "toPokemonId": "pokemon-0189",
+    "method": "Level Up [27]"
+  },
+  {
+    "id": "evolution-pokemon-0190-to-pokemon-0424",
+    "fromPokemonId": "pokemon-0190",
+    "toPokemonId": "pokemon-0424",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0191-to-pokemon-0192",
+    "fromPokemonId": "pokemon-0191",
+    "toPokemonId": "pokemon-0192",
+    "method": "Use [Sun Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0193-to-pokemon-0469",
+    "fromPokemonId": "pokemon-0193",
+    "toPokemonId": "pokemon-0469",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0194-to-pokemon-0195",
+    "fromPokemonId": "pokemon-0194",
+    "toPokemonId": "pokemon-0195",
+    "method": "Level Up [20]"
+  },
+  {
+    "id": "evolution-pokemon-0198-to-pokemon-0430",
+    "fromPokemonId": "pokemon-0198",
+    "toPokemonId": "pokemon-0430",
+    "method": "Use [Dusk Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0200-to-pokemon-0429",
+    "fromPokemonId": "pokemon-0200",
+    "toPokemonId": "pokemon-0429",
+    "method": "Use [Dusk Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0204-to-pokemon-0205",
+    "fromPokemonId": "pokemon-0204",
+    "toPokemonId": "pokemon-0205",
+    "method": "Level Up [31]"
+  },
+  {
+    "id": "evolution-pokemon-0207-to-pokemon-0472",
+    "fromPokemonId": "pokemon-0207",
+    "toPokemonId": "pokemon-0472",
+    "method": "Level Up while holding [Razor Fang]"
+  },
+  {
+    "id": "evolution-pokemon-0209-to-pokemon-0210",
+    "fromPokemonId": "pokemon-0209",
+    "toPokemonId": "pokemon-0210",
+    "method": "Level Up [23]"
+  },
+  {
+    "id": "evolution-pokemon-0212-to-pokemon-0212-mega-scizor",
+    "fromPokemonId": "pokemon-0212",
+    "toPokemonId": "pokemon-0212-mega-scizor",
+    "method": "Hold [Scizorite]"
+  },
+  {
+    "id": "evolution-pokemon-0214-to-pokemon-0214-mega-heracross",
+    "fromPokemonId": "pokemon-0214",
+    "toPokemonId": "pokemon-0214-mega-heracross",
+    "method": "Hold [Heracronite]"
+  },
+  {
+    "id": "evolution-pokemon-0215-to-pokemon-0461",
+    "fromPokemonId": "pokemon-0215",
+    "toPokemonId": "pokemon-0461",
+    "method": "Level Up while holding [Razor Claw]"
+  },
+  {
+    "id": "evolution-pokemon-0216-to-pokemon-0217",
+    "fromPokemonId": "pokemon-0216",
+    "toPokemonId": "pokemon-0217",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0218-to-pokemon-0219",
+    "fromPokemonId": "pokemon-0218",
+    "toPokemonId": "pokemon-0219",
+    "method": "Level Up [38]"
+  },
+  {
+    "id": "evolution-pokemon-0220-to-pokemon-0217",
+    "fromPokemonId": "pokemon-0220",
+    "toPokemonId": "pokemon-0217",
+    "method": "Level Up [33]"
+  },
+  {
+    "id": "evolution-pokemon-0221-to-pokemon-0473",
+    "fromPokemonId": "pokemon-0221",
+    "toPokemonId": "pokemon-0473",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0223-to-pokemon-0224",
+    "fromPokemonId": "pokemon-0223",
+    "toPokemonId": "pokemon-0224",
+    "method": "Level Up [25]"
+  },
+  {
+    "id": "evolution-pokemon-0228-to-pokemon-0229",
+    "fromPokemonId": "pokemon-0228",
+    "toPokemonId": "pokemon-0229",
+    "method": "Level Up [24]"
+  },
+  {
+    "id": "evolution-pokemon-0229-to-pokemon-0214-mega-heracross",
+    "fromPokemonId": "pokemon-0229",
+    "toPokemonId": "pokemon-0214-mega-heracross",
+    "method": "Hold [Houndoominite]"
+  },
+  {
+    "id": "evolution-pokemon-0231-to-pokemon-0232",
+    "fromPokemonId": "pokemon-0231",
+    "toPokemonId": "pokemon-0232",
+    "method": "Level Up [25]"
+  },
+  {
+    "id": "evolution-pokemon-0233-to-pokemon-0474",
+    "fromPokemonId": "pokemon-0233",
+    "toPokemonId": "pokemon-0474",
+    "method": "Level Up while holding [Dubious Disc]"
+  },
+  {
+    "id": "evolution-pokemon-0236-to-pokemon-0107",
+    "fromPokemonId": "pokemon-0236",
+    "toPokemonId": "pokemon-0107",
+    "method": "Level Up while holding [Kelpsy Berry]"
+  },
+  {
+    "id": "evolution-pokemon-0236-to-pokemon-0106",
+    "fromPokemonId": "pokemon-0236",
+    "toPokemonId": "pokemon-0106",
+    "method": "Level Up while holding [Qualot Berry]"
+  },
+  {
+    "id": "evolution-pokemon-0236-to-pokemon-0237",
+    "fromPokemonId": "pokemon-0236",
+    "toPokemonId": "pokemon-0237",
+    "method": "Level Up while holding [Pomeg Berry]"
+  },
+  {
+    "id": "evolution-pokemon-0238-to-pokemon-0124",
+    "fromPokemonId": "pokemon-0238",
+    "toPokemonId": "pokemon-0124",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0239-to-pokemon-0125",
+    "fromPokemonId": "pokemon-0239",
+    "toPokemonId": "pokemon-0125",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0240-to-pokemon-0126",
+    "fromPokemonId": "pokemon-0240",
+    "toPokemonId": "pokemon-0126",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0246-to-pokemon-0247",
+    "fromPokemonId": "pokemon-0246",
+    "toPokemonId": "pokemon-0247",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0247-to-pokemon-0248",
+    "fromPokemonId": "pokemon-0247",
+    "toPokemonId": "pokemon-0248",
+    "method": "Level Up [55]"
+  },
+  {
+    "id": "evolution-pokemon-0248-to-pokemon-0248-mega-tyranitar",
+    "fromPokemonId": "pokemon-0248",
+    "toPokemonId": "pokemon-0248-mega-tyranitar",
+    "method": "Hold [Tyranitite]"
+  },
+  {
+    "id": "evolution-pokemon-0252-to-pokemon-0253",
+    "fromPokemonId": "pokemon-0252",
+    "toPokemonId": "pokemon-0253",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0253-to-pokemon-0254",
+    "fromPokemonId": "pokemon-0253",
+    "toPokemonId": "pokemon-0254",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0255-to-pokemon-0256",
+    "fromPokemonId": "pokemon-0255",
+    "toPokemonId": "pokemon-0256",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0256-to-pokemon-0257",
+    "fromPokemonId": "pokemon-0256",
+    "toPokemonId": "pokemon-0257",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0257-to-pokemon-0257-mega-blaziken",
+    "fromPokemonId": "pokemon-0257",
+    "toPokemonId": "pokemon-0257-mega-blaziken",
+    "method": "Hold [Blazikenite]"
+  },
+  {
+    "id": "evolution-pokemon-0258-to-pokemon-0259",
+    "fromPokemonId": "pokemon-0258",
+    "toPokemonId": "pokemon-0259",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0259-to-pokemon-0260",
+    "fromPokemonId": "pokemon-0259",
+    "toPokemonId": "pokemon-0260",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0261-to-pokemon-0262",
+    "fromPokemonId": "pokemon-0261",
+    "toPokemonId": "pokemon-0262",
+    "method": "Level Up [18]"
+  },
+  {
+    "id": "evolution-pokemon-0263-to-pokemon-0264",
+    "fromPokemonId": "pokemon-0263",
+    "toPokemonId": "pokemon-0264",
+    "method": "Level Up [20]"
+  },
+  {
+    "id": "evolution-pokemon-0265-to-pokemon-0266",
+    "fromPokemonId": "pokemon-0265",
+    "toPokemonId": "pokemon-0266",
+    "method": "Level Up [7] in the Morning"
+  },
+  {
+    "id": "evolution-pokemon-0265-to-pokemon-0268",
+    "fromPokemonId": "pokemon-0265",
+    "toPokemonId": "pokemon-0268",
+    "method": "Level Up [7] at Night"
+  },
+  {
+    "id": "evolution-pokemon-0266-to-pokemon-0267",
+    "fromPokemonId": "pokemon-0266",
+    "toPokemonId": "pokemon-0267",
+    "method": "Level Up [10]"
+  },
+  {
+    "id": "evolution-pokemon-0268-to-pokemon-0269",
+    "fromPokemonId": "pokemon-0268",
+    "toPokemonId": "pokemon-0269",
+    "method": "Level Up [10]"
+  },
+  {
+    "id": "evolution-pokemon-0270-to-pokemon-0271",
+    "fromPokemonId": "pokemon-0270",
+    "toPokemonId": "pokemon-0271",
+    "method": "Level Up [14]"
+  },
+  {
+    "id": "evolution-pokemon-0271-to-pokemon-0272",
+    "fromPokemonId": "pokemon-0271",
+    "toPokemonId": "pokemon-0272",
+    "method": "Use [Water Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0273-to-pokemon-0274",
+    "fromPokemonId": "pokemon-0273",
+    "toPokemonId": "pokemon-0274",
+    "method": "Level Up [14]"
+  },
+  {
+    "id": "evolution-pokemon-0274-to-pokemon-0275",
+    "fromPokemonId": "pokemon-0274",
+    "toPokemonId": "pokemon-0275",
+    "method": "Use [Leaf Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0276-to-pokemon-0277",
+    "fromPokemonId": "pokemon-0276",
+    "toPokemonId": "pokemon-0277",
+    "method": "Level Up [22]"
+  },
+  {
+    "id": "evolution-pokemon-0278-to-pokemon-0279",
+    "fromPokemonId": "pokemon-0278",
+    "toPokemonId": "pokemon-0279",
+    "method": "Level Up [25]"
+  },
+  {
+    "id": "evolution-pokemon-0280-to-pokemon-0281",
+    "fromPokemonId": "pokemon-0280",
+    "toPokemonId": "pokemon-0281",
+    "method": "Level Up [20]"
+  },
+  {
+    "id": "evolution-pokemon-0281-to-pokemon-0282",
+    "fromPokemonId": "pokemon-0281",
+    "toPokemonId": "pokemon-0282",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0281-to-pokemon-0475",
+    "fromPokemonId": "pokemon-0281",
+    "toPokemonId": "pokemon-0475",
+    "method": "Use [Dawn Stone] Male"
+  },
+  {
+    "id": "evolution-pokemon-0282-to-pokemon-0282-mega-gardevoir",
+    "fromPokemonId": "pokemon-0282",
+    "toPokemonId": "pokemon-0282-mega-gardevoir",
+    "method": "Hold [Gardevoirite]"
+  },
+  {
+    "id": "evolution-pokemon-0283-to-pokemon-0284",
+    "fromPokemonId": "pokemon-0283",
+    "toPokemonId": "pokemon-0284",
+    "method": "Level Up [22]"
+  },
+  {
+    "id": "evolution-pokemon-0285-to-pokemon-0286",
+    "fromPokemonId": "pokemon-0285",
+    "toPokemonId": "pokemon-0286",
+    "method": "Level Up [23]"
+  },
+  {
+    "id": "evolution-pokemon-0287-to-pokemon-0288",
+    "fromPokemonId": "pokemon-0287",
+    "toPokemonId": "pokemon-0288",
+    "method": "Level Up [18]"
+  },
+  {
+    "id": "evolution-pokemon-0288-to-pokemon-0289",
+    "fromPokemonId": "pokemon-0288",
+    "toPokemonId": "pokemon-0289",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0290-to-pokemon-0291",
+    "fromPokemonId": "pokemon-0290",
+    "toPokemonId": "pokemon-0291",
+    "method": "Level Up [20]"
+  },
+  {
+    "id": "evolution-pokemon-0290-to-pokemon-0292",
+    "fromPokemonId": "pokemon-0290",
+    "toPokemonId": "pokemon-0292",
+    "method": "+ If [Empty Party Slot + Pok\u00e9 Ball]"
+  },
+  {
+    "id": "evolution-pokemon-0293-to-pokemon-0294",
+    "fromPokemonId": "pokemon-0293",
+    "toPokemonId": "pokemon-0294",
+    "method": "Level Up [20]"
+  },
+  {
+    "id": "evolution-pokemon-0294-to-pokemon-0295",
+    "fromPokemonId": "pokemon-0294",
+    "toPokemonId": "pokemon-0295",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0296-to-pokemon-0297",
+    "fromPokemonId": "pokemon-0296",
+    "toPokemonId": "pokemon-0297",
+    "method": "Level Up [24]"
+  },
+  {
+    "id": "evolution-pokemon-0298-to-pokemon-0183",
+    "fromPokemonId": "pokemon-0298",
+    "toPokemonId": "pokemon-0183",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0299-to-pokemon-0476",
+    "fromPokemonId": "pokemon-0299",
+    "toPokemonId": "pokemon-0476",
+    "method": "Use [Thunder Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0300-to-pokemon-0301",
+    "fromPokemonId": "pokemon-0300",
+    "toPokemonId": "pokemon-0301",
+    "method": "Use [Moon Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0303-to-pokemon-0303-mega-mawile",
+    "fromPokemonId": "pokemon-0303",
+    "toPokemonId": "pokemon-0303-mega-mawile",
+    "method": "Hold [Mawilite]"
+  },
+  {
+    "id": "evolution-pokemon-0304-to-pokemon-0305",
+    "fromPokemonId": "pokemon-0304",
+    "toPokemonId": "pokemon-0305",
+    "method": "Level Up [32]"
+  },
+  {
+    "id": "evolution-pokemon-0305-to-pokemon-0306",
+    "fromPokemonId": "pokemon-0305",
+    "toPokemonId": "pokemon-0306",
+    "method": "Level Up [42]"
+  },
+  {
+    "id": "evolution-pokemon-0306-to-pokemon-0306-mega-aggron",
+    "fromPokemonId": "pokemon-0306",
+    "toPokemonId": "pokemon-0306-mega-aggron",
+    "method": "Hold [Aggronite]"
+  },
+  {
+    "id": "evolution-pokemon-0307-to-pokemon-0308",
+    "fromPokemonId": "pokemon-0307",
+    "toPokemonId": "pokemon-0308",
+    "method": "Level Up [37]"
+  },
+  {
+    "id": "evolution-pokemon-0308-to-pokemon-0308-mega-medicham",
+    "fromPokemonId": "pokemon-0308",
+    "toPokemonId": "pokemon-0308-mega-medicham",
+    "method": "Hold [Medichamite]"
+  },
+  {
+    "id": "evolution-pokemon-0309-to-pokemon-0310",
+    "fromPokemonId": "pokemon-0309",
+    "toPokemonId": "pokemon-0310",
+    "method": "Level Up [26]"
+  },
+  {
+    "id": "evolution-pokemon-0310-to-pokemon-0310-mega-manectric",
+    "fromPokemonId": "pokemon-0310",
+    "toPokemonId": "pokemon-0310-mega-manectric",
+    "method": "Hold [Manectite]"
+  },
+  {
+    "id": "evolution-pokemon-0315-to-pokemon-0407",
+    "fromPokemonId": "pokemon-0315",
+    "toPokemonId": "pokemon-0407",
+    "method": "Use [Shiny Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0316-to-pokemon-0317",
+    "fromPokemonId": "pokemon-0316",
+    "toPokemonId": "pokemon-0317",
+    "method": "Level Up [26]"
+  },
+  {
+    "id": "evolution-pokemon-0318-to-pokemon-0319",
+    "fromPokemonId": "pokemon-0318",
+    "toPokemonId": "pokemon-0319",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0320-to-pokemon-0321",
+    "fromPokemonId": "pokemon-0320",
+    "toPokemonId": "pokemon-0321",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0322-to-pokemon-0323",
+    "fromPokemonId": "pokemon-0322",
+    "toPokemonId": "pokemon-0323",
+    "method": "Level Up [33]"
+  },
+  {
+    "id": "evolution-pokemon-0325-to-pokemon-0326",
+    "fromPokemonId": "pokemon-0325",
+    "toPokemonId": "pokemon-0326",
+    "method": "Level Up [32]"
+  },
+  {
+    "id": "evolution-pokemon-0328-to-pokemon-0329",
+    "fromPokemonId": "pokemon-0328",
+    "toPokemonId": "pokemon-0329",
+    "method": "Level Up [35]"
+  },
+  {
+    "id": "evolution-pokemon-0329-to-pokemon-0330",
+    "fromPokemonId": "pokemon-0329",
+    "toPokemonId": "pokemon-0330",
+    "method": "Level Up [45]"
+  },
+  {
+    "id": "evolution-pokemon-0331-to-pokemon-0332",
+    "fromPokemonId": "pokemon-0331",
+    "toPokemonId": "pokemon-0332",
+    "method": "Level Up [32]"
+  },
+  {
+    "id": "evolution-pokemon-0333-to-pokemon-0334",
+    "fromPokemonId": "pokemon-0333",
+    "toPokemonId": "pokemon-0334",
+    "method": "Level Up [35]"
+  },
+  {
+    "id": "evolution-pokemon-0339-to-pokemon-0340",
+    "fromPokemonId": "pokemon-0339",
+    "toPokemonId": "pokemon-0340",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0341-to-pokemon-0342",
+    "fromPokemonId": "pokemon-0341",
+    "toPokemonId": "pokemon-0342",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0343-to-pokemon-0344",
+    "fromPokemonId": "pokemon-0343",
+    "toPokemonId": "pokemon-0344",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0345-to-pokemon-0346",
+    "fromPokemonId": "pokemon-0345",
+    "toPokemonId": "pokemon-0346",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0347-to-pokemon-0348",
+    "fromPokemonId": "pokemon-0347",
+    "toPokemonId": "pokemon-0348",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0349-to-pokemon-0350",
+    "fromPokemonId": "pokemon-0349",
+    "toPokemonId": "pokemon-0350",
+    "method": "Level Up while holding [Prism Scale]"
+  },
+  {
+    "id": "evolution-pokemon-0353-to-pokemon-0354",
+    "fromPokemonId": "pokemon-0353",
+    "toPokemonId": "pokemon-0354",
+    "method": "Level Up [37]"
+  },
+  {
+    "id": "evolution-pokemon-0354-to-pokemon-0354-mega-banette",
+    "fromPokemonId": "pokemon-0354",
+    "toPokemonId": "pokemon-0354-mega-banette",
+    "method": "Hold [Banettite]"
+  },
+  {
+    "id": "evolution-pokemon-0355-to-pokemon-0356",
+    "fromPokemonId": "pokemon-0355",
+    "toPokemonId": "pokemon-0356",
+    "method": "Level Up [37]"
+  },
+  {
+    "id": "evolution-pokemon-0356-to-pokemon-0477",
+    "fromPokemonId": "pokemon-0356",
+    "toPokemonId": "pokemon-0477",
+    "method": "Level Up while holding [Reaper Cloth]"
+  },
+  {
+    "id": "evolution-pokemon-0359-to-pokemon-0359-mega-absol",
+    "fromPokemonId": "pokemon-0359",
+    "toPokemonId": "pokemon-0359-mega-absol",
+    "method": "Hold [Absolite]"
+  },
+  {
+    "id": "evolution-pokemon-0360-to-pokemon-0202",
+    "fromPokemonId": "pokemon-0360",
+    "toPokemonId": "pokemon-0202",
+    "method": "Level Up [15]"
+  },
+  {
+    "id": "evolution-pokemon-0361-to-pokemon-0362",
+    "fromPokemonId": "pokemon-0361",
+    "toPokemonId": "pokemon-0362",
+    "method": "Level Up [42]"
+  },
+  {
+    "id": "evolution-pokemon-0361-to-pokemon-0478",
+    "fromPokemonId": "pokemon-0361",
+    "toPokemonId": "pokemon-0478",
+    "method": "Use [Dawn Stone] Female"
+  },
+  {
+    "id": "evolution-pokemon-0363-to-pokemon-0364",
+    "fromPokemonId": "pokemon-0363",
+    "toPokemonId": "pokemon-0364",
+    "method": "Level Up [32]"
+  },
+  {
+    "id": "evolution-pokemon-0364-to-pokemon-0365",
+    "fromPokemonId": "pokemon-0364",
+    "toPokemonId": "pokemon-0365",
+    "method": "Level Up [44]"
+  },
+  {
+    "id": "evolution-pokemon-0366-to-pokemon-0367",
+    "fromPokemonId": "pokemon-0366",
+    "toPokemonId": "pokemon-0367",
+    "method": "Level Up while holding [Deep Sea Tooth]"
+  },
+  {
+    "id": "evolution-pokemon-0366-to-pokemon-0368",
+    "fromPokemonId": "pokemon-0366",
+    "toPokemonId": "pokemon-0368",
+    "method": "Level Up while holding [Deep Sea Scale]"
+  },
+  {
+    "id": "evolution-pokemon-0371-to-pokemon-0372",
+    "fromPokemonId": "pokemon-0371",
+    "toPokemonId": "pokemon-0372",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0372-to-pokemon-0373",
+    "fromPokemonId": "pokemon-0372",
+    "toPokemonId": "pokemon-0373",
+    "method": "Level Up [50]"
+  },
+  {
+    "id": "evolution-pokemon-0374-to-pokemon-0375",
+    "fromPokemonId": "pokemon-0374",
+    "toPokemonId": "pokemon-0375",
+    "method": "Level Up [20]"
+  },
+  {
+    "id": "evolution-pokemon-0375-to-pokemon-0376",
+    "fromPokemonId": "pokemon-0375",
+    "toPokemonId": "pokemon-0376",
+    "method": "Level Up [45]"
+  },
+  {
+    "id": "evolution-pokemon-0380-to-pokemon-0380-mega-latias",
+    "fromPokemonId": "pokemon-0380",
+    "toPokemonId": "pokemon-0380-mega-latias",
+    "method": "Hold [Latiasite]"
+  },
+  {
+    "id": "evolution-pokemon-0381-to-pokemon-0381-mega-latios",
+    "fromPokemonId": "pokemon-0381",
+    "toPokemonId": "pokemon-0381-mega-latios",
+    "method": "Hold [Latiosite]"
+  },
+  {
+    "id": "evolution-pokemon-0387-to-pokemon-0388",
+    "fromPokemonId": "pokemon-0387",
+    "toPokemonId": "pokemon-0388",
+    "method": "Level Up [18]"
+  },
+  {
+    "id": "evolution-pokemon-0388-to-pokemon-0389",
+    "fromPokemonId": "pokemon-0388",
+    "toPokemonId": "pokemon-0389",
+    "method": "Level Up [32]"
+  },
+  {
+    "id": "evolution-pokemon-0390-to-pokemon-0391",
+    "fromPokemonId": "pokemon-0390",
+    "toPokemonId": "pokemon-0391",
+    "method": "Level Up [14]"
+  },
+  {
+    "id": "evolution-pokemon-0391-to-pokemon-0392",
+    "fromPokemonId": "pokemon-0391",
+    "toPokemonId": "pokemon-0392",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0393-to-pokemon-0394",
+    "fromPokemonId": "pokemon-0393",
+    "toPokemonId": "pokemon-0394",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0394-to-pokemon-0395",
+    "fromPokemonId": "pokemon-0394",
+    "toPokemonId": "pokemon-0395",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0396-to-pokemon-0397",
+    "fromPokemonId": "pokemon-0396",
+    "toPokemonId": "pokemon-0397",
+    "method": "Level Up [14]"
+  },
+  {
+    "id": "evolution-pokemon-0397-to-pokemon-0398",
+    "fromPokemonId": "pokemon-0397",
+    "toPokemonId": "pokemon-0398",
+    "method": "Level Up [34]"
+  },
+  {
+    "id": "evolution-pokemon-0399-to-pokemon-0400",
+    "fromPokemonId": "pokemon-0399",
+    "toPokemonId": "pokemon-0400",
+    "method": "Level Up [15]"
+  },
+  {
+    "id": "evolution-pokemon-0401-to-pokemon-0402",
+    "fromPokemonId": "pokemon-0401",
+    "toPokemonId": "pokemon-0402",
+    "method": "Level Up [10]"
+  },
+  {
+    "id": "evolution-pokemon-0403-to-pokemon-0404",
+    "fromPokemonId": "pokemon-0403",
+    "toPokemonId": "pokemon-0404",
+    "method": "Level Up [15]"
+  },
+  {
+    "id": "evolution-pokemon-0404-to-pokemon-0405",
+    "fromPokemonId": "pokemon-0404",
+    "toPokemonId": "pokemon-0405",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0406-to-pokemon-0315",
+    "fromPokemonId": "pokemon-0406",
+    "toPokemonId": "pokemon-0315",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0408-to-pokemon-0408",
+    "fromPokemonId": "pokemon-0408",
+    "toPokemonId": "pokemon-0408",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0410-to-pokemon-0411",
+    "fromPokemonId": "pokemon-0410",
+    "toPokemonId": "pokemon-0411",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0412-plant-cloak-to-pokemon-0413-plant-cloak",
+    "fromPokemonId": "pokemon-0412-plant-cloak",
+    "toPokemonId": "pokemon-0413-plant-cloak",
+    "method": "Level Up [20] Female"
+  },
+  {
+    "id": "evolution-pokemon-0412-plant-cloak-to-pokemon-0414",
+    "fromPokemonId": "pokemon-0412-plant-cloak",
+    "toPokemonId": "pokemon-0414",
+    "method": "Level Up [20] Male"
+  },
+  {
+    "id": "evolution-pokemon-0412-sandy-cloak-to-pokemon-0413-sandy-cloak",
+    "fromPokemonId": "pokemon-0412-sandy-cloak",
+    "toPokemonId": "pokemon-0413-sandy-cloak",
+    "method": "Level Up [20] Female"
+  },
+  {
+    "id": "evolution-pokemon-0412-sandy-cloak-to-pokemon-0414",
+    "fromPokemonId": "pokemon-0412-sandy-cloak",
+    "toPokemonId": "pokemon-0414",
+    "method": "Level Up [20] Male"
+  },
+  {
+    "id": "evolution-pokemon-0412-trash-cloak-to-pokemon-0413-trash-cloak",
+    "fromPokemonId": "pokemon-0412-trash-cloak",
+    "toPokemonId": "pokemon-0413-trash-cloak",
+    "method": "Level Up [20] Female"
+  },
+  {
+    "id": "evolution-pokemon-0412-trash-cloak-to-pokemon-0414",
+    "fromPokemonId": "pokemon-0412-trash-cloak",
+    "toPokemonId": "pokemon-0414",
+    "method": "Level Up [20] Male"
+  },
+  {
+    "id": "evolution-pokemon-0415-to-pokemon-0416",
+    "fromPokemonId": "pokemon-0415",
+    "toPokemonId": "pokemon-0416",
+    "method": "Level Up [21] Female"
+  },
+  {
+    "id": "evolution-pokemon-0418-to-pokemon-0419",
+    "fromPokemonId": "pokemon-0418",
+    "toPokemonId": "pokemon-0419",
+    "method": "Level Up [26]"
+  },
+  {
+    "id": "evolution-pokemon-0420-to-pokemon-0421",
+    "fromPokemonId": "pokemon-0420",
+    "toPokemonId": "pokemon-0421",
+    "method": "Level Up [25]"
+  },
+  {
+    "id": "evolution-pokemon-0422-to-pokemon-0423",
+    "fromPokemonId": "pokemon-0422",
+    "toPokemonId": "pokemon-0423",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0425-to-pokemon-0426",
+    "fromPokemonId": "pokemon-0425",
+    "toPokemonId": "pokemon-0426",
+    "method": "Level Up [28]"
+  },
+  {
+    "id": "evolution-pokemon-0427-to-pokemon-0428",
+    "fromPokemonId": "pokemon-0427",
+    "toPokemonId": "pokemon-0428",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0431-to-pokemon-0432",
+    "fromPokemonId": "pokemon-0431",
+    "toPokemonId": "pokemon-0432",
+    "method": "Level Up [38]"
+  },
+  {
+    "id": "evolution-pokemon-0433-to-pokemon-0358",
+    "fromPokemonId": "pokemon-0433",
+    "toPokemonId": "pokemon-0358",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0434-to-pokemon-0435",
+    "fromPokemonId": "pokemon-0434",
+    "toPokemonId": "pokemon-0435",
+    "method": "Level Up [34]"
+  },
+  {
+    "id": "evolution-pokemon-0436-to-pokemon-0437",
+    "fromPokemonId": "pokemon-0436",
+    "toPokemonId": "pokemon-0437",
+    "method": "Level Up [33]"
+  },
+  {
+    "id": "evolution-pokemon-0438-to-pokemon-0185",
+    "fromPokemonId": "pokemon-0438",
+    "toPokemonId": "pokemon-0185",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0439-to-pokemon-0122",
+    "fromPokemonId": "pokemon-0439",
+    "toPokemonId": "pokemon-0122",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0440-to-pokemon-0113",
+    "fromPokemonId": "pokemon-0440",
+    "toPokemonId": "pokemon-0113",
+    "method": "Level Up while holding [Oval Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0443-to-pokemon-0444",
+    "fromPokemonId": "pokemon-0443",
+    "toPokemonId": "pokemon-0444",
+    "method": "Level Up [24]"
+  },
+  {
+    "id": "evolution-pokemon-0444-to-pokemon-0445",
+    "fromPokemonId": "pokemon-0444",
+    "toPokemonId": "pokemon-0445",
+    "method": "Level Up [48]"
+  },
+  {
+    "id": "evolution-pokemon-0445-to-pokemon-0445-mega-garchomp",
+    "fromPokemonId": "pokemon-0445",
+    "toPokemonId": "pokemon-0445-mega-garchomp",
+    "method": "Hold [Garchompite]"
+  },
+  {
+    "id": "evolution-pokemon-0446-to-pokemon-0143",
+    "fromPokemonId": "pokemon-0446",
+    "toPokemonId": "pokemon-0143",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0447-to-pokemon-0448",
+    "fromPokemonId": "pokemon-0447",
+    "toPokemonId": "pokemon-0448",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0448-to-pokemon-0448-mega-lucario",
+    "fromPokemonId": "pokemon-0448",
+    "toPokemonId": "pokemon-0448-mega-lucario",
+    "method": "Hold [Lucarionite]"
+  },
+  {
+    "id": "evolution-pokemon-0449-to-pokemon-0450",
+    "fromPokemonId": "pokemon-0449",
+    "toPokemonId": "pokemon-0450",
+    "method": "Level Up [34]"
+  },
+  {
+    "id": "evolution-pokemon-0451-to-pokemon-0452",
+    "fromPokemonId": "pokemon-0451",
+    "toPokemonId": "pokemon-0452",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0453-to-pokemon-0454",
+    "fromPokemonId": "pokemon-0453",
+    "toPokemonId": "pokemon-0454",
+    "method": "Level Up [37]"
+  },
+  {
+    "id": "evolution-pokemon-0456-to-pokemon-0457",
+    "fromPokemonId": "pokemon-0456",
+    "toPokemonId": "pokemon-0457",
+    "method": "Level Up [31]"
+  },
+  {
+    "id": "evolution-pokemon-0458-to-pokemon-0226",
+    "fromPokemonId": "pokemon-0458",
+    "toPokemonId": "pokemon-0226",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0459-to-pokemon-0460",
+    "fromPokemonId": "pokemon-0459",
+    "toPokemonId": "pokemon-0460",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0460-to-pokemon-0460",
+    "fromPokemonId": "pokemon-0460",
+    "toPokemonId": "pokemon-0460",
+    "method": "Hold [Abomasite]"
+  },
+  {
+    "id": "evolution-pokemon-0495-to-pokemon-0496",
+    "fromPokemonId": "pokemon-0495",
+    "toPokemonId": "pokemon-0496",
+    "method": "Level Up [17]"
+  },
+  {
+    "id": "evolution-pokemon-0496-to-pokemon-0497",
+    "fromPokemonId": "pokemon-0496",
+    "toPokemonId": "pokemon-0497",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0498-to-pokemon-0499",
+    "fromPokemonId": "pokemon-0498",
+    "toPokemonId": "pokemon-0499",
+    "method": "Level Up [17]"
+  },
+  {
+    "id": "evolution-pokemon-0499-to-pokemon-0500",
+    "fromPokemonId": "pokemon-0499",
+    "toPokemonId": "pokemon-0500",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0501-to-pokemon-0502",
+    "fromPokemonId": "pokemon-0501",
+    "toPokemonId": "pokemon-0502",
+    "method": "Level Up [17]"
+  },
+  {
+    "id": "evolution-pokemon-0502-to-pokemon-0503",
+    "fromPokemonId": "pokemon-0502",
+    "toPokemonId": "pokemon-0503",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0504-to-pokemon-0505",
+    "fromPokemonId": "pokemon-0504",
+    "toPokemonId": "pokemon-0505",
+    "method": "Level Up [20]"
+  },
+  {
+    "id": "evolution-pokemon-0506-to-pokemon-0507",
+    "fromPokemonId": "pokemon-0506",
+    "toPokemonId": "pokemon-0507",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0507-to-pokemon-0508",
+    "fromPokemonId": "pokemon-0507",
+    "toPokemonId": "pokemon-0508",
+    "method": "Level Up [32]"
+  },
+  {
+    "id": "evolution-pokemon-0509-to-pokemon-0510",
+    "fromPokemonId": "pokemon-0509",
+    "toPokemonId": "pokemon-0510",
+    "method": "Level Up [20]"
+  },
+  {
+    "id": "evolution-pokemon-0511-to-pokemon-0512",
+    "fromPokemonId": "pokemon-0511",
+    "toPokemonId": "pokemon-0512",
+    "method": "Use [Leaf Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0513-to-pokemon-0514",
+    "fromPokemonId": "pokemon-0513",
+    "toPokemonId": "pokemon-0514",
+    "method": "Use [Fire Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0515-to-pokemon-0516",
+    "fromPokemonId": "pokemon-0515",
+    "toPokemonId": "pokemon-0516",
+    "method": "Use [Water Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0517-to-pokemon-0518",
+    "fromPokemonId": "pokemon-0517",
+    "toPokemonId": "pokemon-0518",
+    "method": "Use [Moon Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0519-to-pokemon-0520",
+    "fromPokemonId": "pokemon-0519",
+    "toPokemonId": "pokemon-0520",
+    "method": "Level Up [21]"
+  },
+  {
+    "id": "evolution-pokemon-0520-to-pokemon-0521",
+    "fromPokemonId": "pokemon-0520",
+    "toPokemonId": "pokemon-0521",
+    "method": "Level Up [32]"
+  },
+  {
+    "id": "evolution-pokemon-0522-to-pokemon-0523",
+    "fromPokemonId": "pokemon-0522",
+    "toPokemonId": "pokemon-0523",
+    "method": "Level Up [27]"
+  },
+  {
+    "id": "evolution-pokemon-0524-to-pokemon-0525",
+    "fromPokemonId": "pokemon-0524",
+    "toPokemonId": "pokemon-0525",
+    "method": "Level Up [25]"
+  },
+  {
+    "id": "evolution-pokemon-0525-to-pokemon-0526",
+    "fromPokemonId": "pokemon-0525",
+    "toPokemonId": "pokemon-0526",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0527-to-pokemon-0528",
+    "fromPokemonId": "pokemon-0527",
+    "toPokemonId": "pokemon-0528",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0529-to-pokemon-0530",
+    "fromPokemonId": "pokemon-0529",
+    "toPokemonId": "pokemon-0530",
+    "method": "Level Up [31]"
+  },
+  {
+    "id": "evolution-pokemon-0532-to-pokemon-0533",
+    "fromPokemonId": "pokemon-0532",
+    "toPokemonId": "pokemon-0533",
+    "method": "Level Up [25]"
+  },
+  {
+    "id": "evolution-pokemon-0533-to-pokemon-0534",
+    "fromPokemonId": "pokemon-0533",
+    "toPokemonId": "pokemon-0534",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0535-to-pokemon-0536",
+    "fromPokemonId": "pokemon-0535",
+    "toPokemonId": "pokemon-0536",
+    "method": "Level Up [25]"
+  },
+  {
+    "id": "evolution-pokemon-0536-to-pokemon-0537",
+    "fromPokemonId": "pokemon-0536",
+    "toPokemonId": "pokemon-0537",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0540-to-pokemon-0541",
+    "fromPokemonId": "pokemon-0540",
+    "toPokemonId": "pokemon-0541",
+    "method": "Level Up [20]"
+  },
+  {
+    "id": "evolution-pokemon-0541-to-pokemon-0542",
+    "fromPokemonId": "pokemon-0541",
+    "toPokemonId": "pokemon-0542",
+    "method": "Level Up [High Friendship]"
+  },
+  {
+    "id": "evolution-pokemon-0543-to-pokemon-0544",
+    "fromPokemonId": "pokemon-0543",
+    "toPokemonId": "pokemon-0544",
+    "method": "Level Up [22]"
+  },
+  {
+    "id": "evolution-pokemon-0544-to-pokemon-0545",
+    "fromPokemonId": "pokemon-0544",
+    "toPokemonId": "pokemon-0545",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0546-to-pokemon-0547",
+    "fromPokemonId": "pokemon-0546",
+    "toPokemonId": "pokemon-0547",
+    "method": "Use [Sun Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0548-to-pokemon-0549",
+    "fromPokemonId": "pokemon-0548",
+    "toPokemonId": "pokemon-0549",
+    "method": "Use [Sun Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0551-to-pokemon-0552",
+    "fromPokemonId": "pokemon-0551",
+    "toPokemonId": "pokemon-0552",
+    "method": "Level Up [29]"
+  },
+  {
+    "id": "evolution-pokemon-0552-to-pokemon-0553",
+    "fromPokemonId": "pokemon-0552",
+    "toPokemonId": "pokemon-0553",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0557-to-pokemon-0558",
+    "fromPokemonId": "pokemon-0557",
+    "toPokemonId": "pokemon-0558",
+    "method": "Level Up [34]"
+  },
+  {
+    "id": "evolution-pokemon-0559-to-pokemon-0560",
+    "fromPokemonId": "pokemon-0559",
+    "toPokemonId": "pokemon-0560",
+    "method": "Level Up [39]"
+  },
+  {
+    "id": "evolution-pokemon-0562-to-pokemon-0563",
+    "fromPokemonId": "pokemon-0562",
+    "toPokemonId": "pokemon-0563",
+    "method": "Level Up [34]"
+  },
+  {
+    "id": "evolution-pokemon-0564-to-pokemon-0565",
+    "fromPokemonId": "pokemon-0564",
+    "toPokemonId": "pokemon-0565",
+    "method": "Level Up [37]"
+  },
+  {
+    "id": "evolution-pokemon-0566-to-pokemon-0567",
+    "fromPokemonId": "pokemon-0566",
+    "toPokemonId": "pokemon-0567",
+    "method": "Level Up [37]"
+  },
+  {
+    "id": "evolution-pokemon-0568-to-pokemon-0569",
+    "fromPokemonId": "pokemon-0568",
+    "toPokemonId": "pokemon-0569",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0570-to-pokemon-0571",
+    "fromPokemonId": "pokemon-0570",
+    "toPokemonId": "pokemon-0571",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0572-to-pokemon-0573",
+    "fromPokemonId": "pokemon-0572",
+    "toPokemonId": "pokemon-0573",
+    "method": "Use [Shiny Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0574-to-pokemon-0575",
+    "fromPokemonId": "pokemon-0574",
+    "toPokemonId": "pokemon-0575",
+    "method": "Level Up [32]"
+  },
+  {
+    "id": "evolution-pokemon-0575-to-pokemon-0576",
+    "fromPokemonId": "pokemon-0575",
+    "toPokemonId": "pokemon-0576",
+    "method": "Level Up [41]"
+  },
+  {
+    "id": "evolution-pokemon-0577-to-pokemon-0577",
+    "fromPokemonId": "pokemon-0577",
+    "toPokemonId": "pokemon-0577",
+    "method": "Level Up [32]"
+  },
+  {
+    "id": "evolution-pokemon-0578-to-pokemon-0579",
+    "fromPokemonId": "pokemon-0578",
+    "toPokemonId": "pokemon-0579",
+    "method": "Level Up [41]"
+  },
+  {
+    "id": "evolution-pokemon-0580-to-pokemon-0581",
+    "fromPokemonId": "pokemon-0580",
+    "toPokemonId": "pokemon-0581",
+    "method": "Level Up [35]"
+  },
+  {
+    "id": "evolution-pokemon-0582-to-pokemon-0583",
+    "fromPokemonId": "pokemon-0582",
+    "toPokemonId": "pokemon-0583",
+    "method": "Level Up [35]"
+  },
+  {
+    "id": "evolution-pokemon-0583-to-pokemon-0584",
+    "fromPokemonId": "pokemon-0583",
+    "toPokemonId": "pokemon-0584",
+    "method": "Level Up [47]"
+  },
+  {
+    "id": "evolution-pokemon-0585-to-pokemon-0586",
+    "fromPokemonId": "pokemon-0585",
+    "toPokemonId": "pokemon-0586",
+    "method": "Level Up [34]"
+  },
+  {
+    "id": "evolution-pokemon-0588-to-pokemon-0589",
+    "fromPokemonId": "pokemon-0588",
+    "toPokemonId": "pokemon-0589",
+    "method": "Level Up while holding [Metal Coat]"
+  },
+  {
+    "id": "evolution-pokemon-0590-to-pokemon-0591",
+    "fromPokemonId": "pokemon-0590",
+    "toPokemonId": "pokemon-0591",
+    "method": "Level Up [39]"
+  },
+  {
+    "id": "evolution-pokemon-0592-to-pokemon-0593",
+    "fromPokemonId": "pokemon-0592",
+    "toPokemonId": "pokemon-0593",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0595-to-pokemon-0596",
+    "fromPokemonId": "pokemon-0595",
+    "toPokemonId": "pokemon-0596",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0597-to-pokemon-0598",
+    "fromPokemonId": "pokemon-0597",
+    "toPokemonId": "pokemon-0598",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0599-to-pokemon-0600",
+    "fromPokemonId": "pokemon-0599",
+    "toPokemonId": "pokemon-0600",
+    "method": "Level Up [38]"
+  },
+  {
+    "id": "evolution-pokemon-0600-to-pokemon-0601",
+    "fromPokemonId": "pokemon-0600",
+    "toPokemonId": "pokemon-0601",
+    "method": "Level Up [49]"
+  },
+  {
+    "id": "evolution-pokemon-0602-to-pokemon-0603",
+    "fromPokemonId": "pokemon-0602",
+    "toPokemonId": "pokemon-0603",
+    "method": "Level Up [39]"
+  },
+  {
+    "id": "evolution-pokemon-0603-to-pokemon-0604",
+    "fromPokemonId": "pokemon-0603",
+    "toPokemonId": "pokemon-0604",
+    "method": "Use [Thunder Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0605-to-pokemon-0606",
+    "fromPokemonId": "pokemon-0605",
+    "toPokemonId": "pokemon-0606",
+    "method": "Level Up [42]"
+  },
+  {
+    "id": "evolution-pokemon-0607-to-pokemon-0608",
+    "fromPokemonId": "pokemon-0607",
+    "toPokemonId": "pokemon-0608",
+    "method": "Level Up [41]"
+  },
+  {
+    "id": "evolution-pokemon-0608-to-pokemon-0609",
+    "fromPokemonId": "pokemon-0608",
+    "toPokemonId": "pokemon-0609",
+    "method": "Use [Dusk Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0610-to-pokemon-0611",
+    "fromPokemonId": "pokemon-0610",
+    "toPokemonId": "pokemon-0611",
+    "method": "Level Up [38]"
+  },
+  {
+    "id": "evolution-pokemon-0611-to-pokemon-0612",
+    "fromPokemonId": "pokemon-0611",
+    "toPokemonId": "pokemon-0612",
+    "method": "Level Up [48]"
+  },
+  {
+    "id": "evolution-pokemon-0613-to-pokemon-0614",
+    "fromPokemonId": "pokemon-0613",
+    "toPokemonId": "pokemon-0614",
+    "method": "Level Up [37]"
+  },
+  {
+    "id": "evolution-pokemon-0616-to-pokemon-0617",
+    "fromPokemonId": "pokemon-0616",
+    "toPokemonId": "pokemon-0617",
+    "method": "Level Up while holding [Smoke Ball]"
+  },
+  {
+    "id": "evolution-pokemon-0619-to-pokemon-0620",
+    "fromPokemonId": "pokemon-0619",
+    "toPokemonId": "pokemon-0620",
+    "method": "Level Up [50]"
+  },
+  {
+    "id": "evolution-pokemon-0622-to-pokemon-0623",
+    "fromPokemonId": "pokemon-0622",
+    "toPokemonId": "pokemon-0623",
+    "method": "Level Up [43]"
+  },
+  {
+    "id": "evolution-pokemon-0624-to-pokemon-0624",
+    "fromPokemonId": "pokemon-0624",
+    "toPokemonId": "pokemon-0624",
+    "method": "Level Up [52]"
+  },
+  {
+    "id": "evolution-pokemon-0627-to-pokemon-0628",
+    "fromPokemonId": "pokemon-0627",
+    "toPokemonId": "pokemon-0628",
+    "method": "Level Up [54]"
+  },
+  {
+    "id": "evolution-pokemon-0629-to-pokemon-0630",
+    "fromPokemonId": "pokemon-0629",
+    "toPokemonId": "pokemon-0630",
+    "method": "Level Up [54]"
+  },
+  {
+    "id": "evolution-pokemon-0633-to-pokemon-0634",
+    "fromPokemonId": "pokemon-0633",
+    "toPokemonId": "pokemon-0634",
+    "method": "Level Up [50]"
+  },
+  {
+    "id": "evolution-pokemon-0634-to-pokemon-0635",
+    "fromPokemonId": "pokemon-0634",
+    "toPokemonId": "pokemon-0635",
+    "method": "Level Up [64]"
+  },
+  {
+    "id": "evolution-pokemon-0636-to-pokemon-0637",
+    "fromPokemonId": "pokemon-0636",
+    "toPokemonId": "pokemon-0637",
+    "method": "Level Up [59]"
+  },
+  {
+    "id": "evolution-pokemon-0650-to-pokemon-0651",
+    "fromPokemonId": "pokemon-0650",
+    "toPokemonId": "pokemon-0651",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0651-to-pokemon-0652",
+    "fromPokemonId": "pokemon-0651",
+    "toPokemonId": "pokemon-0652",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0653-to-pokemon-0654",
+    "fromPokemonId": "pokemon-0653",
+    "toPokemonId": "pokemon-0654",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0654-to-pokemon-0655",
+    "fromPokemonId": "pokemon-0654",
+    "toPokemonId": "pokemon-0655",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0656-to-pokemon-0657",
+    "fromPokemonId": "pokemon-0656",
+    "toPokemonId": "pokemon-0657",
+    "method": "Level Up [16]"
+  },
+  {
+    "id": "evolution-pokemon-0657-to-pokemon-0658",
+    "fromPokemonId": "pokemon-0657",
+    "toPokemonId": "pokemon-0658",
+    "method": "Level Up [36]"
+  },
+  {
+    "id": "evolution-pokemon-0659-to-pokemon-0660",
+    "fromPokemonId": "pokemon-0659",
+    "toPokemonId": "pokemon-0660",
+    "method": "Level Up [20]"
+  },
+  {
+    "id": "evolution-pokemon-0661-to-pokemon-0662",
+    "fromPokemonId": "pokemon-0661",
+    "toPokemonId": "pokemon-0662",
+    "method": "Level Up [17]"
+  },
+  {
+    "id": "evolution-pokemon-0662-to-pokemon-0663",
+    "fromPokemonId": "pokemon-0662",
+    "toPokemonId": "pokemon-0663",
+    "method": "Level Up [35]"
+  },
+  {
+    "id": "evolution-pokemon-0664-to-pokemon-0665",
+    "fromPokemonId": "pokemon-0664",
+    "toPokemonId": "pokemon-0665",
+    "method": "Level Up [9]"
+  },
+  {
+    "id": "evolution-pokemon-0665-to-pokemon-0666",
+    "fromPokemonId": "pokemon-0665",
+    "toPokemonId": "pokemon-0666",
+    "method": "Level Up [12]"
+  },
+  {
+    "id": "evolution-pokemon-0667-to-pokemon-0668",
+    "fromPokemonId": "pokemon-0667",
+    "toPokemonId": "pokemon-0668",
+    "method": "Level Up [35]"
+  },
+  {
+    "id": "evolution-pokemon-0669-to-pokemon-0670",
+    "fromPokemonId": "pokemon-0669",
+    "toPokemonId": "pokemon-0670",
+    "method": "Level Up [19]"
+  },
+  {
+    "id": "evolution-pokemon-0670-to-pokemon-0671",
+    "fromPokemonId": "pokemon-0670",
+    "toPokemonId": "pokemon-0671",
+    "method": "Use [Shiny Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0672-to-pokemon-0673",
+    "fromPokemonId": "pokemon-0672",
+    "toPokemonId": "pokemon-0673",
+    "method": "Level Up [32]"
+  },
+  {
+    "id": "evolution-pokemon-0674-to-pokemon-0675",
+    "fromPokemonId": "pokemon-0674",
+    "toPokemonId": "pokemon-0675",
+    "method": "Level Up [32] + Dark-Type in Party"
+  },
+  {
+    "id": "evolution-pokemon-0677-to-pokemon-0678",
+    "fromPokemonId": "pokemon-0677",
+    "toPokemonId": "pokemon-0678",
+    "method": "Level Up [25]"
+  },
+  {
+    "id": "evolution-pokemon-0679-to-pokemon-0680",
+    "fromPokemonId": "pokemon-0679",
+    "toPokemonId": "pokemon-0680",
+    "method": "Level Up [35]"
+  },
+  {
+    "id": "evolution-pokemon-0682-to-pokemon-0683",
+    "fromPokemonId": "pokemon-0682",
+    "toPokemonId": "pokemon-0683",
+    "method": "Level Up while holding [Sachet]"
+  },
+  {
+    "id": "evolution-pokemon-0684-to-pokemon-0685",
+    "fromPokemonId": "pokemon-0684",
+    "toPokemonId": "pokemon-0685",
+    "method": "Level Up while holding [Whipped Dream]"
+  },
+  {
+    "id": "evolution-pokemon-0686-to-pokemon-0687",
+    "fromPokemonId": "pokemon-0686",
+    "toPokemonId": "pokemon-0687",
+    "method": "Level Up [30]"
+  },
+  {
+    "id": "evolution-pokemon-0688-to-pokemon-0689",
+    "fromPokemonId": "pokemon-0688",
+    "toPokemonId": "pokemon-0689",
+    "method": "Level Up [39]"
+  },
+  {
+    "id": "evolution-pokemon-0690-to-pokemon-0691",
+    "fromPokemonId": "pokemon-0690",
+    "toPokemonId": "pokemon-0691",
+    "method": "Level Up [48]"
+  },
+  {
+    "id": "evolution-pokemon-0692-to-pokemon-0692",
+    "fromPokemonId": "pokemon-0692",
+    "toPokemonId": "pokemon-0692",
+    "method": "Level Up [37]"
+  },
+  {
+    "id": "evolution-pokemon-0694-to-pokemon-0695",
+    "fromPokemonId": "pokemon-0694",
+    "toPokemonId": "pokemon-0695",
+    "method": "Use [Sun Stone]"
+  },
+  {
+    "id": "evolution-pokemon-0696-to-pokemon-0697",
+    "fromPokemonId": "pokemon-0696",
+    "toPokemonId": "pokemon-0697",
+    "method": "Level Up [39]"
+  },
+  {
+    "id": "evolution-pokemon-0698-to-pokemon-0699",
+    "fromPokemonId": "pokemon-0698",
+    "toPokemonId": "pokemon-0699",
+    "method": "Level Up [39]"
+  },
+  {
+    "id": "evolution-pokemon-0704-to-pokemon-0705",
+    "fromPokemonId": "pokemon-0704",
+    "toPokemonId": "pokemon-0705",
+    "method": "Level Up [40]"
+  },
+  {
+    "id": "evolution-pokemon-0705-to-pokemon-0706",
+    "fromPokemonId": "pokemon-0705",
+    "toPokemonId": "pokemon-0706",
+    "method": "Level Up [50] + Overworld Rain"
+  },
+  {
+    "id": "evolution-pokemon-0708-to-pokemon-0709",
+    "fromPokemonId": "pokemon-0708",
+    "toPokemonId": "pokemon-0709",
+    "method": "Level Up [25]"
+  },
+  {
+    "id": "evolution-pokemon-0712-to-pokemon-0713",
+    "fromPokemonId": "pokemon-0712",
+    "toPokemonId": "pokemon-0713",
+    "method": "Level Up [37]"
+  },
+  {
+    "id": "evolution-pokemon-0714-to-pokemon-0715",
+    "fromPokemonId": "pokemon-0714",
+    "toPokemonId": "pokemon-0715",
+    "method": "Level Up [48]"
+  }
+]

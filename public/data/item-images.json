@@ -1,0 +1,2074 @@
+[
+  {
+    "itemId": "item-quick-powder",
+    "itemSlug": "quick-powder",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-powder.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "quick-powder"
+  },
+  {
+    "itemId": "item-metal-powder",
+    "itemSlug": "metal-powder",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-powder.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "metal-powder"
+  },
+  {
+    "itemId": "item-lucky-punch",
+    "itemSlug": "lucky-punch",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucky-punch.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "lucky-punch"
+  },
+  {
+    "itemId": "item-oval-stone",
+    "itemSlug": "oval-stone",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oval-stone.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "oval-stone"
+  },
+  {
+    "itemId": "item-deep-sea-scale",
+    "itemSlug": "deep-sea-scale",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-scale.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "deep-sea-scale"
+  },
+  {
+    "itemId": "item-charizardite-x",
+    "itemSlug": "charizardite-x",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charizardite-x.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "charizardite-x"
+  },
+  {
+    "itemId": "item-charizardite-y",
+    "itemSlug": "charizardite-y",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charizardite-y.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "charizardite-y"
+  },
+  {
+    "itemId": "item-mewtwonite-x",
+    "itemSlug": "mewtwonite-x",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mewtwonite-x.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "mewtwonite-x"
+  },
+  {
+    "itemId": "item-mewtwonite-y",
+    "itemSlug": "mewtwonite-y",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mewtwonite-y.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "mewtwonite-y"
+  },
+  {
+    "itemId": "item-lucky-egg",
+    "itemSlug": "lucky-egg",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucky-egg.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "lucky-egg"
+  },
+  {
+    "itemId": "item-ground-gem",
+    "itemSlug": "ground-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ground-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "ground-gem"
+  },
+  {
+    "itemId": "item-occa-berry",
+    "itemSlug": "occa-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/occa-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "occa-berry"
+  },
+  {
+    "itemId": "item-fire-gem",
+    "itemSlug": "fire-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fire-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "fire-gem"
+  },
+  {
+    "itemId": "item-shiny-stone",
+    "itemSlug": "shiny-stone",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shiny-stone.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "shiny-stone"
+  },
+  {
+    "itemId": "item-chople-berry",
+    "itemSlug": "chople-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "chople-berry"
+  },
+  {
+    "itemId": "item-payapa-berry",
+    "itemSlug": "payapa-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/payapa-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "payapa-berry"
+  },
+  {
+    "itemId": "item-air-balloon",
+    "itemSlug": "air-balloon",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "air-balloon"
+  },
+  {
+    "itemId": "item-chesto-berry",
+    "itemSlug": "chesto-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "chesto-berry"
+  },
+  {
+    "itemId": "item-liechi-berry",
+    "itemSlug": "liechi-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/liechi-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "liechi-berry"
+  },
+  {
+    "itemId": "item-hard-stone",
+    "itemSlug": "hard-stone",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "hard-stone"
+  },
+  {
+    "itemId": "item-focus-band",
+    "itemSlug": "focus-band",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-band.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "focus-band"
+  },
+  {
+    "itemId": "item-rock-gem",
+    "itemSlug": "rock-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rock-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "rock-gem"
+  },
+  {
+    "itemId": "item-big-mushroom",
+    "itemSlug": "big-mushroom",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-mushroom.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "big-mushroom"
+  },
+  {
+    "itemId": "item-thunder-stone",
+    "itemSlug": "thunder-stone",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "thunder-stone"
+  },
+  {
+    "itemId": "item-tanga-berry",
+    "itemSlug": "tanga-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tanga-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "tanga-berry"
+  },
+  {
+    "itemId": "item-quick-claw",
+    "itemSlug": "quick-claw",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "quick-claw"
+  },
+  {
+    "itemId": "item-salac-berry",
+    "itemSlug": "salac-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/salac-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "salac-berry"
+  },
+  {
+    "itemId": "item-toxic-orb",
+    "itemSlug": "toxic-orb",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/toxic-orb.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "toxic-orb"
+  },
+  {
+    "itemId": "item-passho-berry",
+    "itemSlug": "passho-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "passho-berry"
+  },
+  {
+    "itemId": "item-gengarite",
+    "itemSlug": "gengarite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gengarite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "gengarite"
+  },
+  {
+    "itemId": "item-dark-gem",
+    "itemSlug": "dark-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dark-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "dark-gem"
+  },
+  {
+    "itemId": "item-fire-stone",
+    "itemSlug": "fire-stone",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fire-stone.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "fire-stone"
+  },
+  {
+    "itemId": "item-wacan-berry",
+    "itemSlug": "wacan-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wacan-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "wacan-berry"
+  },
+  {
+    "itemId": "item-ice-gem",
+    "itemSlug": "ice-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "ice-gem"
+  },
+  {
+    "itemId": "item-assault-vest",
+    "itemSlug": "assault-vest",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/assault-vest.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "assault-vest"
+  },
+  {
+    "itemId": "item-aspear-berry",
+    "itemSlug": "aspear-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "aspear-berry"
+  },
+  {
+    "itemId": "item-lax-incense",
+    "itemSlug": "lax-incense",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lax-incense.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "lax-incense"
+  },
+  {
+    "itemId": "item-thick-club",
+    "itemSlug": "thick-club",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thick-club.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "thick-club"
+  },
+  {
+    "itemId": "item-cleanse-tag",
+    "itemSlug": "cleanse-tag",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cleanse-tag.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "cleanse-tag"
+  },
+  {
+    "itemId": "item-moon-stone",
+    "itemSlug": "moon-stone",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "moon-stone"
+  },
+  {
+    "itemId": "item-enigma-berry",
+    "itemSlug": "enigma-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/enigma-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "enigma-berry"
+  },
+  {
+    "itemId": "item-aggronite",
+    "itemSlug": "aggronite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aggronite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "aggronite"
+  },
+  {
+    "itemId": "item-kebia-berry",
+    "itemSlug": "kebia-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kebia-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "kebia-berry"
+  },
+  {
+    "itemId": "item-grass-gem",
+    "itemSlug": "grass-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grass-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "grass-gem"
+  },
+  {
+    "itemId": "item-colbur-berry",
+    "itemSlug": "colbur-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/colbur-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "colbur-berry"
+  },
+  {
+    "itemId": "item-white-herb",
+    "itemSlug": "white-herb",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "white-herb"
+  },
+  {
+    "itemId": "item-flying-gem",
+    "itemSlug": "flying-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flying-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "flying-gem"
+  },
+  {
+    "itemId": "item-bug-gem",
+    "itemSlug": "bug-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bug-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "bug-gem"
+  },
+  {
+    "itemId": "item-persim-berry",
+    "itemSlug": "persim-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "persim-berry"
+  },
+  {
+    "itemId": "item-leaf-stone",
+    "itemSlug": "leaf-stone",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-stone.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "leaf-stone"
+  },
+  {
+    "itemId": "item-sea-incense",
+    "itemSlug": "sea-incense",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sea-incense.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "sea-incense"
+  },
+  {
+    "itemId": "item-bright-powder",
+    "itemSlug": "bright-powder",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bright-powder.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "bright-powder"
+  },
+  {
+    "itemId": "item-starf-berry",
+    "itemSlug": "starf-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/starf-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "starf-berry"
+  },
+  {
+    "itemId": "item-scope-lens",
+    "itemSlug": "scope-lens",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scope-lens.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "scope-lens"
+  },
+  {
+    "itemId": "item-shuca-berry",
+    "itemSlug": "shuca-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shuca-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "shuca-berry"
+  },
+  {
+    "itemId": "item-iron-ball",
+    "itemSlug": "iron-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/iron-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "iron-ball"
+  },
+  {
+    "itemId": "item-flame-orb",
+    "itemSlug": "flame-orb",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flame-orb.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "flame-orb"
+  },
+  {
+    "itemId": "item-babiri-berry",
+    "itemSlug": "babiri-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/babiri-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "babiri-berry"
+  },
+  {
+    "itemId": "item-silk-scarf",
+    "itemSlug": "silk-scarf",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silk-scarf.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "silk-scarf"
+  },
+  {
+    "itemId": "item-pure-incense",
+    "itemSlug": "pure-incense",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pure-incense.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "pure-incense"
+  },
+  {
+    "itemId": "item-abomasite",
+    "itemSlug": "abomasite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/abomasite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "abomasite"
+  },
+  {
+    "itemId": "item-smoke-ball",
+    "itemSlug": "smoke-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smoke-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "smoke-ball"
+  },
+  {
+    "itemId": "item-metal-coat",
+    "itemSlug": "metal-coat",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "metal-coat"
+  },
+  {
+    "itemId": "item-banettite",
+    "itemSlug": "banettite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/banettite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "banettite"
+  },
+  {
+    "itemId": "item-wide-lens",
+    "itemSlug": "wide-lens",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "wide-lens"
+  },
+  {
+    "itemId": "item-chilan-berry",
+    "itemSlug": "chilan-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chilan-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "chilan-berry"
+  },
+  {
+    "itemId": "item-spell-tag",
+    "itemSlug": "spell-tag",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spell-tag.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "spell-tag"
+  },
+  {
+    "itemId": "item-odd-incense",
+    "itemSlug": "odd-incense",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/odd-incense.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "odd-incense"
+  },
+  {
+    "itemId": "item-sun-stone",
+    "itemSlug": "sun-stone",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "sun-stone"
+  },
+  {
+    "itemId": "item-kangaskhanite",
+    "itemSlug": "kangaskhanite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kangaskhanite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "kangaskhanite"
+  },
+  {
+    "itemId": "item-coba-berry",
+    "itemSlug": "coba-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/coba-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "coba-berry"
+  },
+  {
+    "itemId": "item-kee-berry",
+    "itemSlug": "kee-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kee-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "kee-berry"
+  },
+  {
+    "itemId": "item-power-herb",
+    "itemSlug": "power-herb",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/power-herb.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "power-herb"
+  },
+  {
+    "itemId": "item-dragon-gem",
+    "itemSlug": "dragon-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "dragon-gem"
+  },
+  {
+    "itemId": "item-griseous-orb",
+    "itemSlug": "griseous-orb",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/griseous-orb.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "griseous-orb"
+  },
+  {
+    "itemId": "item-rawst-berry",
+    "itemSlug": "rawst-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "rawst-berry"
+  },
+  {
+    "itemId": "item-silver-powder",
+    "itemSlug": "silver-powder",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-powder.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "silver-powder"
+  },
+  {
+    "itemId": "item-cheri-berry",
+    "itemSlug": "cheri-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "cheri-berry"
+  },
+  {
+    "itemId": "item-water-stone",
+    "itemSlug": "water-stone",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/water-stone.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "water-stone"
+  },
+  {
+    "itemId": "item-gardevoirite",
+    "itemSlug": "gardevoirite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gardevoirite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "gardevoirite"
+  },
+  {
+    "itemId": "item-zoom-lens",
+    "itemSlug": "zoom-lens",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/zoom-lens.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "zoom-lens"
+  },
+  {
+    "itemId": "item-water-gem",
+    "itemSlug": "water-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/water-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "water-gem"
+  },
+  {
+    "itemId": "item-alakazite",
+    "itemSlug": "alakazite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/alakazite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "alakazite"
+  },
+  {
+    "itemId": "item-rowap-berry",
+    "itemSlug": "rowap-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rowap-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "rowap-berry"
+  },
+  {
+    "itemId": "item-dusk-stone",
+    "itemSlug": "dusk-stone",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-stone.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "dusk-stone"
+  },
+  {
+    "itemId": "item-apicot-berry",
+    "itemSlug": "apicot-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/apicot-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "apicot-berry"
+  },
+  {
+    "itemId": "item-lansat-berry",
+    "itemSlug": "lansat-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lansat-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "lansat-berry"
+  },
+  {
+    "itemId": "item-prism-scale",
+    "itemSlug": "prism-scale",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/prism-scale.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "prism-scale"
+  },
+  {
+    "itemId": "item-dragon-scale",
+    "itemSlug": "dragon-scale",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-scale.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "dragon-scale"
+  },
+  {
+    "itemId": "item-dawn-stone",
+    "itemSlug": "dawn-stone",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dawn-stone.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "dawn-stone"
+  },
+  {
+    "itemId": "item-haban-berry",
+    "itemSlug": "haban-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/haban-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "haban-berry"
+  },
+  {
+    "itemId": "item-absolite",
+    "itemSlug": "absolite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/absolite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "absolite"
+  },
+  {
+    "itemId": "item-yache-berry",
+    "itemSlug": "yache-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yache-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "yache-berry"
+  },
+  {
+    "itemId": "item-roseli-berry",
+    "itemSlug": "roseli-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/roseli-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "roseli-berry"
+  },
+  {
+    "itemId": "item-lustrous-orb",
+    "itemSlug": "lustrous-orb",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lustrous-orb.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "lustrous-orb"
+  },
+  {
+    "itemId": "item-adamant-orb",
+    "itemSlug": "adamant-orb",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/adamant-orb.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "adamant-orb"
+  },
+  {
+    "itemId": "item-rose-incense",
+    "itemSlug": "rose-incense",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rose-incense.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "rose-incense"
+  },
+  {
+    "itemId": "item-custap-berry",
+    "itemSlug": "custap-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/custap-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "custap-berry"
+  },
+  {
+    "itemId": "item-ganlon-berry",
+    "itemSlug": "ganlon-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ganlon-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "ganlon-berry"
+  },
+  {
+    "itemId": "item-electric-gem",
+    "itemSlug": "electric-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electric-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "electric-gem"
+  },
+  {
+    "itemId": "item-muscle-band",
+    "itemSlug": "muscle-band",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/muscle-band.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "muscle-band"
+  },
+  {
+    "itemId": "item-tiny-mushroom",
+    "itemSlug": "tiny-mushroom",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tiny-mushroom.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "tiny-mushroom"
+  },
+  {
+    "itemId": "item-pecha-berry",
+    "itemSlug": "pecha-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "pecha-berry"
+  },
+  {
+    "itemId": "item-kasib-berry",
+    "itemSlug": "kasib-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kasib-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "kasib-berry"
+  },
+  {
+    "itemId": "item-medichamite",
+    "itemSlug": "medichamite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/medichamite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "medichamite"
+  },
+  {
+    "itemId": "item-petaya-berry",
+    "itemSlug": "petaya-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/petaya-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "petaya-berry"
+  },
+  {
+    "itemId": "item-sacred-ash",
+    "itemSlug": "sacred-ash",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sacred-ash.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "sacred-ash"
+  },
+  {
+    "itemId": "item-fairy-gem",
+    "itemSlug": "fairy-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fairy-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "fairy-gem"
+  },
+  {
+    "itemId": "item-blazikenite",
+    "itemSlug": "blazikenite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/blazikenite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "blazikenite"
+  },
+  {
+    "itemId": "item-heart-scale",
+    "itemSlug": "heart-scale",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heart-scale.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "heart-scale"
+  },
+  {
+    "itemId": "item-fighting-gem",
+    "itemSlug": "fighting-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fighting-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "fighting-gem"
+  },
+  {
+    "itemId": "item-wave-incense",
+    "itemSlug": "wave-incense",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wave-incense.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "wave-incense"
+  },
+  {
+    "itemId": "item-blastoisinite",
+    "itemSlug": "blastoisinite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/blastoisinite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "blastoisinite"
+  },
+  {
+    "itemId": "item-float-stone",
+    "itemSlug": "float-stone",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/float-stone.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "float-stone"
+  },
+  {
+    "itemId": "item-rindo-berry",
+    "itemSlug": "rindo-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rindo-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "rindo-berry"
+  },
+  {
+    "itemId": "item-charti-berry",
+    "itemSlug": "charti-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charti-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "charti-berry"
+  },
+  {
+    "itemId": "item-binding-band",
+    "itemSlug": "binding-band",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/binding-band.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "binding-band"
+  },
+  {
+    "itemId": "item-razor-claw",
+    "itemSlug": "razor-claw",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/razor-claw.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "razor-claw"
+  },
+  {
+    "itemId": "item-houndoominite",
+    "itemSlug": "houndoominite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/houndoominite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "houndoominite"
+  },
+  {
+    "itemId": "item-psychic-gem",
+    "itemSlug": "psychic-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/psychic-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "psychic-gem"
+  },
+  {
+    "itemId": "item-aerodactylite",
+    "itemSlug": "aerodactylite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aerodactylite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "aerodactylite"
+  },
+  {
+    "itemId": "item-manectite",
+    "itemSlug": "manectite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/manectite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "manectite"
+  },
+  {
+    "itemId": "item-lucarionite",
+    "itemSlug": "lucarionite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucarionite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "lucarionite"
+  },
+  {
+    "itemId": "item-tyranitarite",
+    "itemSlug": "tyranitarite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tyranitarite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "tyranitarite"
+  },
+  {
+    "itemId": "item-normal-gem",
+    "itemSlug": "normal-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/normal-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "normal-gem"
+  },
+  {
+    "itemId": "item-steel-gem",
+    "itemSlug": "steel-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/steel-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "steel-gem"
+  },
+  {
+    "itemId": "item-light-ball",
+    "itemSlug": "light-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "light-ball"
+  },
+  {
+    "itemId": "item-mawilite",
+    "itemSlug": "mawilite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mawilite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "mawilite"
+  },
+  {
+    "itemId": "item-garchompite",
+    "itemSlug": "garchompite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/garchompite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "garchompite"
+  },
+  {
+    "itemId": "item-maranga-berry",
+    "itemSlug": "maranga-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/maranga-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "maranga-berry"
+  },
+  {
+    "itemId": "item-life-orb",
+    "itemSlug": "life-orb",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "life-orb"
+  },
+  {
+    "itemId": "item-heracronite",
+    "itemSlug": "heracronite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heracronite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "heracronite"
+  },
+  {
+    "itemId": "item-pinsirite",
+    "itemSlug": "pinsirite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pinsirite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "pinsirite"
+  },
+  {
+    "itemId": "item-jaboca-berry",
+    "itemSlug": "jaboca-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/jaboca-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "jaboca-berry"
+  },
+  {
+    "itemId": "item-ghost-gem",
+    "itemSlug": "ghost-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ghost-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "ghost-gem"
+  },
+  {
+    "itemId": "item-gyaradosite",
+    "itemSlug": "gyaradosite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gyaradosite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "gyaradosite"
+  },
+  {
+    "itemId": "item-berry-juice",
+    "itemSlug": "berry-juice",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/berry-juice.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "berry-juice"
+  },
+  {
+    "itemId": "item-micle-berry",
+    "itemSlug": "micle-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/micle-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "micle-berry"
+  },
+  {
+    "itemId": "item-grip-claw",
+    "itemSlug": "grip-claw",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grip-claw.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "grip-claw"
+  },
+  {
+    "itemId": "item-mental-herb",
+    "itemSlug": "mental-herb",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mental-herb.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "mental-herb"
+  },
+  {
+    "itemId": "item-big-root",
+    "itemSlug": "big-root",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-root.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "big-root"
+  },
+  {
+    "itemId": "item-ampharosite",
+    "itemSlug": "ampharosite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ampharosite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "ampharosite"
+  },
+  {
+    "itemId": "item-full-incense",
+    "itemSlug": "full-incense",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/full-incense.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "full-incense"
+  },
+  {
+    "itemId": "item-scizorite",
+    "itemSlug": "scizorite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scizorite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "scizorite"
+  },
+  {
+    "itemId": "item-venusaurite",
+    "itemSlug": "venusaurite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/venusaurite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "venusaurite"
+  },
+  {
+    "itemId": "item-luck-incense",
+    "itemSlug": "luck-incense",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/luck-incense.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "luck-incense"
+  },
+  {
+    "itemId": "item-rock-incense",
+    "itemSlug": "rock-incense",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rock-incense.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "rock-incense"
+  },
+  {
+    "itemId": "item-poison-gem",
+    "itemSlug": "poison-gem",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-gem.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "poison-gem"
+  },
+  {
+    "itemId": "item-wide-lenss",
+    "itemSlug": "wide-lenss",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png",
+    "resolutionType": "mapped",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "wide-lens"
+  },
+  {
+    "itemId": "item-latiosite",
+    "itemSlug": "latiosite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/latiosite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "latiosite"
+  },
+  {
+    "itemId": "item-latiasite",
+    "itemSlug": "latiasite",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/latiasite.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "latiasite"
+  },
+  {
+    "itemId": "item-poke-ball",
+    "itemSlug": "poke-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "poke-ball"
+  },
+  {
+    "itemId": "item-potion",
+    "itemSlug": "potion",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/potion.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "potion"
+  },
+  {
+    "itemId": "item-pomeg-berry",
+    "itemSlug": "pomeg-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pomeg-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "pomeg-berry"
+  },
+  {
+    "itemId": "item-tm20-safeguard",
+    "itemSlug": "tm20-safeguard",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm05-roar",
+    "itemSlug": "tm05-roar",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-health-wing",
+    "itemSlug": "health-wing",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/health-wing.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "health-wing"
+  },
+  {
+    "itemId": "item-tm37-power-gem",
+    "itemSlug": "tm37-power-gem",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm28-earth-power",
+    "itemSlug": "tm28-earth-power",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm16-light-screen",
+    "itemSlug": "tm16-light-screen",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-choice-band",
+    "itemSlug": "choice-band",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-band.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "choice-band"
+  },
+  {
+    "itemId": "item-moon-ball",
+    "itemSlug": "moon-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "moon-ball"
+  },
+  {
+    "itemId": "item-tm11-flare-blitz",
+    "itemSlug": "tm11-flare-blitz",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm14-blizzard",
+    "itemSlug": "tm14-blizzard",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-hp-up",
+    "itemSlug": "hp-up",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hp-up.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "hp-up"
+  },
+  {
+    "itemId": "item-heal-powder",
+    "itemSlug": "heal-powder",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heal-powder.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "heal-powder"
+  },
+  {
+    "itemId": "item-master-ball",
+    "itemSlug": "master-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "master-ball"
+  },
+  {
+    "itemId": "item-discount-coupon",
+    "itemSlug": "discount-coupon",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/discount-coupon.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "discount-coupon"
+  },
+  {
+    "itemId": "item-mysterious-candy",
+    "itemSlug": "mysterious-candy",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "custom-mod-item",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-great-ball",
+    "itemSlug": "great-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "great-ball"
+  },
+  {
+    "itemId": "item-kelpsy-berry",
+    "itemSlug": "kelpsy-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kelpsy-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "kelpsy-berry"
+  },
+  {
+    "itemId": "item-tm64-encore",
+    "itemSlug": "tm64-encore",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm07-icy-wind",
+    "itemSlug": "tm07-icy-wind",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-muscle-wing",
+    "itemSlug": "muscle-wing",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/muscle-wing.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "muscle-wing"
+  },
+  {
+    "itemId": "item-tm72-volt-switch",
+    "itemSlug": "tm72-volt-switch",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm75-swords-dance",
+    "itemSlug": "tm75-swords-dance",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm18-aqua-tail",
+    "itemSlug": "tm18-aqua-tail",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-choice-specs",
+    "itemSlug": "choice-specs",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-specs.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "choice-specs"
+  },
+  {
+    "itemId": "item-heavy-ball",
+    "itemSlug": "heavy-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heavy-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "heavy-ball"
+  },
+  {
+    "itemId": "item-tm34-sludge-wave",
+    "itemSlug": "tm34-sludge-wave",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm15-hyper-beam",
+    "itemSlug": "tm15-hyper-beam",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-protein",
+    "itemSlug": "protein",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/protein.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "protein"
+  },
+  {
+    "itemId": "item-energy-powder",
+    "itemSlug": "energy-powder",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/energy-powder.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "energy-powder"
+  },
+  {
+    "itemId": "item-energy-root",
+    "itemSlug": "energy-root",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/energy-root.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "energy-root"
+  },
+  {
+    "itemId": "item-dream-ball",
+    "itemSlug": "dream-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dream-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "dream-ball"
+  },
+  {
+    "itemId": "item-honey",
+    "itemSlug": "honey",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/honey.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "honey"
+  },
+  {
+    "itemId": "item-ultra-ball",
+    "itemSlug": "ultra-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "ultra-ball"
+  },
+  {
+    "itemId": "item-qualot-berry",
+    "itemSlug": "qualot-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/qualot-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "qualot-berry"
+  },
+  {
+    "itemId": "item-tm67-metronome",
+    "itemSlug": "tm67-metronome",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm23-stealth-rock",
+    "itemSlug": "tm23-stealth-rock",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-resist-wing",
+    "itemSlug": "resist-wing",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/resist-wing.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "resist-wing"
+  },
+  {
+    "itemId": "item-tm78-bulldoze",
+    "itemSlug": "tm78-bulldoze",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm76-bug-buzz",
+    "itemSlug": "tm76-bug-buzz",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm33-reflect",
+    "itemSlug": "tm33-reflect",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-choice-scarf",
+    "itemSlug": "choice-scarf",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-scarf.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "choice-scarf"
+  },
+  {
+    "itemId": "item-love-ball",
+    "itemSlug": "love-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/love-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "love-ball"
+  },
+  {
+    "itemId": "item-tm93-wild-charge",
+    "itemSlug": "tm93-wild-charge",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm25-thunder",
+    "itemSlug": "tm25-thunder",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-iron",
+    "itemSlug": "iron",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/iron.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "iron"
+  },
+  {
+    "itemId": "item-revival-herb",
+    "itemSlug": "revival-herb",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/revival-herb.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "revival-herb"
+  },
+  {
+    "itemId": "item-cherish-ball",
+    "itemSlug": "cherish-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cherish-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "cherish-ball"
+  },
+  {
+    "itemId": "item-super-potion",
+    "itemSlug": "super-potion",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/super-potion.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "super-potion"
+  },
+  {
+    "itemId": "item-hondew-berry",
+    "itemSlug": "hondew-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hondew-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "hondew-berry"
+  },
+  {
+    "itemId": "item-tm87-swagger",
+    "itemSlug": "tm87-swagger",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm59-incinerate",
+    "itemSlug": "tm59-incinerate",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-genius-wing",
+    "itemSlug": "genius-wing",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/genius-wing.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "genius-wing"
+  },
+  {
+    "itemId": "item-tm84-poison-jab",
+    "itemSlug": "tm84-poison-jab",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm48-body-slam",
+    "itemSlug": "tm48-body-slam",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-dive-ball",
+    "itemSlug": "dive-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dive-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "dive-ball"
+  },
+  {
+    "itemId": "item-dire-hit",
+    "itemSlug": "dire-hit",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dire-hit.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "dire-hit"
+  },
+  {
+    "itemId": "item-guard-spec",
+    "itemSlug": "guard-spec",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/guard-spec.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "guard-spec"
+  },
+  {
+    "itemId": "item-tm38-fire-blast",
+    "itemSlug": "tm38-fire-blast",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-calcium",
+    "itemSlug": "calcium",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/calcium.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "calcium"
+  },
+  {
+    "itemId": "item-safari-ball",
+    "itemSlug": "safari-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/safari-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "safari-ball"
+  },
+  {
+    "itemId": "item-hyper-potion",
+    "itemSlug": "hyper-potion",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hyper-potion.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "hyper-potion"
+  },
+  {
+    "itemId": "item-max-potion",
+    "itemSlug": "max-potion",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-potion.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "max-potion"
+  },
+  {
+    "itemId": "item-grepa-berry",
+    "itemSlug": "grepa-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grepa-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "grepa-berry"
+  },
+  {
+    "itemId": "item-tm60-knock-off",
+    "itemSlug": "tm60-knock-off",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-clever-wing",
+    "itemSlug": "clever-wing",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/clever-wing.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "clever-wing"
+  },
+  {
+    "itemId": "item-tm91-flash-cannon",
+    "itemSlug": "tm91-flash-cannon",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-tm50-overheat",
+    "itemSlug": "tm50-overheat",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-friend-ball",
+    "itemSlug": "friend-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/friend-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "friend-ball"
+  },
+  {
+    "itemId": "item-tm68-giga-impact",
+    "itemSlug": "tm68-giga-impact",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-zinc",
+    "itemSlug": "zinc",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/zinc.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "zinc"
+  },
+  {
+    "itemId": "item-relic-band",
+    "itemSlug": "relic-band",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/relic-band.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "relic-band"
+  },
+  {
+    "itemId": "item-premier-ball",
+    "itemSlug": "premier-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/premier-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "premier-ball"
+  },
+  {
+    "itemId": "item-full-heal",
+    "itemSlug": "full-heal",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/full-heal.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "full-heal"
+  },
+  {
+    "itemId": "item-revive",
+    "itemSlug": "revive",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/revive.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "revive"
+  },
+  {
+    "itemId": "item-full-restore",
+    "itemSlug": "full-restore",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/full-restore.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "full-restore"
+  },
+  {
+    "itemId": "item-tamato-berry",
+    "itemSlug": "tamato-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tamato-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "tamato-berry"
+  },
+  {
+    "itemId": "item-swift-wing",
+    "itemSlug": "swift-wing",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/swift-wing.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "swift-wing"
+  },
+  {
+    "itemId": "item-tm51-heavy-slam",
+    "itemSlug": "tm51-heavy-slam",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-lure-ball",
+    "itemSlug": "lure-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lure-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "lure-ball"
+  },
+  {
+    "itemId": "item-carbos",
+    "itemSlug": "carbos",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/carbos.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "carbos"
+  },
+  {
+    "itemId": "item-max-revive",
+    "itemSlug": "max-revive",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-revive.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "max-revive"
+  },
+  {
+    "itemId": "item-sitrus-berry",
+    "itemSlug": "sitrus-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "sitrus-berry"
+  },
+  {
+    "itemId": "item-moomoo-milk",
+    "itemSlug": "moomoo-milk",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moomoo-milk.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "moomoo-milk"
+  },
+  {
+    "itemId": "item-tm52-focus-blast",
+    "itemSlug": "tm52-focus-blast",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-level-ball",
+    "itemSlug": "level-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/level-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "level-ball"
+  },
+  {
+    "itemId": "item-pp-max",
+    "itemSlug": "pp-max",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pp-max.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "pp-max"
+  },
+  {
+    "itemId": "item-lum-berry",
+    "itemSlug": "lum-berry",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "lum-berry"
+  },
+  {
+    "itemId": "item-tm58-tailwind",
+    "itemSlug": "tm58-tailwind",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-dusk-ball",
+    "itemSlug": "dusk-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "dusk-ball"
+  },
+  {
+    "itemId": "item-ability-capsule",
+    "itemSlug": "ability-capsule",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ability-capsule.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "ability-capsule"
+  },
+  {
+    "itemId": "item-tm85-zen-headbutt",
+    "itemSlug": "tm85-zen-headbutt",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "machine-item-no-safe-public-sprite",
+    "resolvedFrom": null
+  },
+  {
+    "itemId": "item-fast-ball",
+    "itemSlug": "fast-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fast-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "fast-ball"
+  },
+  {
+    "itemId": "item-repeat-ball",
+    "itemSlug": "repeat-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/repeat-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "repeat-ball"
+  },
+  {
+    "itemId": "item-nest-ball",
+    "itemSlug": "nest-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nest-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "nest-ball"
+  },
+  {
+    "itemId": "item-net-ball",
+    "itemSlug": "net-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/net-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "net-ball"
+  },
+  {
+    "itemId": "item-elixir",
+    "itemSlug": "elixir",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/elixir.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "elixir"
+  },
+  {
+    "itemId": "item-max-elixir",
+    "itemSlug": "max-elixir",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-elixir.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "max-elixir"
+  },
+  {
+    "itemId": "item-quick-ball",
+    "itemSlug": "quick-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "quick-ball"
+  },
+  {
+    "itemId": "item-heal-ball",
+    "itemSlug": "heal-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heal-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "heal-ball"
+  },
+  {
+    "itemId": "item-timer-ball",
+    "itemSlug": "timer-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/timer-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "timer-ball"
+  },
+  {
+    "itemId": "item-luxury-ball",
+    "itemSlug": "luxury-ball",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/luxury-ball.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "luxury-ball"
+  },
+  {
+    "itemId": "item-pp-up",
+    "itemSlug": "pp-up",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pp-up.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "pp-up"
+  },
+  {
+    "itemId": "item-balm-mushroom",
+    "itemSlug": "balm-mushroom",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/balm-mushroom.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "balm-mushroom"
+  },
+  {
+    "itemId": "item-max-ether",
+    "itemSlug": "max-ether",
+    "resolvedImageSrc": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-ether.png",
+    "resolutionType": "real",
+    "reason": "pokeapi-item-sprite",
+    "resolvedFrom": "max-ether"
+  },
+  {
+    "itemId": "item-box-link",
+    "itemSlug": "box-link",
+    "resolvedImageSrc": null,
+    "resolutionType": "fallback",
+    "reason": "custom-mod-item",
+    "resolvedFrom": null
+  }
+]

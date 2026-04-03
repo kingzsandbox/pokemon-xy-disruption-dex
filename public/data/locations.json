@@ -1,5 +1,12 @@
 [
   {
+    "id": "location-ambrette-town",
+    "slug": "ambrette-town",
+    "name": "Ambrette Town",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Ambrette Town."
+  },
+  {
     "id": "location-anistar-city",
     "slug": "anistar-city",
     "name": "Anistar City",
@@ -14,11 +21,25 @@
     "description": "Imported location record from source materials for Azure Bay."
   },
   {
+    "id": "location-connecting-cave",
+    "slug": "connecting-cave",
+    "name": "Connecting Cave",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Connecting Cave."
+  },
+  {
     "id": "location-couriway-town",
     "slug": "couriway-town",
     "name": "Couriway Town",
     "region": "Kalos",
     "description": "Imported location record from source materials for Couriway Town."
+  },
+  {
+    "id": "location-cyllage-city",
+    "slug": "cyllage-city",
+    "name": "Cyllage City",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Cyllage City."
   },
   {
     "id": "location-frost-cavern-outside",
@@ -63,13 +84,6 @@
     "description": "Imported location record from source materials for Glittering Cave."
   },
   {
-    "id": "location-glittering-cave-3d-area",
-    "slug": "glittering-cave-3d-area",
-    "name": "Glittering Cave 3D Area",
-    "region": "Kalos",
-    "description": "Imported location record from source materials for Glittering Cave 3D Area."
-  },
-  {
     "id": "location-laverre-city",
     "slug": "laverre-city",
     "name": "Laverre City",
@@ -84,6 +98,13 @@
     "description": "Imported location record from source materials for Lost Hotel."
   },
   {
+    "id": "location-parfum-palace",
+    "slug": "parfum-palace",
+    "name": "Parfum Palace",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Parfum Palace."
+  },
+  {
     "id": "location-pokemon-village",
     "slug": "pokemon-village",
     "name": "Pokémon Village",
@@ -91,11 +112,11 @@
     "description": "Imported location record from source materials for Pokémon Village."
   },
   {
-    "id": "location-pokemon-village-unknown-dungeon",
-    "slug": "pokemon-village-unknown-dungeon",
-    "name": "Pokémon Village - Unknown Dungeon",
+    "id": "location-reflection-cave-1bf",
+    "slug": "reflection-cave-1bf",
+    "name": "Reflection Cave 1BF",
     "region": "Kalos",
-    "description": "Imported location record from source materials for the Unknown Dungeon in Pokémon Village."
+    "description": "Imported location record from source materials for Reflection Cave 1BF."
   },
   {
     "id": "location-reflection-cave-1f",
@@ -105,25 +126,32 @@
     "description": "Imported location record from source materials for Reflection Cave 1F."
   },
   {
-    "id": "location-reflection-cave-1bf",
-    "slug": "reflection-cave-1bf",
-    "name": "Reflection Cave B1F",
+    "id": "location-reflection-cave-2bf",
+    "slug": "reflection-cave-2bf",
+    "name": "Reflection Cave 2BF",
     "region": "Kalos",
-    "description": "Imported location record from source materials for Reflection Cave B1F."
-  },
-  {
-    "id": "location-reflection-cave-b2f",
-    "slug": "reflection-cave-b2f",
-    "name": "Reflection Cave B2F",
-    "region": "Kalos",
-    "description": "Imported location record from source materials for Reflection Cave B2F."
+    "description": "Imported location record from source materials for Reflection Cave 2BF."
   },
   {
     "id": "location-reflection-cave-3bf",
     "slug": "reflection-cave-3bf",
-    "name": "Reflection Cave B3F",
+    "name": "Reflection Cave 3BF",
     "region": "Kalos",
-    "description": "Imported location record from source materials for Reflection Cave B3F."
+    "description": "Imported location record from source materials for Reflection Cave 3BF."
+  },
+  {
+    "id": "location-route-10",
+    "slug": "route-10",
+    "name": "Route 10",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 10."
+  },
+  {
+    "id": "location-route-11",
+    "slug": "route-11",
+    "name": "Route 11",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 11."
   },
   {
     "id": "location-route-12",
@@ -217,6 +245,27 @@
     "description": "Imported location record from source materials for Route 3."
   },
   {
+    "id": "location-route-4",
+    "slug": "route-4",
+    "name": "Route 4",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 4."
+  },
+  {
+    "id": "location-route-5",
+    "slug": "route-5",
+    "name": "Route 5",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 5."
+  },
+  {
+    "id": "location-route-6",
+    "slug": "route-6",
+    "name": "Route 6",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 6."
+  },
+  {
     "id": "location-route-7",
     "slug": "route-7",
     "name": "Route 7",
@@ -224,11 +273,25 @@
     "description": "Imported location record from source materials for Route 7."
   },
   {
+    "id": "location-route-7-berry-trees",
+    "slug": "route-7-berry-trees",
+    "name": "Route 7 - Berry Trees",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 7 - Berry Trees."
+  },
+  {
     "id": "location-route-8",
     "slug": "route-8",
     "name": "Route 8",
     "region": "Kalos",
     "description": "Imported location record from source materials for Route 8."
+  },
+  {
+    "id": "location-route-9",
+    "slug": "route-9",
+    "name": "Route 9",
+    "region": "Kalos",
+    "description": "Imported location record from source materials for Route 9."
   },
   {
     "id": "location-santalune-forest",
@@ -264,13 +327,6 @@
     "name": "Terminus Cave 2F",
     "region": "Kalos",
     "description": "Imported location record from source materials for Terminus Cave 2F."
-  },
-  {
-    "id": "location-terminus-cave-2f-right",
-    "slug": "terminus-cave-2f-right",
-    "name": "Terminus Cave 2F Right",
-    "region": "Kalos",
-    "description": "Imported location record from source materials for Terminus Cave 2F Right."
   },
   {
     "id": "location-terminus-cave-b1f",

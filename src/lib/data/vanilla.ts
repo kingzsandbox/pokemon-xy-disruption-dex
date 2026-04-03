@@ -52,7 +52,83 @@ function normalizeAbilityName(value: string): string {
   return value.trim().toLowerCase();
 }
 
+export type PokemonAbilitySummaryEntry = {
+  value: string;
+  isHidden: boolean;
+};
+
+function dedupeAbilitySlots(slotEntries: PokemonAbilitySummaryEntry[]): PokemonAbilitySummaryEntry[] {
+  const deduped: PokemonAbilitySummaryEntry[] = [];
+
+  for (const entry of slotEntries) {
+    const existing = deduped.find(
+      (candidate) => normalizeAbilityName(candidate.value) === normalizeAbilityName(entry.value),
+    );
+
+    if (!existing) {
+      deduped.push(entry);
+      continue;
+    }
+
+    existing.isHidden = existing.isHidden && entry.isHidden;
+  }
+
+  return deduped;
+}
+
+export function getPokemonAbilitySummaryEntries(pokemon: PokemonEntry): PokemonAbilitySummaryEntry[] {
+  const sourceSlots = pokemon.abilitySlots
+    ? [
+        pokemon.abilitySlots.ability1
+          ? { value: pokemon.abilitySlots.ability1, isHidden: false }
+          : null,
+        pokemon.abilitySlots.ability2
+          ? { value: pokemon.abilitySlots.ability2, isHidden: false }
+          : null,
+        pokemon.abilitySlots.hiddenAbility
+          ? { value: pokemon.abilitySlots.hiddenAbility, isHidden: true }
+          : null,
+      ].filter((entry): entry is PokemonAbilitySummaryEntry => entry !== null)
+    : [];
+
+  if (sourceSlots.length > 0) {
+    return dedupeAbilitySlots(sourceSlots);
+  }
+
+  return dedupeAbilitySlots(
+    pokemon.abilities.map((value, index) => ({
+      value,
+      isHidden: index === 2,
+    })),
+  );
+}
+
 export function getPokemonAbilityDisplayRows(pokemon: PokemonEntry): PokemonAbilityDisplayRow[] {
+  const sourceSummary = getPokemonAbilitySummaryEntries(pokemon);
+  if (sourceSummary.length > 0) {
+    if (sourceSummary.length === 1) {
+      return [{ label: "Ability 1", value: sourceSummary[0].value }];
+    }
+
+    const rows: PokemonAbilityDisplayRow[] = [];
+    let standardIndex = 0;
+
+    for (const entry of sourceSummary) {
+      if (entry.isHidden) {
+        rows.push({ label: "Hidden Ability", value: entry.value });
+        continue;
+      }
+
+      standardIndex += 1;
+      rows.push({
+        label: standardIndex === 1 ? "Ability 1" : "Ability 2",
+        value: entry.value,
+      });
+    }
+
+    return rows;
+  }
+
   if (pokemon.abilitySlots) {
     const sourceBackedRows: PokemonAbilityDisplayRow[] = [];
 

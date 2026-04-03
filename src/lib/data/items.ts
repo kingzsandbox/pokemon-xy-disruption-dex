@@ -34,10 +34,14 @@ export function getItemBySlug(slug: string): ItemEntry | undefined {
 
 export function getItemDisplayDescription(item: ItemEntry): string {
   if (item.description.startsWith("Imported from ")) {
-    return "No in-game description has been imported yet.";
+    return "No description listed.";
   }
 
   return item.description;
+}
+
+export function getItemDisplayName(item: Pick<ItemEntry, "name">): string {
+  return item.name.replace(/\s*\[(.+?)\]/g, " $1").replace(/\s+/g, " ").trim();
 }
 
 export function getItemLocations(): ItemLocationEntry[] {
@@ -101,6 +105,73 @@ export function getLocationsByItem(itemId: string): ItemLocationReference[] {
       };
     })
     .filter((entry): entry is ItemLocationReference => entry !== undefined);
+}
+
+export type ItemObtainDetail = {
+  itemLocationId: string;
+  notes: string;
+  location: ItemLocationReference["location"];
+  method: string;
+  detail: string | null;
+};
+
+function formatPriceLabel(value: string): string | null {
+  const price = Number.parseFloat(value);
+  return Number.isFinite(price) ? new Intl.NumberFormat("en-US").format(price) : null;
+}
+
+function cleanObtainDetail(notes: string): { method: string; detail: string | null } {
+  const trimmed = notes.trim();
+  const tmShopMatch = trimmed.match(/^Shop - TMs; price ([\d.]+)$/i);
+  if (tmShopMatch) {
+    const priceLabel = formatPriceLabel(tmShopMatch[1]);
+    return { method: "TM Shop", detail: priceLabel ? `${priceLabel}` : null };
+  }
+
+  const shopMatch = trimmed.match(/^Shop - (.+)$/i);
+  if (shopMatch) {
+    return { method: "Shop", detail: shopMatch[1].trim() || null };
+  }
+
+  if (/^Gift/i.test(trimmed)) {
+    return {
+      method: "Gift",
+      detail: trimmed.replace(/^Gift\s*-?\s*/i, "").trim() || null,
+    };
+  }
+
+  if (/^Trash can/i.test(trimmed)) {
+    return {
+      method: "Trash Can",
+      detail: trimmed.replace(/^Trash can\s*-?\s*/i, "").trim() || null,
+    };
+  }
+
+  if (/berry tree/i.test(trimmed)) {
+    return { method: "Berry Tree", detail: trimmed.replace(/;\s*hidden item/gi, "").trim() || null };
+  }
+
+  if (/hidden/i.test(trimmed)) {
+    return {
+      method: "Hidden Item",
+      detail: trimmed.replace(/;\s*hidden item/gi, "").replace(/;\s*hidden/gi, "").trim() || null,
+    };
+  }
+
+  return { method: "Found", detail: trimmed || null };
+}
+
+export function getItemObtainDetails(itemId: string): ItemObtainDetail[] {
+  return getLocationsByItem(itemId).map((entry) => {
+    const parsed = cleanObtainDetail(entry.notes);
+    return {
+      itemLocationId: entry.itemLocationId,
+      notes: entry.notes,
+      location: entry.location,
+      method: parsed.method,
+      detail: parsed.detail,
+    };
+  });
 }
 
 export type LocationItemSectionKey = "tm" | "shop" | "pickup" | "special";
