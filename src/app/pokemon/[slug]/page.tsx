@@ -1,24 +1,24 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { CSSProperties } from "react";
-import { MoveCategoryIcon, StatBar, TypeBadgeList, matchupSectionStyle } from "@/components/dex-visuals";
-import PageNavigation from "@/components/page-navigation";
-import ReferenceImage from "@/components/reference-image";
-import { getPokemonMiniSpriteSources, getPokemonPrimaryArt } from "@/lib/assets";
-import { getTmHmCompatibilityByPokemonId } from "@/lib/data/compatibility";
-import { getEncounterItemRowsByPokemonId } from "@/lib/data/encounters";
-import { getLearnsetByPokemonId } from "@/lib/data/learnsets";
-import { getMoveById } from "@/lib/data/moves";
-import { getEvolutionFamily } from "@/lib/data/pokemon-evolutions";
-import { getAllPokemon, getPokemonBySlug } from "@/lib/data/pokemon";
+import { MoveCategoryIcon, StatBar, TypeBadgeList, matchupSectionStyle } from "../../../components/dex-visuals";
+import PageNavigation from "../../../components/page-navigation";
+import ReferenceImage from "../../../components/reference-image";
+import { getPokemonMiniSpriteSources, getPokemonPrimaryArt } from "../../../lib/assets";
+import { getTmHmCompatibilityByPokemonId } from "../../../lib/data/compatibility";
+import { getEncounterItemRowsByPokemonId } from "../../../lib/data/encounters";
+import { getLearnsetByPokemonId } from "../../../lib/data/learnsets";
+import { getMoveById } from "../../../lib/data/moves";
+import { getEvolutionFamily } from "../../../lib/data/pokemon-evolutions";
+import { getAllPokemon, getPokemonBySlug } from "../../../lib/data/pokemon";
 import {
   formatPokemonStatDelta,
   getMoveEffectSummary,
   getPokemonAbilityDisplayRows,
   getPokemonStatDisplayRows,
-} from "@/lib/data/vanilla";
-import { getOffensiveMatchups, getDefensiveMatchups } from "@/lib/type-chart";
-import { getPokemonDisplayName } from "@/lib/presentation";
+} from "../../../lib/data/vanilla";
+import { getOffensiveMatchups, getDefensiveMatchups } from "../../../lib/type-chart";
+import { getPokemonDisplayName } from "../../../lib/presentation";
 
 function formatValue(value: number | string | null): string {
   return value === null ? "—" : String(value);

@@ -7,7 +7,7 @@ import type {
   PokemonStatDisplayRow,
   VanillaMoveReference,
   VanillaPokemonReference,
-} from "@/lib/types";
+} from "../types";
 
 const vanillaPokemonReferences = vanillaPokemonReferenceData as VanillaPokemonReference[];
 const vanillaMoveReferences = vanillaMoveReferenceData as VanillaMoveReference[];

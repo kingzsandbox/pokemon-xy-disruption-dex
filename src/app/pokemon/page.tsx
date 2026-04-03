@@ -1,6 +1,6 @@
 import Link from "next/link";
-import PageNavigation from "@/components/page-navigation";
-import { getAllPokemon } from "@/lib/data/pokemon";
+import PageNavigation from "../../components/page-navigation";
+import { getAllPokemon } from "../../lib/data/pokemon";
 
 export default function PokemonListPage() {
   const pokemon = getAllPokemon();

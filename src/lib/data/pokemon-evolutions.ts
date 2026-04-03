@@ -1,6 +1,6 @@
 import evolutionLinksData from "../../../public/data/pokemon-evolutions.json";
-import { getPokemonById } from "@/lib/data/pokemon";
-import type { PokemonEvolutionLink, PokemonEntry } from "@/lib/types";
+import { getPokemonById } from "./pokemon";
+import type { PokemonEvolutionLink, PokemonEntry } from "../types";
 
 const evolutionLinks = evolutionLinksData as PokemonEvolutionLink[];
 

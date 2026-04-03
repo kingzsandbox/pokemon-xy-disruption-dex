@@ -5,3 +5,4 @@ dist
 .import-build
 *.log
 *.tsbuildinfo
+tmp-edge-profile*

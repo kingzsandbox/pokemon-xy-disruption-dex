@@ -1,7 +1,7 @@
 import Link from "next/link";
-import ItemImage from "@/components/item-image";
-import PageNavigation from "@/components/page-navigation";
-import { getBrowseItems } from "@/lib/data/items";
+import ItemImage from "../../components/item-image";
+import PageNavigation from "../../components/page-navigation";
+import { getBrowseItems } from "../../lib/data/items";
 
 export default function ItemsPage() {
   const items = getBrowseItems();

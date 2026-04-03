@@ -1,7 +1,7 @@
-import { coreEncounters } from "@/lib/data/core";
-import { getItemBySlug, getItems } from "@/lib/data/items";
-import { getLocationById } from "@/lib/data/locations";
-import type { EncounterEntry, EncounterHeldItemDetail } from "@/lib/types";
+import { coreEncounters } from "./core";
+import { getItemBySlug, getItems } from "./items";
+import { getLocationById } from "./locations";
+import type { EncounterEntry, EncounterHeldItemDetail } from "../types";
 
 const encounters = coreEncounters as EncounterEntry[];
 const encountersByLocation = new Map<string, EncounterEntry[]>();

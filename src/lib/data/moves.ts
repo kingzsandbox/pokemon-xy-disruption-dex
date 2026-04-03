@@ -1,5 +1,5 @@
-import { coreMoves } from "@/lib/data/core";
-import type { MoveEntry } from "@/lib/types";
+import { coreMoves } from "./core";
+import type { MoveEntry } from "../types";
 
 const moves = coreMoves as MoveEntry[];
 const movesById = new Map(moves.map((entry) => [entry.id, entry]));

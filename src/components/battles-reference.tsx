@@ -2,14 +2,14 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import ReferenceImage from "@/components/reference-image";
-import TrainerPhoto from "@/components/trainer-photo";
-import { MoveCategoryIcon, TypeBadgeList } from "@/components/dex-visuals";
-import { getBattlePokemonImageSources } from "@/lib/assets";
-import type { BattleCategory, BattleFilter, BattleOccurrence, BattleVariant } from "@/lib/data/battles";
-import { getMoveByName } from "@/lib/data/moves";
-import { getBattleDisplayPokemon } from "@/lib/data/pokemon";
-import { getPokemonDisplayName } from "@/lib/presentation";
+import ReferenceImage from "./reference-image";
+import TrainerPhoto from "./trainer-photo";
+import { MoveCategoryIcon, TypeBadgeList } from "./dex-visuals";
+import { getBattlePokemonImageSources } from "../lib/assets";
+import type { BattleCategory, BattleFilter, BattleOccurrence, BattleVariant } from "../lib/data/battles";
+import { getMoveByName } from "../lib/data/moves";
+import { getBattleDisplayPokemon } from "../lib/data/pokemon";
+import { getPokemonDisplayName } from "../lib/presentation";
 
 type BattlesReferenceProps = {
   battles: BattleOccurrence[];

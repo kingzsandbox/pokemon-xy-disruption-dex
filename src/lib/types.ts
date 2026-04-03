@@ -8,6 +8,7 @@ export type LearnsetId = DexEntryId;
 export type TrainerId = DexEntryId;
 export type LevelCapId = DexEntryId;
 export type PickupEntryId = DexEntryId;
+export type AbilityId = DexEntryId;
 
 export interface NamedEntry {
   id: DexEntryId;
@@ -49,6 +50,11 @@ export interface ItemEntry extends NamedEntry {
   description: string;
 }
 
+export interface AbilityEntry extends NamedEntry {
+  description: string;
+  source: "mod" | "vanilla";
+}
+
 export type MoveStatus = "usable" | "reduced" | "removed";
 
 export interface MoveEntry extends NamedEntry {
@@ -78,6 +84,13 @@ export interface VanillaMoveReference {
   moveId: MoveId;
   effectSummary: string | null;
   sourceUrl: string | null;
+}
+
+export interface PokemonEvolutionLink {
+  id: DexEntryId;
+  fromPokemonId: PokemonId;
+  toPokemonId: PokemonId;
+  method: string;
 }
 
 export type MachineKind = "tm" | "hm" | "mt";
@@ -115,6 +128,17 @@ export interface EncounterEntry {
   minLevel: number;
   maxLevel: number;
   rate: number;
+  rawSpecies?: string;
+  heldItem?: string | null;
+  heldItems?: EncounterHeldItemDetail[];
+  sourceReference?: string | null;
+  sourceMethodFill?: string | null;
+}
+
+export interface EncounterHeldItemDetail {
+  itemName: string;
+  chanceLabel: string;
+  chanceValue: number | null;
 }
 
 export interface ItemLocationEntry {
@@ -130,6 +154,7 @@ export type SearchResultType =
   | "item"
   | "move"
   | "machine"
+  | "ability"
   | "trainer"
   | "system";
 

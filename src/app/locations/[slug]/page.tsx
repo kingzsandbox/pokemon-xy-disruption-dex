@@ -1,15 +1,15 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { EncounterMethodBadge, TypeBadgeList } from "@/components/dex-visuals";
-import ItemImage from "@/components/item-image";
-import PageNavigation from "@/components/page-navigation";
-import ReferenceImage from "@/components/reference-image";
-import { getPokemonMiniSpriteSources } from "@/lib/assets";
-import { getEncounterHeldItemDetails, getEncountersByLocation } from "@/lib/data/encounters";
-import { getItemDisplayName, getItemSectionsByLocation } from "@/lib/data/items";
-import { getLocationBySlug, getLocationDisplayDescription, getLocations } from "@/lib/data/locations";
-import { getPokemonDisplayName } from "@/lib/presentation";
-import { getPokemonById } from "@/lib/data/pokemon";
+import { EncounterMethodBadge, TypeBadgeList } from "../../../components/dex-visuals";
+import ItemImage from "../../../components/item-image";
+import PageNavigation from "../../../components/page-navigation";
+import ReferenceImage from "../../../components/reference-image";
+import { getPokemonMiniSpriteSources } from "../../../lib/assets";
+import { getEncounterHeldItemDetails, getEncountersByLocation } from "../../../lib/data/encounters";
+import { getItemDisplayName, getItemSectionsByLocation } from "../../../lib/data/items";
+import { getLocationBySlug, getLocationDisplayDescription, getLocations } from "../../../lib/data/locations";
+import { getPokemonDisplayName } from "../../../lib/presentation";
+import { getPokemonById } from "../../../lib/data/pokemon";
 
 export const dynamicParams = false;
 

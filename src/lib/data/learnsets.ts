@@ -1,5 +1,5 @@
-import { coreLearnsets } from "@/lib/data/core";
-import type { LearnsetEntry, MoveLearnsetLink, PokemonLearnsetMove } from "@/lib/types";
+import { coreLearnsets } from "./core";
+import type { LearnsetEntry, MoveLearnsetLink, PokemonLearnsetMove } from "../types";
 
 const learnsets = coreLearnsets as LearnsetEntry[];
 const learnsetsByPokemonId = new Map<string, PokemonLearnsetMove[]>();

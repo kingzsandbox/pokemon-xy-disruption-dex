@@ -1,6 +1,6 @@
 import Link from "next/link";
-import PageNavigation from "@/components/page-navigation";
-import { getMachineBrowseEntries } from "@/lib/data/compatibility";
+import PageNavigation from "../../components/page-navigation";
+import { getMachineBrowseEntries } from "../../lib/data/compatibility";
 
 export default function MachinesPage() {
   const machines = getMachineBrowseEntries();

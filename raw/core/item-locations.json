@@ -55,174 +55,192 @@
   },
   {
     "id": "item-location-010",
+    "itemId": "item-tm37-power-gem",
+    "locationId": "location-cyllage-city",
+    "notes": "Shop - TMs; price 10000.0"
+  },
+  {
+    "id": "item-location-011",
+    "itemId": "item-tm72-volt-switch",
+    "locationId": "location-cyllage-city",
+    "notes": "Shop - TMs; price 10000.0"
+  },
+  {
+    "id": "item-location-012",
+    "itemId": "item-tm78-bulldoze",
+    "locationId": "location-cyllage-city",
+    "notes": "Shop - TMs; price 10000.0"
+  },
+  {
+    "id": "item-location-013",
     "itemId": "item-tm28-earth-power",
     "locationId": "location-shalour-city",
     "notes": "Shop - TMs; price 10000.0"
   },
   {
-    "id": "item-location-011",
+    "id": "item-location-014",
     "itemId": "item-tm75-swords-dance",
     "locationId": "location-shalour-city",
     "notes": "Shop - TMs; price 10000.0"
   },
   {
-    "id": "item-location-012",
+    "id": "item-location-015",
     "itemId": "item-tm76-bug-buzz",
     "locationId": "location-shalour-city",
     "notes": "Shop - TMs; price 10000.0"
   },
   {
-    "id": "item-location-013",
+    "id": "item-location-016",
     "itemId": "item-tm84-poison-jab",
     "locationId": "location-shalour-city",
     "notes": "Shop - TMs; price 10000.0"
   },
   {
-    "id": "item-location-014",
+    "id": "item-location-017",
     "itemId": "item-tm91-flash-cannon",
     "locationId": "location-shalour-city",
     "notes": "Shop - TMs; price 10000.0"
   },
   {
-    "id": "item-location-015",
+    "id": "item-location-018",
     "itemId": "item-thunder-stone",
     "locationId": "location-laverre-city",
     "notes": "Shop - Stones; price 1000.0"
   },
   {
-    "id": "item-location-016",
+    "id": "item-location-019",
     "itemId": "item-moon-stone",
     "locationId": "location-laverre-city",
     "notes": "Shop - Stones; price 1000.0"
   },
   {
-    "id": "item-location-017",
+    "id": "item-location-020",
     "itemId": "item-sun-stone",
     "locationId": "location-laverre-city",
     "notes": "Shop - Stones; price 1000.0"
   },
   {
-    "id": "item-location-018",
+    "id": "item-location-021",
     "itemId": "item-shiny-stone",
     "locationId": "location-laverre-city",
     "notes": "Shop - Stones; price 1000.0"
   },
   {
-    "id": "item-location-019",
+    "id": "item-location-022",
     "itemId": "item-dusk-stone",
     "locationId": "location-laverre-city",
     "notes": "Shop - Stones; price 1000.0"
   },
   {
-    "id": "item-location-020",
+    "id": "item-location-023",
     "itemId": "item-dawn-stone",
     "locationId": "location-laverre-city",
     "notes": "Shop - Stones; price 1000.0"
   },
   {
-    "id": "item-location-021",
+    "id": "item-location-024",
     "itemId": "item-dire-hit",
     "locationId": "location-lost-hotel",
     "notes": "Trash Can - Daily; Sometimes chance"
   },
   {
-    "id": "item-location-022",
+    "id": "item-location-025",
     "itemId": "item-relic-band",
     "locationId": "location-lost-hotel",
     "notes": "Trash Can - Daily; Sometimes chance"
   },
   {
-    "id": "item-location-023",
+    "id": "item-location-026",
     "itemId": "item-guard-spec",
     "locationId": "location-lost-hotel",
     "notes": "Trash Can - Tuesdays; Sometimes chance"
   },
   {
-    "id": "item-location-024",
+    "id": "item-location-027",
     "itemId": "item-relic-band",
     "locationId": "location-lost-hotel",
     "notes": "Trash Can - Tuesdays; Sometimes chance"
   },
   {
-    "id": "item-location-025",
+    "id": "item-location-028",
     "itemId": "item-tm14-blizzard",
     "locationId": "location-anistar-city",
     "notes": "Shop - TMs; price 15000.0"
   },
   {
-    "id": "item-location-026",
+    "id": "item-location-029",
     "itemId": "item-tm15-hyper-beam",
     "locationId": "location-anistar-city",
     "notes": "Shop - TMs; price 15000.0"
   },
   {
-    "id": "item-location-027",
+    "id": "item-location-030",
     "itemId": "item-tm25-thunder",
     "locationId": "location-anistar-city",
     "notes": "Shop - TMs; price 15000.0"
   },
   {
-    "id": "item-location-028",
+    "id": "item-location-031",
     "itemId": "item-tm38-fire-blast",
     "locationId": "location-anistar-city",
     "notes": "Shop - TMs; price 15000.0"
   },
   {
-    "id": "item-location-029",
+    "id": "item-location-032",
     "itemId": "item-tm68-giga-impact",
     "locationId": "location-anistar-city",
     "notes": "Shop - TMs; price 15000.0"
   },
   {
-    "id": "item-location-030",
+    "id": "item-location-033",
     "itemId": "item-heal-powder",
     "locationId": "location-pokemon-village",
     "notes": "Trash Can - Daily; Common chance"
   },
   {
-    "id": "item-location-031",
+    "id": "item-location-034",
     "itemId": "item-energy-powder",
     "locationId": "location-pokemon-village",
     "notes": "Trash Can - Daily; Common chance"
   },
   {
-    "id": "item-location-032",
+    "id": "item-location-035",
     "itemId": "item-energy-root",
     "locationId": "location-pokemon-village",
     "notes": "Trash Can - Daily; Common chance"
   },
   {
-    "id": "item-location-033",
+    "id": "item-location-036",
     "itemId": "item-revival-herb",
     "locationId": "location-pokemon-village",
     "notes": "Trash Can - Daily; Sometimes chance"
   },
   {
-    "id": "item-location-034",
+    "id": "item-location-037",
     "itemId": "item-relic-band",
     "locationId": "location-pokemon-village",
     "notes": "Trash Can - Daily; Sometimes chance"
   },
   {
-    "id": "item-location-035",
+    "id": "item-location-038",
     "itemId": "item-heal-powder",
     "locationId": "location-pokemon-village",
     "notes": "Trash Can - Thurdays; Common chance"
   },
   {
-    "id": "item-location-036",
+    "id": "item-location-039",
     "itemId": "item-energy-root",
     "locationId": "location-pokemon-village",
     "notes": "Trash Can - Thurdays; Common chance"
   },
   {
-    "id": "item-location-037",
+    "id": "item-location-040",
     "itemId": "item-revival-herb",
     "locationId": "location-pokemon-village",
     "notes": "Trash Can - Thurdays; Common chance"
   },
   {
-    "id": "item-location-038",
+    "id": "item-location-041",
     "itemId": "item-relic-band",
     "locationId": "location-pokemon-village",
     "notes": "Trash Can - Thurdays; Sometimes chance"

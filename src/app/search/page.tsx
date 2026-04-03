@@ -1,7 +1,7 @@
 import Link from "next/link";
-import SearchAutocomplete from "@/app/search-autocomplete";
-import PageNavigation from "@/components/page-navigation";
-import { getSearchIndex, getSearchResultHref, searchDex } from "@/lib/search";
+import SearchAutocomplete from "../search-autocomplete";
+import PageNavigation from "../../components/page-navigation";
+import { getSearchIndex, getSearchResultHref, searchDex } from "../../lib/search";
 
 type SearchPageProps = {
   searchParams: Promise<{

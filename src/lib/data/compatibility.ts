@@ -1,13 +1,13 @@
-import { coreMachines, coreMoveCompatibility } from "@/lib/data/core";
-import { getLocationByName } from "@/lib/data/locations";
-import { getMoveById } from "@/lib/data/moves";
-import { getPokemonById } from "@/lib/data/pokemon";
+import { coreMachines, coreMoveCompatibility } from "./core";
+import { getLocationByName } from "./locations";
+import { getMoveById } from "./moves";
+import { getPokemonById } from "./pokemon";
 import type {
   MachineEntry,
   LocationEntry,
   MoveMachineLink,
   PokemonMachineCompatibility,
-} from "@/lib/types";
+} from "../types";
 
 const machines = coreMachines as MachineEntry[];
 const compatibility = coreMoveCompatibility;

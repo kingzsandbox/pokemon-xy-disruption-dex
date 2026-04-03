@@ -1,16 +1,16 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { MoveCategoryIcon, TypeBadgeList } from "@/components/dex-visuals";
-import PageNavigation from "@/components/page-navigation";
-import ReferenceImage from "@/components/reference-image";
-import { getPokemonMiniSpriteSources } from "@/lib/assets";
-import { getMachineLinksByMoveId } from "@/lib/data/compatibility";
-import { getLearnsetByMoveId } from "@/lib/data/learnsets";
-import { getMoveBySlug, getMoveBattleDataRows, getMoves, hasImportedMoveBattleData } from "@/lib/data/moves";
-import { getPokemonById } from "@/lib/data/pokemon";
-import { getPokemonDisplayName } from "@/lib/presentation";
-import { getMoveEffectSummary } from "@/lib/data/vanilla";
-import { isBrowsableMachine } from "@/lib/data/compatibility";
+import { MoveCategoryIcon, TypeBadgeList } from "../../../components/dex-visuals";
+import PageNavigation from "../../../components/page-navigation";
+import ReferenceImage from "../../../components/reference-image";
+import { getPokemonMiniSpriteSources } from "../../../lib/assets";
+import { getMachineLinksByMoveId } from "../../../lib/data/compatibility";
+import { getLearnsetByMoveId } from "../../../lib/data/learnsets";
+import { getMoveBySlug, getMoveBattleDataRows, getMoves, hasImportedMoveBattleData } from "../../../lib/data/moves";
+import { getPokemonById } from "../../../lib/data/pokemon";
+import { getPokemonDisplayName } from "../../../lib/presentation";
+import { getMoveEffectSummary } from "../../../lib/data/vanilla";
+import { isBrowsableMachine } from "../../../lib/data/compatibility";
 
 export const dynamicParams = false;
 

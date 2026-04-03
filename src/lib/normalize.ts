@@ -55,8 +55,26 @@ export function normalizeItemCategory(value: string): string {
   return normalizeLabel(value);
 }
 
+const CANONICAL_ENCOUNTER_METHODS = new Map(
+  [
+    "Grass/Cave",
+    "Rough Terrain",
+    "Yellow Flowers",
+    "Red Flowers",
+    "Purple Flowers",
+    "Horde",
+    "Rock Smash",
+    "Old Rod",
+    "Good Rod",
+    "Super Rod",
+    "Surf",
+    "Ambush",
+  ].map((method) => [method.toLowerCase(), method]),
+);
+
 export function normalizeEncounterMethod(value: string): string {
-  return normalizeLabel(value);
+  const normalized = normalizeWhitespace(value);
+  return CANONICAL_ENCOUNTER_METHODS.get(normalized.toLowerCase()) ?? normalizeLabel(normalized);
 }
 
 export function normalizeMoveStatus(value: MoveEntry["status"]): MoveEntry["status"] {
@@ -171,6 +189,15 @@ export function normalizeEncounterEntry(entry: EncounterEntry): EncounterEntry {
     method: normalizeEncounterMethod(entry.method),
     minLevel,
     maxLevel,
+    rawSpecies: entry.rawSpecies ? normalizeWhitespace(entry.rawSpecies) : undefined,
+    heldItem: entry.heldItem ? normalizeWhitespace(entry.heldItem) : null,
+    heldItems: entry.heldItems?.map((item) => ({
+      itemName: normalizeWhitespace(item.itemName),
+      chanceLabel: normalizeWhitespace(item.chanceLabel),
+      chanceValue: item.chanceValue,
+    })),
+    sourceReference: entry.sourceReference ? normalizeWhitespace(entry.sourceReference) : null,
+    sourceMethodFill: entry.sourceMethodFill ? normalizeWhitespace(entry.sourceMethodFill) : null,
   };
 }
 

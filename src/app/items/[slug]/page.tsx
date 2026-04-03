@@ -1,14 +1,14 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import ItemImage from "@/components/item-image";
-import PageNavigation from "@/components/page-navigation";
+import ItemImage from "../../../components/item-image";
+import PageNavigation from "../../../components/page-navigation";
 import {
   getItemBySlug,
   getItemDisplayDescription,
   getItemDisplayName,
   getItemObtainDetails,
   getItems,
-} from "@/lib/data/items";
+} from "../../../lib/data/items";
 
 export const dynamicParams = false;
 

@@ -14,10 +14,34 @@ CORE_DIR = ROOT / "raw" / "core"
 XLSX_NS = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
 DOCX_NS = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 
+ENCOUNTER_METHOD_BY_FILL_RGB: dict[str, str] = {
+    "FF93C47D": "Grass/Cave",
+    "FFB3958F": "Rough Terrain",
+    "FFFFE599": "Yellow Flowers",
+    "FFEA9999": "Red Flowers",
+    "FFB4A7D6": "Purple Flowers",
+    "FFF9CB9C": "Horde",
+    "FF999999": "Rock Smash",
+    "FF9FC5E8": "Old Rod",
+    "FF65A1DE": "Good Rod",
+    "FF3881CA": "Super Rod",
+    "FF1D6CEA": "Surf",
+    "FF434343": "Ambush",
+}
+
 UNRESOLVED_ENCOUNTER_POLICIES: dict[str, str] = {
     "Pumpkaboo x5 (All Sizes)": "exclude: source aggregates multiple size forms and cannot be safely collapsed.",
     "Pumpkaboo x5 (All Sizes, except Average)": "exclude: source aggregates multiple size forms and cannot be safely collapsed.",
 }
+
+HELD_ITEM_NOTE_SNIPPETS = [
+    "Consumables",
+    "always have 100% Held Rate",
+    "Non-Consumable",
+    "always have 50% Held Rate",
+    "If a Pokémon has 2 possible Held Items, the first one has 50% and the second one has 5% Held Rate",
+    "The only Version Changes here are related to the Charmander Evolution Line and Mewtwo.",
+]
 
 
 def slugify(value: str) -> str:
@@ -60,6 +84,107 @@ def parse_cell_ref(ref: str) -> tuple[str, int]:
     column = re.sub(r"\d+", "", ref)
     row = int(re.sub(r"[A-Z]+", "", ref))
     return column, row
+
+
+def load_xlsx_sheet(path: Path, sheet_name: str) -> tuple[list[str], ET.Element, ET.Element | None]:
+    with zipfile.ZipFile(path) as archive:
+        shared_strings: list[str] = []
+        if "xl/sharedStrings.xml" in archive.namelist():
+            shared_root = ET.fromstring(archive.read("xl/sharedStrings.xml"))
+            for item in shared_root.findall(f"{XLSX_NS}si"):
+                shared_strings.append("".join((node.text or "") for node in item.findall(f".//{XLSX_NS}t")))
+
+        sheet_root = ET.fromstring(archive.read(f"xl/worksheets/{sheet_name}"))
+        styles_root = (
+            ET.fromstring(archive.read("xl/styles.xml"))
+            if "xl/styles.xml" in archive.namelist()
+            else None
+        )
+    return shared_strings, sheet_root, styles_root
+
+
+def get_xlsx_cell_value(cell: ET.Element, shared_strings: list[str]) -> str:
+    cell_type = cell.attrib.get("t")
+    if cell_type == "inlineStr":
+        return "".join((node.text or "") for node in cell.findall(f".//{XLSX_NS}t"))
+
+    value_node = cell.find(f"{XLSX_NS}v")
+    if value_node is None:
+        return "".join((node.text or "") for node in cell.findall(f".//{XLSX_NS}t"))
+
+    if cell_type == "s":
+        return shared_strings[int(value_node.text or "0")]
+
+    return value_node.text or ""
+
+
+def build_fill_palette(styles_root: ET.Element | None) -> tuple[list[ET.Element], list[ET.Element], dict[int, str | None]]:
+    if styles_root is None:
+        return [], [], {}
+
+    fills = styles_root.find(f"{XLSX_NS}fills")
+    cell_xfs = styles_root.find(f"{XLSX_NS}cellXfs")
+    fill_elements = fills.findall(f"{XLSX_NS}fill") if fills is not None else []
+    xf_elements = cell_xfs.findall(f"{XLSX_NS}xf") if cell_xfs is not None else []
+
+    style_fill_rgb: dict[int, str | None] = {}
+    for style_index, xf in enumerate(xf_elements):
+        fill_id = int(xf.attrib.get("fillId", "0"))
+        if fill_id >= len(fill_elements):
+            style_fill_rgb[style_index] = None
+            continue
+        pattern_fill = fill_elements[fill_id].find(f"{XLSX_NS}patternFill")
+        fg_color = pattern_fill.find(f"{XLSX_NS}fgColor") if pattern_fill is not None else None
+        style_fill_rgb[style_index] = fg_color.attrib.get("rgb") if fg_color is not None else None
+
+    return fill_elements, xf_elements, style_fill_rgb
+
+
+def read_xlsx_cells(
+    path: Path,
+    sheet_name: str,
+    *,
+    apply_merged_cells: bool = False,
+) -> tuple[dict[tuple[int, str], dict[str, str | int | None]], list[str]]:
+    shared_strings, sheet_root, styles_root = load_xlsx_sheet(path, sheet_name)
+    _, _, style_fill_rgb = build_fill_palette(styles_root)
+
+    cells: dict[tuple[int, str], dict[str, str | int | None]] = {}
+    for row in sheet_root.findall(f".//{XLSX_NS}sheetData/{XLSX_NS}row"):
+        row_number = int(row.attrib.get("r", "0"))
+        for cell in row.findall(f"{XLSX_NS}c"):
+            ref = cell.attrib.get("r", "")
+            column = re.sub(r"\d+", "", ref)
+            style_id = int(cell.attrib.get("s", "0"))
+            cells[(row_number, column)] = {
+                "value": get_xlsx_cell_value(cell, shared_strings),
+                "styleId": style_id,
+                "fillRgb": style_fill_rgb.get(style_id),
+            }
+
+    if apply_merged_cells:
+        merge_root = sheet_root.find(f"{XLSX_NS}mergeCells")
+        if merge_root is not None:
+            for merge_cell in merge_root.findall(f"{XLSX_NS}mergeCell"):
+                ref = merge_cell.attrib.get("ref", "")
+                if ":" not in ref:
+                    continue
+                start_ref, end_ref = ref.split(":", 1)
+                start_col, start_row = parse_cell_ref(start_ref)
+                end_col, end_row = parse_cell_ref(end_ref)
+                top_left = cells.get((start_row, start_col))
+                if not top_left:
+                    continue
+                for row_number in range(start_row, end_row + 1):
+                    for column_index in range(column_to_index(start_col), column_to_index(end_col) + 1):
+                        column = index_to_column(column_index)
+                        cells[(row_number, column)] = {
+                            "value": top_left["value"],
+                            "styleId": top_left["styleId"],
+                            "fillRgb": top_left["fillRgb"],
+                        }
+
+    return cells, shared_strings
 
 
 def read_xlsx_rows(path: Path, sheet_name: str, *, apply_merged_cells: bool = False) -> list[dict[str, str]]:
@@ -289,12 +414,7 @@ def parse_location_header(value: str) -> tuple[str, str]:
 
 
 def build_locations() -> list[dict]:
-    encounter_rows = read_xlsx_rows(SOURCE_DIR / "Wild Encounters + Held Items (XY).xlsx", "sheet1.xml")
-    header_row = encounter_rows[0]
-    names: set[str] = set()
-    for column, value in header_row.items():
-        if re.fullmatch(r"[A-Z]+", column) and value and column >= "E":
-            names.add(canonical_location_name(value))
+    names: set[str] = {block["locationName"] for block in get_encounter_location_blocks()}
 
     for paragraph in read_docx_paragraphs(SOURCE_DIR / "Box Link Locations.docx"):
         for match in re.finditer(r"\d+\.\s+([^(]+)", paragraph):
@@ -332,28 +452,45 @@ def build_pokemon_lookup(pokemon: list[dict]) -> dict[str, str]:
         "shellos-east-west": "pokemon-0422",
         "gastrodon-east": "pokemon-0423",
         "gastrodon-west": "pokemon-0423",
-        "rotom-fan": "pokemon-0479",
-        "rotom-frost": "pokemon-0479",
+        "rotom-fan": "pokemon-0479-fan-rotom",
+        "rotom-frost": "pokemon-0479-frost-rotom",
+        "rotom-heat": "pokemon-0479-heat-rotom",
+        "rotom-mow": "pokemon-0479-mow-rotom",
+        "rotom-wash": "pokemon-0479-wash-rotom",
         "darmanitan": "pokemon-0555-standard-mode",
         "deoxys": "pokemon-0386",
         "giratina": "pokemon-0487-altered-forme",
         "keldeo": "pokemon-0647-ordinary-form",
         "meloetta": "pokemon-0648-aria-forme",
         "meowstic": "pokemon-0678",
+        "meowstic-male": "pokemon-0678-male",
+        "meowstic-female": "pokemon-0678-female",
         "hoopa": "pokemon-0720-hoopa-confined",
         "shaymin": "pokemon-0492-land-forme",
         "thundurus": "pokemon-0642-incarnate-forme",
-        "unown-a": "pokemon-0201",
-        "unown-h": "pokemon-0201",
-        "unown-m": "pokemon-0201",
-        "unown-q": "pokemon-0201",
-        "unown-v": "pokemon-0201",
-        "unown-y": "pokemon-0201",
-        "unown-z": "pokemon-0201",
+        "thundurus-th": "pokemon-0642-therian-forme",
+        "landorus-th": "pokemon-0645-therian-forme",
+        "tornadus-th": "pokemon-0641-therian-forme",
         "wormadam-grass": "pokemon-0413-plant-cloak",
+        "wormadam-p": "pokemon-0413-plant-cloak",
+        "wormadam-s": "pokemon-0413-sandy-cloak",
+        "wormadam-t": "pokemon-0413-trash-cloak",
         "zygarde": "pokemon-0718-50-forme",
         "gourgeist-average": "pokemon-0711-average-size",
+        "gourgeist-large": "pokemon-0711-large-size",
+        "gourgeist-huge": "pokemon-0711-super-size",
+        "gourgeist-super": "pokemon-0711-super-size",
+        "pumpkaboo-huge": "pokemon-0710-super-size",
+        "pumpkaboo-super": "pokemon-0710-super-size",
+        "clawtizer": "pokemon-0693",
+        "vanniluxe": "pokemon-0584",
+        "black-kyurem": "pokemon-0646-black-kyurem",
+        "white-kyurem": "pokemon-0646-white-kyurem",
     }
+    for letter in "abcdefghijklmnopqrstuvwxyz":
+        extra[f"unown-{letter}"] = "pokemon-0201"
+    extra["unown-exclamation"] = "pokemon-0201"
+    extra["unown-question"] = "pokemon-0201"
     lookup.update({key: value for key, value in extra.items() if value})
     return lookup
 
@@ -384,6 +521,15 @@ def map_species_to_id(species: str, pokemon_lookup: dict[str, str]) -> str | Non
     return None
 
 
+def map_trainer_species_to_id(species: str, gender: str | None, pokemon_lookup: dict[str, str]) -> str | None:
+    if gender in {"M", "F"}:
+        gender_candidate = f"{species} {'Male' if gender == 'M' else 'Female'}"
+        gender_id = map_species_to_id(gender_candidate, pokemon_lookup)
+        if gender_id:
+            return gender_id
+    return map_species_to_id(species, pokemon_lookup)
+
+
 def parse_level_range(value: str) -> tuple[int, int] | None:
     matches = re.findall(r"\d+(?:\.\d+)?", value)
     numbers = [int(float(number)) for number in matches]
@@ -401,70 +547,234 @@ def parse_rate(value: str) -> float | None:
     return float(match.group(0))
 
 
-def build_encounters(pokemon: list[dict], locations: list[dict]) -> list[dict]:
-    rows = read_xlsx_rows(SOURCE_DIR / "Wild Encounters + Held Items (XY).xlsx", "sheet1.xml")
-    header_row = rows[0]
-    location_by_column: dict[str, str] = {}
-    for column, value in header_row.items():
-        if value and column >= "E":
-            location_by_column[column] = f"location-{slugify(canonical_location_name(value))}"
+def get_encounter_held_item_note(cells: dict[tuple[int, str], dict[str, str | int | None]]) -> str:
+    note = str(cells.get((3, "A"), {}).get("value", ""))
+    if not note:
+        raise ValueError("Held item chance note is missing from Wild Encounters sheet cell A3.")
+    if not all(snippet in note for snippet in HELD_ITEM_NOTE_SNIPPETS):
+        raise ValueError("Held item chance note in Wild Encounters sheet no longer matches the imported rules.")
+    return note
 
+
+def get_single_item_held_rate(item_name: str) -> int:
+    category = derive_item_category(item_name)
+    if category in {"Berry", "Battle Item", "Gem", "Medicine", "Vitamin", "Poke Ball"}:
+        return 100
+    return 50
+
+
+def build_held_item_details(raw_held_item: str | None) -> list[dict[str, str | int | None]]:
+    if not raw_held_item:
+        return []
+
+    item_names = split_multiline_items(raw_held_item)
+    if not item_names:
+        return []
+
+    if len(item_names) == 1:
+        chance = get_single_item_held_rate(item_names[0])
+        return [
+            {
+                "itemName": item_names[0],
+                "chanceLabel": f"{chance}%",
+                "chanceValue": chance,
+            }
+        ]
+
+    if len(item_names) == 2:
+        if item_names == ["Charizardite X", "Charizardite Y"] or item_names == [
+            "Mewtwonite X",
+            "Mewtwonite Y",
+        ]:
+            return [
+                {
+                    "itemName": item_names[0],
+                    "chanceLabel": "50% (X) / 5% (Y)",
+                    "chanceValue": None,
+                },
+                {
+                    "itemName": item_names[1],
+                    "chanceLabel": "5% (X) / 50% (Y)",
+                    "chanceValue": None,
+                },
+            ]
+
+        return [
+            {
+                "itemName": item_names[0],
+                "chanceLabel": "50%",
+                "chanceValue": 50,
+            },
+            {
+                "itemName": item_names[1],
+                "chanceLabel": "5%",
+                "chanceValue": 5,
+            },
+        ]
+
+    raise ValueError(f"Unsupported held item count in encounter row: {raw_held_item!r}")
+
+
+def get_encounter_location_blocks() -> list[dict[str, str]]:
+    shared_strings, sheet_root, _ = load_xlsx_sheet(
+        SOURCE_DIR / "Wild Encounters + Held Items (XY).xlsx",
+        "sheet1.xml",
+    )
+    location_blocks: list[dict[str, str]] = []
+
+    merge_root = sheet_root.find(f"{XLSX_NS}mergeCells")
+    if merge_root is None:
+        return location_blocks
+
+    cells, _ = read_xlsx_cells(
+        SOURCE_DIR / "Wild Encounters + Held Items (XY).xlsx",
+        "sheet1.xml",
+        apply_merged_cells=True,
+    )
+
+    for merge_cell in merge_root.findall(f"{XLSX_NS}mergeCell"):
+        ref = merge_cell.attrib.get("ref", "")
+        if ":" not in ref:
+            continue
+        start_ref, end_ref = ref.split(":", 1)
+        start_col, start_row = parse_cell_ref(start_ref)
+        end_col, end_row = parse_cell_ref(end_ref)
+        if start_row != 1 or end_row != 1:
+            continue
+        if column_to_index(end_col) - column_to_index(start_col) != 4:
+            continue
+
+        header_value = normalize_space(str(cells.get((1, start_col), {}).get("value", "")))
+        if not header_value:
+            continue
+
+        location_blocks.append(
+            {
+                "locationName": canonical_location_name(header_value),
+                "startColumn": start_col,
+                "endColumn": end_col,
+                "rateColumn": start_col,
+                "iconColumn": index_to_column(column_to_index(start_col) + 1),
+                "speciesColumn": index_to_column(column_to_index(start_col) + 2),
+                "levelColumn": index_to_column(column_to_index(start_col) + 3),
+                "heldItemColumn": index_to_column(column_to_index(start_col) + 4),
+                "rateHeader": normalize_space(
+                    str(cells.get((3, start_col), {}).get("value", ""))
+                ),
+                "speciesHeader": normalize_space(
+                    str(
+                        cells.get(
+                            (3, index_to_column(column_to_index(start_col) + 2)),
+                            {},
+                        ).get("value", "")
+                    )
+                ),
+                "levelHeader": normalize_space(
+                    str(
+                        cells.get(
+                            (3, index_to_column(column_to_index(start_col) + 3)),
+                            {},
+                        ).get("value", "")
+                    )
+                ),
+            }
+        )
+
+    return location_blocks
+
+
+def build_encounters(pokemon: list[dict], locations: list[dict]) -> list[dict]:
+    cells, _ = read_xlsx_cells(
+        SOURCE_DIR / "Wild Encounters + Held Items (XY).xlsx",
+        "sheet1.xml",
+        apply_merged_cells=True,
+    )
+    get_encounter_held_item_note(cells)
+    location_lookup = {entry["name"]: entry["id"] for entry in locations}
+    location_blocks = get_encounter_location_blocks()
     pokemon_lookup = build_pokemon_lookup(pokemon)
     encounters: list[dict] = []
     skipped_species: set[str] = set()
     unresolved_policy_hits: dict[str, str] = {}
     encounter_index = 1
-    ordered_location_columns = sorted(location_by_column.keys(), key=lambda col: (len(col), col))
-    for row_number, row in enumerate(rows[3:], start=4):
-        left_label = normalize_space(row.get("B", ""))
-        right_label = normalize_space(row.get("C", ""))
-        labels = [label for label in [left_label, right_label] if label]
-        row_method = " / ".join(labels) if labels else "Wild Encounter"
+    max_row = max((row_number for row_number, _ in cells.keys()), default=0)
 
-        for start_column in ordered_location_columns:
-            match = re.fullmatch(r"([A-Z]+)", start_column)
-            if not match:
+    for block in location_blocks:
+        location_id = location_lookup.get(block["locationName"])
+        if not location_id:
+            continue
+        if (
+            block["rateHeader"] != "Rate"
+            or block["speciesHeader"] != "Species"
+            or block["levelHeader"] != "Level"
+        ):
+            continue
+
+        previous_rate: str | None = None
+        previous_fill_rgb: str | None = None
+
+        for row_number in range(4, max_row + 1):
+            species_cell = cells.get((row_number, block["speciesColumn"]), {})
+            level_cell = cells.get((row_number, block["levelColumn"]), {})
+            rate_cell = cells.get((row_number, block["rateColumn"]), {})
+            held_item_cell = cells.get((row_number, block["heldItemColumn"]), {})
+
+            raw_species = normalize_space(str(species_cell.get("value", "")))
+            raw_level = normalize_space(str(level_cell.get("value", "")))
+            raw_rate = normalize_space(str(rate_cell.get("value", "")))
+            raw_held_item = str(held_item_cell.get("value", "")).strip() or None
+            held_item_details = build_held_item_details(raw_held_item)
+
+            if not raw_species or not raw_level:
                 continue
-            base_ord = 0
-            for char in start_column:
-                base_ord = base_ord * 26 + (ord(char) - 64)
-            species_col = ""
-            level_col = ""
-            rate_col = start_column
-            if base_ord + 2 <= 26 * 26 + 26:
-                def col_name(index: int) -> str:
-                    name = ""
-                    while index > 0:
-                        index, rem = divmod(index - 1, 26)
-                        name = chr(65 + rem) + name
-                    return name
-                species_col = col_name(base_ord + 2)
-                level_col = col_name(base_ord + 3)
-            species = normalize_space(row.get(species_col, ""))
-            level = normalize_space(row.get(level_col, ""))
-            rate = normalize_space(row.get(rate_col, ""))
-            if not species or not level or not rate:
+
+            if not raw_rate:
+                raw_rate = previous_rate or ""
+            if not raw_rate:
                 continue
-            pokemon_id = map_species_to_id(species, pokemon_lookup)
-            level_range = parse_level_range(level)
-            parsed_rate = parse_rate(rate)
+
+            fill_rgb = rate_cell.get("fillRgb")
+            if not fill_rgb:
+                fill_rgb = previous_fill_rgb
+            if not fill_rgb:
+                raise ValueError(
+                    f"Encounter method fill is missing for {block['locationName']} row {row_number}."
+                )
+
+            method = ENCOUNTER_METHOD_BY_FILL_RGB.get(str(fill_rgb))
+            if not method:
+                raise ValueError(
+                    f"Encounter method fill {fill_rgb} is unmapped for {block['locationName']} row {row_number}."
+                )
+
+            pokemon_id = map_species_to_id(raw_species, pokemon_lookup)
+            level_range = parse_level_range(raw_level)
+            parsed_rate = parse_rate(raw_rate)
             if not pokemon_id or level_range is None or parsed_rate is None:
-                if species in UNRESOLVED_ENCOUNTER_POLICIES:
-                    unresolved_policy_hits[species] = UNRESOLVED_ENCOUNTER_POLICIES[species]
-                skipped_species.add(species)
+                if raw_species in UNRESOLVED_ENCOUNTER_POLICIES:
+                    unresolved_policy_hits[raw_species] = UNRESOLVED_ENCOUNTER_POLICIES[raw_species]
+                skipped_species.add(raw_species)
                 continue
+
             encounters.append(
                 {
                     "id": f"encounter-{encounter_index:05d}",
-                    "locationId": location_by_column[start_column],
+                    "locationId": location_id,
                     "pokemonId": pokemon_id,
-                    "method": row_method,
+                    "method": method,
                     "minLevel": level_range[0],
                     "maxLevel": level_range[1],
                     "rate": parsed_rate,
+                    "rawSpecies": raw_species,
+                    "heldItem": raw_held_item,
+                    "heldItems": held_item_details,
+                    "sourceReference": f"{block['startColumn']}:{block['endColumn']} row {row_number}",
+                    "sourceMethodFill": fill_rgb,
                 }
             )
             encounter_index += 1
+            previous_rate = raw_rate
+            previous_fill_rgb = str(fill_rgb)
 
     if skipped_species:
         print("Skipped unmapped encounter species:", ", ".join(sorted(skipped_species)[:25]))
@@ -839,10 +1149,13 @@ def parse_trainer_name(raw_name: str) -> tuple[str, int | None]:
 
 def parse_trainer_pokemon(value: str) -> tuple[str, int | None, str | None]:
     normalized = normalize_space(value)
-    match = re.match(r"^(.*?)\s*\(Lv\.\s*(\d+)\)(?:\s*([MF]))?$", normalized)
+    match = re.match(r"^(.*?)\s*\(Lv\.\s*(\d+)\s*\)(?:\s*([MFG]))?$", normalized)
     if not match:
         return normalized, None, None
-    return normalize_space(match.group(1)), int(match.group(2)), normalize_space(match.group(3) or "") or None
+    gender = normalize_space(match.group(3) or "") or None
+    if gender == "G":
+        gender = None
+    return normalize_space(match.group(1)), int(match.group(2)), gender
 
 
 def detect_trainer_class(name: str) -> str | None:
@@ -902,7 +1215,7 @@ def build_trainers(pokemon: list[dict]) -> list[dict]:
                 team: list[dict] = []
                 for slot, column in enumerate(team_columns, start=1):
                     species_name, level, gender = parse_trainer_pokemon(species_row.get(column, ""))
-                    pokemon_id = map_species_to_id(species_name, pokemon_lookup)
+                    pokemon_id = map_trainer_species_to_id(species_name, gender, pokemon_lookup)
                     held_item = normalize_space(party_row.get(column, ""))
                     moves = [
                         normalize_space(move_row.get(column, ""))

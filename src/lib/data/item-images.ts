@@ -1,5 +1,5 @@
 import itemImageReferenceData from "../../../public/data/item-images.json";
-import type { ItemEntry } from "@/lib/types";
+import type { ItemEntry } from "../types";
 
 type ItemImageReference = {
   itemId: string;

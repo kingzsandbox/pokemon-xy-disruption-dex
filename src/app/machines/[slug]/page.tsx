@@ -1,19 +1,19 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { MoveCategoryIcon, TypeBadgeList } from "@/components/dex-visuals";
-import PageNavigation from "@/components/page-navigation";
-import ReferenceImage from "@/components/reference-image";
-import { getPokemonMiniSpriteSources } from "@/lib/assets";
+import { MoveCategoryIcon, TypeBadgeList } from "../../../components/dex-visuals";
+import PageNavigation from "../../../components/page-navigation";
+import ReferenceImage from "../../../components/reference-image";
+import { getPokemonMiniSpriteSources } from "../../../lib/assets";
 import {
   getCompatiblePokemonByMachineId,
   getMachineBrowseEntries,
   getMachineBySlug,
   getMachineLocationEntry,
   isBrowsableMachine,
-} from "@/lib/data/compatibility";
-import { getMoveById } from "@/lib/data/moves";
-import { getPokemonDisplayName } from "@/lib/presentation";
-import { getMoveEffectSummary } from "@/lib/data/vanilla";
+} from "../../../lib/data/compatibility";
+import { getMoveById } from "../../../lib/data/moves";
+import { getPokemonDisplayName } from "../../../lib/presentation";
+import { getMoveEffectSummary } from "../../../lib/data/vanilla";
 
 export const dynamicParams = false;
 

@@ -1,12 +1,12 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { TypeBadgeList } from "@/components/dex-visuals";
-import PageNavigation from "@/components/page-navigation";
-import ReferenceImage from "@/components/reference-image";
-import { getPokemonMiniSpriteSources } from "@/lib/assets";
-import { getAbilityBySlug, getAbilities } from "@/lib/data/abilities";
-import { getAllPokemon } from "@/lib/data/pokemon";
-import { getPokemonDisplayName } from "@/lib/presentation";
+import { TypeBadgeList } from "../../../components/dex-visuals";
+import PageNavigation from "../../../components/page-navigation";
+import ReferenceImage from "../../../components/reference-image";
+import { getPokemonMiniSpriteSources } from "../../../lib/assets";
+import { getAbilityBySlug, getAbilities } from "../../../lib/data/abilities";
+import { getAllPokemon } from "../../../lib/data/pokemon";
+import { getPokemonDisplayName } from "../../../lib/presentation";
 
 type AbilityDetailPageProps = {
   params: Promise<{

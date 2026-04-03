@@ -1,6 +1,6 @@
 import Link from "next/link";
-import PageNavigation from "@/components/page-navigation";
-import { getLocations } from "@/lib/data/locations";
+import PageNavigation from "../../components/page-navigation";
+import { getLocations } from "../../lib/data/locations";
 
 export default function LocationsPage() {
   const locations = getLocations();

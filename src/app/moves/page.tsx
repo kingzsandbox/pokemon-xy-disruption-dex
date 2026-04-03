@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { MoveCategoryIcon, TypeBadgeList } from "@/components/dex-visuals";
-import PageNavigation from "@/components/page-navigation";
-import { getMoveEffectSummary } from "@/lib/data/vanilla";
-import { getMoves } from "@/lib/data/moves";
+import { MoveCategoryIcon, TypeBadgeList } from "../../components/dex-visuals";
+import PageNavigation from "../../components/page-navigation";
+import { getMoveEffectSummary } from "../../lib/data/vanilla";
+import { getMoves } from "../../lib/data/moves";
 
 function cellStyle(align: "left" | "center" | "right" = "left") {
   return {

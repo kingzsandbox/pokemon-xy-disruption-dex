@@ -1,6 +1,6 @@
 import Link from "next/link";
-import PageNavigation from "@/components/page-navigation";
-import { getAbilities } from "@/lib/data/abilities";
+import PageNavigation from "../../components/page-navigation";
+import { getAbilities } from "../../lib/data/abilities";
 
 export default function AbilitiesPage() {
   const abilities = getAbilities();

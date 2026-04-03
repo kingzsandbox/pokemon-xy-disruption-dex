@@ -1,5 +1,5 @@
-import { coreTrainers } from "@/lib/data/core";
-import type { TrainerEntry } from "@/lib/types";
+import { coreTrainers } from "./core";
+import type { TrainerEntry } from "../types";
 
 const trainers = coreTrainers as TrainerEntry[];
 const trainersBySlug = new Map(trainers.map((entry) => [entry.slug, entry]));

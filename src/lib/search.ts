@@ -1,12 +1,12 @@
-import { getAbilities } from "@/lib/data/abilities";
-import { getMachineBrowseEntries } from "@/lib/data/compatibility";
-import { getBrowseItems } from "@/lib/data/items";
-import { getLocations } from "@/lib/data/locations";
-import { getMoves } from "@/lib/data/moves";
-import { getAllPokemon } from "@/lib/data/pokemon";
-import { getLevelCaps } from "@/lib/data/systems";
-import { getTrainers } from "@/lib/data/trainers";
-import type { SearchResult } from "@/lib/types";
+import { getAbilities } from "./data/abilities";
+import { getMachineBrowseEntries } from "./data/compatibility";
+import { getBrowseItems } from "./data/items";
+import { getLocations } from "./data/locations";
+import { getMoves } from "./data/moves";
+import { getAllPokemon } from "./data/pokemon";
+import { getLevelCaps } from "./data/systems";
+import { getTrainers } from "./data/trainers";
+import type { SearchResult } from "./types";
 
 let cachedSearchIndex: SearchResult[] | null = null;
 

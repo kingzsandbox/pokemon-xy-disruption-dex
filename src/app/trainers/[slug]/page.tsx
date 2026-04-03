@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getMoveByName } from "@/lib/data/moves";
-import { getPokemonById } from "@/lib/data/pokemon";
-import { getTrainerBySlug, getTrainers } from "@/lib/data/trainers";
+import PageNavigation from "../../../components/page-navigation";
+import { getMoveByName } from "../../../lib/data/moves";
+import { getPokemonById } from "../../../lib/data/pokemon";
+import { getTrainerBySlug, getTrainers } from "../../../lib/data/trainers";
 
 export const dynamicParams = false;
 
@@ -26,6 +27,7 @@ export default async function TrainerDetailPage({ params }: TrainerDetailPagePro
 
   return (
     <main style={{ margin: "0 auto", maxWidth: "900px", padding: "40px 24px 64px" }}>
+      <PageNavigation backHref="/trainers" backLabel="Back to Trainers" />
       <h1 style={{ marginTop: 0 }}>{trainer.name}</h1>
       <p style={{ color: "#586379" }}>
         {trainer.location} • {trainer.ruleset}

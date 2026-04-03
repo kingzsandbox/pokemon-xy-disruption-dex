@@ -1,6 +1,6 @@
-import BattlesReference from "@/components/battles-reference";
-import PageNavigation from "@/components/page-navigation";
-import { getBattles } from "@/lib/data/battles";
+import BattlesReference from "../../components/battles-reference";
+import PageNavigation from "../../components/page-navigation";
+import { getBattles } from "../../lib/data/battles";
 
 export default function BattlesPage() {
   const battles = getBattles();

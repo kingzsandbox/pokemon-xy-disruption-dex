@@ -1,11 +1,11 @@
-import { coreItemLocations, coreItems } from "@/lib/data/core";
-import { getLocationById } from "@/lib/data/locations";
+import { coreItemLocations, coreItems } from "./core";
+import { getLocationById } from "./locations";
 import type {
   ItemEntry,
   ItemLocationEntry,
   ItemLocationReference,
   LocatedItem,
-} from "@/lib/types";
+} from "../types";
 
 const items = coreItems as ItemEntry[];
 const itemLocations = coreItemLocations as ItemLocationEntry[];

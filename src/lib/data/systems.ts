@@ -1,6 +1,6 @@
-import { coreLevelCaps, corePickupEntries } from "@/lib/data/core";
-import { getItemById } from "@/lib/data/items";
-import type { LevelCapEntry, PickupEntry } from "@/lib/types";
+import { coreLevelCaps, corePickupEntries } from "./core";
+import { getItemById } from "./items";
+import type { LevelCapEntry, PickupEntry } from "../types";
 
 const levelCaps = coreLevelCaps as LevelCapEntry[];
 const pickupEntries = corePickupEntries as PickupEntry[];

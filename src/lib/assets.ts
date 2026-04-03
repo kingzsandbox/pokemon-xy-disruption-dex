@@ -1,8 +1,8 @@
-import { getMoveByName } from '@/lib/data/moves';
-import { getTrainerImageSrcByCanonicalRule, getTrainerImageSrcById, getTrainerImageSrcByManifestReuse } from '@/lib/data/trainer-images';
-import type { ItemEntry, PokemonEntry } from '@/lib/types';
-import { getItemImageReference } from '@/lib/data/item-images';
-import { getPokemonSpriteSrcById } from '@/lib/data/pokemon-sprites';
+import { getMoveByName } from './data/moves';
+import { getTrainerImageSrcByCanonicalRule, getTrainerImageSrcById, getTrainerImageSrcByManifestReuse } from './data/trainer-images';
+import type { ItemEntry, PokemonEntry } from './types';
+import { getItemImageReference } from './data/item-images';
+import { getPokemonSpriteSrcById } from './data/pokemon-sprites';
 
 type TrainerImageTarget = {
   trainerId: string;

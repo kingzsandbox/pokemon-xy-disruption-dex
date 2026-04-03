@@ -1,6 +1,6 @@
-import { getPokemonById } from '@/lib/data/pokemon';
-import { getTrainers } from '@/lib/data/trainers';
-import type { TrainerBattleFormat, TrainerEntry } from '@/lib/types';
+import { getPokemonById } from './pokemon';
+import { getTrainers } from './trainers';
+import type { TrainerBattleFormat, TrainerEntry } from '../types';
 
 export type BattleCategory =
   | 'regular'

@@ -1,14 +1,14 @@
-import HomeShell from "@/app/home-shell";
-import { getAbilities } from "@/lib/data/abilities";
-import { getBattles } from "@/lib/data/battles";
-import { getMachineBrowseEntries } from "@/lib/data/compatibility";
-import { getBrowseItems } from "@/lib/data/items";
-import { getLocations } from "@/lib/data/locations";
-import { getMoves } from "@/lib/data/moves";
-import { getBrowsablePokedexPokemon } from "@/lib/data/pokemon";
-import { getPokemonSpriteSrcById } from "@/lib/data/pokemon-sprites";
-import { getLevelCaps } from "@/lib/data/systems";
-import { getMoveEffectSummary, getPokemonAbilitySummaryEntries } from "@/lib/data/vanilla";
+import HomeShell from "./home-shell";
+import { getAbilities } from "../lib/data/abilities";
+import { getBattles } from "../lib/data/battles";
+import { getMachineBrowseEntries } from "../lib/data/compatibility";
+import { getBrowseItems } from "../lib/data/items";
+import { getLocations } from "../lib/data/locations";
+import { getMoves } from "../lib/data/moves";
+import { getBrowsablePokedexPokemon } from "../lib/data/pokemon";
+import { getPokemonSpriteSrcById } from "../lib/data/pokemon-sprites";
+import { getLevelCaps } from "../lib/data/systems";
+import { getMoveEffectSummary, getPokemonAbilitySummaryEntries } from "../lib/data/vanilla";
 
 type HomePageProps = {
   searchParams: Promise<{

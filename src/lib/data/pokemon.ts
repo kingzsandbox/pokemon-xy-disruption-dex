@@ -1,6 +1,6 @@
-import { corePokemon } from "@/lib/data/core";
-import { getPokemonDisplayName, isBrowsablePokedexPokemon } from "@/lib/presentation";
-import type { PokemonEntry } from "@/lib/types";
+import { corePokemon } from "./core";
+import { getPokemonDisplayName, isBrowsablePokedexPokemon } from "../presentation";
+import type { PokemonEntry } from "../types";
 
 const pokemon = corePokemon as PokemonEntry[];
 const pokemonById = new Map(pokemon.map((entry) => [entry.id, entry]));

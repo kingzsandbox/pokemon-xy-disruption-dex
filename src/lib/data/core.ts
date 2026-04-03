@@ -23,7 +23,7 @@ import {
   normalizePokemonEntry,
   normalizePickupEntry,
   normalizeTrainerEntry,
-} from "@/lib/normalize";
+} from "../normalize";
 import type {
   EncounterEntry,
   ItemEntry,
@@ -37,8 +37,8 @@ import type {
   PokemonEntry,
   PickupEntry,
   TrainerEntry,
-} from "@/lib/types";
-import { validateCoreData } from "@/lib/validate";
+} from "../types";
+import { validateCoreData } from "../validate";
 
 const pokemon = (pokemonData as PokemonEntry[]).map(normalizePokemonEntry);
 const locations = (locationsData as LocationEntry[]).map(normalizeLocationEntry);

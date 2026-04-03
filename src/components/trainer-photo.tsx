@@ -1,6 +1,6 @@
 'use client';
 
-import { getTrainerImageSources } from '@/lib/assets';
+import { getTrainerImageSources } from '../lib/assets';
 
 type TrainerPhotoProps = {
   trainerId: string;

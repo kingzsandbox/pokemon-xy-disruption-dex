@@ -1,15 +1,14 @@
 import Link from "next/link";
-import { getTrainers } from "@/lib/data/trainers";
+import PageNavigation from "../../components/page-navigation";
+import { getTrainers } from "../../lib/data/trainers";
 
 export default function TrainersPage() {
   const trainers = getTrainers();
 
   return (
     <main style={{ margin: "0 auto", maxWidth: "900px", padding: "40px 24px 64px" }}>
+      <PageNavigation />
       <h1 style={{ marginTop: 0 }}>Trainers</h1>
-      <p style={{ color: "#586379" }}>
-        Browse imported trainer rosters from the singles and doubles disruption workbooks.
-      </p>
 
       <div style={{ display: "grid", gap: "12px", marginTop: "24px" }}>
         {trainers.map((trainer) => (

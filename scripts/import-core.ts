@@ -186,6 +186,26 @@ function mapEncounterRecord(record: RawRecord, index: number): EncounterEntry {
     minLevel: requireNumber(minLevel, `encounters[${index}].minLevel`),
     maxLevel: requireNumber(maxLevel, `encounters[${index}].maxLevel`),
     rate: requireNumber(record.rate, `encounters[${index}].rate`),
+    rawSpecies: typeof record.rawSpecies === "string" ? record.rawSpecies : undefined,
+    heldItem: typeof record.heldItem === "string" ? record.heldItem : null,
+    heldItems: Array.isArray(record.heldItems)
+      ? record.heldItems.map((entry, heldIndex) => {
+          const heldItem = readObject(entry, `encounters[${index}].heldItems[${heldIndex}]`);
+          return {
+            itemName: requireString(heldItem.itemName, `encounters[${index}].heldItems[${heldIndex}].itemName`),
+            chanceLabel: requireString(
+              heldItem.chanceLabel,
+              `encounters[${index}].heldItems[${heldIndex}].chanceLabel`,
+            ),
+            chanceValue:
+              typeof heldItem.chanceValue === "number" && !Number.isNaN(heldItem.chanceValue)
+                ? heldItem.chanceValue
+                : null,
+          };
+        })
+      : undefined,
+    sourceReference: typeof record.sourceReference === "string" ? record.sourceReference : null,
+    sourceMethodFill: typeof record.sourceMethodFill === "string" ? record.sourceMethodFill : null,
   });
 }
 

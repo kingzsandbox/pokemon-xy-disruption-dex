@@ -1,5 +1,5 @@
-import { coreLocations } from "@/lib/data/core";
-import type { LocationEntry } from "@/lib/types";
+import { coreLocations } from "./core";
+import type { LocationEntry } from "../types";
 
 const locations = coreLocations as LocationEntry[];
 const locationsById = new Map(locations.map((entry) => [entry.id, entry]));
