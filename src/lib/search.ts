@@ -1,14 +1,138 @@
+import { getAbilities } from "@/lib/data/abilities";
 import { getMachineBrowseEntries } from "@/lib/data/compatibility";
 import { getBrowseItems } from "@/lib/data/items";
 import { getLocations } from "@/lib/data/locations";
 import { getMoves } from "@/lib/data/moves";
 import { getAllPokemon } from "@/lib/data/pokemon";
-import { getLevelCaps, getPickupEntries } from "@/lib/data/systems";
+import { getLevelCaps } from "@/lib/data/systems";
 import { getTrainers } from "@/lib/data/trainers";
 import type { SearchResult } from "@/lib/types";
 
+let cachedSearchIndex: SearchResult[] | null = null;
+
 export function normalizeQuery(value: string): string {
   return value.trim().toLowerCase();
+}
+
+export function getHomePokemonHref(slug: string): string {
+  return `/?tab=pokedex&focus=${encodeURIComponent(slug)}#pokemon-row-${encodeURIComponent(slug)}`;
+}
+
+export function getSearchResultHref(result: Pick<SearchResult, "type" | "slug">): string {
+  if (result.type === "pokemon") {
+    return getHomePokemonHref(result.slug);
+  }
+
+  if (result.type === "location") {
+    return `/locations/${result.slug}`;
+  }
+
+  if (result.type === "machine") {
+    return `/machines/${result.slug}`;
+  }
+
+  if (result.type === "system") {
+    return `/systems#${result.slug}`;
+  }
+
+  if (result.type === "ability") {
+    return `/abilities/${result.slug}`;
+  }
+
+  return `/${result.type}s/${result.slug}`;
+}
+
+export function getSearchIndex(): SearchResult[] {
+  if (cachedSearchIndex) {
+    return cachedSearchIndex;
+  }
+
+  const pokemonResults: SearchResult[] = getAllPokemon().map((entry) => ({
+      id: entry.id,
+      type: "pokemon",
+      title: entry.name,
+      subtitle: `#${entry.dexNumber} • ${entry.types.join(" / ")}`,
+      slug: entry.slug,
+    }));
+
+  const locationResults: SearchResult[] = getLocations().map((entry) => ({
+      id: entry.id,
+      type: "location",
+      title: entry.name,
+      subtitle: entry.region,
+      slug: entry.slug,
+    }));
+
+  const itemResults: SearchResult[] = getBrowseItems().map((entry) => ({
+      id: entry.id,
+      type: "item",
+      title: entry.name,
+      subtitle: entry.category,
+      slug: entry.slug,
+    }));
+
+  const moveResults: SearchResult[] = getMoves().map((entry) => ({
+      id: entry.id,
+      type: "move",
+      title: entry.name,
+      subtitle: [entry.status, entry.type].filter(Boolean).join(" • ") || "Move",
+      slug: entry.slug,
+    }));
+
+  const machineResults: SearchResult[] = getMachineBrowseEntries().map(
+    ({ machine, move, compatibilityCount }) => ({
+      id: machine.id,
+      type: "machine" as const,
+      title: machine.code,
+      subtitle: [
+        move?.name ?? "Unknown move",
+        machine.location,
+        compatibilityCount > 0 ? `${compatibilityCount} compatible Pokemon` : null,
+      ]
+        .filter(Boolean)
+        .join(" • "),
+      slug: machine.slug,
+    }),
+  );
+
+  const abilityResults: SearchResult[] = getAbilities().map((entry) => ({
+    id: entry.id,
+    type: "ability",
+    title: entry.name,
+    subtitle: entry.description,
+    slug: entry.slug,
+  }));
+
+  const trainerResults: SearchResult[] = getTrainers().map((entry) => ({
+      id: entry.id,
+      type: "trainer" as const,
+      title: entry.name,
+      subtitle: [entry.location, entry.ruleset, entry.format].filter(Boolean).join(" • "),
+      slug: entry.slug,
+    }));
+
+  const levelCapResults: SearchResult[] = [
+    {
+      id: "system-level-caps",
+      type: "system" as const,
+      title: "Level Caps",
+      subtitle: `${getLevelCaps().length} imported cap checkpoints`,
+      slug: "level-caps",
+    },
+  ];
+
+  cachedSearchIndex = [
+    ...pokemonResults,
+    ...locationResults,
+    ...itemResults,
+    ...moveResults,
+    ...machineResults,
+    ...abilityResults,
+    ...trainerResults,
+    ...levelCapResults,
+  ].sort((left, right) => left.title.localeCompare(right.title));
+
+  return cachedSearchIndex;
 }
 
 export function searchDex(query: string): SearchResult[] {
@@ -18,118 +142,19 @@ export function searchDex(query: string): SearchResult[] {
     return [];
   }
 
-  const pokemonResults: SearchResult[] = getAllPokemon()
-    .filter((entry) => entry.name.toLowerCase().includes(normalizedQuery))
-    .map((entry) => ({
-      id: entry.id,
-      type: "pokemon",
-      title: entry.name,
-      subtitle: `#${entry.dexNumber} • ${entry.types.join(" / ")}`,
-      slug: entry.slug,
-    }));
+  const matches = getSearchIndex().filter((entry) => {
+    const haystack = `${entry.title} ${entry.subtitle}`.toLowerCase();
+    return haystack.includes(normalizedQuery);
+  });
 
-  const locationResults: SearchResult[] = getLocations()
-    .filter((entry) => entry.name.toLowerCase().includes(normalizedQuery))
-    .map((entry) => ({
-      id: entry.id,
-      type: "location",
-      title: entry.name,
-      subtitle: entry.region,
-      slug: entry.slug,
-    }));
+  return matches.sort((left, right) => {
+    const leftStarts = left.title.toLowerCase().startsWith(normalizedQuery) ? 0 : 1;
+    const rightStarts = right.title.toLowerCase().startsWith(normalizedQuery) ? 0 : 1;
 
-  const itemResults: SearchResult[] = getBrowseItems()
-    .filter((entry) => entry.name.toLowerCase().includes(normalizedQuery))
-    .map((entry) => ({
-      id: entry.id,
-      type: "item",
-      title: entry.name,
-      subtitle: entry.category,
-      slug: entry.slug,
-    }));
+    if (leftStarts !== rightStarts) {
+      return leftStarts - rightStarts;
+    }
 
-  const moveResults: SearchResult[] = getMoves()
-    .filter((entry) => entry.name.toLowerCase().includes(normalizedQuery))
-    .map((entry) => ({
-      id: entry.id,
-      type: "move",
-      title: entry.name,
-      subtitle: [entry.status, entry.type].filter(Boolean).join(" • ") || "Move",
-      slug: entry.slug,
-    }));
-
-  const machineResults: SearchResult[] = getMachineBrowseEntries()
-    .filter(
-      ({ machine, move }) =>
-        machine.code.toLowerCase().includes(normalizedQuery) ||
-        machine.name.toLowerCase().includes(normalizedQuery) ||
-        (move ? move.name.toLowerCase().includes(normalizedQuery) : false),
-    )
-    .map(({ machine, move, compatibilityCount }) => ({
-      id: machine.id,
-      type: "machine" as const,
-      title: machine.code,
-      subtitle: [move?.name ?? "Unknown move", machine.location, compatibilityCount > 0 ? `${compatibilityCount} compatible Pokemon` : null]
-        .filter(Boolean)
-        .join(" • "),
-      slug: machine.slug,
-    }));
-
-  const trainerResults: SearchResult[] = getTrainers()
-    .filter((entry) => entry.name.toLowerCase().includes(normalizedQuery))
-    .map((entry) => ({
-      id: entry.id,
-      type: "trainer" as const,
-      title: entry.name,
-      subtitle: [entry.location, entry.ruleset, entry.format].filter(Boolean).join(" • "),
-      slug: entry.slug,
-    }));
-
-  const levelCapResults: SearchResult[] =
-    "level cap blind caps cap caps".includes(normalizedQuery) ||
-    getLevelCaps().some(
-      (entry) =>
-        entry.name.toLowerCase().includes(normalizedQuery) ||
-        entry.location.toLowerCase().includes(normalizedQuery) ||
-        entry.trainer.toLowerCase().includes(normalizedQuery),
-    )
-      ? [
-          {
-            id: "system-level-caps",
-            type: "system" as const,
-            title: "Blind Level Caps",
-            subtitle: `${getLevelCaps().length} imported cap checkpoints`,
-            slug: "level-caps",
-          },
-        ]
-      : [];
-
-  const pickupResults: SearchResult[] =
-    "pickup pickups pickup-table".includes(normalizedQuery) ||
-    getPickupEntries().some(
-      (entry) =>
-        entry.name.toLowerCase().includes(normalizedQuery) ||
-        entry.itemName.toLowerCase().includes(normalizedQuery),
-    )
-      ? [
-          {
-            id: "system-pickup-table",
-            type: "system" as const,
-            title: "Pickup Item Tables",
-            subtitle: `${getPickupEntries().length} imported pickup entries`,
-            slug: "pickup-table",
-          },
-        ]
-      : [];
-
-  return [
-    ...pokemonResults,
-    ...locationResults,
-    ...itemResults,
-    ...moveResults,
-    ...machineResults,
-    ...trainerResults,
-    ...levelCapResults,
-    ...pickupResults,
-  ].sort((left, right) => left.title.localeCompare(right.title));
+    return left.title.localeCompare(right.title);
+  });
 }

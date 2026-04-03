@@ -1,5 +1,7 @@
 import Link from "next/link";
-import { searchDex } from "@/lib/search";
+import SearchAutocomplete from "@/app/search-autocomplete";
+import PageNavigation from "@/components/page-navigation";
+import { getSearchIndex, getSearchResultHref, searchDex } from "@/lib/search";
 
 type SearchPageProps = {
   searchParams: Promise<{
@@ -10,55 +12,37 @@ type SearchPageProps = {
 export default async function SearchPage({ searchParams }: SearchPageProps) {
   const { q } = await searchParams;
   const query = q ?? "";
-  const results = searchDex(query);
+  const searchIndex = getSearchIndex();
+  const normalizedQuery = query.trim().toLowerCase();
+  const results = !normalizedQuery
+    ? []
+    : searchIndex
+        .filter((entry) => {
+          const haystack = `${entry.title} ${entry.subtitle}`.toLowerCase();
+          return haystack.includes(normalizedQuery);
+        })
+        .sort((left, right) => {
+          const leftStarts = left.title.toLowerCase().startsWith(normalizedQuery) ? 0 : 1;
+          const rightStarts = right.title.toLowerCase().startsWith(normalizedQuery) ? 0 : 1;
 
-  function getResultHref(type: string, slug: string): string {
-    if (type === "location") {
-      return `/locations/${slug}`;
-    }
+          if (leftStarts !== rightStarts) {
+            return leftStarts - rightStarts;
+          }
 
-    if (type === "machine") {
-      return `/machines/${slug}`;
-    }
-
-    if (type === "system") {
-      return `/systems#${slug}`;
-    }
-
-    return `/${type}s/${slug}`;
-  }
+          return left.title.localeCompare(right.title);
+        });
 
   return (
     <main style={{ margin: "0 auto", maxWidth: "900px", padding: "40px 24px 64px" }}>
+      <PageNavigation />
       <header style={{ marginBottom: "24px" }}>
         <h1 style={{ margin: "0 0 12px" }}>Search</h1>
-        <form action="/search" style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
-          <input
-            name="q"
-            defaultValue={query}
-            placeholder="Search Pokemon, locations, items, moves, TMs/HMs, trainers, systems..."
-            style={{
-              flex: "1 1 320px",
-              padding: "12px 14px",
-              borderRadius: "10px",
-              border: "1px solid #c8d0e0",
-              background: "#ffffff",
-            }}
-          />
-          <button
-            type="submit"
-            style={{
-              padding: "12px 18px",
-              border: 0,
-              borderRadius: "10px",
-              background: "#d64a4a",
-              color: "#ffffff",
-              fontWeight: 700,
-            }}
-          >
-            Search
-          </button>
-        </form>
+        <SearchAutocomplete
+          index={searchIndex}
+          action="/search"
+          initialQuery={query}
+          placeholder="Search Pokemon, abilities, items, moves, TMs & HMs, battles, locations, level caps..."
+        />
       </header>
 
       <p style={{ color: "#586379" }}>
@@ -69,7 +53,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
         {results.map((result) => (
           <Link
             key={`${result.type}-${result.id}`}
-            href={getResultHref(result.type, result.slug)}
+            href={getSearchResultHref(result)}
             style={{
               display: "block",
               padding: "16px",
