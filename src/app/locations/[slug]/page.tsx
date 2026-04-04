@@ -5,7 +5,7 @@ import ItemImage from "../../../components/item-image";
 import PageNavigation from "../../../components/page-navigation";
 import ReferenceImage from "../../../components/reference-image";
 import { getPokemonMiniSpriteSources } from "../../../lib/assets";
-import { getEncounterHeldItemDetails, getEncountersByLocation } from "../../../lib/data/encounters";
+import { formatEncounterRate, getEncounterHeldItemDetails, getEncountersByLocation } from "../../../lib/data/encounters";
 import { getItemDisplayName, getItemSectionsByLocation } from "../../../lib/data/items";
 import { getLocationBySlug, getLocationDisplayDescription, getLocations } from "../../../lib/data/locations";
 import { getPokemonDisplayName } from "../../../lib/presentation";
@@ -133,7 +133,7 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
                         <EncounterMethodBadge method={encounter.method} />
                       </td>
                       <td style={{ padding: "10px 12px", textAlign: "right", borderBottom: "1px solid var(--border-soft)" }}>
-                        {encounter.rate}%
+                        {formatEncounterRate(encounter.rate)}
                       </td>
                       <td style={{ padding: "10px 12px", borderBottom: "1px solid var(--border-soft)" }}>
                         {encounter.minLevel === encounter.maxLevel

@@ -107,10 +107,9 @@ function formatLevelRange(encounter: EncounterEntry): string {
     : `Lv. ${encounter.minLevel}-${encounter.maxLevel}`;
 }
 
-function formatEncounterRate(encounterRate: number): string {
+export function formatEncounterRate(encounterRate: number): string {
   const percent = encounterRate <= 1 ? encounterRate * 100 : encounterRate;
-  const rounded = Number.isInteger(percent) ? String(percent) : percent.toFixed(2).replace(/\.?0+$/, "");
-  return `${rounded}%`;
+  return `${Math.round(percent)}%`;
 }
 
 function formatEncounterMethod(method: string): string {
