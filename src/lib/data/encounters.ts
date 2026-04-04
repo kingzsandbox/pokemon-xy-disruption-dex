@@ -44,6 +44,23 @@ export type PokemonEncounterItemRow = {
   sourceReference: string | null;
 };
 
+export type PokemonEncounterRow = {
+  encounterId: string;
+  locationName: string;
+  locationSlug: string;
+  method: string;
+  methodLabel: string;
+  encounterRate: number;
+  encounterRateLabel: string;
+  levelRange: string;
+  heldItemEntries: {
+    itemName: string;
+    itemSlug: string | null;
+    chanceLabel: string;
+  }[];
+  sourceReference: string | null;
+};
+
 export type EncounterHeldItemDisplayDetail = EncounterHeldItemDetail & {
   itemSlug: string | null;
 };
@@ -90,26 +107,51 @@ function formatLevelRange(encounter: EncounterEntry): string {
     : `Lv. ${encounter.minLevel}-${encounter.maxLevel}`;
 }
 
-export function getEncounterItemRowsByPokemonId(pokemonId: string): PokemonEncounterItemRow[] {
+function formatEncounterRate(encounterRate: number): string {
+  const percent = encounterRate <= 1 ? encounterRate * 100 : encounterRate;
+  const rounded = Number.isInteger(percent) ? String(percent) : percent.toFixed(2).replace(/\.?0+$/, "");
+  return `${rounded}%`;
+}
+
+function formatEncounterMethod(method: string): string {
+  const normalized = method.trim();
+  const methodLabels: Record<string, string> = {
+    "Grass/Cave": "Grass / Cave encounter",
+    "Old Rod": "Fishing (Old Rod)",
+    "Good Rod": "Fishing (Good Rod)",
+    "Super Rod": "Fishing (Super Rod)",
+    Surf: "Surfing encounter",
+    Horde: "Horde encounter",
+    "Rock Smash": "Rock Smash encounter",
+    "Yellow Flowers": "Yellow flower encounter",
+    "Red Flowers": "Red flower encounter",
+    "Purple Flowers": "Purple flower encounter",
+    "Rough Terrain": "Rough terrain encounter",
+    Ambush: "Ambush encounter",
+  };
+
+  return methodLabels[normalized] ?? normalized;
+}
+
+export function getEncounterRowsByPokemonId(pokemonId: string): PokemonEncounterRow[] {
   return (encountersByPokemon.get(pokemonId) ?? [])
-    .filter((entry) => getEncounterHeldItemDetails(entry).length > 0)
     .map((entry) => {
       const location = getLocationById(entry.locationId);
-      const heldItems = getEncounterHeldItemDetails(entry);
-      if (!location || heldItems.length === 0) {
+      if (!location) {
         return null;
       }
+
+      const heldItems = getEncounterHeldItemDetails(entry);
 
       return {
         encounterId: entry.id,
         locationName: location.name,
         locationSlug: location.slug,
         method: entry.method,
+        methodLabel: formatEncounterMethod(entry.method),
         encounterRate: entry.rate,
+        encounterRateLabel: formatEncounterRate(entry.rate),
         levelRange: formatLevelRange(entry),
-        heldItemDisplay: heldItems
-          .map((item) => `${item.itemName}${item.chanceLabel ? ` (${item.chanceLabel})` : ""}`)
-          .join(", "),
         heldItemEntries: heldItems.map((item) => ({
           itemName: item.itemName,
           itemSlug: item.itemSlug,
@@ -118,7 +160,38 @@ export function getEncounterItemRowsByPokemonId(pokemonId: string): PokemonEncou
         sourceReference: entry.sourceReference ?? null,
       };
     })
-    .filter((entry): entry is PokemonEncounterItemRow => entry !== null)
+    .filter((entry): entry is PokemonEncounterRow => entry !== null)
+    .sort((left, right) => {
+      if (left.locationName !== right.locationName) {
+        return left.locationName.localeCompare(right.locationName);
+      }
+
+      if (left.method !== right.method) {
+        return left.method.localeCompare(right.method);
+      }
+
+      return right.encounterRate - left.encounterRate;
+    });
+}
+
+export function getEncounterItemRowsByPokemonId(pokemonId: string): PokemonEncounterItemRow[] {
+  return getEncounterRowsByPokemonId(pokemonId)
+    .filter((entry) => entry.heldItemEntries.length > 0)
+    .map((entry) => {
+      return {
+        encounterId: entry.encounterId,
+        locationName: entry.locationName,
+        locationSlug: entry.locationSlug,
+        method: entry.method,
+        encounterRate: entry.encounterRate,
+        levelRange: entry.levelRange,
+        heldItemDisplay: entry.heldItemEntries
+          .map((item) => `${item.itemName}${item.chanceLabel ? ` (${item.chanceLabel})` : ""}`)
+          .join(", "),
+        heldItemEntries: entry.heldItemEntries,
+        sourceReference: entry.sourceReference,
+      };
+    })
     .sort((left, right) => {
       if (left.locationName !== right.locationName) {
         return left.locationName.localeCompare(right.locationName);

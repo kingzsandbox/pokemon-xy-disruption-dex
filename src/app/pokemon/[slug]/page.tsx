@@ -10,7 +10,7 @@ import {
   getTmHmCompatibilityByPokemonId,
 } from "../../../lib/data/compatibility";
 import { getAbilityByName } from "../../../lib/data/abilities";
-import { getEncounterItemRowsByPokemonId } from "../../../lib/data/encounters";
+import { getEncounterRowsByPokemonId } from "../../../lib/data/encounters";
 import { getLearnsetByPokemonId } from "../../../lib/data/learnsets";
 import { getMoveById } from "../../../lib/data/moves";
 import { getEvolutionTree, getMegaEvolutionLinks, type EvolutionTreeNode } from "../../../lib/data/pokemon-evolutions";
@@ -194,7 +194,7 @@ export default async function PokemonDetailPage({
   const learnset = getLearnsetByPokemonId(pokemon.id);
   const statRows = getPokemonStatDisplayRows(pokemon);
   const abilityRows = getPokemonAbilityDisplayRows(pokemon);
-  const encounterItemRows = getEncounterItemRowsByPokemonId(pokemon.id);
+  const encounterRows = getEncounterRowsByPokemonId(pokemon.id);
   const backHref = returnTo ?? "/?tab=pokedex";
   const bst =
     pokemon.baseStats.hp +
@@ -388,28 +388,29 @@ export default async function PokemonDetailPage({
         </div>
       </section>
 
-      {encounterItemRows.length > 0 ? (
-        <section style={{ marginTop: "24px" }}>
-          <h2>Wild Encounter Item Info</h2>
+      <section style={{ marginTop: "24px" }}>
+        <h2>Encounters</h2>
+        {encounterRows.length > 0 ? (
           <div style={{ overflowX: "auto" }}>
             <table style={{ width: "100%", borderCollapse: "collapse" }}>
               <thead>
                 <tr style={{ background: "var(--surface-muted)" }}>
                   <th style={cellStyle()}>Location</th>
-                  <th style={cellStyle()}>Method</th>
-                  <th style={cellStyle("right")}>Encounter Rate</th>
-                  <th style={cellStyle()}>Held Item</th>
+                  <th style={cellStyle()}>Encounter Method</th>
+                  <th style={cellStyle("right")}>Rate</th>
                   <th style={cellStyle()}>Levels</th>
+                  <th style={cellStyle()}>Held Items</th>
                 </tr>
               </thead>
               <tbody>
-                {encounterItemRows.map((entry) => (
+                {encounterRows.map((entry) => (
                   <tr key={entry.encounterId}>
                     <td style={cellStyle()}>
                       <Link href={`/locations/${entry.locationSlug}`}>{entry.locationName}</Link>
                     </td>
-                    <td style={cellStyle()}>{entry.method}</td>
-                    <td style={cellStyle("right")}>{entry.encounterRate}</td>
+                    <td style={cellStyle()}>{entry.methodLabel}</td>
+                    <td style={cellStyle("right")}>{entry.encounterRateLabel}</td>
+                    <td style={cellStyle()}>{entry.levelRange}</td>
                     <td style={cellStyle()}>
                       {entry.heldItemEntries.length > 0 ? (
                         <div style={{ display: "grid", gap: "4px" }}>
@@ -427,17 +428,18 @@ export default async function PokemonDetailPage({
                           ))}
                         </div>
                       ) : (
-                        "—"
+                        <span style={{ color: "var(--text-muted)" }}>No held items listed</span>
                       )}
                     </td>
-                    <td style={cellStyle()}>{entry.levelRange}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-        </section>
-      ) : null}
+        ) : (
+          <p>No encounter data is currently listed for this Pokémon.</p>
+        )}
+      </section>
 
       <section style={{ marginTop: "24px" }}>
         <h2>Evolution Tree</h2>
