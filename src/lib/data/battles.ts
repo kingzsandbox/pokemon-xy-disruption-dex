@@ -216,18 +216,18 @@ function getGroupedTrainerName(name: string): string {
 const kalosStarterRules = [
   {
     starterFamily: new Set(['Chespin', 'Quilladin', 'Chesnaught']),
-    playerChoice: 'Froakie',
-    explanation: 'Water is weak to Grass.',
+    advantagePlayerChoice: 'Froakie',
+    disadvantagePlayerChoice: 'Fennekin',
   },
   {
     starterFamily: new Set(['Fennekin', 'Braixen', 'Delphox']),
-    playerChoice: 'Chespin',
-    explanation: 'Grass is weak to Fire.',
+    advantagePlayerChoice: 'Chespin',
+    disadvantagePlayerChoice: 'Froakie',
   },
   {
     starterFamily: new Set(['Froakie', 'Frogadier', 'Greninja']),
-    playerChoice: 'Fennekin',
-    explanation: 'Fire is weak to Water.',
+    advantagePlayerChoice: 'Fennekin',
+    disadvantagePlayerChoice: 'Chespin',
   },
 ];
 
@@ -245,11 +245,11 @@ function getRivalVariantLabel(trainerName: string, variant: BattleVariant): stri
   }
 
   if (normalizedTrainerName.includes('shauna')) {
-    return `If ${starterRule.playerChoice} is chosen`;
+    return `If ${starterRule.disadvantagePlayerChoice} is chosen`;
   }
 
   if (normalizedTrainerName.includes('calem / serena')) {
-    return `If ${starterRule.playerChoice} is chosen`;
+    return `If ${starterRule.advantagePlayerChoice} is chosen`;
   }
 
   return null;
