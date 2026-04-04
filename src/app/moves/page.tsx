@@ -27,9 +27,9 @@ export default function MovesPage() {
               <th style={cellStyle()}>Move</th>
               <th style={cellStyle("center")}>Type</th>
               <th style={cellStyle("center")}>Category</th>
-              <th style={cellStyle("right")}>Power</th>
-              <th style={cellStyle("right")}>Accuracy</th>
-              <th style={cellStyle("right")}>PP</th>
+              <th style={cellStyle("center")}>Power</th>
+              <th style={cellStyle("center")}>Accuracy</th>
+              <th style={cellStyle("center")}>PP</th>
               <th style={cellStyle()}>Effect Summary</th>
             </tr>
           </thead>
@@ -45,9 +45,9 @@ export default function MovesPage() {
                 <td style={cellStyle("center")}>
                   <MoveCategoryIcon category={move.category} />
                 </td>
-                <td style={cellStyle("right")}>{move.power ?? "—"}</td>
-                <td style={cellStyle("right")}>{move.accuracy ?? "—"}</td>
-                <td style={cellStyle("right")}>{move.pp ?? "—"}</td>
+                <td style={cellStyle("center")}>{move.power ?? "—"}</td>
+                <td style={cellStyle("center")}>{move.accuracy ?? "—"}</td>
+                <td style={cellStyle("center")}>{move.pp ?? "—"}</td>
                 <td style={{ ...cellStyle(), whiteSpace: "normal", minWidth: "280px" }}>
                   {getMoveEffectSummary(move.id) ?? "No effect summary listed."}
                 </td>

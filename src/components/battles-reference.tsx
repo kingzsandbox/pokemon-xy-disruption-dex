@@ -7,7 +7,7 @@ import TrainerPhoto from "./trainer-photo";
 import { MoveCategoryIcon, TypeBadgeList } from "./dex-visuals";
 import { getBattlePokemonImageSources } from "../lib/assets";
 import type { BattleCategory, BattleFilter, BattleOccurrence, BattleVariant } from "../lib/data/battles";
-import { getMoveByName } from "../lib/data/moves";
+import { getMoveByName, isRemovedMoveName } from "../lib/data/moves";
 import { getBattleDisplayPokemon } from "../lib/data/pokemon";
 import { getPokemonDisplayName } from "../lib/presentation";
 
@@ -33,26 +33,26 @@ function getBattleTitle(trainerName: string): string {
 function categoryStyle(category: BattleCategory) {
   switch (category) {
     case "rival":
-      return { background: "#eef4ff", border: "#9ab6ee", accent: "#3567d6" };
+      return { background: "rgba(74, 120, 219, 0.12)", border: "rgba(74, 120, 219, 0.34)", accent: "#7ea8ff" };
     case "gym_trainer":
-      return { background: "#f3f8ee", border: "#9ec087", accent: "#4f8a2b" };
+      return { background: "rgba(96, 156, 70, 0.12)", border: "rgba(96, 156, 70, 0.34)", accent: "#92d46d" };
     case "gym_leader":
-      return { background: "#ecf7db", border: "#7dac4f", accent: "#2f6e14" };
+      return { background: "rgba(96, 156, 70, 0.16)", border: "rgba(96, 156, 70, 0.4)", accent: "#a8e47d" };
     case "villain":
-      return { background: "#fff0e8", border: "#f0ae82", accent: "#df6a2d" };
+      return { background: "rgba(223, 106, 45, 0.14)", border: "rgba(223, 106, 45, 0.34)", accent: "#ffb48b" };
     case "admin":
-      return { background: "#ffe2df", border: "#d47063", accent: "#a83622" };
+      return { background: "rgba(196, 76, 58, 0.18)", border: "rgba(196, 76, 58, 0.38)", accent: "#ffb3a4" };
     case "lysandre":
-      return { background: "#3d1218", border: "#6d2b34", accent: "#ffffff" };
+      return { background: "#261116", border: "#6d2b34", accent: "#ffffff" };
     case "elite_four":
-      return { background: "#f4eefc", border: "#b9a0dd", accent: "#6f4bc3" };
+      return { background: "rgba(111, 75, 195, 0.14)", border: "rgba(111, 75, 195, 0.34)", accent: "#c8afff" };
     case "champion":
-      return { background: "#fff7e8", border: "#e1c37b", accent: "#9a6a00" };
+      return { background: "rgba(191, 145, 46, 0.14)", border: "rgba(191, 145, 46, 0.34)", accent: "#f4cf7b" };
     case "facility":
-      return { background: "#f5f7fb", border: "#c8d2e3", accent: "#53627d" };
+      return { background: "var(--surface-muted)", border: "var(--border-strong)", accent: "var(--text-subtle)" };
     case "regular":
     default:
-      return { background: "#f8fafc", border: "#d3dbe8", accent: "#45546f" };
+      return { background: "var(--surface-card)", border: "var(--border-soft)", accent: "var(--text-body)" };
   }
 }
 
@@ -105,8 +105,8 @@ function BattleMoveChip({ moveName }: { moveName: string }) {
         gap: "6px",
         padding: "4px 8px",
         borderRadius: "999px",
-        background: "#eef3fa",
-        color: "#324158",
+        background: "var(--surface-muted)",
+        color: "var(--text-body)",
         fontSize: "0.84rem",
       }}
     >
@@ -144,9 +144,9 @@ export default function BattlesReference({ battles, embedded = false }: BattlesR
                 style={{
                   padding: "8px 12px",
                   borderRadius: "999px",
-                  border: active ? "1px solid #365ecc" : "1px solid #d5dce8",
-                  color: active ? "#ffffff" : "#324158",
-                  background: active ? "#365ecc" : "#ffffff",
+                  border: active ? "1px solid var(--accent-border)" : "1px solid var(--border-soft)",
+                  color: active ? "var(--button-text)" : "var(--text-body)",
+                  background: active ? "var(--accent)" : "var(--surface-card)",
                   fontWeight: 600,
                   cursor: "pointer",
                 }}
@@ -208,7 +208,7 @@ export default function BattlesReference({ battles, embedded = false }: BattlesR
                               style={{
                                 padding: "4px 8px",
                                 borderRadius: "999px",
-                                background: "rgba(255,255,255,0.72)",
+                                background: "var(--surface-elevated)",
                                 color: style.accent,
                                 fontSize: "0.82rem",
                                 fontWeight: 700,
@@ -218,14 +218,14 @@ export default function BattlesReference({ battles, embedded = false }: BattlesR
                             </span>
                           </div>
                         </div>
-                        <div style={{ color: battle.category === "lysandre" ? "#f3dfe2" : "#667389" }}>Open</div>
+                        <div style={{ color: battle.category === "lysandre" ? "#f3dfe2" : "var(--text-muted)" }}>Open</div>
                       </div>
                     </summary>
 
                     {isOpen ? (
                       <div style={{ padding: "0 16px 16px" }}>
                         {battle.section ? (
-                          <div style={{ color: "#5c6a80", marginBottom: "14px" }}>{battle.section}</div>
+                          <div style={{ color: "var(--text-muted)", marginBottom: "14px" }}>{battle.section}</div>
                         ) : null}
 
                         <div style={{ display: "grid", gap: "14px" }}>
@@ -239,12 +239,12 @@ export default function BattlesReference({ battles, embedded = false }: BattlesR
                                     style={{
                                       padding: "14px",
                                       borderRadius: "14px",
-                                      background: "#ffffff",
-                                      border: "1px solid #dde4f0",
+                                      background: "var(--surface-card)",
+                                      border: "1px solid var(--border-soft)",
                                     }}
                                   >
                                     {variantGroup.length > 1 ? (
-                                      <div style={{ color: "#4d5c73", fontWeight: 700, marginBottom: "10px" }}>
+                                      <div style={{ color: "var(--text-muted)", fontWeight: 700, marginBottom: "10px" }}>
                                         {variant.variantLabel}
                                       </div>
                                     ) : null}
@@ -263,23 +263,36 @@ export default function BattlesReference({ battles, embedded = false }: BattlesR
                                               gap: "14px",
                                               padding: "12px",
                                               borderRadius: "14px",
-                                              background: "#f8fafc",
+                                              background: "var(--surface-muted)",
                                             }}
                                           >
                                             <div style={{ textAlign: "center" }}>
-                                              <ReferenceImage
-                                                src={image.src}
-                                                fallbackSrc={image.fallbackSrc}
-                                                alt={label}
-                                                width={64}
-                                                height={64}
+                                              <div
                                                 style={{
-                                                  imageRendering: "pixelated",
-                                                  display: "block",
+                                                  width: "72px",
+                                                  height: "72px",
                                                   margin: "0 auto",
+                                                  borderRadius: "14px",
+                                                  border: "1px solid var(--border-soft)",
+                                                  background: "linear-gradient(180deg, var(--surface-card) 0%, var(--surface-elevated) 100%)",
+                                                  display: "grid",
+                                                  placeItems: "center",
                                                 }}
-                                              />
-                                              <div style={{ color: "#667389", fontSize: "0.84rem", marginTop: "6px" }}>
+                                              >
+                                                <ReferenceImage
+                                                  src={image.src}
+                                                  fallbackSrc={image.fallbackSrc}
+                                                  alt={label}
+                                                  width={64}
+                                                  height={64}
+                                                  style={{
+                                                    imageRendering: "pixelated",
+                                                    display: "block",
+                                                    margin: "0 auto",
+                                                  }}
+                                                />
+                                              </div>
+                                              <div style={{ color: "var(--text-muted)", fontSize: "0.84rem", marginTop: "6px" }}>
                                                 #{displayPokemon?.dexNumber ?? "—"}
                                               </div>
                                             </div>
@@ -302,18 +315,20 @@ export default function BattlesReference({ battles, embedded = false }: BattlesR
                                                 </strong>
                                                 {displayPokemon ? <TypeBadgeList types={displayPokemon.types} /> : null}
                                               </div>
-                                              <div style={{ color: "#586379", marginTop: "6px" }}>
+                                              <div style={{ color: "var(--text-muted)", marginTop: "6px" }}>
                                                 Level {member.level ?? "—"}
                                                 {member.ability ? ` • Ability: ${member.ability}` : ""}
                                                 {member.heldItem ? ` • Held Item: ${member.heldItem}` : ""}
                                               </div>
                                               <div style={{ marginTop: "8px", display: "flex", flexWrap: "wrap", gap: "8px" }}>
-                                                {member.moves.length > 0 ? (
-                                                  member.moves.map((moveName) => (
+                                                {member.moves.filter((moveName) => !isRemovedMoveName(moveName)).length > 0 ? (
+                                                  member.moves
+                                                    .filter((moveName) => !isRemovedMoveName(moveName))
+                                                    .map((moveName) => (
                                                     <BattleMoveChip key={`${variant.id}-${member.slot}-${moveName}`} moveName={moveName} />
                                                   ))
                                                 ) : (
-                                                  <span style={{ color: "#667389" }}>No moves listed</span>
+                                                  <span style={{ color: "var(--text-muted)" }}>No moves listed</span>
                                                 )}
                                               </div>
                                             </div>

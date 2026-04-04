@@ -22,8 +22,8 @@ function HeaderFallback() {
         top: 0,
         zIndex: 50,
         backdropFilter: "blur(14px)",
-        background: "rgba(246, 248, 252, 0.9)",
-        borderBottom: "1px solid rgba(212, 220, 233, 0.9)",
+        background: "var(--surface-elevated)",
+        borderBottom: "1px solid var(--border-header)",
       }}
     >
       <div style={{ margin: "0 auto", maxWidth: "1400px", padding: "16px 18px 18px" }}>
@@ -37,7 +37,7 @@ function HeaderFallback() {
             marginBottom: "14px",
           }}
         >
-          <a href="/" style={{ textDecoration: "none", fontSize: "1.15rem", fontWeight: 800, color: "#1f2a3d" }}>
+          <a href="/" style={{ textDecoration: "none", fontSize: "1.15rem", fontWeight: 800, color: "var(--text-strong)" }}>
             Pokémon X/Y Disruption Dex
           </a>
         </div>
@@ -46,14 +46,15 @@ function HeaderFallback() {
           <input
             name="q"
             type="search"
-            placeholder="Search Pokémon, locations, items, moves, TMs & HMs, abilities, trainers, battles, and level caps..."
+            placeholder="Search Pokémon, locations, items, moves, TMs & HMs, move tutors, abilities, trainers, battles, and level caps..."
             style={{
               width: "100%",
               minWidth: 0,
               padding: "11px 14px",
-              border: "1px solid #d8deea",
+              border: "1px solid var(--border-soft)",
               borderRadius: "12px",
-              background: "#ffffff",
+              background: "var(--surface-card)",
+              color: "var(--text-body)",
               flex: 1,
             }}
           />
@@ -61,10 +62,10 @@ function HeaderFallback() {
             type="submit"
             style={{
               padding: "11px 16px",
-              border: "1px solid #cc4141",
+              border: "1px solid var(--accent-border)",
               borderRadius: "12px",
-              background: "#d64a4a",
-              color: "#ffffff",
+              background: "var(--accent)",
+              color: "var(--button-text)",
               fontWeight: 700,
               cursor: "pointer",
             }}

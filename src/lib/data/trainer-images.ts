@@ -108,6 +108,10 @@ const trainerImageByCanonicalName = new Map<string, string>([
     "/sprites/trainers-workbook/singles-xy-trainers-calem-serena-435-596-na-route-7-west.png",
   ],
   [
+    "calem-serena",
+    "/sprites/trainers-workbook/singles-xy-trainers-calem-serena-435-596-na-route-7-west.png",
+  ],
+  [
     "calem-serena-605-608",
     "/sprites/trainers-workbook/singles-xy-trainers-calem-serena-435-596-na-route-7-west.png",
   ],

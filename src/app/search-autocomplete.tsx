@@ -26,9 +26,10 @@ function inputStyle() {
   return {
     width: "100%",
     padding: "11px 14px",
-    border: "1px solid #d8deea",
+    border: "1px solid var(--border-soft)",
     borderRadius: "12px",
-    background: "#ffffff",
+    background: "var(--surface-card)",
+    color: "var(--text-body)",
   } as const;
 }
 
@@ -37,14 +38,14 @@ function badgeStyle() {
     display: "inline-block",
     padding: "2px 8px",
     borderRadius: "999px",
-    background: "#f1f4fa",
-    color: "#546176",
+    background: "var(--surface-muted)",
+    color: "var(--text-muted)",
     fontSize: "0.78rem",
     textTransform: "capitalize",
   } as const;
 }
 
-const GROUP_ORDER = ["pokemon", "moves", "items", "locations", "machines", "abilities"] as const;
+const GROUP_ORDER = ["pokemon", "moves", "items", "locations", "machines", "move_tutors", "abilities"] as const;
 
 const GROUP_LABELS: Record<(typeof GROUP_ORDER)[number], string> = {
   pokemon: "Pokemon",
@@ -52,6 +53,7 @@ const GROUP_LABELS: Record<(typeof GROUP_ORDER)[number], string> = {
   items: "Items",
   locations: "Locations",
   machines: "TMs & HMs",
+  move_tutors: "Move Tutors",
   abilities: "Abilities",
 };
 
@@ -61,6 +63,7 @@ const GROUP_BADGE_LABELS: Record<(typeof GROUP_ORDER)[number], string> = {
   items: "Item",
   locations: "Location",
   machines: "TM/HM",
+  move_tutors: "Tutor",
   abilities: "Ability",
 };
 
@@ -70,6 +73,7 @@ const RESULT_TYPE_TO_GROUP: Partial<Record<SearchResult["type"], (typeof GROUP_O
   item: "items",
   location: "locations",
   machine: "machines",
+  move_tutor: "move_tutors",
   ability: "abilities",
 };
 
@@ -208,10 +212,10 @@ export default function SearchAutocomplete({
               top: "calc(100% + 8px)",
               left: 0,
               right: 0,
-              background: "#ffffff",
-              border: "1px solid #d8deea",
+              background: "var(--surface-card)",
+              border: "1px solid var(--border-soft)",
               borderRadius: "14px",
-              boxShadow: "0 14px 30px rgba(39, 50, 70, 0.12)",
+              boxShadow: "var(--shadow-strong)",
               overflow: "hidden",
             }}
           >
@@ -220,9 +224,9 @@ export default function SearchAutocomplete({
                 <div
                   style={{
                     padding: "10px 14px 6px",
-                    background: "#f8fafd",
-                    borderTop: group.key === groupedSuggestions[0]?.key ? "none" : "1px solid #eef2f8",
-                    color: "#5d6a7f",
+                    background: "var(--surface-muted)",
+                    borderTop: group.key === groupedSuggestions[0]?.key ? "none" : "1px solid var(--border-soft)",
+                    color: "var(--text-muted)",
                     fontSize: "0.78rem",
                     fontWeight: 700,
                     letterSpacing: "0.04em",
@@ -250,17 +254,17 @@ export default function SearchAutocomplete({
                         gap: "4px",
                         padding: "12px 14px",
                         textDecoration: "none",
-                        background: indexValue === activeIndex ? "#f7f9fd" : "#ffffff",
-                        borderTop: "1px solid #eef2f8",
+                        background: indexValue === activeIndex ? "var(--surface-muted)" : "var(--surface-card)",
+                        borderTop: "1px solid var(--border-soft)",
                       }}
                     >
                       <span style={{ display: "flex", justifyContent: "space-between", gap: "10px" }}>
-                        <strong style={{ color: "#273246" }}>{result.title}</strong>
+                        <strong style={{ color: "var(--text-body)" }}>{result.title}</strong>
                         <span style={badgeStyle()}>{GROUP_BADGE_LABELS[group.key]}</span>
                       </span>
                       <span
                         style={{
-                          color: "#667389",
+                          color: "var(--text-muted)",
                           fontSize: "0.92rem",
                           overflow: "hidden",
                           textOverflow: "ellipsis",
@@ -278,15 +282,15 @@ export default function SearchAutocomplete({
         ) : null}
       </div>
 
-      <button
-        type="submit"
-        style={{
-          padding: "11px 16px",
-          border: "1px solid #cc4141",
-          borderRadius: "12px",
-          background: "#d64a4a",
-          color: "#ffffff",
-          fontWeight: 700,
+          <button
+            type="submit"
+            style={{
+              padding: "11px 16px",
+              border: "1px solid var(--accent-border)",
+              borderRadius: "12px",
+              background: "var(--accent)",
+              color: "var(--button-text)",
+              fontWeight: 700,
           cursor: "pointer",
         }}
       >

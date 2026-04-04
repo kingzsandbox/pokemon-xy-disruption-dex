@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "item-obtain-supplemental-001",
+    "itemId": "item-poke-ball",
+    "itemName": "Poké Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - No Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-002",
+    "itemId": "item-mysterious-candy",
+    "itemName": "Mysterious Candy",
+    "locationName": "Poké Marts",
+    "notes": "Shop - No Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-003",
+    "itemId": "item-poke-ball",
+    "itemName": "Poké Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 1 Gym Badge; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-004",
+    "itemId": "item-great-ball",
+    "itemName": "Great Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 1 Gym Badge; price 200.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-005",
+    "itemId": "item-honey",
+    "itemName": "Honey",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 1 Gym Badge; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-006",
+    "itemId": "item-potion",
+    "itemName": "Potion",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 1 Gym Badge; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-007",
+    "itemId": "item-super-potion",
+    "itemName": "Super Potion",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 1 Gym Badge; price 200.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-008",
+    "itemId": "item-full-heal",
+    "itemName": "Full Heal",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 1 Gym Badge; price 400.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-009",
+    "itemId": "item-ability-capsule",
+    "itemName": "Ability Capsule",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 1 Gym Badge; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-010",
+    "itemId": "item-mysterious-candy",
+    "itemName": "Mysterious Candy",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 1 Gym Badge; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-011",
+    "itemId": "item-nest-ball",
+    "itemName": "Nest Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 1 Gym Badge; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-012",
+    "itemId": "item-poke-ball",
+    "itemName": "Poké Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 2 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-013",
+    "itemId": "item-great-ball",
+    "itemName": "Great Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 2 Gym Badges; price 200.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-014",
+    "itemId": "item-honey",
+    "itemName": "Honey",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 2 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-015",
+    "itemId": "item-super-potion",
+    "itemName": "Super Potion",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 2 Gym Badges; price 200.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-016",
+    "itemId": "item-hyper-potion",
+    "itemName": "Hyper Potion",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 2 Gym Badges; price 400.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-017",
+    "itemId": "item-revive",
+    "itemName": "Revive",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 2 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-018",
+    "itemId": "item-full-heal",
+    "itemName": "Full Heal",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 2 Gym Badges; price 400.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-019",
+    "itemId": "item-heart-scale",
+    "itemName": "Heart Scale",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 2 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-020",
+    "itemId": "item-ability-capsule",
+    "itemName": "Ability Capsule",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 2 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-021",
+    "itemId": "item-mysterious-candy",
+    "itemName": "Mysterious Candy",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 2 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-022",
+    "itemId": "item-nest-ball",
+    "itemName": "Nest Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 2 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-023",
+    "itemId": "item-net-ball",
+    "itemName": "Net Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 2 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-024",
+    "itemId": "item-quick-ball",
+    "itemName": "Quick Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 2 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-025",
+    "itemId": "item-poke-ball",
+    "itemName": "Poké Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-026",
+    "itemId": "item-great-ball",
+    "itemName": "Great Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 200.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-027",
+    "itemId": "item-ultra-ball",
+    "itemName": "Ultra Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-028",
+    "itemId": "item-honey",
+    "itemName": "Honey",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-029",
+    "itemId": "item-super-potion",
+    "itemName": "Super Potion",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 200.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-030",
+    "itemId": "item-hyper-potion",
+    "itemName": "Hyper Potion",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 400.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-031",
+    "itemId": "item-revive",
+    "itemName": "Revive",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-032",
+    "itemId": "item-full-heal",
+    "itemName": "Full Heal",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 400.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-033",
+    "itemId": "item-heart-scale",
+    "itemName": "Heart Scale",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-034",
+    "itemId": "item-ability-capsule",
+    "itemName": "Ability Capsule",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-035",
+    "itemId": "item-mysterious-candy",
+    "itemName": "Mysterious Candy",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-036",
+    "itemId": "item-nest-ball",
+    "itemName": "Nest Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-037",
+    "itemId": "item-net-ball",
+    "itemName": "Net Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-038",
+    "itemId": "item-quick-ball",
+    "itemName": "Quick Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-039",
+    "itemId": "item-timer-ball",
+    "itemName": "Timer Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-040",
+    "itemId": "item-luxury-ball",
+    "itemName": "Luxury Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 3 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-041",
+    "itemId": "item-poke-ball",
+    "itemName": "Poké Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-042",
+    "itemId": "item-great-ball",
+    "itemName": "Great Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 200.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-043",
+    "itemId": "item-ultra-ball",
+    "itemName": "Ultra Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-044",
+    "itemId": "item-honey",
+    "itemName": "Honey",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-045",
+    "itemId": "item-hyper-potion",
+    "itemName": "Hyper Potion",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 400.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-046",
+    "itemId": "item-max-potion",
+    "itemName": "Max Potion",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 700.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-047",
+    "itemId": "item-revive",
+    "itemName": "Revive",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-048",
+    "itemId": "item-full-heal",
+    "itemName": "Full Heal",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 400.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-049",
+    "itemId": "item-heart-scale",
+    "itemName": "Heart Scale",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-050",
+    "itemId": "item-ability-capsule",
+    "itemName": "Ability Capsule",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-051",
+    "itemId": "item-mysterious-candy",
+    "itemName": "Mysterious Candy",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-052",
+    "itemId": "item-nest-ball",
+    "itemName": "Nest Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-053",
+    "itemId": "item-heal-ball",
+    "itemName": "Heal Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-054",
+    "itemId": "item-net-ball",
+    "itemName": "Net Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-055",
+    "itemId": "item-quick-ball",
+    "itemName": "Quick Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-056",
+    "itemId": "item-timer-ball",
+    "itemName": "Timer Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-057",
+    "itemId": "item-luxury-ball",
+    "itemName": "Luxury Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 4 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-058",
+    "itemId": "item-poke-ball",
+    "itemName": "Poké Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-059",
+    "itemId": "item-great-ball",
+    "itemName": "Great Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 200.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-060",
+    "itemId": "item-ultra-ball",
+    "itemName": "Ultra Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-061",
+    "itemId": "item-honey",
+    "itemName": "Honey",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-062",
+    "itemId": "item-max-potion",
+    "itemName": "Max Potion",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 700.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-063",
+    "itemId": "item-full-restore",
+    "itemName": "Full Restore",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-064",
+    "itemId": "item-revive",
+    "itemName": "Revive",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-065",
+    "itemId": "item-full-heal",
+    "itemName": "Full Heal",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 400.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-066",
+    "itemId": "item-heart-scale",
+    "itemName": "Heart Scale",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-067",
+    "itemId": "item-ability-capsule",
+    "itemName": "Ability Capsule",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-068",
+    "itemId": "item-mysterious-candy",
+    "itemName": "Mysterious Candy",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-069",
+    "itemId": "item-elixir",
+    "itemName": "Elixir",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-070",
+    "itemId": "item-nest-ball",
+    "itemName": "Nest Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-071",
+    "itemId": "item-heal-ball",
+    "itemName": "Heal Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-072",
+    "itemId": "item-net-ball",
+    "itemName": "Net Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-073",
+    "itemId": "item-quick-ball",
+    "itemName": "Quick Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-074",
+    "itemId": "item-timer-ball",
+    "itemName": "Timer Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-075",
+    "itemId": "item-luxury-ball",
+    "itemName": "Luxury Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 5 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-076",
+    "itemId": "item-poke-ball",
+    "itemName": "Poké Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-077",
+    "itemId": "item-great-ball",
+    "itemName": "Great Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 200.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-078",
+    "itemId": "item-ultra-ball",
+    "itemName": "Ultra Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-079",
+    "itemId": "item-honey",
+    "itemName": "Honey",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-080",
+    "itemId": "item-max-potion",
+    "itemName": "Max Potion",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 700.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-081",
+    "itemId": "item-full-restore",
+    "itemName": "Full Restore",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-082",
+    "itemId": "item-revive",
+    "itemName": "Revive",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-083",
+    "itemId": "item-full-heal",
+    "itemName": "Full Heal",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 400.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-084",
+    "itemId": "item-heart-scale",
+    "itemName": "Heart Scale",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-085",
+    "itemId": "item-ability-capsule",
+    "itemName": "Ability Capsule",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-086",
+    "itemId": "item-mysterious-candy",
+    "itemName": "Mysterious Candy",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-087",
+    "itemId": "item-elixir",
+    "itemName": "Elixir",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-088",
+    "itemId": "item-nest-ball",
+    "itemName": "Nest Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-089",
+    "itemId": "item-heal-ball",
+    "itemName": "Heal Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-090",
+    "itemId": "item-net-ball",
+    "itemName": "Net Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-091",
+    "itemId": "item-quick-ball",
+    "itemName": "Quick Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-092",
+    "itemId": "item-timer-ball",
+    "itemName": "Timer Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-093",
+    "itemId": "item-luxury-ball",
+    "itemName": "Luxury Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 6 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-094",
+    "itemId": "item-poke-ball",
+    "itemName": "Poké Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-095",
+    "itemId": "item-great-ball",
+    "itemName": "Great Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 200.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-096",
+    "itemId": "item-ultra-ball",
+    "itemName": "Ultra Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-097",
+    "itemId": "item-honey",
+    "itemName": "Honey",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-098",
+    "itemId": "item-max-potion",
+    "itemName": "Max Potion",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 700.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-099",
+    "itemId": "item-full-restore",
+    "itemName": "Full Restore",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-100",
+    "itemId": "item-revive",
+    "itemName": "Revive",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-101",
+    "itemId": "item-full-heal",
+    "itemName": "Full Heal",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 400.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-102",
+    "itemId": "item-heart-scale",
+    "itemName": "Heart Scale",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-103",
+    "itemId": "item-ability-capsule",
+    "itemName": "Ability Capsule",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-104",
+    "itemId": "item-mysterious-candy",
+    "itemName": "Mysterious Candy",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-105",
+    "itemId": "item-elixir",
+    "itemName": "Elixir",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-106",
+    "itemId": "item-nest-ball",
+    "itemName": "Nest Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-107",
+    "itemId": "item-heal-ball",
+    "itemName": "Heal Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-108",
+    "itemId": "item-net-ball",
+    "itemName": "Net Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-109",
+    "itemId": "item-quick-ball",
+    "itemName": "Quick Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-110",
+    "itemId": "item-timer-ball",
+    "itemName": "Timer Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-111",
+    "itemId": "item-luxury-ball",
+    "itemName": "Luxury Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 7 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-112",
+    "itemId": "item-poke-ball",
+    "itemName": "Poké Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-113",
+    "itemId": "item-great-ball",
+    "itemName": "Great Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 200.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-114",
+    "itemId": "item-ultra-ball",
+    "itemName": "Ultra Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-115",
+    "itemId": "item-honey",
+    "itemName": "Honey",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-116",
+    "itemId": "item-max-potion",
+    "itemName": "Max Potion",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 700.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-117",
+    "itemId": "item-full-restore",
+    "itemName": "Full Restore",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-118",
+    "itemId": "item-max-revive",
+    "itemName": "Max Revive",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-119",
+    "itemId": "item-full-heal",
+    "itemName": "Full Heal",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 400.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-120",
+    "itemId": "item-heart-scale",
+    "itemName": "Heart Scale",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-121",
+    "itemId": "item-ability-capsule",
+    "itemName": "Ability Capsule",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-122",
+    "itemId": "item-mysterious-candy",
+    "itemName": "Mysterious Candy",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-123",
+    "itemId": "item-max-elixir",
+    "itemName": "Max Elixir",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-124",
+    "itemId": "item-nest-ball",
+    "itemName": "Nest Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-125",
+    "itemId": "item-heal-ball",
+    "itemName": "Heal Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-126",
+    "itemId": "item-net-ball",
+    "itemName": "Net Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-127",
+    "itemId": "item-quick-ball",
+    "itemName": "Quick Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-128",
+    "itemId": "item-timer-ball",
+    "itemName": "Timer Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-129",
+    "itemId": "item-luxury-ball",
+    "itemName": "Luxury Ball",
+    "locationName": "Poké Marts",
+    "notes": "Shop - 8 Gym Badges; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-130",
+    "itemId": "item-poke-ball",
+    "itemName": "Poké Ball",
+    "locationName": "Aquacorde Town",
+    "notes": "Shop - Poké Ball; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-131",
+    "itemId": "item-potion",
+    "itemName": "Potion",
+    "locationName": "Aquacorde Town",
+    "notes": "Shop - Potion; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-132",
+    "itemId": "item-pomeg-berry",
+    "itemName": "Pomeg Berry",
+    "locationName": "Santalune City",
+    "notes": "Shop - Berries; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-133",
+    "itemId": "item-kelpsy-berry",
+    "itemName": "Kelpsy Berry",
+    "locationName": "Santalune City",
+    "notes": "Shop - Berries; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-134",
+    "itemId": "item-qualot-berry",
+    "itemName": "Qualot Berry",
+    "locationName": "Santalune City",
+    "notes": "Shop - Berries; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-135",
+    "itemId": "item-hondew-berry",
+    "itemName": "Hondew Berry",
+    "locationName": "Santalune City",
+    "notes": "Shop - Berries; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-136",
+    "itemId": "item-grepa-berry",
+    "itemName": "Grepa Berry",
+    "locationName": "Santalune City",
+    "notes": "Shop - Berries; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-137",
+    "itemId": "item-tamato-berry",
+    "itemName": "Tamato Berry",
+    "locationName": "Santalune City",
+    "notes": "Shop - Berries; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-138",
+    "itemId": "item-sitrus-berry",
+    "itemName": "Sitrus Berry",
+    "locationName": "Santalune City",
+    "notes": "Shop - Berries; price 200.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-139",
+    "itemId": "item-lum-berry",
+    "itemName": "Lum Berry",
+    "locationName": "Santalune City",
+    "notes": "Shop - Berries; price 200.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-140",
+    "itemId": "item-fire-stone",
+    "itemName": "Fire Stone",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Stone Emporium; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-141",
+    "itemId": "item-water-stone",
+    "itemName": "Water Stone",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Stone Emporium; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-142",
+    "itemId": "item-leaf-stone",
+    "itemName": "Leaf Stone",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Stone Emporium; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-143",
+    "itemId": "item-tm20-safeguard",
+    "itemName": "TM20 [Safeguard]",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Antique TMs; price 5000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-144",
+    "itemId": "item-tm64-encore",
+    "itemName": "TM64 [Encore]",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Antique TMs; price 5000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-145",
+    "itemId": "item-tm67-metronome",
+    "itemName": "TM67 [Metronome]",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Antique TMs; price 5000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-146",
+    "itemId": "item-tm87-swagger",
+    "itemName": "TM87 [Swagger]",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Antique TMs; price 5000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-147",
+    "itemId": "item-tm05-roar",
+    "itemName": "TM05 [Roar]",
+    "locationName": "Lumiose City South Boulevard",
+    "notes": "Shop - TMs; price 5000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-148",
+    "itemId": "item-tm07-icy-wind",
+    "itemName": "TM07 [Icy Wind]",
+    "locationName": "Lumiose City South Boulevard",
+    "notes": "Shop - TMs; price 5000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-149",
+    "itemId": "item-tm23-stealth-rock",
+    "itemName": "TM23 [Stealth Rock]",
+    "locationName": "Lumiose City South Boulevard",
+    "notes": "Shop - TMs; price 5000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-150",
+    "itemId": "item-tm59-incinerate",
+    "itemName": "TM59 [Incinerate]",
+    "locationName": "Lumiose City South Boulevard",
+    "notes": "Shop - TMs; price 5000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-151",
+    "itemId": "item-tm60-knock-off",
+    "itemName": "TM60 [Knock Off]",
+    "locationName": "Lumiose City South Boulevard",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-152",
+    "itemId": "item-health-wing",
+    "itemName": "Health Wing",
+    "locationName": "Poké Miles Shop",
+    "notes": "Shop - Items; price 1.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-153",
+    "itemId": "item-muscle-wing",
+    "itemName": "Muscle Wing",
+    "locationName": "Poké Miles Shop",
+    "notes": "Shop - Items; price 1.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-154",
+    "itemId": "item-resist-wing",
+    "itemName": "Resist Wing",
+    "locationName": "Poké Miles Shop",
+    "notes": "Shop - Items; price 1.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-155",
+    "itemId": "item-genius-wing",
+    "itemName": "Genius Wing",
+    "locationName": "Poké Miles Shop",
+    "notes": "Shop - Items; price 1.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-156",
+    "itemId": "item-clever-wing",
+    "itemName": "Clever Wing",
+    "locationName": "Poké Miles Shop",
+    "notes": "Shop - Items; price 1.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-157",
+    "itemId": "item-swift-wing",
+    "itemName": "Swift Wing",
+    "locationName": "Poké Miles Shop",
+    "notes": "Shop - Items; price 1.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-158",
+    "itemId": "item-moomoo-milk",
+    "itemName": "Moomoo Milk",
+    "locationName": "Poké Miles Shop",
+    "notes": "Shop - Items; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-159",
+    "itemId": "item-cherish-ball",
+    "itemName": "Cherish Ball",
+    "locationName": "Poké Miles Shop",
+    "notes": "Shop - Items; price 10.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-160",
+    "itemId": "item-dream-ball",
+    "itemName": "Dream Ball",
+    "locationName": "Poké Miles Shop",
+    "notes": "Shop - Items; price 10.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-161",
+    "itemId": "item-sacred-ash",
+    "itemName": "Sacred Ash",
+    "locationName": "Poké Miles Shop",
+    "notes": "Shop - Items; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-162",
+    "itemId": "item-master-ball",
+    "itemName": "Master Ball",
+    "locationName": "Poké Miles Shop",
+    "notes": "Shop - Items; price 500.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-163",
+    "itemId": "item-tm37-power-gem",
+    "itemName": "TM37 [Power Gem]",
+    "locationName": "Cyllage City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-164",
+    "itemId": "item-tm72-volt-switch",
+    "itemName": "TM72 [Volt Switch]",
+    "locationName": "Cyllage City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-165",
+    "itemId": "item-tm78-bulldoze",
+    "itemName": "TM78 [Bulldoze]",
+    "locationName": "Cyllage City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-166",
+    "itemId": "item-tm28-earth-power",
+    "itemName": "TM28 [Earth Power]",
+    "locationName": "Shalour City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-167",
+    "itemId": "item-tm75-swords-dance",
+    "itemName": "TM75 [Swords Dance]",
+    "locationName": "Shalour City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-168",
+    "itemId": "item-tm76-bug-buzz",
+    "itemName": "TM76 [Bug Buzz]",
+    "locationName": "Shalour City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-169",
+    "itemId": "item-tm84-poison-jab",
+    "itemName": "TM84 [Poison Jab]",
+    "locationName": "Shalour City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-170",
+    "itemId": "item-tm91-flash-cannon",
+    "itemName": "TM91 [Flash Cannon]",
+    "locationName": "Shalour City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-171",
+    "itemId": "item-tm16-light-screen",
+    "itemName": "TM16 [Light Screen]",
+    "locationName": "Coumarine City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-172",
+    "itemId": "item-tm18-aqua-tail",
+    "itemName": "TM18 [Aqua Tail]",
+    "locationName": "Coumarine City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-173",
+    "itemId": "item-tm33-reflect",
+    "itemName": "TM33 [Reflect]",
+    "locationName": "Coumarine City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-174",
+    "itemId": "item-tm48-body-slam",
+    "itemName": "TM48 [Body Slam]",
+    "locationName": "Coumarine City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-175",
+    "itemId": "item-tm50-overheat",
+    "itemName": "TM50 [Overheat]",
+    "locationName": "Coumarine City",
+    "notes": "Shop - TMs; price 15000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-176",
+    "itemId": "item-tm51-heavy-slam",
+    "itemName": "TM51 [Heavy Slam]",
+    "locationName": "Coumarine City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-177",
+    "itemId": "item-tm52-focus-blast",
+    "itemName": "TM52 [Focus Blast]",
+    "locationName": "Coumarine City",
+    "notes": "Shop - TMs; price 15000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-178",
+    "itemId": "item-tm58-tailwind",
+    "itemName": "TM58 [Tailwind]",
+    "locationName": "Coumarine City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-179",
+    "itemId": "item-tm85-zen-headbutt",
+    "itemName": "TM85 [Zen Headbutt]",
+    "locationName": "Coumarine City",
+    "notes": "Shop - TMs; price 10000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-180",
+    "itemId": "item-choice-band",
+    "itemName": "Choice Band",
+    "locationName": "Coumarine City",
+    "notes": "Shop - Choice Items; price 25000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-181",
+    "itemId": "item-choice-specs",
+    "itemName": "Choice Specs",
+    "locationName": "Coumarine City",
+    "notes": "Shop - Choice Items; price 25000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-182",
+    "itemId": "item-choice-scarf",
+    "itemName": "Choice Scarf",
+    "locationName": "Coumarine City",
+    "notes": "Shop - Choice Items; price 25000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-183",
+    "itemId": "item-moon-ball",
+    "itemName": "Moon Ball",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Poké Ball Boutique; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-184",
+    "itemId": "item-heavy-ball",
+    "itemName": "Heavy Ball",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Poké Ball Boutique; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-185",
+    "itemId": "item-love-ball",
+    "itemName": "Love Ball",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Poké Ball Boutique; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-186",
+    "itemId": "item-dive-ball",
+    "itemName": "Dive Ball",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Poké Ball Boutique; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-187",
+    "itemId": "item-friend-ball",
+    "itemName": "Friend Ball",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Poké Ball Boutique; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-188",
+    "itemId": "item-lure-ball",
+    "itemName": "Lure Ball",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Poké Ball Boutique; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-189",
+    "itemId": "item-level-ball",
+    "itemName": "Level Ball",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Poké Ball Boutique; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-190",
+    "itemId": "item-dusk-ball",
+    "itemName": "Dusk Ball",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Poké Ball Boutique; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-191",
+    "itemId": "item-fast-ball",
+    "itemName": "Fast Ball",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Poké Ball Boutique; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-192",
+    "itemId": "item-repeat-ball",
+    "itemName": "Repeat Ball",
+    "locationName": "Lumiose City",
+    "notes": "Shop - Poké Ball Boutique; price 300.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-193",
+    "itemId": "item-tm11-flare-blitz",
+    "itemName": "TM11 [Flare Blitz]",
+    "locationName": "Lumiose City North Boulevard",
+    "notes": "Shop - TMs; price 15000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-194",
+    "itemId": "item-tm34-sludge-wave",
+    "itemName": "TM34 [Sludge Wave]",
+    "locationName": "Lumiose City North Boulevard",
+    "notes": "Shop - TMs; price 15000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-195",
+    "itemId": "item-tm93-wild-charge",
+    "itemName": "TM93 [Wild Charge]",
+    "locationName": "Lumiose City North Boulevard",
+    "notes": "Shop - TMs; price 15000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-196",
+    "itemId": "item-thunder-stone",
+    "itemName": "Thunder Stone",
+    "locationName": "Laverre City",
+    "notes": "Shop - Stones; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-197",
+    "itemId": "item-moon-stone",
+    "itemName": "Moon Stone",
+    "locationName": "Laverre City",
+    "notes": "Shop - Stones; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-198",
+    "itemId": "item-sun-stone",
+    "itemName": "Sun Stone",
+    "locationName": "Laverre City",
+    "notes": "Shop - Stones; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-199",
+    "itemId": "item-shiny-stone",
+    "itemName": "Shiny Stone",
+    "locationName": "Laverre City",
+    "notes": "Shop - Stones; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-200",
+    "itemId": "item-dusk-stone",
+    "itemName": "Dusk Stone",
+    "locationName": "Laverre City",
+    "notes": "Shop - Stones; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-201",
+    "itemId": "item-dawn-stone",
+    "itemName": "Dawn Stone",
+    "locationName": "Laverre City",
+    "notes": "Shop - Stones; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-202",
+    "itemId": "item-dire-hit",
+    "itemName": "Dire Hit",
+    "locationName": "Lost Hotel",
+    "notes": "Trash Can - Daily; Sometimes chance",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-203",
+    "itemId": "item-relic-band",
+    "itemName": "Relic Band",
+    "locationName": "Lost Hotel",
+    "notes": "Trash Can - Daily; Sometimes chance",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-204",
+    "itemId": "item-guard-spec",
+    "itemName": "Guard Spec.",
+    "locationName": "Lost Hotel",
+    "notes": "Trash Can - Tuesdays; Sometimes chance",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-205",
+    "itemId": "item-relic-band",
+    "itemName": "Relic Band",
+    "locationName": "Lost Hotel",
+    "notes": "Trash Can - Tuesdays; Sometimes chance",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-206",
+    "itemId": "item-tm14-blizzard",
+    "itemName": "TM14 [Blizzard]",
+    "locationName": "Anistar City",
+    "notes": "Shop - TMs; price 15000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-207",
+    "itemId": "item-tm15-hyper-beam",
+    "itemName": "TM15 [Hyper Beam]",
+    "locationName": "Anistar City",
+    "notes": "Shop - TMs; price 15000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-208",
+    "itemId": "item-tm25-thunder",
+    "itemName": "TM25 [Thunder]",
+    "locationName": "Anistar City",
+    "notes": "Shop - TMs; price 15000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-209",
+    "itemId": "item-tm38-fire-blast",
+    "itemName": "TM38 [Fire Blast]",
+    "locationName": "Anistar City",
+    "notes": "Shop - TMs; price 15000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-210",
+    "itemId": "item-tm68-giga-impact",
+    "itemName": "TM68 [Giga Impact]",
+    "locationName": "Anistar City",
+    "notes": "Shop - TMs; price 15000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-211",
+    "itemId": "item-hp-up",
+    "itemName": "HP Up",
+    "locationName": "Snowbelle City",
+    "notes": "Shop - Vitamins; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-212",
+    "itemId": "item-protein",
+    "itemName": "Protein",
+    "locationName": "Snowbelle City",
+    "notes": "Shop - Vitamins; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-213",
+    "itemId": "item-iron",
+    "itemName": "Iron",
+    "locationName": "Snowbelle City",
+    "notes": "Shop - Vitamins; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-214",
+    "itemId": "item-calcium",
+    "itemName": "Calcium",
+    "locationName": "Snowbelle City",
+    "notes": "Shop - Vitamins; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-215",
+    "itemId": "item-zinc",
+    "itemName": "Zinc",
+    "locationName": "Snowbelle City",
+    "notes": "Shop - Vitamins; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-216",
+    "itemId": "item-carbos",
+    "itemName": "Carbos",
+    "locationName": "Snowbelle City",
+    "notes": "Shop - Vitamins; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-217",
+    "itemId": "item-pp-max",
+    "itemName": "PP Max",
+    "locationName": "Snowbelle City",
+    "notes": "Shop - Vitamins; price 1000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-218",
+    "itemId": "item-heal-powder",
+    "itemName": "Heal Powder",
+    "locationName": "Pokémon Village",
+    "notes": "Trash Can - Daily; Common chance",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-219",
+    "itemId": "item-energy-powder",
+    "itemName": "Energy Powder",
+    "locationName": "Pokémon Village",
+    "notes": "Trash Can - Daily; Common chance",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-220",
+    "itemId": "item-energy-root",
+    "itemName": "Energy Root",
+    "locationName": "Pokémon Village",
+    "notes": "Trash Can - Daily; Common chance",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-221",
+    "itemId": "item-revival-herb",
+    "itemName": "Revival Herb",
+    "locationName": "Pokémon Village",
+    "notes": "Trash Can - Daily; Sometimes chance",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-222",
+    "itemId": "item-relic-band",
+    "itemName": "Relic Band",
+    "locationName": "Pokémon Village",
+    "notes": "Trash Can - Daily; Sometimes chance",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-223",
+    "itemId": "item-heal-powder",
+    "itemName": "Heal Powder",
+    "locationName": "Pokémon Village",
+    "notes": "Trash Can - Thurdays; Common chance",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-224",
+    "itemId": "item-energy-root",
+    "itemName": "Energy Root",
+    "locationName": "Pokémon Village",
+    "notes": "Trash Can - Thurdays; Common chance",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-225",
+    "itemId": "item-revival-herb",
+    "itemName": "Revival Herb",
+    "locationName": "Pokémon Village",
+    "notes": "Trash Can - Thurdays; Common chance",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-226",
+    "itemId": "item-relic-band",
+    "itemName": "Relic Band",
+    "locationName": "Pokémon Village",
+    "notes": "Trash Can - Thurdays; Sometimes chance",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-227",
+    "itemId": "item-master-ball",
+    "itemName": "Master Ball",
+    "locationName": "Kiloude City",
+    "notes": "Shop - Poké Balls; price 100000.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-228",
+    "itemId": "item-dream-ball",
+    "itemName": "Dream Ball",
+    "locationName": "Kiloude City",
+    "notes": "Shop - Poké Balls; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-229",
+    "itemId": "item-cherish-ball",
+    "itemName": "Cherish Ball",
+    "locationName": "Kiloude City",
+    "notes": "Shop - Poké Balls; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-230",
+    "itemId": "item-safari-ball",
+    "itemName": "Safari Ball",
+    "locationName": "Kiloude City",
+    "notes": "Shop - Poké Balls; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-231",
+    "itemId": "item-premier-ball",
+    "itemName": "Premier Ball",
+    "locationName": "Kiloude City",
+    "notes": "Shop - Poké Balls; price 100.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-232",
+    "itemId": "item-normal-gem",
+    "itemName": "Normal Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-233",
+    "itemId": "item-fire-gem",
+    "itemName": "Fire Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-234",
+    "itemId": "item-water-gem",
+    "itemName": "Water Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-235",
+    "itemId": "item-grass-gem",
+    "itemName": "Grass Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-236",
+    "itemId": "item-bug-gem",
+    "itemName": "Bug Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-237",
+    "itemId": "item-flying-gem",
+    "itemName": "Flying Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-238",
+    "itemId": "item-poison-gem",
+    "itemName": "Poison Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-239",
+    "itemId": "item-fighting-gem",
+    "itemName": "Fighting Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-240",
+    "itemId": "item-electric-gem",
+    "itemName": "Electric Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-241",
+    "itemId": "item-rock-gem",
+    "itemName": "Rock Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-242",
+    "itemId": "item-ground-gem",
+    "itemName": "Ground Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-243",
+    "itemId": "item-psychic-gem",
+    "itemName": "Psychic Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-244",
+    "itemId": "item-ghost-gem",
+    "itemName": "Ghost Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-245",
+    "itemId": "item-dark-gem",
+    "itemName": "Dark Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-246",
+    "itemId": "item-steel-gem",
+    "itemName": "Steel Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-247",
+    "itemId": "item-ice-gem",
+    "itemName": "Ice Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-248",
+    "itemId": "item-dragon-gem",
+    "itemName": "Dragon Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-249",
+    "itemId": "item-fairy-gem",
+    "itemName": "Fairy Gem",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-250",
+    "itemId": "item-chilan-berry",
+    "itemName": "Chilan Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-251",
+    "itemId": "item-occa-berry",
+    "itemName": "Occa Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-252",
+    "itemId": "item-passho-berry",
+    "itemName": "Passho Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-253",
+    "itemId": "item-rindo-berry",
+    "itemName": "Rindo Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-254",
+    "itemId": "item-tanga-berry",
+    "itemName": "Tanga Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-255",
+    "itemId": "item-coba-berry",
+    "itemName": "Coba Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-256",
+    "itemId": "item-kebia-berry",
+    "itemName": "Kebia Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-257",
+    "itemId": "item-chople-berry",
+    "itemName": "Chople Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-258",
+    "itemId": "item-wacan-berry",
+    "itemName": "Wacan Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-259",
+    "itemId": "item-charti-berry",
+    "itemName": "Charti Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-260",
+    "itemId": "item-shuca-berry",
+    "itemName": "Shuca Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-261",
+    "itemId": "item-payapa-berry",
+    "itemName": "Payapa Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-262",
+    "itemId": "item-kasib-berry",
+    "itemName": "Kasib Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-263",
+    "itemId": "item-colbur-berry",
+    "itemName": "Colbur Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-264",
+    "itemId": "item-babiri-berry",
+    "itemName": "Babiri Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-265",
+    "itemId": "item-yache-berry",
+    "itemName": "Yache Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-266",
+    "itemId": "item-haban-berry",
+    "itemName": "Haban Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-267",
+    "itemId": "item-roseli-berry",
+    "itemName": "Roseli Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-268",
+    "itemId": "item-liechi-berry",
+    "itemName": "Liechi Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-269",
+    "itemId": "item-ganlon-berry",
+    "itemName": "Ganlon Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-270",
+    "itemId": "item-salac-berry",
+    "itemName": "Salac Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-271",
+    "itemId": "item-petaya-berry",
+    "itemName": "Petaya Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-272",
+    "itemId": "item-apicot-berry",
+    "itemName": "Apicot Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-273",
+    "itemId": "item-lansat-berry",
+    "itemName": "Lansat Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-274",
+    "itemId": "item-starf-berry",
+    "itemName": "Starf Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-275",
+    "itemId": "item-enigma-berry",
+    "itemName": "Enigma Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-276",
+    "itemId": "item-micle-berry",
+    "itemName": "Micle Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-277",
+    "itemId": "item-custap-berry",
+    "itemName": "Custap Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-278",
+    "itemId": "item-jaboca-berry",
+    "itemName": "Jaboca Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-279",
+    "itemId": "item-rowap-berry",
+    "itemName": "Rowap Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-280",
+    "itemId": "item-kee-berry",
+    "itemName": "Kee Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-281",
+    "itemId": "item-maranga-berry",
+    "itemName": "Maranga Berry",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Left Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-282",
+    "itemId": "item-discount-coupon",
+    "itemName": "Discount Coupon",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Right Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-283",
+    "itemId": "item-mental-herb",
+    "itemName": "Mental Herb",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Right Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-284",
+    "itemId": "item-power-herb",
+    "itemName": "Power Herb",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Right Attendant; price 5.0",
+    "source": "internal"
+  },
+  {
+    "id": "item-obtain-supplemental-285",
+    "itemId": "item-air-balloon",
+    "itemName": "Air Balloon",
+    "locationName": "Battle Maison",
+    "notes": "Vendor - Right Attendant; price 5.0",
+    "source": "internal"
+  }
+]

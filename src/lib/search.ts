@@ -1,6 +1,6 @@
 import { getAbilities } from "./data/abilities";
-import { getMachineBrowseEntries } from "./data/compatibility";
-import { getBrowseItems } from "./data/items";
+import { getMachineBrowseEntries, getMoveTutorBrowseEntries } from "./data/compatibility";
+import { getBrowseItems, getItemDisplayCategory } from "./data/items";
 import { getLocations } from "./data/locations";
 import { getMoves } from "./data/moves";
 import { getAllPokemon } from "./data/pokemon";
@@ -29,6 +29,10 @@ export function getSearchResultHref(result: Pick<SearchResult, "type" | "slug">)
 
   if (result.type === "machine") {
     return `/machines/${result.slug}`;
+  }
+
+  if (result.type === "move_tutor") {
+    return `/move-tutors#${result.slug}`;
   }
 
   if (result.type === "system") {
@@ -67,7 +71,7 @@ export function getSearchIndex(): SearchResult[] {
       id: entry.id,
       type: "item",
       title: entry.name,
-      subtitle: entry.category,
+      subtitle: getItemDisplayCategory(entry),
       slug: entry.slug,
     }));
 
@@ -103,6 +107,21 @@ export function getSearchIndex(): SearchResult[] {
     slug: entry.slug,
   }));
 
+  const moveTutorResults: SearchResult[] = getMoveTutorBrowseEntries().map(
+    ({ machine, move, compatibilityCount }) => ({
+      id: machine.id,
+      type: "move_tutor" as const,
+      title: `${machine.code} ${move?.name ?? machine.name.split(" - ")[1] ?? machine.name}`.trim(),
+      subtitle: [
+        machine.location,
+        compatibilityCount > 0 ? `${compatibilityCount} compatible Pokemon` : null,
+      ]
+        .filter(Boolean)
+        .join(" • "),
+      slug: machine.slug,
+    }),
+  );
+
   const trainerResults: SearchResult[] = getTrainers().map((entry) => ({
       id: entry.id,
       type: "trainer" as const,
@@ -127,6 +146,7 @@ export function getSearchIndex(): SearchResult[] {
     ...itemResults,
     ...moveResults,
     ...machineResults,
+    ...moveTutorResults,
     ...abilityResults,
     ...trainerResults,
     ...levelCapResults,

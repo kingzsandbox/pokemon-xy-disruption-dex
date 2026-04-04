@@ -1,7 +1,20 @@
-import { coreLocations } from "./core";
+import { coreEncounters, coreItemLocations, coreLocations } from "./core";
 import type { LocationEntry } from "../types";
 
-const locations = coreLocations as LocationEntry[];
+const allLocations = coreLocations as LocationEntry[];
+const encounterLocationIds = new Set((coreEncounters as Array<{ locationId: string }>).map((entry) => entry.locationId));
+const itemLocationIds = new Set((coreItemLocations as Array<{ locationId: string }>).map((entry) => entry.locationId));
+const hiddenLocationSlugs = new Set(
+  allLocations
+    .filter((entry) => {
+      const description = entry.description.trim();
+      const hasDescription =
+        description.length > 0 && !description.startsWith("Imported location record from source materials for ");
+      return !hasDescription && !encounterLocationIds.has(entry.id) && !itemLocationIds.has(entry.id);
+    })
+    .map((entry) => entry.slug),
+);
+const locations = allLocations.filter((entry) => !hiddenLocationSlugs.has(entry.slug));
 const locationsById = new Map(locations.map((entry) => [entry.id, entry]));
 const locationsBySlug = new Map(locations.map((entry) => [entry.slug, entry]));
 const locationsByNormalizedName = new Map(

@@ -1,8 +1,65 @@
 :root {
-  color-scheme: light;
+  color-scheme: light dark;
   font-family: Arial, Helvetica, sans-serif;
-  background: #f6f7fb;
-  color: #172033;
+  --bg-page: #f6f7fb;
+  --bg-page-accent: #eef1f8;
+  --surface-card: #ffffff;
+  --surface-muted: #f6f8fc;
+  --surface-elevated: rgba(255, 255, 255, 0.92);
+  --text-body: #172033;
+  --text-strong: #1f2a3d;
+  --text-muted: #586379;
+  --text-subtle: #667389;
+  --border-soft: #dfe5ef;
+  --border-strong: #c9d3e4;
+  --border-header: rgba(212, 220, 233, 0.9);
+  --accent: #d64a4a;
+  --accent-soft: #fff5f5;
+  --accent-border: #cc4141;
+  --button-text: #ffffff;
+  --shadow-soft: 0 6px 16px rgba(39, 50, 70, 0.06);
+  --shadow-strong: 0 14px 30px rgba(39, 50, 70, 0.12);
+  --matchup-immune-bg: #edf2ff;
+  --matchup-immune-text: #31437c;
+  --matchup-bad-bg: #fff1ec;
+  --matchup-bad-text: #8b3b24;
+  --matchup-good-bg: #edf8f3;
+  --matchup-good-text: #23644f;
+  --matchup-great-bg: #e6f7ec;
+  --matchup-great-text: #19533c;
+  background: var(--bg-page);
+  color: var(--text-body);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-page: #12161f;
+    --bg-page-accent: #0d121a;
+    --surface-card: #1a202c;
+    --surface-muted: #212937;
+    --surface-elevated: rgba(18, 22, 31, 0.92);
+    --text-body: #eef3fb;
+    --text-strong: #f7fbff;
+    --text-muted: #afbdd2;
+    --text-subtle: #c4cfde;
+    --border-soft: #324055;
+    --border-strong: #41516b;
+    --border-header: rgba(56, 69, 91, 0.9);
+    --accent: #e46565;
+    --accent-soft: rgba(228, 101, 101, 0.16);
+    --accent-border: #dc5555;
+    --button-text: #ffffff;
+    --shadow-soft: 0 6px 16px rgba(0, 0, 0, 0.24);
+    --shadow-strong: 0 14px 30px rgba(0, 0, 0, 0.38);
+    --matchup-immune-bg: #1c2640;
+    --matchup-immune-text: #c7d5ff;
+    --matchup-bad-bg: #3a231f;
+    --matchup-bad-text: #ffcfbf;
+    --matchup-good-bg: #183129;
+    --matchup-good-text: #9de3bf;
+    --matchup-great-bg: #123126;
+    --matchup-great-text: #89deb2;
+  }
 }
 
 * {
@@ -17,7 +74,8 @@ body {
 
 body {
   background:
-    radial-gradient(circle at top, #ffffff 0%, #f6f7fb 45%, #eef1f8 100%);
+    radial-gradient(circle at top, var(--surface-card) 0%, var(--bg-page) 45%, var(--bg-page-accent) 100%);
+  color: var(--text-body);
 }
 
 a {

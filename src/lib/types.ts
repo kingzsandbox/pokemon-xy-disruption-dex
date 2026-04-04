@@ -154,6 +154,7 @@ export type SearchResultType =
   | "item"
   | "move"
   | "machine"
+  | "move_tutor"
   | "ability"
   | "trainer"
   | "system";

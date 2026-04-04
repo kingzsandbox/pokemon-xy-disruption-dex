@@ -16,15 +16,17 @@ export default function AbilitiesPage() {
             href={`/abilities/${ability.slug}`}
             style={{
               display: "grid",
-              gap: "4px",
+              gridTemplateColumns: "220px 1fr",
+              alignItems: "center",
+              gap: "16px",
               padding: "16px",
-              border: "1px solid #d7dcea",
-              borderRadius: "12px",
-              background: "#ffffff",
+              border: "1px solid var(--border-soft)",
+              borderRadius: "14px",
+              background: "var(--surface-card)",
             }}
           >
-            <strong style={{ color: "#273246" }}>{ability.name}</strong>
-            <span style={{ color: "#586379", lineHeight: 1.5 }}>{ability.description}</span>
+            <strong style={{ color: "var(--text-body)" }}>{ability.name}</strong>
+            <span style={{ color: "var(--text-muted)", lineHeight: 1.5 }}>{ability.description}</span>
           </Link>
         ))}
       </div>

@@ -16,15 +16,18 @@ export default function LocationsPage() {
             key={location.id}
             href={`/locations/${location.slug}`}
             style={{
-              display: "block",
+              display: "grid",
+              gridTemplateColumns: "1fr auto",
+              alignItems: "center",
+              gap: "16px",
               padding: "16px",
-              border: "1px solid #d7dcea",
-              borderRadius: "12px",
-              background: "#ffffff",
+              border: "1px solid var(--border-soft)",
+              borderRadius: "14px",
+              background: "var(--surface-card)",
             }}
           >
-            <strong>{location.name}</strong>
-            <div style={{ color: "#586379", marginTop: "6px" }}>{location.region}</div>
+            <strong style={{ color: "var(--text-body)" }}>{location.name}</strong>
+            <span style={{ color: "var(--text-muted)", textAlign: "right" }}>{location.region}</span>
           </Link>
         ))}
       </div>

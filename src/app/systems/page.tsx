@@ -15,13 +15,13 @@ export default function LevelCapsPage() {
             key={entry.id}
             style={{
               padding: "16px",
-              border: "1px solid #d7dcea",
+              border: "1px solid var(--border-soft)",
               borderRadius: "12px",
-              background: "#ffffff",
+              background: "var(--surface-card)",
             }}
           >
             <strong>{entry.trainer}</strong>
-            <div style={{ color: "#586379", marginTop: "6px" }}>
+            <div style={{ color: "var(--text-muted)", marginTop: "6px" }}>
               {entry.location} • Level Cap {entry.level} • {entry.pokemonCount} Pokémon
             </div>
           </article>

@@ -61,7 +61,7 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
     <main style={{ margin: "0 auto", maxWidth: "980px", padding: "40px 24px 64px" }}>
       <PageNavigation backHref="/locations" backLabel="Back to Locations" />
       <h1 style={{ marginTop: 0 }}>{location.name}</h1>
-      <p style={{ color: "#586379" }}>{location.region}</p>
+      <p style={{ color: "var(--text-muted)" }}>{location.region}</p>
       {description ? <p style={{ lineHeight: 1.6 }}>{description}</p> : null}
 
       <section style={{ marginTop: "24px" }}>
@@ -72,23 +72,23 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
           <div style={{ overflowX: "auto" }}>
             <table style={{ width: "100%", borderCollapse: "collapse" }}>
               <thead>
-                <tr style={{ background: "#f5f7fb" }}>
-                  <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "1px solid #e6ebf3" }}>
+                <tr style={{ background: "var(--surface-muted)" }}>
+                  <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "1px solid var(--border-soft)" }}>
                     Pokémon
                   </th>
-                  <th style={{ padding: "10px 12px", textAlign: "center", borderBottom: "1px solid #e6ebf3" }}>
+                  <th style={{ padding: "10px 12px", textAlign: "center", borderBottom: "1px solid var(--border-soft)" }}>
                     Type
                   </th>
-                  <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "1px solid #e6ebf3" }}>
+                  <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "1px solid var(--border-soft)" }}>
                     Method
                   </th>
-                  <th style={{ padding: "10px 12px", textAlign: "right", borderBottom: "1px solid #e6ebf3" }}>
+                  <th style={{ padding: "10px 12px", textAlign: "right", borderBottom: "1px solid var(--border-soft)" }}>
                     Encounter Rate
                   </th>
-                  <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "1px solid #e6ebf3" }}>
+                  <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "1px solid var(--border-soft)" }}>
                     Level
                   </th>
-                  <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "1px solid #e6ebf3" }}>
+                  <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "1px solid var(--border-soft)" }}>
                     Held Item
                   </th>
                 </tr>
@@ -100,7 +100,7 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
                   const sprite = pokemon ? getPokemonMiniSpriteSources(pokemon) : null;
                   return (
                     <tr key={encounter.id}>
-                      <td style={{ padding: "10px 12px", borderBottom: "1px solid #e6ebf3" }}>
+                      <td style={{ padding: "10px 12px", borderBottom: "1px solid var(--border-soft)" }}>
                         <div style={{ display: "grid", gridTemplateColumns: "44px 52px 1fr", gap: "10px", alignItems: "center" }}>
                           {pokemon && sprite ? (
                             <ReferenceImage
@@ -112,9 +112,9 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
                               style={{ imageRendering: "pixelated" }}
                             />
                           ) : (
-                            <span />
-                          )}
-                          <span style={{ color: "#667389" }}>{pokemon ? `#${pokemon.dexNumber}` : "—"}</span>
+                          <span />
+                        )}
+                          <span style={{ color: "var(--text-muted)" }}>{pokemon ? `#${pokemon.dexNumber}` : "—"}</span>
                           <span>
                             {pokemon ? (
                               <Link href={`/pokemon/${pokemon.slug}?returnTo=${encodeURIComponent(`/?tab=locations`)}`}>
@@ -126,21 +126,21 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
                           </span>
                         </div>
                       </td>
-                      <td style={{ padding: "10px 12px", textAlign: "center", borderBottom: "1px solid #e6ebf3" }}>
+                      <td style={{ padding: "10px 12px", textAlign: "center", borderBottom: "1px solid var(--border-soft)" }}>
                         <TypeBadgeList types={pokemon?.types ?? []} />
                       </td>
-                      <td style={{ padding: "10px 12px", borderBottom: "1px solid #e6ebf3" }}>
+                      <td style={{ padding: "10px 12px", borderBottom: "1px solid var(--border-soft)" }}>
                         <EncounterMethodBadge method={encounter.method} />
                       </td>
-                      <td style={{ padding: "10px 12px", textAlign: "right", borderBottom: "1px solid #e6ebf3" }}>
+                      <td style={{ padding: "10px 12px", textAlign: "right", borderBottom: "1px solid var(--border-soft)" }}>
                         {encounter.rate}%
                       </td>
-                      <td style={{ padding: "10px 12px", borderBottom: "1px solid #e6ebf3" }}>
+                      <td style={{ padding: "10px 12px", borderBottom: "1px solid var(--border-soft)" }}>
                         {encounter.minLevel === encounter.maxLevel
                           ? `Lv. ${encounter.minLevel}`
                           : `Lv. ${encounter.minLevel}-${encounter.maxLevel}`}
                       </td>
-                      <td style={{ padding: "10px 12px", borderBottom: "1px solid #e6ebf3" }}>
+                      <td style={{ padding: "10px 12px", borderBottom: "1px solid var(--border-soft)" }}>
                         {heldItems.length > 0 ? (
                           <div style={{ display: "grid", gap: "4px" }}>
                             {heldItems.map((item) => (
@@ -156,7 +156,7 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
                             ))}
                           </div>
                         ) : (
-                          <span style={{ color: "#667389" }}>—</span>
+                          <span style={{ color: "var(--text-muted)" }}>—</span>
                         )}
                       </td>
                     </tr>
@@ -188,17 +188,17 @@ export default async function LocationDetailPage({ params }: LocationDetailPageP
                         gap: "12px",
                         alignItems: "center",
                         padding: "12px 14px",
-                        border: "1px solid #d7dcea",
+                        border: "1px solid var(--border-soft)",
                         borderRadius: "14px",
-                        background: "#ffffff",
+                        background: "var(--surface-card)",
                         textDecoration: "none",
                       }}
                     >
-                      <ItemImage item={item.item} size={28} framed />
+                      <ItemImage item={item.item} size={34} framed />
                       <span>
-                        <strong style={{ color: "#273246", display: "block" }}>{getItemDisplayName(item.item)}</strong>
+                        <strong style={{ color: "var(--text-body)", display: "block" }}>{getItemDisplayName(item.item)}</strong>
                         {item.notes ? (
-                          <span style={{ color: "#667389", display: "block", marginTop: "4px" }}>
+                          <span style={{ color: "var(--text-muted)", display: "block", marginTop: "4px" }}>
                             {formatLocationItemNote(item.notes)}
                           </span>
                         ) : null}

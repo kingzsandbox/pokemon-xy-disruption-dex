@@ -42,7 +42,7 @@ export default async function MoveDetailPage({ params }: MoveDetailPageProps) {
     <main style={{ margin: "0 auto", maxWidth: "900px", padding: "40px 24px 64px" }}>
       <PageNavigation backHref="/moves" backLabel="Back to All Moves" />
       <h1 style={{ marginTop: 0 }}>{move.name}</h1>
-      <p style={{ color: "#586379", lineHeight: 1.7, marginTop: "10px", marginBottom: 0 }}>{effectSummary}</p>
+      <p style={{ color: "var(--text-muted)", lineHeight: 1.7, marginTop: "10px", marginBottom: 0 }}>{effectSummary}</p>
 
       <section style={{ marginTop: "24px" }}>
         <h2>Battle Data</h2>
@@ -59,16 +59,16 @@ export default async function MoveDetailPage({ params }: MoveDetailPageProps) {
                 key={row.label}
                 style={{
                   padding: "14px",
-                  border: "1px solid #d7dcea",
+                  border: "1px solid var(--border-soft)",
                   borderRadius: "12px",
-                  background: "#ffffff",
+                  background: "var(--surface-card)",
                 }}
               >
-                <div style={{ color: "#586379", fontSize: "0.9rem", marginBottom: "6px" }}>{row.label}</div>
+                <div style={{ color: "var(--text-muted)", fontSize: "0.9rem", marginBottom: "6px" }}>{row.label}</div>
                 {row.label === "Type" ? (
                   <TypeBadgeList types={[row.value]} />
                 ) : row.label === "Category" ? (
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "8px", width: "100%" }}>
                     <MoveCategoryIcon category={row.value} />
                     <strong>{row.value}</strong>
                   </span>
@@ -81,13 +81,13 @@ export default async function MoveDetailPage({ params }: MoveDetailPageProps) {
               <div
                 style={{
                   padding: "14px",
-                  border: "1px solid #d7dcea",
+                  border: "1px solid var(--border-soft)",
                   borderRadius: "12px",
-                  background: "#ffffff",
+                  background: "var(--surface-card)",
                   gridColumn: "span 2",
                 }}
               >
-                <div style={{ color: "#586379", fontSize: "0.9rem", marginBottom: "6px" }}>TM / HM</div>
+                <div style={{ color: "var(--text-muted)", fontSize: "0.9rem", marginBottom: "6px" }}>TM / HM</div>
                 <strong>
                   {machineLinks.map((link, index) => (
                     <span key={link.machine.id}>
@@ -96,7 +96,7 @@ export default async function MoveDetailPage({ params }: MoveDetailPageProps) {
                     </span>
                   ))}
                 </strong>
-                <div style={{ color: "#586379", marginTop: "6px" }}>
+                <div style={{ color: "var(--text-muted)", marginTop: "6px" }}>
                   {machineLinks
                     .map((link) =>
                       link.machine.location ? `${link.machine.code} • ${link.machine.location}` : link.machine.code,
@@ -107,7 +107,7 @@ export default async function MoveDetailPage({ params }: MoveDetailPageProps) {
             ) : null}
           </div>
         ) : (
-          <p style={{ color: "#586379", lineHeight: 1.6 }}>No battle data listed.</p>
+          <p style={{ color: "var(--text-muted)", lineHeight: 1.6 }}>No battle data listed.</p>
         )}
       </section>
 
@@ -133,7 +133,7 @@ export default async function MoveDetailPage({ params }: MoveDetailPageProps) {
                     alignItems: "center",
                     gap: "12px",
                     padding: "10px 12px",
-                    borderBottom: "1px solid #e6ebf3",
+                    borderBottom: "1px solid var(--border-soft)",
                   }}
                 >
                   <ReferenceImage
@@ -144,11 +144,11 @@ export default async function MoveDetailPage({ params }: MoveDetailPageProps) {
                     height={44}
                     style={{ imageRendering: "pixelated" }}
                   />
-                  <span style={{ color: "#667389" }}>#{pokemon.dexNumber}</span>
-                  <span style={{ color: "#273246", fontWeight: 600 }}>{getPokemonDisplayName(pokemon)}</span>
+                  <span style={{ color: "var(--text-muted)" }}>#{pokemon.dexNumber}</span>
+                  <span style={{ color: "var(--text-body)", fontWeight: 600 }}>{getPokemonDisplayName(pokemon)}</span>
                   <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                     <TypeBadgeList types={pokemon.types} />
-                    {entry.level !== null ? <span style={{ color: "#667389" }}>Lv. {entry.level}</span> : null}
+                    {entry.level !== null ? <span style={{ color: "var(--text-muted)" }}>Lv. {entry.level}</span> : null}
                   </span>
                 </Link>
               );
@@ -156,7 +156,7 @@ export default async function MoveDetailPage({ params }: MoveDetailPageProps) {
           </div>
         )}
         {learnsetLinks.length > 40 ? (
-          <p style={{ color: "#586379" }}>Showing 40 of {learnsetLinks.length} learners.</p>
+          <p style={{ color: "var(--text-muted)" }}>Showing 40 of {learnsetLinks.length} learners.</p>
         ) : null}
       </section>
     </main>

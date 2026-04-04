@@ -1,4 +1,5 @@
 import HomeShell from "./home-shell";
+import type { ItemEntry } from "../lib/types";
 import { getAbilities } from "../lib/data/abilities";
 import { getBattles } from "../lib/data/battles";
 import { getMachineBrowseEntries } from "../lib/data/compatibility";
@@ -14,6 +15,7 @@ type HomePageProps = {
   searchParams: Promise<{
     tab?: string;
     focus?: string;
+    mega?: string;
   }>;
 };
 
@@ -29,8 +31,9 @@ const validTabs = new Set([
 ]);
 
 export default async function HomePage({ searchParams }: HomePageProps) {
-  const { tab, focus } = await searchParams;
+  const { tab, focus, mega } = await searchParams;
   const activeTab = validTabs.has(tab ?? "") ? tab ?? "pokedex" : "pokedex";
+  const pokemonFilter = mega === "only" ? "mega-only" : "all";
 
   const pokemon =
     activeTab === "pokedex"
@@ -58,13 +61,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
 
   const items =
     activeTab === "items"
-      ? getBrowseItems().map((entry) => ({
-          id: entry.id,
-          slug: entry.slug,
-          name: entry.name,
-          category: entry.category,
-          description: entry.description,
-        }))
+      ? (getBrowseItems() as ItemEntry[])
       : [];
 
   const moves =
@@ -89,6 +86,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
           slug: machine.slug,
           code: machine.code,
           moveName: move?.name ?? machine.name.split(" - ")[1] ?? machine.name,
+          moveType: move?.type ?? null,
           location: location?.name ?? machine.location,
           compatibilityCount,
         }))
@@ -136,6 +134,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
         | "battles"
         | "level-caps"}
       focusedSlug={focus ?? null}
+      pokemonFilter={pokemonFilter}
     />
   );
 }

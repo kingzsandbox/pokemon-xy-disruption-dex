@@ -50,10 +50,14 @@ export function isBrowsableMachine(machine: MachineEntry): boolean {
   return machine.kind === "tm" || machine.kind === "hm";
 }
 
+export function isMoveTutor(machine: MachineEntry): boolean {
+  return machine.kind === "mt";
+}
+
 for (const entry of compatibility) {
   const machine = machinesById.get(entry.machineId);
 
-  if (!machine) {
+  if (!machine || (machine.moveId && !getMoveById(machine.moveId))) {
     continue;
   }
 
@@ -74,15 +78,24 @@ export function getMachines(): MachineEntry[] {
 }
 
 export function getMachineBySlug(slug: string): MachineEntry | undefined {
-  return machinesBySlug.get(slug);
+  const machine = machinesBySlug.get(slug);
+  if (!machine || (machine.moveId && !getMoveById(machine.moveId))) {
+    return undefined;
+  }
+
+  return machine;
 }
 
 export function getBrowsableMachines(): MachineEntry[] {
   return machines.filter(isBrowsableMachine).sort(compareBrowsableMachines);
 }
 
+export function getMoveTutors(): MachineEntry[] {
+  return machines.filter(isMoveTutor).sort(compareBrowsableMachines);
+}
+
 export function getMachineByMoveId(moveId: string): MachineEntry[] {
-  return machines.filter((entry) => entry.moveId === moveId);
+  return machines.filter((entry) => entry.moveId === moveId && (!entry.moveId || getMoveById(entry.moveId)));
 }
 
 export function getCompatibilityByPokemonId(pokemonId: string): PokemonMachineCompatibility[] {
@@ -94,6 +107,14 @@ export function getTmHmCompatibilityByPokemonId(
 ): PokemonMachineCompatibility[] {
   return getCompatibilityByPokemonId(pokemonId)
     .filter((entry) => isBrowsableMachine(entry.machine))
+    .sort((left, right) => compareBrowsableMachines(left.machine, right.machine));
+}
+
+export function getMoveTutorCompatibilityByPokemonId(
+  pokemonId: string,
+): PokemonMachineCompatibility[] {
+  return getCompatibilityByPokemonId(pokemonId)
+    .filter((entry) => isMoveTutor(entry.machine))
     .sort((left, right) => compareBrowsableMachines(left.machine, right.machine));
 }
 
@@ -124,6 +145,15 @@ export function getMachineLocationEntry(machine: MachineEntry): LocationEntry | 
 
 export function getMachineBrowseEntries() {
   return getBrowsableMachines().map((machine) => ({
+    machine,
+    move: machine.moveId ? getMoveById(machine.moveId) : undefined,
+    compatibilityCount: getCompatibilityCountByMachineId(machine.id),
+    location: getMachineLocationEntry(machine),
+  }));
+}
+
+export function getMoveTutorBrowseEntries() {
+  return getMoveTutors().map((machine) => ({
     machine,
     move: machine.moveId ? getMoveById(machine.moveId) : undefined,
     compatibilityCount: getCompatibilityCountByMachineId(machine.id),

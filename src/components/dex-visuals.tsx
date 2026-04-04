@@ -17,13 +17,13 @@ export function TypeBadge({ type }: { type: string }) {
     <img
       src={typeIconSrc(type)}
       alt={type}
-      width={40}
-      height={18}
+      width={46}
+      height={20}
       style={{
         display: "block",
         width: "auto",
-        height: "18px",
-        maxWidth: "40px",
+        height: "20px",
+        maxWidth: "46px",
         objectFit: "contain",
         background: "transparent",
       }}
@@ -53,7 +53,7 @@ export function TypeBadgeList({ types }: { types: string[] }) {
 
 export function MoveCategoryIcon({ category }: { category: string | null }) {
   if (!category) {
-    return <span style={{ color: "#7c889d" }}>—</span>;
+    return <span style={{ color: "var(--text-muted)" }}>—</span>;
   }
 
   return (
@@ -62,14 +62,15 @@ export function MoveCategoryIcon({ category }: { category: string | null }) {
       aria-label={category}
       src={categoryIconSrc(category)}
       alt={category}
-      width={40}
-      height={16}
+      width={44}
+      height={18}
       style={{
         display: "block",
         width: "auto",
-        height: "16px",
+        height: "18px",
         objectFit: "contain",
         background: "transparent",
+        margin: "0 auto",
       }}
     />
   );
@@ -98,7 +99,7 @@ export function StatBar({
         width: "140px",
         height: "10px",
         borderRadius: "4px",
-        background: "#ebeff6",
+        background: "var(--surface-muted)",
         overflow: "hidden",
         verticalAlign: "middle",
         boxShadow: "inset 0 0 0 1px rgba(39, 50, 70, 0.06)",
@@ -267,8 +268,8 @@ export function EncounterMethodBadge({ method }: { method: string }) {
         gap: "6px",
         padding: "4px 8px",
         borderRadius: "999px",
-        background: "#f3f6fb",
-        color: "#4d5a70",
+        background: "var(--surface-muted)",
+        color: "var(--text-subtle)",
         fontSize: "0.82rem",
         whiteSpace: "nowrap",
       }}
@@ -284,27 +285,27 @@ export function matchupSectionStyle(
   mode: "offensive" | "defensive",
 ): CSSProperties {
   if (multiplier === 0) {
-    return { background: "#edf2ff", color: "#31437c" };
+    return { background: "var(--matchup-immune-bg)", color: "var(--matchup-immune-text)" };
   }
 
   if (mode === "defensive") {
     if (multiplier >= 2) {
-      return { background: "#fff1ec", color: "#8b3b24" };
+      return { background: "var(--matchup-bad-bg)", color: "var(--matchup-bad-text)" };
     }
     if (multiplier <= 0.25) {
-      return { background: "#e6f7ec", color: "#19533c" };
+      return { background: "var(--matchup-great-bg)", color: "var(--matchup-great-text)" };
     }
     if (multiplier < 1) {
-      return { background: "#edf8f3", color: "#23644f" };
+      return { background: "var(--matchup-good-bg)", color: "var(--matchup-good-text)" };
     }
-    return { background: "#f4f7fb", color: "#4d5a70" };
+    return { background: "var(--surface-muted)", color: "var(--text-body)" };
   }
 
   if (multiplier >= 2) {
-    return { background: "#edf8f3", color: "#23644f" };
+    return { background: "var(--matchup-good-bg)", color: "var(--matchup-good-text)" };
   }
   if (multiplier < 1) {
-    return { background: "#fff1ec", color: "#8b3b24" };
+    return { background: "var(--matchup-bad-bg)", color: "var(--matchup-bad-text)" };
   }
-  return { background: "#f4f7fb", color: "#4d5a70" };
+  return { background: "var(--surface-muted)", color: "var(--text-body)" };
 }

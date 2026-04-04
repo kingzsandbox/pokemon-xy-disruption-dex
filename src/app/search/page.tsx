@@ -2,6 +2,7 @@ import Link from "next/link";
 import SearchAutocomplete from "../search-autocomplete";
 import PageNavigation from "../../components/page-navigation";
 import { getSearchIndex, getSearchResultHref, searchDex } from "../../lib/search";
+import type { SearchResultType } from "../../lib/types";
 
 type SearchPageProps = {
   searchParams: Promise<{
@@ -32,6 +33,17 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
           return left.title.localeCompare(right.title);
         });
 
+  function typeLabel(type: SearchResultType): string {
+    switch (type) {
+      case "move_tutor":
+        return "Move Tutor";
+      case "machine":
+        return "TM/HM";
+      default:
+        return type.replace(/_/g, " ");
+    }
+  }
+
   return (
     <main style={{ margin: "0 auto", maxWidth: "900px", padding: "40px 24px 64px" }}>
       <PageNavigation />
@@ -41,7 +53,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
           index={searchIndex}
           action="/search"
           initialQuery={query}
-          placeholder="Search Pokemon, abilities, items, moves, TMs & HMs, battles, locations, level caps..."
+          placeholder="Search Pokemon, abilities, items, moves, TMs & HMs, move tutors, battles, locations, level caps..."
         />
       </header>
 
@@ -67,7 +79,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
               {result.subtitle}
             </span>
             <span style={{ color: "#6a7487", fontSize: "0.95rem", textTransform: "capitalize" }}>
-              {result.type}
+              {typeLabel(result.type)}
             </span>
           </Link>
         ))}

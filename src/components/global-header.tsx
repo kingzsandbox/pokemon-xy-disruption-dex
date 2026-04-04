@@ -24,6 +24,11 @@ const navItems = [
     label: "Abilities",
     match: (pathname: string) => pathname === "/abilities" || pathname.startsWith("/abilities/"),
   },
+  {
+    href: "/move-tutors",
+    label: "Move Tutors",
+    match: (pathname: string) => pathname === "/move-tutors",
+  },
   { href: "/battles", label: "Battles", match: (pathname: string) => pathname === "/battles" },
   { href: "/systems", label: "Level Caps", match: (pathname: string) => pathname === "/systems" },
 ] as const;
@@ -40,12 +45,12 @@ function navLinkStyle(active: boolean) {
     minHeight: "38px",
     padding: "0 14px",
     borderRadius: "999px",
-    border: active ? "1px solid #cc4141" : "1px solid #d7deea",
-    background: active ? "#d64a4a" : "rgba(255,255,255,0.92)",
-    color: active ? "#ffffff" : "#273246",
+    border: active ? "1px solid var(--accent-border)" : "1px solid var(--border-soft)",
+    background: active ? "var(--accent)" : "var(--surface-elevated)",
+    color: active ? "var(--button-text)" : "var(--text-body)",
     fontWeight: 700,
     textDecoration: "none",
-    boxShadow: active ? "0 10px 24px rgba(214,74,74,0.18)" : "0 6px 16px rgba(39, 50, 70, 0.06)",
+    boxShadow: active ? "0 10px 24px rgba(214,74,74,0.18)" : "var(--shadow-soft)",
   } as const;
 }
 
@@ -74,8 +79,8 @@ export default function GlobalHeader({ searchIndex }: GlobalHeaderProps) {
         top: 0,
         zIndex: 50,
         backdropFilter: "blur(14px)",
-        background: "rgba(246, 248, 252, 0.9)",
-        borderBottom: "1px solid rgba(212, 220, 233, 0.9)",
+        background: "var(--surface-elevated)",
+        borderBottom: "1px solid var(--border-header)",
       }}
     >
       <div style={{ margin: "0 auto", maxWidth: "1400px", padding: "16px 18px 18px" }}>
@@ -90,7 +95,7 @@ export default function GlobalHeader({ searchIndex }: GlobalHeaderProps) {
           }}
         >
           <Link href="/" style={{ textDecoration: "none" }}>
-            <span style={{ display: "block", fontSize: "1.15rem", fontWeight: 800, color: "#1f2a3d" }}>
+            <span style={{ display: "block", fontSize: "1.15rem", fontWeight: 800, color: "var(--text-strong)" }}>
               Pokémon X/Y Disruption Dex
             </span>
           </Link>
@@ -110,7 +115,7 @@ export default function GlobalHeader({ searchIndex }: GlobalHeaderProps) {
         <SearchAutocomplete
           index={searchIndex}
           action="/search"
-          placeholder="Search Pokémon, locations, items, moves, TMs & HMs, abilities, trainers, battles, and level caps..."
+          placeholder="Search Pokémon, locations, items, moves, TMs & HMs, move tutors, abilities, trainers, battles, and level caps..."
         />
       </div>
     </header>

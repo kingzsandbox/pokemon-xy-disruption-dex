@@ -36,7 +36,7 @@ export default function ItemImage({ item, size, framed = false }: ItemImageProps
         alignItems: "center",
         justifyContent: "center",
         borderRadius: "14px",
-        background: "linear-gradient(180deg, #f8fafe 0%, #edf2fb 100%)",
+        background: "linear-gradient(180deg, var(--surface-card) 0%, var(--surface-muted) 100%)",
         boxShadow: "inset 0 1px 0 rgba(255,255,255,0.7)",
       }}
     >

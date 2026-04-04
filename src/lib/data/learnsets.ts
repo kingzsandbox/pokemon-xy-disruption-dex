@@ -1,4 +1,5 @@
 import { coreLearnsets } from "./core";
+import { getMoveById } from "./moves";
 import type { LearnsetEntry, MoveLearnsetLink, PokemonLearnsetMove } from "../types";
 
 const learnsets = coreLearnsets as LearnsetEntry[];
@@ -6,6 +7,10 @@ const learnsetsByPokemonId = new Map<string, PokemonLearnsetMove[]>();
 const learnsetsByMoveId = new Map<string, MoveLearnsetLink[]>();
 
 for (const entry of learnsets) {
+  if (entry.moveId && !getMoveById(entry.moveId)) {
+    continue;
+  }
+
   const pokemonEntries = learnsetsByPokemonId.get(entry.pokemonId) ?? [];
   pokemonEntries.push({
     learnsetId: entry.id,

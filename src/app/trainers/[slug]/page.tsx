@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageNavigation from "../../../components/page-navigation";
-import { getMoveByName } from "../../../lib/data/moves";
+import { getMoveByName, isRemovedMoveName } from "../../../lib/data/moves";
 import { getPokemonById } from "../../../lib/data/pokemon";
 import { getTrainerBySlug, getTrainers } from "../../../lib/data/trainers";
 
@@ -47,6 +47,7 @@ export default async function TrainerDetailPage({ params }: TrainerDetailPagePro
         <div style={{ display: "grid", gap: "16px" }}>
           {trainer.team.map((member) => {
             const pokemon = member.pokemonId ? getPokemonById(member.pokemonId) : undefined;
+            const visibleMoves = member.moves.filter((moveName) => !isRemovedMoveName(moveName));
 
             return (
               <article
@@ -75,8 +76,8 @@ export default async function TrainerDetailPage({ params }: TrainerDetailPagePro
                   <li>Held Item: {member.heldItem ?? "None listed"}</li>
                   <li>
                     Moves:{" "}
-                    {member.moves.length > 0
-                      ? member.moves.map((moveName, index) => {
+                    {visibleMoves.length > 0
+                      ? visibleMoves.map((moveName, index) => {
                           const move = getMoveByName(moveName);
 
                           return (

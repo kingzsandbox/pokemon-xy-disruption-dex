@@ -2,7 +2,14 @@ import { corePokemon } from "./core";
 import { getPokemonDisplayName, isBrowsablePokedexPokemon } from "../presentation";
 import type { PokemonEntry } from "../types";
 
-const pokemon = corePokemon as PokemonEntry[];
+function normalizePokemonEntry(entry: PokemonEntry): PokemonEntry {
+  return {
+    ...entry,
+    types: [...new Set(entry.types.filter(Boolean))],
+  };
+}
+
+const pokemon = (corePokemon as PokemonEntry[]).map(normalizePokemonEntry);
 const pokemonById = new Map(pokemon.map((entry) => [entry.id, entry]));
 const pokemonBySlug = new Map(pokemon.map((entry) => [entry.slug, entry]));
 const megaPokemonByStone = new Map<string, PokemonEntry>();

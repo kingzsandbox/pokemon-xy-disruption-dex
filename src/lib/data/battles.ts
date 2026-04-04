@@ -209,13 +209,59 @@ function getRulesetLabel(ruleset: TrainerEntry['ruleset']): string {
   return ruleset === 'singles' ? 'Singles' : 'Doubles';
 }
 
+function getGroupedTrainerName(name: string): string {
+  return name.replace(/\s*\(\d+(?:\s*\/\s*\d+)*\)\s*$/g, '').trim();
+}
+
+const kalosStarterRules = [
+  {
+    starterFamily: new Set(['Chespin', 'Quilladin', 'Chesnaught']),
+    playerChoice: 'Froakie',
+    explanation: 'Water is weak to Grass.',
+  },
+  {
+    starterFamily: new Set(['Fennekin', 'Braixen', 'Delphox']),
+    playerChoice: 'Chespin',
+    explanation: 'Grass is weak to Fire.',
+  },
+  {
+    starterFamily: new Set(['Froakie', 'Frogadier', 'Greninja']),
+    playerChoice: 'Fennekin',
+    explanation: 'Fire is weak to Water.',
+  },
+];
+
+function getKalosStarterVariantRule(variant: BattleVariant) {
+  const teamNames = new Set(variant.team.map((member) => member.pokemonName));
+  return kalosStarterRules.find((rule) => [...rule.starterFamily].some((name) => teamNames.has(name))) ?? null;
+}
+
+function getRivalVariantLabel(trainerName: string, variant: BattleVariant): string | null {
+  const normalizedTrainerName = normalizeMatchValue(trainerName);
+  const starterRule = getKalosStarterVariantRule(variant);
+
+  if (!starterRule) {
+    return null;
+  }
+
+  if (normalizedTrainerName.includes('shauna')) {
+    return `If ${starterRule.playerChoice} is chosen`;
+  }
+
+  if (normalizedTrainerName.includes('calem / serena')) {
+    return `If ${starterRule.playerChoice} is chosen`;
+  }
+
+  return null;
+}
+
 function getOccurrenceGroupingKey(trainer: TrainerEntry, category: BattleCategory): string {
   if (category === "rival") {
     return [
       trainer.source,
       trainer.location,
       trainer.section ?? "",
-      trainer.name,
+      getGroupedTrainerName(trainer.name),
       category,
     ].join("|");
   }
@@ -230,9 +276,14 @@ function getOccurrenceGroupingKey(trainer: TrainerEntry, category: BattleCategor
   ].join('|');
 }
 
-function getVariantDisplayNames(variants: BattleVariant[]): string[] {
+function getVariantDisplayNames(trainerName: string, variants: BattleVariant[]): string[] {
   if (variants.length <= 1) {
     return [''];
+  }
+
+  const rivalLabels = variants.map((variant) => getRivalVariantLabel(trainerName, variant));
+  if (rivalLabels.every((label) => label && label.length > 0)) {
+    return rivalLabels as string[];
   }
 
   const varyingSlots: number[] = [];
@@ -358,7 +409,7 @@ function finalizeOccurrence(
 
   const orderedVariants = ['singles', 'doubles'].flatMap((ruleset) => {
     const variants = groupedByRuleset.get(ruleset as TrainerEntry['ruleset']) ?? [];
-    const labels = getVariantDisplayNames(variants);
+    const labels = getVariantDisplayNames(draft.trainerName, variants);
     return variants.map((variant, index) => ({
       ...variant,
       variantLabel: labels[index] || getRulesetLabel(variant.ruleset),
@@ -402,7 +453,7 @@ export function getBattles(): BattleOccurrence[] {
       draft = {
         id: `battle-occurrence-${targetList.length + 1}`,
         slug: trainer.slug,
-        trainerName: trainer.name,
+        trainerName: category === 'rival' ? getGroupedTrainerName(trainer.name) : trainer.name,
         trainerClass: trainer.trainerClass,
         location: trainer.location,
         section: trainer.section,
